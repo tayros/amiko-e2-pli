@@ -36,10 +36,10 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Backup your Dreambox settings."
+"Backup your set-top-box settings."
 msgstr ""
 "\n"
-"Dreambox ayarlarınızı yedekleyin."
+"set-top-box ayarlarınızı yedekleyin."
 
 #
 msgid ""
@@ -52,18 +52,18 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Manage extensions or plugins for your Dreambox"
+"Manage extensions or plugins for your set-top-box"
 msgstr ""
 "\n"
-"Dreambox eklentilerinizi yönetin"
+"set-top-box eklentilerinizi yönetin"
 
 #
 msgid ""
 "\n"
-"Online update of your Dreambox software."
+"Online update of your set-top-box software."
 msgstr ""
 "\n"
-"Dreambox yazılımını çevrimiçi güncelleyin."
+"set-top-box yazılımını çevrimiçi güncelleyin."
 
 #
 msgid ""
@@ -76,18 +76,18 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox settings."
+"Restore your set-top-box settings."
 msgstr ""
 "\n"
-"Dreambox ayarlarınızı geri yükleyin."
+"set-top-box ayarlarınızı geri yükleyin."
 
 #
 msgid ""
 "\n"
-"Restore your Dreambox with a new firmware."
+"Restore your set-top-box with a new firmware."
 msgstr ""
 "\n"
-"Dreambox yeni bellenimini, sistem yedeğinizle birlikte geri yükleyin."
+"set-top-box yeni bellenimini, sistem yedeğinizle birlikte geri yükleyin."
 
 #
 msgid ""
@@ -121,7 +121,7 @@ msgid ""
 "System will restart after the restore!"
 msgstr ""
 "\n"
-"Dreambox geri yüklemeden sonra yeniden başlatılacak!"
+"set-top-box geri yüklemeden sonra yeniden başlatılacak!"
 
 #
 msgid ""
@@ -385,7 +385,7 @@ msgstr "<bilinmiyor>"
 #
 msgid "??"
 msgstr ""
-"Güncelleme tamamlandı. Dreambox'ın yeniden başlatılmasını istiyor musunuz?"
+"Güncelleme tamamlandı. set-top-box'ın yeniden başlatılmasını istiyor musunuz?"
 
 #
 msgid "A"
@@ -406,17 +406,17 @@ msgstr ""
 #
 msgid ""
 "A finished record timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
-"Bitmiş olan bir kayıt zamanlayıcısı Dreambox'ı\n"
+"Bitmiş olan bir kayıt zamanlayıcısı set-top-box'ı\n"
 "hazırda bekleme kipine almak istiyor. Şimdi alınsın mı?"
 
 #
 msgid ""
 "A finished record timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
-"Bitmiş olan bir kayıt zamanlayıcısı Dreambox'ı\n"
+"Bitmiş olan bir kayıt zamanlayıcısı set-top-box'ı\n"
 "kapatmak istiyor. Şimdi kapatılsın mı?"
 
 msgid "A graphical EPG for all services of an specific bouquet"
@@ -480,17 +480,17 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
-"Zamanlanmış bir görev Dreambox'ı\n"
+"Zamanlanmış bir görev set-top-box'ı\n"
 "hazırda bekleme kipine almak istiyor. Şimdi alınsın mı?"
 
 #
 msgid ""
 "A sleep timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
-"Zamanlanmış bir görev Dreambox'ı\n"
+"Zamanlanmış bir görev set-top-box'ı\n"
 "kapatmak istiyor. Şimdi kapatılsın mı?"
 
 msgid "A small overview of the available icon states and actions."
@@ -607,10 +607,10 @@ msgstr ""
 
 #
 msgid ""
-"Adds enigma2 settings and dreambox model informations like SN, rev... if "
+"Adds enigma2 settings and set-top-box model informations like SN, rev... if "
 "enabled."
 msgstr ""
-"Evet derseniz, enigma2 ayarlarınız ve dreambox model bilgisi (SN, "
+"Evet derseniz, enigma2 ayarlarınız ve set-top-box model bilgisi (SN, "
 "revizyon..) gönderilecektir."
 
 #
@@ -671,10 +671,10 @@ msgstr ""
 #
 msgid ""
 "After the start wizard is completed, you need to protect single services. "
-"Refer to your dreambox's manual on how to do that."
+"Refer to your set-top-box's manual on how to do that."
 msgstr ""
 "Sihirbaz tamamlandıktan sonra, kanal korumasına ihtiyacınız olacak. Nasıl "
-"yapılacağını öğrenmek istiyorsanız Dreambox'ınızın kullanım kılavuzuna "
+"yapılacağını öğrenmek istiyorsanız set-top-box'ınızın kullanım kılavuzuna "
 "başvurun."
 
 #
@@ -1391,8 +1391,8 @@ msgid "Copy"
 msgstr ""
 
 #
-msgid "Could not connect to Dreambox .NFI Image Feed Server:"
-msgstr "Dreambox .NFI bellenim sunucusuna bağlanamıyor:"
+msgid "Could not connect to set-top-box .NFI Image Feed Server:"
+msgstr "set-top-box .NFI bellenim sunucusuna bağlanamıyor:"
 
 #
 msgid "Could not load Medium! No disc inserted?"
@@ -1861,7 +1861,7 @@ msgid "Do you want to download the image to %s ?"
 msgstr "%s bellenimini indirmek istiyor musunuz?"
 
 #
-msgid "Do you want to enable the parental control feature on your dreambox?"
+msgid "Do you want to enable the parental control feature on your set-top-box?"
 msgstr "Ebeveyn kontrolü özelliğini etkinleştirmek ister misiniz?"
 
 #
@@ -1877,8 +1877,8 @@ msgid "Do you want to preview this DVD before burning?"
 msgstr "DVD'yi yazmadan önce önizleme yapmak istiyor musunuz?"
 
 #
-msgid "Do you want to reboot your Dreambox?"
-msgstr "Dreambox'ı yeniden başlatmak istiyor musunuz?"
+msgid "Do you want to reboot your set-top-box?"
+msgstr "set-top-box'ı yeniden başlatmak istiyor musunuz?"
 
 #
 msgid "Do you want to remove the package:\n"
@@ -1901,15 +1901,15 @@ msgstr ""
 "adınızı giriniz."
 
 #
-msgid "Do you want to update your Dreambox?"
-msgstr "Dreambox'ı güncellemek istiyor musunuz?"
+msgid "Do you want to update your set-top-box?"
+msgstr "set-top-box'ı güncellemek istiyor musunuz?"
 
 #
 msgid ""
-"Do you want to update your Dreambox?\n"
+"Do you want to update your set-top-box?\n"
 "After pressing OK, please wait!"
 msgstr ""
-"Dreambox'ı güncellemek istiyor musunuz?\n"
+"set-top-box'ı güncellemek istiyor musunuz?\n"
 "Lütfen OK'a bastıktan sonra bekleyin!"
 
 #
@@ -1976,12 +1976,12 @@ msgid "Downloading plugin information. Please wait..."
 msgstr "Eklenti bilgisi indiriliyor. Lütfen bekleyin..."
 
 #
-msgid "Dreambox format data DVD (HDTV compatible)"
-msgstr "Dreambox DVD biçimi (HDTV uyumlu)"
+msgid "set-top-box format data DVD (HDTV compatible)"
+msgstr "set-top-box DVD biçimi (HDTV uyumlu)"
 
 #
-msgid "Dreambox software because updates are available."
-msgstr "Dreambox güncellemelerini yükleyin"
+msgid "set-top-box software because updates are available."
+msgstr "set-top-box güncellemelerini yükleyin"
 
 #
 msgid "Dutch"
@@ -2045,12 +2045,12 @@ msgid "Edit settings"
 msgstr "Ayarları düzenle"
 
 #
-msgid "Edit the Nameserver configuration of your Dreambox.\n"
-msgstr "Dreambox'ınızın isim sunucu (DNS) ayarlarını yapılandırın.\n"
+msgid "Edit the Nameserver configuration of your set-top-box.\n"
+msgstr "set-top-box'ınızın isim sunucu (DNS) ayarlarını yapılandırın.\n"
 
 #
-msgid "Edit the network configuration of your Dreambox.\n"
-msgstr "Dreambox'ınızın ağ ayarlarını yapılandırın.\n"
+msgid "Edit the network configuration of your set-top-box.\n"
+msgstr "set-top-box'ınızın ağ ayarlarını yapılandırın.\n"
 
 #
 msgid "Edit title"
@@ -3619,8 +3619,8 @@ msgid "No, do nothing."
 msgstr "Hayır, birşey yapma"
 
 #
-msgid "No, just start my dreambox"
-msgstr "Hayır, Dreambox'ımı şimdi başlat"
+msgid "No, just start my set-top-box"
+msgstr "Hayır, set-top-box'ımı şimdi başlat"
 
 msgid "No, never"
 msgstr "Hayır, hiçbir zaman"
@@ -4408,7 +4408,7 @@ msgstr "Yeniden başlatmak istiyor musunuz?"
 
 #
 msgid "Really shutdown now?"
-msgstr "Dreambox'ı şimdi kapatmak istiyor musunuz?"
+msgstr "set-top-box'ı şimdi kapatmak istiyor musunuz?"
 
 msgid "Really upgrade the frontprocessor and reboot now?"
 msgstr ""
@@ -5275,7 +5275,7 @@ msgid "Shutdown"
 msgstr "Kapat"
 
 #
-msgid "Shutdown Dreambox after"
+msgid "Shutdown set-top-box after"
 msgstr "Zamanlayıcı süresi: "
 
 msgid "Side by Side"
@@ -5740,8 +5740,8 @@ msgid "Test mode"
 msgstr "Test kipi"
 
 #
-msgid "Test the network configuration of your Dreambox.\n"
-msgstr "Dreambox'ınızın ağ yapılandırmasını test edin.\n"
+msgid "Test the network configuration of your set-top-box.\n"
+msgstr "set-top-box'ınızın ağ yapılandırmasını test edin.\n"
 
 #
 msgid "Test-Messagebox?"
@@ -5767,20 +5767,20 @@ msgstr ""
 #
 msgid ""
 "Thank you for using the wizard. Your box is now ready to use.\n"
-"Please press OK to start using your Dreambox."
+"Please press OK to start using your set-top-box."
 msgstr ""
-"Sihirbazı kullandığınız için teşekkür ederiz. Dreambox'ınız kullanıma "
+"Sihirbazı kullandığınız için teşekkür ederiz. set-top-box'ınız kullanıma "
 "hazır.\n"
-"Dreambox'ınızı kullanmaya başlamak için OK tuşuna basın."
+"set-top-box'ınızı kullanmaya başlamak için OK tuşuna basın."
 
 #
 msgid ""
 "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
-"create a Dreambox format data DVD (which will not play in stand-alone DVD "
+"create a set-top-box format data DVD (which will not play in stand-alone DVD "
 "players) instead?"
 msgstr ""
 "Standart DVD biçimi H.264 (HDTV) video biçimini desteklemez. Bunun yerine "
-"Dreambox'ın DVD biçiminde (standart DVD oynatıcılarda oynatamazsınız) "
+"set-top-box'ın DVD biçiminde (standart DVD oynatıcılarda oynatamazsınız) "
 "oluşturmak ister misiniz?"
 
 msgid ""
@@ -5868,10 +5868,10 @@ msgstr "Varsayılan kanal listesi kurulumu tamamlandı."
 #
 msgid ""
 "The installation of the default settings is finished. You can now continue "
-"configuring your Dreambox by pressing the OK button on the remote control."
+"configuring your set-top-box by pressing the OK button on the remote control."
 msgstr ""
 "Varsayılan kanal listesi kurulumu tamamlandı. OK tuşuna bastıktan sonra "
-"Dreambox'ınızı yapılandırmaya devam edebilirsiniz."
+"set-top-box'ınızı yapılandırmaya devam edebilirsiniz."
 
 msgid "The md5sum validation failed, the file may be corrupted!"
 msgstr ""
@@ -6001,8 +6001,8 @@ msgstr ""
 
 #
 #, python-format
-msgid "This Dreambox can't decode %s streams!"
-msgstr "Dreambox %s streamlarını çözemez!"
+msgid "This set-top-box can't decode %s streams!"
+msgstr "set-top-box %s streamlarını çözemez!"
 
 #
 msgid "This is step number 2."
@@ -6010,7 +6010,7 @@ msgstr "2 numaralı adım."
 
 msgid ""
 "This plugin creates a USB stick which can be used to update the firmware of "
-"your Dreambox without the need for a network or WLAN connection.\n"
+"your set-top-box without the need for a network or WLAN connection.\n"
 "First, a USB stick needs to be prepared so that it becomes bootable.\n"
 "In the next step, an NFI image file can be downloaded from the update server "
 "and saved on the USB stick.\n"
@@ -6215,7 +6215,7 @@ msgid "To subtitle selection"
 msgstr ""
 
 msgid ""
-"To update your Dreambox firmware, please follow these steps:\n"
+"To update your set-top-box firmware, please follow these steps:\n"
 "1) Turn off your box with the rear power switch and make sure the bootable "
 "USB stick is plugged in.\n"
 "2) Turn mains back on and hold the DOWN button on the front panel pressed "
@@ -6461,17 +6461,17 @@ msgid "Upgrade finished."
 msgstr "Güncelleme tamamlandı."
 
 #
-msgid "Upgrade finished. Do you want to reboot your Dreambox?"
+msgid "Upgrade finished. Do you want to reboot your set-top-box?"
 msgstr ""
-"Güncelleme tamamlandı. Dreambox'ınızı yeniden başlatmak istiyor musunuz?"
+"Güncelleme tamamlandı. set-top-box'ınızı yeniden başlatmak istiyor musunuz?"
 
 #
 msgid "Upgrading"
 msgstr "Yazılımı güncelle"
 
 #
-msgid "Upgrading Dreambox... Please wait"
-msgstr "Dreambox güncelleniyor... Lütfen bekleyin"
+msgid "Upgrading set-top-box... Please wait"
+msgstr "set-top-box güncelleniyor... Lütfen bekleyin"
 
 #
 msgid "Use"
@@ -6842,10 +6842,10 @@ msgstr ""
 #
 msgid ""
 "Welcome to the Image upgrade wizard. The wizard will assist you in upgrading "
-"the firmware of your Dreambox by providing a backup facility for your "
+"the firmware of your set-top-box by providing a backup facility for your "
 "current settings and a short explanation of how to upgrade your firmware."
 msgstr ""
-"Bellenim güncelleme sihirbazına hoş geldiniz. Bu sihirbaz, Dreambox bellenim "
+"Bellenim güncelleme sihirbazına hoş geldiniz. Bu sihirbaz, set-top-box bellenim "
 "güncellemesi esnasında, geçerli ayarlarınızın yedeğini almanıza imkan "
 "sağlayacak ve kısa açıklamalarla bellenimi nasıl güncelleyeceğinizi "
 "anlatacaktır."
@@ -6855,14 +6855,14 @@ msgid ""
 "Welcome to the cleanup wizard.\n"
 "\n"
 "We have detected that your available internal memory has dropped below 2MB.\n"
-"To ensure stable operation of your Dreambox, the internal memory should be "
+"To ensure stable operation of your set-top-box, the internal memory should be "
 "cleaned up.\n"
 "You can use this wizard to remove some extensions.\n"
 msgstr ""
 "Temizlik sihirbazına hoşgeldiniz.\n"
 "\n"
 "Cihazınızın kullanılabilir dahili belleği 2MB'ın altına düşmüş durumda.\n"
-"Dreambox'ınızın sağlıklı çalışabilmesi için, kullanılabilir dahili bellek "
+"set-top-box'ınızın sağlıklı çalışabilmesi için, kullanılabilir dahili bellek "
 "alanının artırılması gerekmektedir.\n"
 "Bu sihirbazı kullanarak ihtiyaç duymadığınız eklentileri kaldırabilirsiniz.\n"
 
@@ -6870,14 +6870,14 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"If you want to connect your Dreambox to the Internet, this wizard will guide "
-"you through the basic network setup of your Dreambox.\n"
+"If you want to connect your set-top-box to the Internet, this wizard will guide "
+"you through the basic network setup of your set-top-box.\n"
 "\n"
 "Press OK to start configuring your network"
 msgstr ""
 "Hoşgeldiniz.\n"
 "\n"
-"Dreambox'ınızı internete bağlamak istiyorsanız, bu sihirbaz size ağ "
+"set-top-box'ınızı internete bağlamak istiyorsanız, bu sihirbaz size ağ "
 "yapılandırmanızı yapabilmeniz için rehberlik yapacaktır.\n"
 "\n"
 "Ağ yapılandırmasına başlamak için OK tuşuna basın"
@@ -6886,12 +6886,12 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"This start wizard will guide you through the basic setup of your Dreambox.\n"
+"This start wizard will guide you through the basic setup of your set-top-box.\n"
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
 "Hoşgeldiniz.\n"
 "\n"
-"Bu sihirbaz Dreambox'ınızı yapılandırmanız için yardımcı olacaktır.\n"
+"Bu sihirbaz set-top-box'ınızı yapılandırmanız için yardımcı olacaktır.\n"
 "Kumandanızın OK tuşuna basarak sonraki adıma geçebilirsiniz."
 
 #
@@ -7066,8 +7066,8 @@ msgid "You can install this plugin."
 msgstr "Bu eklentiyi yükleyebilirsiniz."
 
 #
-msgid "You can only burn Dreambox recordings!"
-msgstr "Yalnızca Dreambox'ta kaydettiğiniz videoları yazabilirsiniz!"
+msgid "You can only burn set-top-box recordings!"
+msgstr "Yalnızca set-top-box'ta kaydettiğiniz videoları yazabilirsiniz!"
 
 #
 msgid "You can remove this plugin."
@@ -7133,16 +7133,16 @@ msgstr "Bekleme süresi : %s!"
 
 #
 msgid ""
-"You need a PC connected to your dreambox. If you need further instructions, "
+"You need a PC connected to your set-top-box. If you need further instructions, "
 "please visit the website http://www.dm7025.de.\n"
-"Your dreambox will now be halted. After you have performed the update "
+"Your set-top-box will now be halted. After you have performed the update "
 "instructions from the website, your new firmware will ask you to restore "
 "your settings."
 msgstr ""
-"Dreambox'ınızın PC bağlantısına ihtiyacı var. Daha fazla açıklamaya "
+"set-top-box'ınızın PC bağlantısına ihtiyacı var. Daha fazla açıklamaya "
 "ihtiyacınız varsa, lütfen http://www.dream-multimedia-tv.de adresini ziyaret "
 "edin.\n"
-"Dreambox'ınız şimdi kapatılıyor. Web sitesinde belirtilen güncelleme "
+"set-top-box'ınız şimdi kapatılıyor. Web sitesinde belirtilen güncelleme "
 "talimatlarını yerine getirdikten sonra yeni bellenim, ayarlarınızı geri "
 "yüklemek isteyip istemediğiniz sorusunu soracaktır."
 
@@ -7157,7 +7157,7 @@ msgstr ""
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -7169,7 +7169,7 @@ msgstr ""
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -7182,9 +7182,9 @@ msgstr ""
 "Devam etmek için lütfen OK tuşuna basın."
 
 #
-msgid "Your Dreambox will restart after pressing OK on your remote control."
+msgid "Your set-top-box will restart after pressing OK on your remote control."
 msgstr ""
-"Kumandanızda OK tuşuna bastıktan sonra Dreambox'ınız yeniden başlatılacak."
+"Kumandanızda OK tuşuna bastıktan sonra set-top-box'ınız yeniden başlatılacak."
 
 #
 msgid ""
@@ -7205,15 +7205,15 @@ msgid "Your current collection will get lost!"
 msgstr ""
 
 #
-msgid "Your dreambox is shutting down. Please stand by..."
-msgstr "Dreambox'ınız kapatılıyor. Lütfen bekleyin..."
+msgid "Your set-top-box is shutting down. Please stand by..."
+msgstr "set-top-box'ınız kapatılıyor. Lütfen bekleyin..."
 
 #
 msgid ""
-"Your dreambox isn't connected to the internet properly. Please check it and "
+"Your set-top-box isn't connected to the internet properly. Please check it and "
 "try again."
 msgstr ""
-"Dreambox'ınız internete bağlı değil. Kontrol ettikten sonra tekrar deneyin."
+"set-top-box'ınız internete bağlı değil. Kontrol ettikten sonra tekrar deneyin."
 
 #
 msgid "Your email address:"
@@ -7634,19 +7634,19 @@ msgstr "kaydetme"
 msgid "done!"
 msgstr "tamamlandı!"
 
-msgid "dreambox advanced remote control (native)"
+msgid "set-top-box advanced remote control (native)"
 msgstr ""
 
-msgid "dreambox front panel"
+msgid "set-top-box front panel"
 msgstr ""
 
-msgid "dreambox ir keyboard"
+msgid "set-top-box ir keyboard"
 msgstr ""
 
-msgid "dreambox ir mouse"
+msgid "set-top-box ir mouse"
 msgstr ""
 
-msgid "dreambox remote control (native)"
+msgid "set-top-box remote control (native)"
 msgstr ""
 
 msgid "east"
@@ -8542,10 +8542,10 @@ msgstr "evet (beslemeleri tut)"
 
 #
 msgid ""
-"your dreambox might be unusable now. Please consult the manual for further "
-"assistance before rebooting your dreambox."
+"your set-top-box might be unusable now. Please consult the manual for further "
+"assistance before rebooting your set-top-box."
 msgstr ""
-"Dreambox'ınız şu an kullanılamaz durumda. Lütfen Dreambox'ınızı yeniden "
+"set-top-box'ınız şu an kullanılamaz durumda. Lütfen set-top-box'ınızı yeniden "
 "açmadan önce kullanım kılavuzundan yardım alın."
 
 #
@@ -8760,8 +8760,8 @@ msgstr "kanal değiştirildi"
 #~ "Devre dışı"
 
 #
-#~ msgid "Add a new NFS or CIFS mount point to your Dreambox."
-#~ msgstr "Dreambox'ınıza yeni bir NFS veya CIFS ağ bağlantı noktası ekleyin."
+#~ msgid "Add a new NFS or CIFS mount point to your set-top-box."
+#~ msgstr "set-top-box'ınıza yeni bir NFS veya CIFS ağ bağlantı noktası ekleyin."
 
 #
 #~ msgid "Add new AutoTimer"
@@ -8838,11 +8838,11 @@ msgstr "kanal değiştirildi"
 #
 #~ msgid ""
 #~ "Are you sure you want to enable WLAN support?\n"
-#~ "Connect your Wlan USB Stick to your Dreambox and press OK.\n"
+#~ "Connect your Wlan USB Stick to your set-top-box and press OK.\n"
 #~ "\n"
 #~ msgstr ""
 #~ "WLAN desteğini açmak istediğinizden emin misiniz?\n"
-#~ "WLAN USB donanımını Dreambox'unuza takın ve OK'e basın.\n"
+#~ "WLAN USB donanımını set-top-box'unuza takın ve OK'e basın.\n"
 #~ "\n"
 
 #
@@ -8982,7 +8982,7 @@ msgstr "kanal değiştirildi"
 #~ msgid "BASIC-HD Skin by Ismail Demir"
 #~ msgstr "BASIC-HD arayüzü (İsmail Demir)"
 
-#~ msgid "BASIC-HD Skin for Dreambox Images created from Ismail Demir"
+#~ msgid "BASIC-HD Skin for set-top-box Images created from Ismail Demir"
 #~ msgstr "İsmail Demir tarafından hazırlanan BASIC-HD arayüzü"
 
 #~ msgid "Back, lower USB Slot"
@@ -9110,8 +9110,8 @@ msgstr "kanal değiştirildi"
 #~ msgstr "Kurulum şifresini değiştir"
 
 #
-#~ msgid "Change the hostname of your Dreambox."
-#~ msgstr "Dreambox'ınızın konak adını değiştirin."
+#~ msgid "Change the hostname of your set-top-box."
+#~ msgstr "set-top-box'ınızın konak adını değiştirin."
 
 #
 #~ msgid "Channel audio:"
@@ -9318,15 +9318,15 @@ msgstr "kanal değiştirildi"
 #~ msgid "DVD up key"
 #~ msgstr "DVD yukarı"
 
-#~ msgid "DVDPlayer plays your DVDs on your Dreambox"
-#~ msgstr "DVD Oynatıcı ile DVD'lerinizi Dreambox'ınızdan izleyin"
+#~ msgid "DVDPlayer plays your DVDs on your set-top-box"
+#~ msgstr "DVD Oynatıcı ile DVD'lerinizi set-top-box'ınızdan izleyin"
 
 #~ msgid ""
-#~ "DVDPlayer plays your DVDs on your Dreambox.\n"
-#~ "With the DVDPlayer you can play your DVDs on your Dreambox from a DVD or "
+#~ "DVDPlayer plays your DVDs on your set-top-box.\n"
+#~ "With the DVDPlayer you can play your DVDs on your set-top-box from a DVD or "
 #~ "even from an iso file or video_ts folder on your harddisc or network."
 #~ msgstr ""
-#~ "DVD Oynatıcı ile DVD'lerinizi Dreambox'ınızdan izleyebilirsiniz.\n"
+#~ "DVD Oynatıcı ile DVD'lerinizi set-top-box'ınızdan izleyebilirsiniz.\n"
 #~ "Program ile DVD'lerinizi doğrudan izleyebileceğiniz gibi, sabit disk ya "
 #~ "da ağ üzerinde yer alan ISO dosyası ya da video_ts klasörünü programa "
 #~ "tanıtarak da izleyebilirsiniz."
@@ -9356,8 +9356,8 @@ msgstr "kanal değiştirildi"
 #~ msgid "Define a startup service"
 #~ msgstr "Açılış kanalını ayarla"
 
-#~ msgid "Define a startup service for your Dreambox."
-#~ msgstr "Dreambox açılışında görüntülenecek kanalı ayarlayın."
+#~ msgid "Define a startup service for your set-top-box."
+#~ msgstr "set-top-box açılışında görüntülenecek kanalı ayarlayın."
 
 #
 #~ msgid "Delay"
@@ -9564,7 +9564,7 @@ msgstr "kanal değiştirildi"
 #~ msgid "Education"
 #~ msgstr "Eğitim"
 
-#~ msgid "Emailclient is an IMAP4 e-mail viewer for the Dreambox."
+#~ msgid "Emailclient is an IMAP4 e-mail viewer for the set-top-box."
 #~ msgstr "Eposta istemcisi, IMAP4 temelli bir eposta görüntüleyicidir."
 
 #
@@ -9619,10 +9619,10 @@ msgstr "kanal değiştirildi"
 
 #
 #~ msgid ""
-#~ "Enable the local network of your Dreambox.\n"
+#~ "Enable the local network of your set-top-box.\n"
 #~ "\n"
 #~ msgstr ""
-#~ "Dreambox'un yerel ağ bağlantısını aç.\n"
+#~ "set-top-box'un yerel ağ bağlantısını aç.\n"
 #~ "\n"
 
 #~ msgid "Encrypted: %s"
@@ -9645,10 +9645,10 @@ msgstr "kanal değiştirildi"
 #~ msgstr "Zaman aralığı sonu"
 
 #~ msgid ""
-#~ "Enigma2 Plugin to play AVI/DIVX/WMV/etc. videos from PC on your Dreambox. "
+#~ "Enigma2 Plugin to play AVI/DIVX/WMV/etc. videos from PC on your set-top-box. "
 #~ "Needs a running VLC from www.videolan.org on your pc."
 #~ msgstr ""
-#~ "AVI/DIVX/WMV/v.s türevi video dosyalarınızı PC üzerinden Dreambox'ınızda "
+#~ "AVI/DIVX/WMV/v.s türevi video dosyalarınızı PC üzerinden set-top-box'ınızda "
 #~ "izleyebilmenizi sağlar. Bu eklenti PC üzerinde çalışan VLC (videolan.org) "
 #~ "sürümüne ihtiyaç duymaktadır."
 
@@ -9689,8 +9689,8 @@ msgstr "kanal değiştirildi"
 #~ msgstr "WLAN ön paylaşımlı anahtarı (passphrase/key) girin:"
 
 #
-#~ msgid "Enter new hostname for your Dreambox"
-#~ msgstr "Dreambox'ınızın yeni konak adını girin"
+#~ msgid "Enter new hostname for your set-top-box"
+#~ msgstr "set-top-box'ınızın yeni konak adını girin"
 
 #
 #~ msgid "Enter options:"
@@ -9748,10 +9748,10 @@ msgstr "kanal değiştirildi"
 #~ msgstr "Sihirbazdan çık ve ayarları daha sonra elle yap"
 
 #~ msgid ""
-#~ "FTPBrowser allows uploading and downloading files between your Dreambox "
+#~ "FTPBrowser allows uploading and downloading files between your set-top-box "
 #~ "and a server using the file transfer protocol."
 #~ msgstr ""
-#~ "FTP istemcisi, Dreambox ve ftp sunucusu arasında dosya aktarımı yapmanızı "
+#~ "FTP istemcisi, set-top-box ve ftp sunucusu arasında dosya aktarımı yapmanızı "
 #~ "sağlar."
 
 #
@@ -9837,7 +9837,7 @@ msgstr "kanal değiştirildi"
 #~ msgid "Fritz!Box FON IP address"
 #~ msgstr "Fritz!Box IP adresi"
 
-#~ msgid "FritzCall shows incoming calls to your Fritz!Box on your Dreambox."
+#~ msgid "FritzCall shows incoming calls to your Fritz!Box on your set-top-box."
 #~ msgstr ""
 #~ "Fritz!Box üzerinden gelen çağrıları televizyondan görebilmenizi sağlar."
 
@@ -9868,11 +9868,11 @@ msgstr "kanal değiştirildi"
 #~ msgid "Genre:"
 #~ msgstr "Tür:"
 
-#~ msgid "Genuine Dreambox"
-#~ msgstr "Dreambox'ınız orijinal mi?"
+#~ msgid "Genuine set-top-box"
+#~ msgstr "set-top-box'ınız orijinal mi?"
 
-#~ msgid "Genuine Dreambox validation failed!"
-#~ msgstr "Dreambox orijinallik kontrolü başarısız!"
+#~ msgid "Genuine set-top-box validation failed!"
+#~ msgstr "set-top-box orijinallik kontrolü başarısız!"
 
 #~ msgid "German traffic information"
 #~ msgstr "Almanya trafik durum bilgisi"
@@ -9938,7 +9938,7 @@ msgstr "kanal değiştirildi"
 #~ msgid "Howto & Style"
 #~ msgstr "Moda"
 
-#~ msgid "IMAP4 e-mail viewer for the Dreambox"
+#~ msgid "IMAP4 e-mail viewer for the set-top-box"
 #~ msgstr "IMAP4 temelli Eposta görüntüleyici"
 
 #
@@ -10033,16 +10033,16 @@ msgstr "kanal değiştirildi"
 #~ msgid "Internal LAN adapter."
 #~ msgstr "Dahili ağ adaptörü."
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 304
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 304
 #~ msgid "Invalid response from Security service pls restart again"
 #~ msgstr ""
 #~ "Güvenlik servisinden geçersiz yanıt döndü. Lütfen yeniden çalıştırın."
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 132
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 132
 #~ msgid "Invalid response from server."
 #~ msgstr "Sunucudan geçersiz yanıt döndü."
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 177
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 177
 #~ msgid "Invalid response from server. Please report: %s"
 #~ msgstr "Sunucudan geçersiz yanıt döndü. Lütfen raporlayın: %s"
 
@@ -10160,8 +10160,8 @@ msgstr "kanal değiştirildi"
 #~ msgstr "Dil ayarları"
 
 #
-#~ msgid "Lets you view/edit files in your Dreambox"
-#~ msgstr "Dreambox'ınızdaki dosyaları görün/düzenleyin"
+#~ msgid "Lets you view/edit files in your set-top-box"
+#~ msgstr "set-top-box'ınızdaki dosyaları görün/düzenleyin"
 
 #
 #~ msgid "Load feed on startup:"
@@ -10391,97 +10391,97 @@ msgstr "kanal değiştirildi"
 #~ msgid "Nemesis BlackBox Skin"
 #~ msgstr "Nemesis BlackBox arayüzü"
 
-#~ msgid "Nemesis BlackBox Skin for the Dreambox"
+#~ msgid "Nemesis BlackBox Skin for the set-top-box"
 #~ msgstr "Nemesis BlackBox arayüzü"
 
 #~ msgid "Nemesis Blueline Single Skin"
 #~ msgstr "Nemesis Blueline Single arayüzü"
 
-#~ msgid "Nemesis Blueline Single Skin for the Dreambox"
+#~ msgid "Nemesis Blueline Single Skin for the set-top-box"
 #~ msgstr "Nemesis Blueline Single arayüzü"
 
 #~ msgid "Nemesis Blueline Skin"
 #~ msgstr "Nemesis Blueline arayüzü"
 
-#~ msgid "Nemesis Blueline Skin for the Dreambox"
+#~ msgid "Nemesis Blueline Skin for the set-top-box"
 #~ msgstr "Nemesis Blueline arayüzü"
 
 #~ msgid "Nemesis Blueline.Extended Skin"
 #~ msgstr "Nemesis Blueline.Extended arayüzü"
 
-#~ msgid "Nemesis Blueline.Extended Skin for the Dreambox"
+#~ msgid "Nemesis Blueline.Extended Skin for the set-top-box"
 #~ msgstr "Nemesis Blueline.Extended arayüzü"
 
 #~ msgid "Nemesis ChromeLine Cobolt Skin"
 #~ msgstr "Nemesis ChromeLine Cobolt arayüzü"
 
-#~ msgid "Nemesis ChromeLine Cobolt Skin for the Dreambox"
+#~ msgid "Nemesis ChromeLine Cobolt Skin for the set-top-box"
 #~ msgstr "Nemesis ChromeLine Cobolt arayüzü"
 
 #~ msgid "Nemesis ChromeLine Skin"
 #~ msgstr "Nemesis ChromeLine arayüzü"
 
-#~ msgid "Nemesis ChromeLine Skin for the Dreambox"
+#~ msgid "Nemesis ChromeLine Skin for the set-top-box"
 #~ msgstr "Nemesis ChromeLine arayüzü"
 
 #~ msgid "Nemesis Flatline Blue Skin"
 #~ msgstr "Nemesis Flatline Blue arayüzü"
 
-#~ msgid "Nemesis Flatline Blue Skin for the Dreambox"
+#~ msgid "Nemesis Flatline Blue Skin for the set-top-box"
 #~ msgstr "Nemesis Flatline Blue arayüzü"
 
 #~ msgid "Nemesis Flatline Skin"
 #~ msgstr "Nemesis Flatline arayüzü"
 
-#~ msgid "Nemesis Flatline Skin for the Dreambox"
+#~ msgid "Nemesis Flatline Skin for the set-top-box"
 #~ msgstr "Nemesis Flatline arayüzü"
 
 #~ msgid "Nemesis GlassLine Skin"
 #~ msgstr "Nemesis GlassLine arayüzü"
 
-#~ msgid "Nemesis GlassLine Skin for the Dreambox"
+#~ msgid "Nemesis GlassLine Skin for the set-top-box"
 #~ msgstr "Nemesis GlassLine arayüzü"
 
 #~ msgid "Nemesis Greenline Extended Skin"
 #~ msgstr "Nemesis Greenline arayüzü"
 
-#~ msgid "Nemesis Greenline Extended Skin for the Dreambox"
+#~ msgid "Nemesis Greenline Extended Skin for the set-top-box"
 #~ msgstr "Nemesis Greenline Extended arayüzü"
 
 #~ msgid "Nemesis Greenline Single Skin"
 #~ msgstr "Nemesis Greenline Single arayüzü"
 
-#~ msgid "Nemesis Greenline Single Skin for the Dreambox"
+#~ msgid "Nemesis Greenline Single Skin for the set-top-box"
 #~ msgstr "Nemesis Greenline Single arayüzü"
 
 #~ msgid "Nemesis Greenline Skin"
 #~ msgstr "Nemesis Greenline arayüzü"
 
-#~ msgid "Nemesis Greenline Skin for the Dreambox"
+#~ msgid "Nemesis Greenline Skin for the set-top-box"
 #~ msgstr "Nemesis Greenline arayüzü"
 
 #~ msgid "Nemesis Greyline Extended Skin"
 #~ msgstr "Nemesis Greyline Extended arayüzü"
 
-#~ msgid "Nemesis Greyline Extended Skin for the Dreambox"
+#~ msgid "Nemesis Greyline Extended Skin for the set-top-box"
 #~ msgstr "Nemesis Greyline Extended arayüzü"
 
 #~ msgid "Nemesis Greyline Single Skin"
 #~ msgstr "Nemesis Greyline Single arayüzü"
 
-#~ msgid "Nemesis Greyline Single Skin for the Dreambox"
+#~ msgid "Nemesis Greyline Single Skin for the set-top-box"
 #~ msgstr "Nemesis Greyline Single arayüzü"
 
 #~ msgid "Nemesis Greyline Skin"
 #~ msgstr "Nemesis Greyline arayüzü"
 
-#~ msgid "Nemesis Greyline Skin for the Dreambox"
+#~ msgid "Nemesis Greyline Skin for the set-top-box"
 #~ msgstr "Nemesis Greyline arayüzü"
 
 #~ msgid "Nemesis ShadowLine Skin"
 #~ msgstr "Nemesis ShadowLine arayüzü"
 
-#~ msgid "Nemesis ShadowLine Skin for the Dreambox"
+#~ msgid "Nemesis ShadowLine Skin for the set-top-box"
 #~ msgstr "Nemesis ShadowLine arayüzü"
 
 #
@@ -10734,11 +10734,11 @@ msgstr "kanal değiştirildi"
 #
 #~ msgid ""
 #~ "Please attach your Zydas ZD1211B chipset compatibe WLAN USB Stick to your "
-#~ "Dreambox and press the OK button on your remote control to enable the "
+#~ "set-top-box and press the OK button on your remote control to enable the "
 #~ "built in wireless network support"
 #~ msgstr ""
 #~ "Lütfen dahili kablosuz ağ desteğini etkinleştirmek için, Zydas ZD1211B "
-#~ "çipset uyumlu WLAN USB donanımını Dreambox'ınıza takın ve kumandanızdan "
+#~ "çipset uyumlu WLAN USB donanımını set-top-box'ınıza takın ve kumandanızdan "
 #~ "OK tuşuna basın..."
 
 #
@@ -10765,10 +10765,10 @@ msgstr "kanal değiştirildi"
 
 #
 #~ msgid ""
-#~ "Please disconnect all USB devices from your Dreambox and (re-)attach the "
+#~ "Please disconnect all USB devices from your set-top-box and (re-)attach the "
 #~ "target USB stick (minimum size is 64 MB) now!"
 #~ msgstr ""
-#~ "Lütfen tüm USB aygıtlarını Dreambox'ınızdan çıkarın ve işlem yapmak "
+#~ "Lütfen tüm USB aygıtlarını set-top-box'ınızdan çıkarın ve işlem yapmak "
 #~ "istediğiniz USB belleği (min. 64MB kapasiteli) tekrar takın!"
 
 #
@@ -10887,17 +10887,17 @@ msgstr "kanal değiştirildi"
 
 #
 #~ msgid ""
-#~ "Pressing OK enables the built in wireless LAN support of your Dreambox.\n"
+#~ "Pressing OK enables the built in wireless LAN support of your set-top-box.\n"
 #~ "Wlan USB Sticks with Zydas ZD1211B and RAlink RT73 Chipset are "
 #~ "supported.\n"
-#~ "Connect your Wlan USB Stick to your Dreambox before pressing OK.\n"
+#~ "Connect your Wlan USB Stick to your set-top-box before pressing OK.\n"
 #~ "\n"
 #~ msgstr ""
-#~ "Dreambox'ınızda kablosuz ağ desteğini aktif hale getirmek için OK'a "
+#~ "set-top-box'ınızda kablosuz ağ desteğini aktif hale getirmek için OK'a "
 #~ "basın.\n"
 #~ "WLAN USB donanımlarında, Zydas ZD1211B ve RAlink RT73 çipsetleri "
 #~ "desteklenmektedir.\n"
-#~ "OK'a basmadan önce WLAN USB donanımınızı Dreambox'ınıza takın.\n"
+#~ "OK'a basmadan önce WLAN USB donanımınızı set-top-box'ınıza takın.\n"
 
 #
 #~ msgid "Preview AutoTimer"
@@ -11435,19 +11435,19 @@ msgstr "kanal değiştirildi"
 #~ msgid "Taiwan"
 #~ msgstr "Tayvan"
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 80
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 80
 #~ msgid "Test again"
 #~ msgstr "Testi tekrarla"
 
 #
 #~ msgid ""
-#~ "Thank you for using the wizard. Your Dreambox is now ready to use.\n"
+#~ "Thank you for using the wizard. Your set-top-box is now ready to use.\n"
 #~ "\n"
 #~ "Your local LAN internet connection is working now.\n"
 #~ "\n"
 #~ "Please press OK to continue."
 #~ msgstr ""
-#~ "Sihirbazı kullandığınız için teşekkür ederiz. Dreambox'ınız kullanıma "
+#~ "Sihirbazı kullandığınız için teşekkür ederiz. set-top-box'ınız kullanıma "
 #~ "hazır.\n"
 #~ "\n"
 #~ "Yerel ağ bağlantınız çalışıyor.\n"
@@ -11456,13 +11456,13 @@ msgstr "kanal değiştirildi"
 
 #
 #~ msgid ""
-#~ "Thank you for using the wizard. Your Dreambox is now ready to use.\n"
+#~ "Thank you for using the wizard. Your set-top-box is now ready to use.\n"
 #~ "\n"
 #~ "Your wireless internet connection is working now.\n"
 #~ "\n"
 #~ "Please press OK to continue."
 #~ msgstr ""
-#~ "Sihirbazı kullandığınız için teşekkür ederiz. Dreambox'ınız kullanıma "
+#~ "Sihirbazı kullandığınız için teşekkür ederiz. set-top-box'ınız kullanıma "
 #~ "hazır.\n"
 #~ "\n"
 #~ "Kablosuz ağ bağlantınız çalışıyor.\n"
@@ -11471,21 +11471,21 @@ msgstr "kanal değiştirildi"
 
 #
 #~ msgid ""
-#~ "Thank you for using the wizard. Your Dreambox is now ready to use.\n"
-#~ "Please press OK to start using your Dreambox."
+#~ "Thank you for using the wizard. Your set-top-box is now ready to use.\n"
+#~ "Please press OK to start using your set-top-box."
 #~ msgstr ""
-#~ "Sihirbazı kullandığınız için teşekkür ederiz. Dreambox'ınız kullanıma "
+#~ "Sihirbazı kullandığınız için teşekkür ederiz. set-top-box'ınız kullanıma "
 #~ "hazır.\n"
-#~ "Dreambox'ınızı kullanmak için hazırsanız OK tuşuna basın."
+#~ "set-top-box'ınızı kullanmak için hazırsanız OK tuşuna basın."
 
 #
 #~ msgid ""
 #~ "Thank you for using the wizard. Your box is now ready to use.\n"
-#~ "Please press OK to start using you Dreambox."
+#~ "Please press OK to start using you set-top-box."
 #~ msgstr ""
-#~ "Sihirbazı kullandığınız için teşekkür ederiz. Dreambox'ınız kullanıma "
+#~ "Sihirbazı kullandığınız için teşekkür ederiz. set-top-box'ınız kullanıma "
 #~ "hazır.\n"
-#~ "Dreambox'ınızı kullanmak için OK tuşuna basın."
+#~ "set-top-box'ınızı kullanmak için OK tuşuna basın."
 
 #
 #~ msgid ""
@@ -11590,8 +11590,8 @@ msgstr "kanal değiştirildi"
 #~ "programlamaya devam etmek istiyor musunuz?"
 
 #
-#~ msgid "This Dreambox can't decode %s video streams!"
-#~ msgstr "Dreambox %s video dosyalarını gösteremez!"
+#~ msgid "This set-top-box can't decode %s video streams!"
+#~ msgstr "set-top-box %s video dosyalarını gösteremez!"
 
 #
 #~ msgid "This Month"
@@ -11633,16 +11633,16 @@ msgstr "kanal değiştirildi"
 
 #
 #~ msgid ""
-#~ "To update your Dreambox firmware, please follow these steps:\n"
+#~ "To update your set-top-box firmware, please follow these steps:\n"
 #~ "1) Turn off your box with the rear power switch and plug in the bootable "
 #~ "USB stick.\n"
 #~ "2) Turn mains back on and hold the DOWN button on the front panel pressed "
 #~ "for 10 seconds.\n"
 #~ "3) Wait for bootup and follow instructions of the wizard."
 #~ msgstr ""
-#~ "Lütfen Dreambox bellenimini güncellemek için, aşağıdaki adımları takip "
+#~ "Lütfen set-top-box bellenimini güncellemek için, aşağıdaki adımları takip "
 #~ "edin:\n"
-#~ "1) Dreambox'ınızı, arkasındaki kapama anahtarından kapayın ve önyükleme "
+#~ "1) set-top-box'ınızı, arkasındaki kapama anahtarından kapayın ve önyükleme "
 #~ "yapabilir USB belleği takın.\n"
 #~ "2) Ön panelde yer alan AŞAĞI tuşuna basın ve cihazı tekrar açın. 10 "
 #~ "saniye boyunca AŞAĞI tuşunu bırakmayın.\n"
@@ -11674,10 +11674,10 @@ msgstr "kanal değiştirildi"
 #~ msgstr "USB"
 
 #~ msgid ""
-#~ "USB stick wizard finished. Your dreambox will now restart with your new "
+#~ "USB stick wizard finished. Your set-top-box will now restart with your new "
 #~ "image!"
 #~ msgstr ""
-#~ "USB bellek sihirbazı tamamlandı. Dreambox'ınız şimdi yeni bellenim ile "
+#~ "USB bellek sihirbazı tamamlandı. set-top-box'ınız şimdi yeni bellenim ile "
 #~ "başlatılacak."
 
 #
@@ -11802,9 +11802,9 @@ msgstr "kanal değiştirildi"
 #~ msgstr "Cevaplanan videoları göster"
 
 #
-#~ msgid "View, edit or delete mountpoints on your Dreambox."
+#~ msgid "View, edit or delete mountpoints on your set-top-box."
 #~ msgstr ""
-#~ "Dreambox'ınızdaki ağ bağlantı noktalarını inceleyin, düzenleyin veya "
+#~ "set-top-box'ınızdaki ağ bağlantı noktalarını inceleyin, düzenleyin veya "
 #~ "silin."
 
 #
@@ -11916,14 +11916,14 @@ msgstr "kanal değiştirildi"
 #~ msgid ""
 #~ "Welcome.\n"
 #~ "\n"
-#~ "If you want to connect your Dreambox to the Internet, this wizard will "
-#~ "guide you through the basic network setup of your Dreambox.\n"
+#~ "If you want to connect your set-top-box to the Internet, this wizard will "
+#~ "guide you through the basic network setup of your set-top-box.\n"
 #~ "\n"
 #~ "Press the OK button on your remote control to move to the next step."
 #~ msgstr ""
 #~ "Hoşgeldiniz.\n"
 #~ "\n"
-#~ "Bu sihirbaz Dreambox'ınızın ağ ayarlarını yapabilmeniz için yardımcı "
+#~ "Bu sihirbaz set-top-box'ınızın ağ ayarlarını yapabilmeniz için yardımcı "
 #~ "olacaktır.\n"
 #~ "\n"
 #~ "Kumandanızın OK tuşuna basarak sonraki adıma geçebilirsiniz."
@@ -12003,10 +12003,10 @@ msgstr "kanal değiştirildi"
 
 #
 #~ msgid ""
-#~ "You do not seem to have a harddisk in your Dreambox. So backing up to a "
+#~ "You do not seem to have a harddisk in your set-top-box. So backing up to a "
 #~ "harddisk is not an option for you."
 #~ msgstr ""
-#~ "Dreambox'a bağlı bir sabit disk görünmüyor. Bu işlem için sabit diski "
+#~ "set-top-box'a bağlı bir sabit disk görünmüyor. Bu işlem için sabit diski "
 #~ "kullanma opsiyonunuz bulunmamaktadır."
 
 #
@@ -12141,19 +12141,19 @@ msgstr "kanal değiştirildi"
 #
 #~ msgid ""
 #~ "Your wired LAN Adapter could not be started.\n"
-#~ "Do you want to reboot your Dreambox to apply the new configuration?\n"
+#~ "Do you want to reboot your set-top-box to apply the new configuration?\n"
 #~ msgstr ""
 #~ "Kablolu Ağ donanımınız başlatılamadı.\n"
-#~ "Yeni ayarların geçerli olabilmesi için Dreambox'u yeniden başlatmak ister "
+#~ "Yeni ayarların geçerli olabilmesi için set-top-box'u yeniden başlatmak ister "
 #~ "misiniz?\n"
 
 #
 #~ msgid ""
 #~ "Your wireless LAN Adapter could not be started.\n"
-#~ "Do you want to reboot your Dreambox to apply the new configuration?\n"
+#~ "Do you want to reboot your set-top-box to apply the new configuration?\n"
 #~ msgstr ""
 #~ "Kablosuz Ağ donanımınız başlatılamadı.\n"
-#~ "Yeni ayarların geçerli olabilmesi için Dreambox'u yeniden başlatmak ister "
+#~ "Yeni ayarların geçerli olabilmesi için set-top-box'u yeniden başlatmak ister "
 #~ "misiniz?\n"
 
 #
