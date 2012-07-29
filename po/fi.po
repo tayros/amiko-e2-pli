@@ -36,7 +36,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Backup your Dreambox settings."
+"Backup your set-top-box settings."
 msgstr ""
 "\n"
 "Varmuuskopioi asetukset."
@@ -52,7 +52,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Manage extensions or plugins for your Dreambox"
+"Manage extensions or plugins for your set-top-box"
 msgstr ""
 "\n"
 "Muokkaa laajennuksia ja lisäosia"
@@ -60,7 +60,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Online update of your Dreambox software."
+"Online update of your set-top-box software."
 msgstr ""
 "\n"
 "Päivitä ohjelmisto online-päivityksen kautta."
@@ -77,7 +77,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox settings."
+"Restore your set-top-box settings."
 msgstr ""
 "\n"
 "Palauta asetukset varmuuskopiosta."
@@ -85,7 +85,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox with a new firmware."
+"Restore your set-top-box with a new firmware."
 msgstr ""
 "\n"
 "Palauta ohjelmisto perustilaan."
@@ -390,18 +390,18 @@ msgstr "Demo-lisäosa TPM:n käyttöön"
 #
 msgid ""
 "A finished record timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "Juuri päättynyt ajastus haluaa sammuttaa\n"
-"Dreamboxin valmiustilaan. Sammutetaanko nyt?"
+"set-top-boxin valmiustilaan. Sammutetaanko nyt?"
 
 #
 msgid ""
 "A finished record timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "Juuri päättynyt ajastus haluaa sammuttaa\n"
-"Dreamboxin virransäästötilaan. Sammutetaanko nyt?"
+"set-top-boxin virransäästötilaan. Sammutetaanko nyt?"
 
 #
 msgid "A graphical EPG for all services of an specific bouquet"
@@ -466,7 +466,7 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "Uniajastimeen asetettu aika on kulunut umpeen.\n"
 "Siirrytäänkö valmiustilaan?"
@@ -474,10 +474,10 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "Uniajastimeen asetettu aika on kulunut umpeen.\n"
-"Sammutetaanko Dreambox virransäästötilaa?"
+"Sammutetaanko set-top-box virransäästötilaa?"
 
 msgid "A small overview of the available icon states and actions."
 msgstr "Kuvaus kuvakkeiden tiloista ja toiminnoista."
@@ -594,10 +594,10 @@ msgstr ""
 
 #
 msgid ""
-"Adds enigma2 settings and dreambox model informations like SN, rev... if "
+"Adds enigma2 settings and set-top-box model informations like SN, rev... if "
 "enabled."
 msgstr ""
-"Jos valinta on ei, lisätään Enigma2:n asetukset, Dreamboxin malli, "
+"Jos valinta on ei, lisätään Enigma2:n asetukset, set-top-boxin malli, "
 "sarjanumero yms."
 
 #
@@ -659,7 +659,7 @@ msgstr ""
 #
 msgid ""
 "After the start wizard is completed, you need to protect single services. "
-"Refer to your dreambox's manual on how to do that."
+"Refer to your set-top-box's manual on how to do that."
 msgstr ""
 "Kun alkuasennus on päättynyt, pitää sinun valita lapsilukolla suojattavat "
 "kanavat. Katso ohjekirjasta kuinka se tehdään."
@@ -1374,7 +1374,7 @@ msgid "Copy"
 msgstr ""
 
 #
-msgid "Could not connect to Dreambox .NFI Image Feed Server:"
+msgid "Could not connect to set-top-box .NFI Image Feed Server:"
 msgstr "NFI-ohjelmistopäivityksien palvelimelle ei saatu yhteyttä:"
 
 #
@@ -1838,9 +1838,9 @@ msgstr "Haluatko ladata ohjelmistopäivityksen %s :lle ?"
 
 #
 #  Ohjatun asennuksen (Start Wizard) lapsilukkoruutu
-msgid "Do you want to enable the parental control feature on your dreambox?"
+msgid "Do you want to enable the parental control feature on your set-top-box?"
 msgstr ""
-"Dreamboxissa on lapsilukko-\n"
+"set-top-boxissa on lapsilukko-\n"
 "ominaisuus: halutut kanavat\n"
 "voidaan asettaa erikseen\n"
 "määriteltävän tunnusluvun\n"
@@ -1862,8 +1862,8 @@ msgid "Do you want to preview this DVD before burning?"
 msgstr "Haluatko esikatsella tämän DVD:n ennen polttoa?"
 
 #
-msgid "Do you want to reboot your Dreambox?"
-msgstr "Haluatko käynnistää Dreamboxin uudelleen?"
+msgid "Do you want to reboot your set-top-box?"
+msgstr "Haluatko käynnistää set-top-boxin uudelleen?"
 
 #
 msgid "Do you want to remove the package:\n"
@@ -1888,15 +1888,15 @@ msgstr ""
 "varten?"
 
 #
-msgid "Do you want to update your Dreambox?"
-msgstr "Haluatko päivittää Dreamboxisi?"
+msgid "Do you want to update your set-top-box?"
+msgstr "Haluatko päivittää set-top-boxisi?"
 
 #
 msgid ""
-"Do you want to update your Dreambox?\n"
+"Do you want to update your set-top-box?\n"
 "After pressing OK, please wait!"
 msgstr ""
-"Haluatko päivittää Dreamboxin?\n"
+"Haluatko päivittää set-top-boxin?\n"
 "Paina OK ja odota!"
 
 #
@@ -1961,11 +1961,11 @@ msgid "Downloading plugin information. Please wait..."
 msgstr "Ladataan tietoja lisäosista. Odota..."
 
 #
-msgid "Dreambox format data DVD (HDTV compatible)"
+msgid "set-top-box format data DVD (HDTV compatible)"
 msgstr "DB-tiedostomuotoinen DVD (HDTV-yht.sopiva)"
 
-msgid "Dreambox software because updates are available."
-msgstr "Dreamboxin ohjelmistoa koska päivityksiä on saatavilla."
+msgid "set-top-box software because updates are available."
+msgstr "set-top-boxin ohjelmistoa koska päivityksiä on saatavilla."
 
 #
 msgid "Dutch"
@@ -2029,13 +2029,13 @@ msgid "Edit settings"
 msgstr "Muokkaa asetuksia"
 
 #
-msgid "Edit the Nameserver configuration of your Dreambox.\n"
+msgid "Edit the Nameserver configuration of your set-top-box.\n"
 msgstr ""
 "Muokkaan nimipalvelimen asetuksia.\n"
 "\n"
 
 #
-msgid "Edit the network configuration of your Dreambox.\n"
+msgid "Edit the network configuration of your set-top-box.\n"
 msgstr ""
 "Muokkaa lähiverkon asetuksia.\n"
 "\n"
@@ -2422,7 +2422,7 @@ msgid ""
 "GUI needs a restart to apply a new skin\n"
 "Do you want to Restart the GUI now?"
 msgstr ""
-"Teema vaihtuu vasta kun Dreamboxin\n"
+"Teema vaihtuu vasta kun set-top-boxin\n"
 "käyttöliittymä on käynnistetty uudelleen.\n"
 "Haluatko käynnistää käyttöliittymän\n"
 "uudelleen nyt?"
@@ -3492,7 +3492,7 @@ msgstr "Ei kuvaa TV:ssä? Paina EXIT ja yritä uudelleen."
 #
 msgid "No positioner capable frontend found."
 msgstr ""
-"Dreamboxissasi ei ole satelliittiviritintä,\n"
+"set-top-boxissasi ei ole satelliittiviritintä,\n"
 "joka hallitsisi kääntömoottorin ohjauksen."
 
 msgid "No sat tuner found!"
@@ -3500,7 +3500,7 @@ msgstr ""
 
 #
 msgid "No satellite frontend found!!"
-msgstr "Dreamboxissasi ei ole satelliittiviritintä."
+msgstr "set-top-boxissasi ei ole satelliittiviritintä."
 
 #
 msgid "No tags are set on these movies."
@@ -3585,8 +3585,8 @@ msgid "No, do nothing."
 msgstr "Ei, älä tee mitään."
 
 #
-msgid "No, just start my dreambox"
-msgstr "Ei, käynnistä vain Dreambox"
+msgid "No, just start my set-top-box"
+msgstr "Ei, käynnistä vain set-top-box"
 
 msgid "No, never"
 msgstr "Ei koskaan"
@@ -5226,8 +5226,8 @@ msgid "Shutdown"
 msgstr "Sammuta"
 
 #
-msgid "Shutdown Dreambox after"
-msgstr "Sammuta Dreambox jälkeenpäin"
+msgid "Shutdown set-top-box after"
+msgstr "Sammuta set-top-box jälkeenpäin"
 
 msgid "Side by Side"
 msgstr ""
@@ -5688,7 +5688,7 @@ msgid "Test mode"
 msgstr "Virityskuvan lähetys"
 
 #
-msgid "Test the network configuration of your Dreambox.\n"
+msgid "Test the network configuration of your set-top-box.\n"
 msgstr ""
 "Testaa lähiverkon toiminta.\n"
 "\n"
@@ -5721,7 +5721,7 @@ msgstr ""
 #  että teksti rivittyy tv-ruudulla oikein.
 msgid ""
 "Thank you for using the wizard. Your box is now ready to use.\n"
-"Please press OK to start using your Dreambox."
+"Please press OK to start using your set-top-box."
 msgstr ""
 "Laitteesi on nyt käyttökunnossa.\n"
 "Ohjattu asennus päättyy tähän.\n"
@@ -5735,10 +5735,10 @@ msgstr ""
 #
 msgid ""
 "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
-"create a Dreambox format data DVD (which will not play in stand-alone DVD "
+"create a set-top-box format data DVD (which will not play in stand-alone DVD "
 "players) instead?"
 msgstr ""
-"DVD-standardi ei tue H.264 (HDTV) videota. Haluatko luoda Dreamboxin omassa "
+"DVD-standardi ei tue H.264 (HDTV) videota. Haluatko luoda set-top-boxin omassa "
 "formaatissa olevan data-DVD:n? Levy ei toistu normaaleissa DVD-soittimissa."
 
 msgid ""
@@ -5826,9 +5826,9 @@ msgstr "Oletuskanavalistojen asennus on suoritettu."
 #
 msgid ""
 "The installation of the default settings is finished. You can now continue "
-"configuring your Dreambox by pressing the OK button on the remote control."
+"configuring your set-top-box by pressing the OK button on the remote control."
 msgstr ""
-"Oletusarvojen asennus on suoritettu. Voit jatkaa Dreamboxin asetusten "
+"Oletusarvojen asennus on suoritettu. Voit jatkaa set-top-boxin asetusten "
 "muokkausta painamalla OK."
 
 msgid "The md5sum validation failed, the file may be corrupted!"
@@ -5958,8 +5958,8 @@ msgstr ""
 
 #
 #, python-format
-msgid "This Dreambox can't decode %s streams!"
-msgstr "Tämä Dreambox ei pysty purkamaan %s lähteitä!"
+msgid "This set-top-box can't decode %s streams!"
+msgstr "Tämä set-top-box ei pysty purkamaan %s lähteitä!"
 
 #
 msgid "This is step number 2."
@@ -5967,14 +5967,14 @@ msgstr "Tämä on vaihe 2."
 
 msgid ""
 "This plugin creates a USB stick which can be used to update the firmware of "
-"your Dreambox without the need for a network or WLAN connection.\n"
+"your set-top-box without the need for a network or WLAN connection.\n"
 "First, a USB stick needs to be prepared so that it becomes bootable.\n"
 "In the next step, an NFI image file can be downloaded from the update server "
 "and saved on the USB stick.\n"
 "If you already have a prepared bootable USB stick, please insert it now. "
 "Otherwise plug in a USB stick with a minimum size of 64 MB!"
 msgstr ""
-"Tämä lisäosa luo USB-muistitikun jolla Dreamboxin ohjelmisto voidaan "
+"Tämä lisäosa luo USB-muistitikun jolla set-top-boxin ohjelmisto voidaan "
 "päivittää ilman verkkoyhteyttä. \n"
 "Aluksi USB-muistitikku pitää alustaa jotta siitä tulee automaattisesti "
 "käynnistyvä.\n"
@@ -6185,14 +6185,14 @@ msgid "To subtitle selection"
 msgstr ""
 
 msgid ""
-"To update your Dreambox firmware, please follow these steps:\n"
+"To update your set-top-box firmware, please follow these steps:\n"
 "1) Turn off your box with the rear power switch and make sure the bootable "
 "USB stick is plugged in.\n"
 "2) Turn mains back on and hold the DOWN button on the front panel pressed "
 "for 10 seconds.\n"
 "3) Wait for bootup and follow instructions of the wizard."
 msgstr ""
-"Päivitä Dreamboxin ohjelmisto näiden ohjeiden mukaisesti:\n"
+"Päivitä set-top-boxin ohjelmisto näiden ohjeiden mukaisesti:\n"
 "1) Kytke virta pois päältä takapaneelin kytkimestä ja liitä automaattisesti "
 "käynnistyvä USB-muistitikku.\n"
 "2) Kytke virta takaisin päälle ja pidä etupaneelin nuoli alas -näppäintä 10 "
@@ -6429,16 +6429,16 @@ msgid "Upgrade finished."
 msgstr "Päivitys suoritettu."
 
 #
-msgid "Upgrade finished. Do you want to reboot your Dreambox?"
-msgstr "Päivitys suoritettu. Haluatko käynnistää Dreamboxin uudelleen?"
+msgid "Upgrade finished. Do you want to reboot your set-top-box?"
+msgstr "Päivitys suoritettu. Haluatko käynnistää set-top-boxin uudelleen?"
 
 #
 msgid "Upgrading"
 msgstr "Päivitetään"
 
 #
-msgid "Upgrading Dreambox... Please wait"
-msgstr "Päivitetään Dreamboxia... Odota"
+msgid "Upgrading set-top-box... Please wait"
+msgstr "Päivitetään set-top-boxia... Odota"
 
 #
 msgid "Use"
@@ -6818,7 +6818,7 @@ msgstr ""
 #
 msgid ""
 "Welcome to the Image upgrade wizard. The wizard will assist you in upgrading "
-"the firmware of your Dreambox by providing a backup facility for your "
+"the firmware of your set-top-box by providing a backup facility for your "
 "current settings and a short explanation of how to upgrade your firmware."
 msgstr ""
 "Tervetuloa ohjelmiston päivitysavustajaan. Avustaja opastaa ohjelmiston "
@@ -6830,29 +6830,29 @@ msgid ""
 "Welcome to the cleanup wizard.\n"
 "\n"
 "We have detected that your available internal memory has dropped below 2MB.\n"
-"To ensure stable operation of your Dreambox, the internal memory should be "
+"To ensure stable operation of your set-top-box, the internal memory should be "
 "cleaned up.\n"
 "You can use this wizard to remove some extensions.\n"
 msgstr ""
 "Tervetuloa puhdistusavustajaan.\n"
 "\n"
 "Tunnistimme, että vapaa sisäinen muisti putosi alle 2MB:n.\n"
-"Jotta Dreamboxin toiminta olisi vakaata, pitää sisäistä muistia vapauttaa.\n"
+"Jotta set-top-boxin toiminta olisi vakaata, pitää sisäistä muistia vapauttaa.\n"
 "Voit poistaa lisäosia tällä avustajalla.\n"
 
 #
 msgid ""
 "Welcome.\n"
 "\n"
-"If you want to connect your Dreambox to the Internet, this wizard will guide "
-"you through the basic network setup of your Dreambox.\n"
+"If you want to connect your set-top-box to the Internet, this wizard will guide "
+"you through the basic network setup of your set-top-box.\n"
 "\n"
 "Press OK to start configuring your network"
 msgstr ""
 "Tervetuloa.\n"
 "\n"
-"Jos haluat yhdistää Dreamboxin verkkoon, auttaa tämä avustaja määrittämään "
-"Dreamboxin lähiverhon perusasetukset.\n"
+"Jos haluat yhdistää set-top-boxin verkkoon, auttaa tämä avustaja määrittämään "
+"set-top-boxin lähiverhon perusasetukset.\n"
 "\n"
 "Siirry seuraavaan vaiheeseen painamalla OK-nappia."
 
@@ -6865,13 +6865,13 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"This start wizard will guide you through the basic setup of your Dreambox.\n"
+"This start wizard will guide you through the basic setup of your set-top-box.\n"
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
 "Tervetuloa.\n"
 "\n"
 "Tämä asennustoiminto neuvoo\n"
-"kuinka laitat Dreamboxin\n"
+"kuinka laitat set-top-boxin\n"
 "perusasetukset kuntoon.\n"
 "\n"
 "Aloita asennus painamalla\n"
@@ -7045,8 +7045,8 @@ msgstr ""
 msgid "You can install this plugin."
 msgstr "Voit asentaa tämän lisäosan."
 
-msgid "You can only burn Dreambox recordings!"
-msgstr "Voit polttaa vain Dreamboxin tallenteita!"
+msgid "You can only burn set-top-box recordings!"
+msgstr "Voit polttaa vain set-top-boxin tallenteita!"
 
 #
 msgid "You can remove this plugin."
@@ -7105,9 +7105,9 @@ msgstr "Sinun täytyy odottaa %s!"
 
 #
 msgid ""
-"You need a PC connected to your dreambox. If you need further instructions, "
+"You need a PC connected to your set-top-box. If you need further instructions, "
 "please visit the website http://www.dm7025.de.\n"
-"Your dreambox will now be halted. After you have performed the update "
+"Your set-top-box will now be halted. After you have performed the update "
 "instructions from the website, your new firmware will ask you to restore "
 "your settings."
 msgstr ""
@@ -7129,33 +7129,33 @@ msgid "You system does not support ext4"
 msgstr ""
 
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
 msgstr ""
-"Dreambox on nyt valmis käyttöön.\n"
+"set-top-box on nyt valmis käyttöön.\n"
 "\n"
 "Verkkoyhteys toimii.\n"
 "\n"
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
 "Please press OK to continue."
 msgstr ""
-"Dreambox on nyt valmis käyttöön.\n"
+"set-top-box on nyt valmis käyttöön.\n"
 "\n"
 "Lähiverkkoyhteys toimii.\n"
 "\n"
 "Jatka painamalla OK-näppäintä."
 
 #
-msgid "Your Dreambox will restart after pressing OK on your remote control."
-msgstr "Dreambox käynnistyy uudelleen kun painat OK."
+msgid "Your set-top-box will restart after pressing OK on your remote control."
+msgstr "set-top-box käynnistyy uudelleen kun painat OK."
 
 #
 msgid ""
@@ -7174,12 +7174,12 @@ msgid "Your current collection will get lost!"
 msgstr "Nykyinen kokoelma häviää!"
 
 #
-msgid "Your dreambox is shutting down. Please stand by..."
+msgid "Your set-top-box is shutting down. Please stand by..."
 msgstr "Laite sammutetaan. Odota..."
 
 #
 msgid ""
-"Your dreambox isn't connected to the internet properly. Please check it and "
+"Your set-top-box isn't connected to the internet properly. Please check it and "
 "try again."
 msgstr ""
 "Yhteyttä Internetiin ei kyetty muodostamaan. Tarkista verkkoasetukset ja "
@@ -7607,19 +7607,19 @@ msgstr "Älä tallenna"
 msgid "done!"
 msgstr "tallennettu"
 
-msgid "dreambox advanced remote control (native)"
+msgid "set-top-box advanced remote control (native)"
 msgstr ""
 
-msgid "dreambox front panel"
+msgid "set-top-box front panel"
 msgstr ""
 
-msgid "dreambox ir keyboard"
+msgid "set-top-box ir keyboard"
 msgstr ""
 
-msgid "dreambox ir mouse"
+msgid "set-top-box ir mouse"
 msgstr ""
 
-msgid "dreambox remote control (native)"
+msgid "set-top-box remote control (native)"
 msgstr ""
 
 msgid "east"
@@ -8518,10 +8518,10 @@ msgstr "Kyllä (pidä feedit)"
 
 #
 msgid ""
-"your dreambox might be unusable now. Please consult the manual for further "
-"assistance before rebooting your dreambox."
+"your set-top-box might be unusable now. Please consult the manual for further "
+"assistance before rebooting your set-top-box."
 msgstr ""
-"Asennus ei onnistunut. Dreambox saattaa olla käyttökelvottomassa tilassa. "
+"Asennus ei onnistunut. set-top-box saattaa olla käyttökelvottomassa tilassa. "
 "Joudut ehkä asentamaan ohjelmiston uudelleen tietokoneen avulla. Katso "
 "käyttöoppaasta lisäohjeita ennen kuin käynnistät laitteen uudelleen."
 
@@ -8652,8 +8652,8 @@ msgstr "vaihdettu"
 #~ msgid "A client for www.dyndns.org"
 #~ msgstr "Asiakasohjelma www.dyndns.org palvelulle"
 
-#~ msgid "A dreambox simulation from SG-Atlantis displays."
-#~ msgstr "SG-Atlantis näyttöjen simulaatio Dreamboxille."
+#~ msgid "A set-top-box simulation from SG-Atlantis displays."
+#~ msgstr "SG-Atlantis näyttöjen simulaatio set-top-boxille."
 
 #~ msgid "A graphical EPG interface"
 #~ msgstr "Graafinen EPG"
@@ -8715,8 +8715,8 @@ msgstr "vaihdettu"
 #~ "Käytössä/\n"
 #~ "Ei käytössä"
 
-#~ msgid "Add a new NFS or CIFS mount point to your Dreambox."
-#~ msgstr "Lisää Dreamboxiin uusi NFS tai CIFS jako."
+#~ msgid "Add a new NFS or CIFS mount point to your set-top-box."
+#~ msgstr "Lisää set-top-boxiin uusi NFS tai CIFS jako."
 
 #~ msgid "Add new AutoTimer"
 #~ msgstr "Lisää uusi automaattiajastus"
@@ -8744,10 +8744,10 @@ msgstr "vaihdettu"
 #~ msgstr "Laajennetut"
 
 #~ msgid ""
-#~ "After a reboot or power outage, StartupToStandby will bring your Dreambox "
+#~ "After a reboot or power outage, StartupToStandby will bring your set-top-box "
 #~ "to standby-mode."
 #~ msgstr ""
-#~ "Kaatumisen tai virtakatkon jälkeen StartupToStandby palauttaa Dreamboxin "
+#~ "Kaatumisen tai virtakatkon jälkeen StartupToStandby palauttaa set-top-boxin "
 #~ "valmiustilaan."
 
 #~ msgid "Ai.HD skin-style control plugin"
@@ -8901,8 +8901,8 @@ msgstr "vaihdettu"
 #~ msgid "BASIC-HD Skin by Ismail Demir"
 #~ msgstr "Ismail Demirin BASIC-HD teema"
 
-#~ msgid "BASIC-HD Skin for Dreambox Images created from Ismail Demir"
-#~ msgstr "Ismail Demirin Dreambox BASIC-HD teema"
+#~ msgid "BASIC-HD Skin for set-top-box Images created from Ismail Demir"
+#~ msgstr "Ismail Demirin set-top-box BASIC-HD teema"
 
 #~ msgid "Back, lower USB Slot"
 #~ msgstr "Takana, alempi USB-portti"
@@ -9043,8 +9043,8 @@ msgstr "vaihdettu"
 #~ msgid "Change setup pin"
 #~ msgstr "Vaihda asetusten tunnusluku"
 
-#~ msgid "Change the hostname of your Dreambox."
-#~ msgstr "Muuta Dreamboxin nimeä (hostname)."
+#~ msgid "Change the hostname of your set-top-box."
+#~ msgstr "Muuta set-top-boxin nimeä (hostname)."
 
 #
 #~ msgid "Channel audio:"
@@ -9122,17 +9122,17 @@ msgstr "vaihdettu"
 #~ "epäonnistui! (%s)\n"
 #~ "yritetään uudelleen..."
 
-#~ msgid "Control your Dreambox with your Web browser."
-#~ msgstr "Hallitse Dreamboxia www-selaimella."
+#~ msgid "Control your set-top-box with your Web browser."
+#~ msgstr "Hallitse set-top-boxia www-selaimella."
 
-#~ msgid "Control your Dreambox with your browser"
-#~ msgstr "Hallitse Dreamboxia www-selaimella"
+#~ msgid "Control your set-top-box with your browser"
+#~ msgstr "Hallitse set-top-boxia www-selaimella"
 
-#~ msgid "Control your dreambox with only the MUTE button"
-#~ msgstr "Hallitse Dreamboxia mykistä-painikkeella"
+#~ msgid "Control your set-top-box with only the MUTE button"
+#~ msgstr "Hallitse set-top-boxia mykistä-painikkeella"
 
-#~ msgid "Control your dreambox with only the MUTE button."
-#~ msgstr "Hallitse Dreamboxia mykistä-painikkeella."
+#~ msgid "Control your set-top-box with only the MUTE button."
+#~ msgstr "Hallitse set-top-boxia mykistä-painikkeella."
 
 #~ msgid "Control your internal system fan."
 #~ msgstr "Hallitse tuuletinta."
@@ -9143,8 +9143,8 @@ msgstr "vaihdettu"
 #~ msgid "Control your system fan"
 #~ msgstr "Hallitse tuuletinta"
 
-#~ msgid "Copy, rename, delete, move local files on your Dreambox."
-#~ msgstr "Kopioi, uudelleennimeä, poista ja siirrä Dreamboxin tiedostoja."
+#~ msgid "Copy, rename, delete, move local files on your set-top-box."
+#~ msgstr "Kopioi, uudelleennimeä, poista ja siirrä set-top-boxin tiedostoja."
 
 #~ msgid ""
 #~ "Crashlogs found!\n"
@@ -9153,8 +9153,8 @@ msgstr "vaihdettu"
 #~ "Kaatumislokeja löytyi!\n"
 #~ "Lähetetäänkö ne Dream Multimedialle?"
 
-#~ msgid "Create a backup of your Video DVD on your DreamBox hard drive."
-#~ msgstr "Kopioi DVD-elokuva Dreamboxin kiintolevylle."
+#~ msgid "Create a backup of your Video DVD on your set-top-box hard drive."
+#~ msgstr "Kopioi DVD-elokuva set-top-boxin kiintolevylle."
 
 #~ msgid "Create a backup of your Video-DVD"
 #~ msgstr "Kopioi DVD-elokuvia"
@@ -9176,10 +9176,10 @@ msgstr "vaihdettu"
 #~ msgstr "Luo tallenteista esikatselukuvat"
 
 #~ msgid "Create remote timers"
-#~ msgstr "Luo ajastuksia muihin Dreamboxeihin"
+#~ msgstr "Luo ajastuksia muihin set-top-boxeihin"
 
-#~ msgid "Create timers on remote Dreamboxes."
-#~ msgstr "Luo ajastuksia muihin Dreamboxeihin."
+#~ msgid "Create timers on remote set-top-boxes."
+#~ msgstr "Luo ajastuksia muihin set-top-boxeihin."
 
 #
 #~ msgid "Creating partition failed"
@@ -9225,15 +9225,15 @@ msgstr "vaihdettu"
 #~ msgid "DVD Drive"
 #~ msgstr "DVD-asema"
 
-#~ msgid "DVDPlayer plays your DVDs on your Dreambox"
-#~ msgstr "DVD-soitin toistaa DVD:t Dreamboxissa."
+#~ msgid "DVDPlayer plays your DVDs on your set-top-box"
+#~ msgstr "DVD-soitin toistaa DVD:t set-top-boxissa."
 
 #~ msgid ""
-#~ "DVDPlayer plays your DVDs on your Dreambox.\n"
-#~ "With the DVDPlayer you can play your DVDs on your Dreambox from a DVD or "
+#~ "DVDPlayer plays your DVDs on your set-top-box.\n"
+#~ "With the DVDPlayer you can play your DVDs on your set-top-box from a DVD or "
 #~ "even from an iso file or video_ts folder on your harddisc or network."
 #~ msgstr ""
-#~ "DVD-soitin toistaa DVD:t Dreamboxissa.\n"
+#~ "DVD-soitin toistaa DVD:t set-top-boxissa.\n"
 #~ "DVD-soittimella voit toistaa DVD-levyn,  .iso-tiedoston tai video_ts "
 #~ "hakemiston kiintolevyltä tai verkosta."
 
@@ -9257,8 +9257,8 @@ msgstr "vaihdettu"
 #~ msgid "Define a startup service"
 #~ msgstr "Määritä aloituskanava"
 
-#~ msgid "Define a startup service for your Dreambox."
-#~ msgstr "Määritä Dreamboxin aloituskanava"
+#~ msgid "Define a startup service for your set-top-box."
+#~ msgstr "Määritä set-top-boxin aloituskanava"
 
 #~ msgid "Deinterlacer mode for interlaced content"
 #~ msgstr "Lomitustila lomitellulle materiaalille"
@@ -9427,8 +9427,8 @@ msgstr "vaihdettu"
 #~ msgid "Education"
 #~ msgstr "Valistus"
 
-#~ msgid "Emailclient is an IMAP4 e-mail viewer for the Dreambox."
-#~ msgstr "Emailclient on IMAP4-sähköpostien lukija Dreamboxille."
+#~ msgid "Emailclient is an IMAP4 e-mail viewer for the set-top-box."
+#~ msgstr "Emailclient on IMAP4-sähköpostien lukija set-top-boxille."
 
 #~ msgid "Enable /media"
 #~ msgstr "Ota käyttöön /media"
@@ -9498,10 +9498,10 @@ msgstr "vaihdettu"
 #~ msgstr "Aikajakson loppu"
 
 #~ msgid ""
-#~ "Enigma2 Plugin to play AVI/DIVX/WMV/etc. videos from PC on your Dreambox. "
+#~ "Enigma2 Plugin to play AVI/DIVX/WMV/etc. videos from PC on your set-top-box. "
 #~ "Needs a running VLC from www.videolan.org on your pc."
 #~ msgstr ""
-#~ "Lisäosa AVI/DIVX/WMV/yms. PC:llä olevien videoiden toistoon Dreamboxin "
+#~ "Lisäosa AVI/DIVX/WMV/yms. PC:llä olevien videoiden toistoon set-top-boxin "
 #~ "kautta. Tarvitsee www.videolan.org osoitteesta ladattavan VLC-ohjelman "
 #~ "pyörimään PC:lle."
 
@@ -9539,8 +9539,8 @@ msgstr "vaihdettu"
 #~ msgid "Enter WLAN passphrase/key:"
 #~ msgstr "Syötä WLAN-salasana/koodi:"
 
-#~ msgid "Enter new hostname for your Dreambox"
-#~ msgstr "Syötä Dreamboxin uusi verkkonimi"
+#~ msgid "Enter new hostname for your set-top-box"
+#~ msgstr "Syötä set-top-boxin uusi verkkonimi"
 
 #~ msgid "Enter options:"
 #~ msgstr "Syötä lisävalinnat:"
@@ -9583,10 +9583,10 @@ msgstr "vaihdettu"
 #~ msgstr "Käytä Tuxbox-lisäosia"
 
 #~ msgid ""
-#~ "FTPBrowser allows uploading and downloading files between your Dreambox "
+#~ "FTPBrowser allows uploading and downloading files between your set-top-box "
 #~ "and a server using the file transfer protocol."
 #~ msgstr ""
-#~ "FTPBrowser lisäosalla voit ladata ja lähettää tiedostoja Dreamboxin ja "
+#~ "FTPBrowser lisäosalla voit ladata ja lähettää tiedostoja set-top-boxin ja "
 #~ "palvelimen välillä FTP-protokollan avulla."
 
 #~ msgid "Fetching feed entries"
@@ -9672,8 +9672,8 @@ msgstr "vaihdettu"
 #~ msgid "Fritz!Box FON IP address"
 #~ msgstr "Fritz!Box FON IP-osoite"
 
-#~ msgid "FritzCall shows incoming calls to your Fritz!Box on your Dreambox."
-#~ msgstr "FritzCall näyttää Fritz!Boxiin saapuvat puhelut Dreamboxissa."
+#~ msgid "FritzCall shows incoming calls to your Fritz!Box on your set-top-box."
+#~ msgstr "FritzCall näyttää Fritz!Boxiin saapuvat puhelut set-top-boxissa."
 
 #~ msgid "From Region"
 #~ msgstr "Alueelta"
@@ -9696,9 +9696,9 @@ msgstr "vaihdettu"
 #~ msgstr "Graafinen käyttöliittymä ftp- ja telnet-salasanan vaihtoon."
 
 #~ msgid ""
-#~ "GUI that allows user to change the ftp-/telnet-password of the Dreambox."
+#~ "GUI that allows user to change the ftp-/telnet-password of the set-top-box."
 #~ msgstr ""
-#~ "Graafinen käyttöliittymä Dreamboxin ftp- ja telnet-salasanan vaihtoon."
+#~ "Graafinen käyttöliittymä set-top-boxin ftp- ja telnet-salasanan vaihtoon."
 
 #~ msgid "GUI to change the ftp and telnet-password"
 #~ msgstr "Graafinen käyttöliittymä ftp- ja telnet-salasanan vaihtoon"
@@ -9714,14 +9714,14 @@ msgstr "vaihdettu"
 #~ msgid "General PCM delay"
 #~ msgstr "PCM-viive (ms)"
 
-#~ msgid "Genuine Dreambox"
-#~ msgstr "Aito Dreambox"
+#~ msgid "Genuine set-top-box"
+#~ msgstr "Aito set-top-box"
 
-#~ msgid "Genuine Dreambox validation failed!"
-#~ msgstr "Dreamboxin aitouden varmistus epäonnistui!"
+#~ msgid "Genuine set-top-box validation failed!"
+#~ msgstr "set-top-boxin aitouden varmistus epäonnistui!"
 
-#~ msgid "Genuine Dreambox verification"
-#~ msgstr "Dreamboxin aitouden varmistaminen"
+#~ msgid "Genuine set-top-box verification"
+#~ msgstr "set-top-boxin aitouden varmistaminen"
 
 #~ msgid "German storm information"
 #~ msgstr "Saksan myrskytietoja"
@@ -9753,11 +9753,11 @@ msgstr "vaihdettu"
 #~ msgstr "Iso-Britannia"
 
 #~ msgid ""
-#~ "Growlee allows your Dreambox to send short messages using the growl "
+#~ "Growlee allows your set-top-box to send short messages using the growl "
 #~ "protocol\n"
 #~ "like Recording started notifications to a PC running a growl client"
 #~ msgstr ""
-#~ "Growleen avulla Dreambox voi lähettää lyhyitä Growl-protokollan mukaisia "
+#~ "Growleen avulla set-top-box voi lähettää lyhyitä Growl-protokollan mukaisia "
 #~ "viestejä,\n"
 #~ "esim. ilmoituksen tallennuksen aloittamisesta, PC:lle jossa pyörii Growl-"
 #~ "asiakasohjelma"
@@ -9818,8 +9818,8 @@ msgstr "vaihdettu"
 #~ msgid "Howto & Style"
 #~ msgstr "Tekeminen ja muoti"
 
-#~ msgid "IMAP4 e-mail viewer for the Dreambox"
-#~ msgstr "IMAP4-sähköpostien lukija Dreamboxille."
+#~ msgid "IMAP4 e-mail viewer for the set-top-box"
+#~ msgstr "IMAP4-sähköpostien lukija set-top-boxille."
 
 #~ msgid "IP:"
 #~ msgstr "IP:"
@@ -9907,15 +9907,15 @@ msgstr "vaihdettu"
 #~ msgid "Internal firmware updater"
 #~ msgstr "Edustaprosessorin ohjelmiston päivitysohjelma"
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 304
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 304
 #~ msgid "Invalid response from Security service pls restart again"
 #~ msgstr "Virheellinen vastaus turvallisuuspalvelulta, käynnistä uudelleen"
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 132
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 132
 #~ msgid "Invalid response from server."
 #~ msgstr "Virheellinen vastaus palvelimelta."
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 177
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 177
 #~ msgid "Invalid response from server. Please report: %s"
 #~ msgstr "Virheellinen vastaus palvelimelta. Raportoi: %s"
 
@@ -9947,10 +9947,10 @@ msgstr "vaihdettu"
 #~ "Lisää uusi rajoitus painamalla sinistä ja poista valittu painamalla "
 #~ "keltaista näppäintä."
 
-#~ msgid "Italian Weather forecast on Dreambox"
+#~ msgid "Italian Weather forecast on set-top-box"
 #~ msgstr "Italian sääennuste"
 
-#~ msgid "Italian Weather forecast on Dreambox from www.google.it."
+#~ msgid "Italian Weather forecast on set-top-box from www.google.it."
 #~ msgstr "Italian sääennuste noudettuna www.google.it sivulta."
 
 #~ msgid "Italy"
@@ -10032,13 +10032,13 @@ msgstr "vaihdettu"
 #~ "Viimeinen automaattiajastuksen päivä. Tämän jälkeisiä ohjelmia ei haeta."
 
 #
-#~ msgid "Lets you view/edit files in your Dreambox"
-#~ msgstr "Katsele/muokkaa Dreamboxin tiedostoja"
+#~ msgid "Lets you view/edit files in your set-top-box"
+#~ msgstr "Katsele/muokkaa set-top-boxin tiedostoja"
 
 #~ msgid "Listen and record internet radio"
 #~ msgstr "Kuuntele ja tallenna Internet-radioita"
 
-#~ msgid "Listen and record shoutcast internet radio on your Dreambox."
+#~ msgid "Listen and record shoutcast internet radio on your set-top-box."
 #~ msgstr "Kuuntele ja tallenna SHOUTcast-radioita."
 
 #~ msgid "Load feed on startup:"
@@ -10285,98 +10285,98 @@ msgstr "vaihdettu"
 #~ msgid "Nemesis BlackBox Skin"
 #~ msgstr "Nemesis BlackBox teema"
 
-#~ msgid "Nemesis BlackBox Skin for the Dreambox"
-#~ msgstr "Nemesis BlackBox teema Dreamboxille"
+#~ msgid "Nemesis BlackBox Skin for the set-top-box"
+#~ msgstr "Nemesis BlackBox teema set-top-boxille"
 
 #~ msgid "Nemesis Blueline Single Skin"
 #~ msgstr "Nemesis Blueline Single teema"
 
-#~ msgid "Nemesis Blueline Single Skin for the Dreambox"
-#~ msgstr "Nemesis Blueline Single teema Dreamboxille"
+#~ msgid "Nemesis Blueline Single Skin for the set-top-box"
+#~ msgstr "Nemesis Blueline Single teema set-top-boxille"
 
 #~ msgid "Nemesis Blueline Skin"
 #~ msgstr "Nemesis Blueline teema"
 
-#~ msgid "Nemesis Blueline Skin for the Dreambox"
-#~ msgstr "Nemesis Blueline teema Dreamboxille"
+#~ msgid "Nemesis Blueline Skin for the set-top-box"
+#~ msgstr "Nemesis Blueline teema set-top-boxille"
 
 #~ msgid "Nemesis Blueline.Extended Skin"
 #~ msgstr "Nemesis Blueline.Extended teema"
 
-#~ msgid "Nemesis Blueline.Extended Skin for the Dreambox"
-#~ msgstr "Nemesis Blueline.Extended teema Dreamboxille"
+#~ msgid "Nemesis Blueline.Extended Skin for the set-top-box"
+#~ msgstr "Nemesis Blueline.Extended teema set-top-boxille"
 
 #~ msgid "Nemesis ChromeLine Cobolt Skin"
 #~ msgstr "Nemesis ChromeLine Cobolt teema"
 
-#~ msgid "Nemesis ChromeLine Cobolt Skin for the Dreambox"
-#~ msgstr "Nemesis ChromeLine Cobolt teema Dreamboxille"
+#~ msgid "Nemesis ChromeLine Cobolt Skin for the set-top-box"
+#~ msgstr "Nemesis ChromeLine Cobolt teema set-top-boxille"
 
 #~ msgid "Nemesis ChromeLine Skin"
 #~ msgstr "Nemesis ChromeLine teema"
 
-#~ msgid "Nemesis ChromeLine Skin for the Dreambox"
-#~ msgstr "Nemesis ChromeLine teema Dreamboxille"
+#~ msgid "Nemesis ChromeLine Skin for the set-top-box"
+#~ msgstr "Nemesis ChromeLine teema set-top-boxille"
 
 #~ msgid "Nemesis Flatline Blue Skin"
 #~ msgstr "Nemesis Flatline Blue teema"
 
-#~ msgid "Nemesis Flatline Blue Skin for the Dreambox"
-#~ msgstr "Nemesis Flatline Blue teema Dreamboxille"
+#~ msgid "Nemesis Flatline Blue Skin for the set-top-box"
+#~ msgstr "Nemesis Flatline Blue teema set-top-boxille"
 
 #~ msgid "Nemesis Flatline Skin"
 #~ msgstr "Nemesis Flatline teema"
 
-#~ msgid "Nemesis Flatline Skin for the Dreambox"
-#~ msgstr "Nemesis Flatline teema Dreamboxille"
+#~ msgid "Nemesis Flatline Skin for the set-top-box"
+#~ msgstr "Nemesis Flatline teema set-top-boxille"
 
 #~ msgid "Nemesis GlassLine Skin"
 #~ msgstr "Nemesis GlassLine teema"
 
-#~ msgid "Nemesis GlassLine Skin for the Dreambox"
-#~ msgstr "Nemesis GlassLine teema Dreamboxille"
+#~ msgid "Nemesis GlassLine Skin for the set-top-box"
+#~ msgstr "Nemesis GlassLine teema set-top-boxille"
 
 #~ msgid "Nemesis Greenline Extended Skin"
 #~ msgstr "Nemesis Greenline Extended teema"
 
-#~ msgid "Nemesis Greenline Extended Skin for the Dreambox"
-#~ msgstr "Nemesis Greenline Extended teema Dreamboxille"
+#~ msgid "Nemesis Greenline Extended Skin for the set-top-box"
+#~ msgstr "Nemesis Greenline Extended teema set-top-boxille"
 
 #~ msgid "Nemesis Greenline Single Skin"
 #~ msgstr "Nemesis Greenline Single teema"
 
-#~ msgid "Nemesis Greenline Single Skin for the Dreambox"
-#~ msgstr "Nemesis Greenline Single teema Dreamboxille"
+#~ msgid "Nemesis Greenline Single Skin for the set-top-box"
+#~ msgstr "Nemesis Greenline Single teema set-top-boxille"
 
 #~ msgid "Nemesis Greenline Skin"
 #~ msgstr "Nemesis Greenline teema"
 
-#~ msgid "Nemesis Greenline Skin for the Dreambox"
-#~ msgstr "Nemesis Greenline teema Dreamboxille"
+#~ msgid "Nemesis Greenline Skin for the set-top-box"
+#~ msgstr "Nemesis Greenline teema set-top-boxille"
 
 #~ msgid "Nemesis Greyline Extended Skin"
 #~ msgstr "Nemesis Greyline Extended teema"
 
-#~ msgid "Nemesis Greyline Extended Skin for the Dreambox"
-#~ msgstr "Nemesis Greyline Extended teema Dreamboxille"
+#~ msgid "Nemesis Greyline Extended Skin for the set-top-box"
+#~ msgstr "Nemesis Greyline Extended teema set-top-boxille"
 
 #~ msgid "Nemesis Greyline Single Skin"
 #~ msgstr "Nemesis Greyline Single teema"
 
-#~ msgid "Nemesis Greyline Single Skin for the Dreambox"
-#~ msgstr "Nemesis Greyline Single teema Dreamboxille"
+#~ msgid "Nemesis Greyline Single Skin for the set-top-box"
+#~ msgstr "Nemesis Greyline Single teema set-top-boxille"
 
 #~ msgid "Nemesis Greyline Skin"
 #~ msgstr "Nemesis Greyline teema"
 
-#~ msgid "Nemesis Greyline Skin for the Dreambox"
-#~ msgstr "Nemesis Greyline teema Dreamboxille"
+#~ msgid "Nemesis Greyline Skin for the set-top-box"
+#~ msgstr "Nemesis Greyline teema set-top-boxille"
 
 #~ msgid "Nemesis ShadowLine Skin"
 #~ msgstr "Nemesis ShadowLine teema"
 
-#~ msgid "Nemesis ShadowLine Skin for the Dreambox"
-#~ msgstr "Nemesis ShadowLine teema Dreamboxille"
+#~ msgid "Nemesis ShadowLine Skin for the set-top-box"
+#~ msgstr "Nemesis ShadowLine teema set-top-boxille"
 
 #
 #~ msgid "Network SSID"
@@ -10517,10 +10517,10 @@ msgstr "vaihdettu"
 #~ msgstr "Sivu"
 
 #~ msgid ""
-#~ "Partnerbox allows editing a remote Dreambox's record timers and stream "
+#~ "Partnerbox allows editing a remote set-top-box's record timers and stream "
 #~ "its TV  program."
 #~ msgstr ""
-#~ "Partnerboxin avulla voit verkon kautta muokata toisen Dreamboxin "
+#~ "Partnerboxin avulla voit verkon kautta muokata toisen set-top-boxin "
 #~ "ajastuksia ja katsella sen kanavia."
 
 #~ msgid "People & Blogs"
@@ -10547,8 +10547,8 @@ msgstr "vaihdettu"
 #~ msgid "Play video again"
 #~ msgstr "Toista video uudestaan"
 
-#~ msgid "Play videos from PC on your Dreambox"
-#~ msgstr "Toista elokuvia PC:ltä Dreamboxin kautta"
+#~ msgid "Play videos from PC on your set-top-box"
+#~ msgstr "Toista elokuvia PC:ltä set-top-boxin kautta"
 
 #
 #~ msgid "Please Reboot"
@@ -10559,10 +10559,10 @@ msgstr "vaihdettu"
 #~ msgstr "Valitse päivityspalvelimelta NFI-päivitys latausta varten"
 
 #~ msgid ""
-#~ "Please disconnect all USB devices from your Dreambox and (re-)attach the "
+#~ "Please disconnect all USB devices from your set-top-box and (re-)attach the "
 #~ "target USB stick (minimum size is 64 MB) now!"
 #~ msgstr ""
-#~ "Poista kaikki USB-laitteet Dreamboxista ja kytke/uudelleenkytke kohde USB-"
+#~ "Poista kaikki USB-laitteet set-top-boxista ja kytke/uudelleenkytke kohde USB-"
 #~ "muistitikku (minimikoko 64 MB) nyt!"
 
 #
@@ -10807,8 +10807,8 @@ msgstr "vaihdettu"
 #~ msgid "Restore backups..."
 #~ msgstr "Palauta varmuuskopio"
 
-#~ msgid "Restore your Dreambox with a USB stick"
-#~ msgstr "Palauta Dreamboxin ohjelmisto USB-muistitikulta"
+#~ msgid "Restore your set-top-box with a USB stick"
+#~ msgstr "Palauta set-top-boxin ohjelmisto USB-muistitikulta"
 
 #
 #~ msgid ""
@@ -11085,8 +11085,8 @@ msgstr "vaihdettu"
 #~ msgid "Set user delay"
 #~ msgstr "Tal.pikaval."
 
-#~ msgid "Sets your Dreambox into Deep-Standby"
-#~ msgstr "Sammuttaa Dreamboxin virransäästötilaan"
+#~ msgid "Sets your set-top-box into Deep-Standby"
+#~ msgstr "Sammuttaa set-top-boxin virransäästötilaan"
 
 #
 #~ msgid "Setting key canceled"
@@ -11140,8 +11140,8 @@ msgstr "vaihdettu"
 #~ msgid "Shows the clock permanently on the screen"
 #~ msgstr "Näyttää kellonajan pysyvästi kuvaruudulla"
 
-#~ msgid "SimpleRSS allows reading RSS newsfeeds on your Dreambox."
-#~ msgstr "SimpleRSS:llä voit lukea RSS-feedejä Dreamboxilla."
+#~ msgid "SimpleRSS allows reading RSS newsfeeds on your set-top-box."
+#~ msgstr "SimpleRSS:llä voit lukea RSS-feedejä set-top-boxilla."
 
 #
 #~ msgid "Skin..."
@@ -11162,8 +11162,8 @@ msgstr "vaihdettu"
 #~ msgid "Software manager..."
 #~ msgstr "Ohjelmistojen hallinta"
 
-#~ msgid "SoftwareManager manages your Dreambox software"
-#~ msgstr "Ohjelmiston hallinta hallitse Dreamboxin ohjelmistoja"
+#~ msgid "SoftwareManager manages your set-top-box software"
+#~ msgstr "Ohjelmiston hallinta hallitse set-top-boxin ohjelmistoja"
 
 #
 #~ msgid "Somewhere else"
@@ -11249,7 +11249,7 @@ msgstr "vaihdettu"
 #~ msgid "Temperature-dependent fan control."
 #~ msgstr "Lämpötilaohjattu tuuletin."
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 80
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 80
 #~ msgid "Test again"
 #~ msgstr "Testaa uudestaan"
 
@@ -11334,12 +11334,12 @@ msgstr "vaihdettu"
 #~ msgid "There was an error getting the feed entries. Please try again."
 #~ msgstr "Virhe haettaessa feedien nimiä. Yritä uudestaan."
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 130
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 130
 #~ msgid ""
-#~ "There's a certificate update available for your dreambox. Would you like "
+#~ "There's a certificate update available for your set-top-box. Would you like "
 #~ "to apply this update now?"
 #~ msgstr ""
-#~ "Dreamboxiisi on saatavilla päivitetty sertifikaatti. Asennetaanko "
+#~ "set-top-boxiisi on saatavilla päivitetty sertifikaatti. Asennetaanko "
 #~ "päivitys nyt?"
 
 #
@@ -11364,8 +11364,8 @@ msgstr "vaihdettu"
 #~ "ohjelmistopäivityksen asentamista?"
 
 #
-#~ msgid "This Dreambox can't decode %s video streams!"
-#~ msgstr "Dreambox ei voi purkaa %s video-raitoja!"
+#~ msgid "This set-top-box can't decode %s video streams!"
+#~ msgstr "set-top-box ei voi purkaa %s video-raitoja!"
 
 #
 #~ msgid "This Month"
@@ -11433,14 +11433,14 @@ msgstr "vaihdettu"
 #~ msgstr "Ajansiirron hakemisto..."
 
 #~ msgid ""
-#~ "To update your Dreambox firmware, please follow these steps:\n"
+#~ "To update your set-top-box firmware, please follow these steps:\n"
 #~ "1) Turn off your box with the rear power switch and plug in the bootable "
 #~ "USB stick.\n"
 #~ "2) Turn mains back on and hold the DOWN button on the front panel pressed "
 #~ "for 10 seconds.\n"
 #~ "3) Wait for bootup and follow instructions of the wizard."
 #~ msgstr ""
-#~ "Päivitä Dreamboxin ohjelmisto näiden ohjeiden mukaisesti:\n"
+#~ "Päivitä set-top-boxin ohjelmisto näiden ohjeiden mukaisesti:\n"
 #~ "1) Kytke virta pois päältä takapaneelin kytkimestä ja liitä "
 #~ "automaattisesti käynnistyvä USB-muistitikku.\n"
 #~ "2) Kytke virta takaisin päälle ja pidä etupaneelin nuoli alas -näppäintä "
@@ -11468,10 +11468,10 @@ msgstr "vaihdettu"
 #~ msgstr "USB"
 
 #~ msgid ""
-#~ "USB stick wizard finished. Your dreambox will now restart with your new "
+#~ "USB stick wizard finished. Your set-top-box will now restart with your new "
 #~ "image!"
 #~ msgstr ""
-#~ "USB-muistiavustaja on valmis. Dreambox käynnistyy nyt uudella "
+#~ "USB-muistiavustaja on valmis. set-top-box käynnistyy nyt uudella "
 #~ "ohjelmistolla!"
 
 #
@@ -11532,15 +11532,15 @@ msgstr "vaihdettu"
 #~ msgid "Update done..."
 #~ msgstr "Päivitys tehty..."
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 170
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 170
 #~ msgid ""
-#~ "Update done... The genuine dreambox test will now be rerun and should not "
+#~ "Update done... The genuine set-top-box test will now be rerun and should not "
 #~ "ask you to update again."
 #~ msgstr ""
-#~ "Päivitys valmis... Dreamboxin aitoustesti käynnistyy uudelleen eikä sen "
+#~ "Päivitys valmis... set-top-boxin aitoustesti käynnistyy uudelleen eikä sen "
 #~ "pitäisi kysyä päivitystä enää."
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 150
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 150
 #~ msgid ""
 #~ "Updating failed. Nothing is broken, just the update couldn't be applied."
 #~ msgstr ""
@@ -11598,8 +11598,8 @@ msgstr "vaihdettu"
 #~ msgstr "Vali.HD.warp teema"
 
 #~ msgid ""
-#~ "Verify your Dreambox authenticity by running the genuine dreambox plugin!"
-#~ msgstr "Tarkista Dreamboxin aitous suorittamalla Aito Dreambox -lisäosa!"
+#~ "Verify your set-top-box authenticity by running the genuine set-top-box plugin!"
+#~ msgstr "Tarkista set-top-boxin aitous suorittamalla Aito set-top-box -lisäosa!"
 
 #~ msgid "Verifying your internet connection..."
 #~ msgstr "Tarkistetaan internet-yhteyttä"
@@ -11617,8 +11617,8 @@ msgstr "vaihdettu"
 #~ msgid "View Google maps"
 #~ msgstr "Katsele Googlen karttoja"
 
-#~ msgid "View Google maps with your Dreambox."
-#~ msgstr "Katsele Googlen karttoja Dreamboxin kautta."
+#~ msgid "View Google maps with your set-top-box."
+#~ msgstr "Katsele Googlen karttoja set-top-boxin kautta."
 
 #~ msgid "View active downloads"
 #~ msgstr "Näytä aktiiviset lataukset"
@@ -11633,8 +11633,8 @@ msgstr "vaihdettu"
 #~ msgid "View response videos"
 #~ msgstr "Näytä vastausvideot"
 
-#~ msgid "View, edit or delete mountpoints on your Dreambox."
-#~ msgstr "Näytä, muokkaa tai poista Dreamboxin liitoksia."
+#~ msgid "View, edit or delete mountpoints on your set-top-box."
+#~ msgstr "Näytä, muokkaa tai poista set-top-boxin liitoksia."
 
 #~ msgid "View, edit or delete usernames and passwords for your network."
 #~ msgstr "Näytä, muokkaa tai poista verkon käyttäjänimiä ja salasanoja."
@@ -11807,7 +11807,7 @@ msgstr "vaihdettu"
 
 #
 #~ msgid ""
-#~ "You do not seem to have a harddisk in your Dreambox. So backing up to a "
+#~ "You do not seem to have a harddisk in your set-top-box. So backing up to a "
 #~ "harddisk is not an option for you."
 #~ msgstr ""
 #~ "Laitteessasi ei näytä olevan kiintolevyä, joten et voi varmuuskopioida "
@@ -11955,8 +11955,8 @@ msgstr "vaihdettu"
 #~ msgid "config changed."
 #~ msgstr "asetuksia muutettu."
 
-#~ msgid "control multiple Dreamboxes with different RCs"
-#~ msgstr "Käytä Dreamboxeja eri kaukosäätimillä"
+#~ msgid "control multiple set-top-boxes with different RCs"
+#~ msgstr "Käytä set-top-boxeja eri kaukosäätimillä"
 
 #
 #~ msgid "default"
@@ -12129,5 +12129,5 @@ msgstr "vaihdettu"
 #~ msgid "use as HDD replacement"
 #~ msgstr "käytä kiintolevyn tilalla"
 
-#~ msgid "use your Dreambox as Web proxy"
-#~ msgstr "Käytä Dreamboxia WWW-proxyna"
+#~ msgid "use your set-top-box as Web proxy"
+#~ msgstr "Käytä set-top-boxia WWW-proxyna"
