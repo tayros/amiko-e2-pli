@@ -35,7 +35,7 @@ msgstr ""
 
 msgid ""
 "\n"
-"Backup your Dreambox settings."
+"Backup your set-top-box settings."
 msgstr ""
 "\n"
 "Maak een back-up van uw instellingen."
@@ -49,14 +49,14 @@ msgstr ""
 
 msgid ""
 "\n"
-"Manage extensions or plugins for your Dreambox"
+"Manage extensions or plugins for your set-top-box"
 msgstr ""
 "\n"
 "Beheer extensions en plugins voor uw ontvanger."
 
 msgid ""
 "\n"
-"Online update of your Dreambox software."
+"Online update of your set-top-box software."
 msgstr ""
 "\n"
 "Online bijwerken van uw ontvanger software."
@@ -70,14 +70,14 @@ msgstr ""
 
 msgid ""
 "\n"
-"Restore your Dreambox settings."
+"Restore your set-top-box settings."
 msgstr ""
 "\n"
 "Herstel uw ontvanger instellingen."
 
 msgid ""
 "\n"
-"Restore your Dreambox with a new firmware."
+"Restore your set-top-box with a new firmware."
 msgstr ""
 "\n"
 "Herstel uw ontvanger met een nieuwe firmware."
@@ -347,14 +347,14 @@ msgstr "Een demo plugin voor TPM gebruik."
 
 msgid ""
 "A finished record timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "Een afgelopen timer opname wil uw ontvanger\n"
 "in standby-stand schakelen. Wilt u dit toestaan?"
 
 msgid ""
 "A finished record timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "Een afgelopen timer wil uw ontvanger uit schakelen\n"
 "Wilt u dit toestaan?"
@@ -413,14 +413,14 @@ msgstr ""
 
 msgid ""
 "A sleep timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "De slaaptimer wil uw ontvanger in standby\n"
 "schakelen. Wilt u dit toestaan?"
 
 msgid ""
 "A sleep timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "De slaaptimer wil uw ontvanger uit-\n"
 "schakelen. Wilt u dit toestaan?"
@@ -514,7 +514,7 @@ msgid "Add/Remove timer for current event"
 msgstr "Verwijderen/Toevoegen timer voor huidig programma"
 
 msgid ""
-"Adds enigma2 settings and dreambox model informations like SN, rev... if "
+"Adds enigma2 settings and set-top-box model informations like SN, rev... if "
 "enabled."
 msgstr ""
 "Enigma2 instellingen en ontvanger model informatie toevoegen zoals SN, "
@@ -568,7 +568,7 @@ msgstr "Druk op OK en een ogenblik geduld aub!"
 
 msgid ""
 "After the start wizard is completed, you need to protect single services. "
-"Refer to your dreambox's manual on how to do that."
+"Refer to your set-top-box's manual on how to do that."
 msgstr ""
 "Zodra de installatiewizard gereed is, kunt u een zender beveiligen. "
 "Raadpleeg de handleiding voor aanwijzigingen."
@@ -1154,7 +1154,7 @@ msgstr "Conterteer ext3 bestandssysteem naar ext 4"
 msgid "Copy"
 msgstr "Kopieer"
 
-msgid "Could not connect to Dreambox .NFI Image Feed Server:"
+msgid "Could not connect to set-top-box .NFI Image Feed Server:"
 msgstr "Kan geen verbinding maken naar de .NFI Feed Server:"
 
 msgid "Could not load Medium! No disc inserted?"
@@ -1543,7 +1543,7 @@ msgstr "Wilt u opnieuw handmatig zoeken?"
 msgid "Do you want to download the image to %s ?"
 msgstr "Wil je de image naar %s downloaden?"
 
-msgid "Do you want to enable the parental control feature on your dreambox?"
+msgid "Do you want to enable the parental control feature on your set-top-box?"
 msgstr "Wilt u het kinderslot van uw ontvanger activeren?"
 
 msgid "Do you want to install the package:\n"
@@ -1555,7 +1555,7 @@ msgstr "Wilt u de DVD in de speler afspelen?"
 msgid "Do you want to preview this DVD before burning?"
 msgstr "Wilt u de DVD bekijken alvorens te schrijven?"
 
-msgid "Do you want to reboot your Dreambox?"
+msgid "Do you want to reboot your set-top-box?"
 msgstr "Wilt u uw ontvanger opnieuw opstarten?"
 
 msgid "Do you want to remove the package:\n"
@@ -1574,11 +1574,11 @@ msgstr ""
 "Wilt u uw e-mailadres en naam opgeven zodat wij contact met u kunnen opnemen "
 "indien nodig?"
 
-msgid "Do you want to update your Dreambox?"
+msgid "Do you want to update your set-top-box?"
 msgstr "Wilt u uw ontvanger updaten?"
 
 msgid ""
-"Do you want to update your Dreambox?\n"
+"Do you want to update your set-top-box?\n"
 "After pressing OK, please wait!"
 msgstr ""
 "Wilt u de ontvanger software vernieuwen?\n"
@@ -1633,10 +1633,10 @@ msgstr "Bezig met downloaden"
 msgid "Downloading plugin information. Please wait..."
 msgstr "Ophalen informatie. Een ogenblik a.u.b..."
 
-msgid "Dreambox format data DVD (HDTV compatible)"
+msgid "set-top-box format data DVD (HDTV compatible)"
 msgstr "Ontvanger formaat data DVD (HDTV compatibel)"
 
-msgid "Dreambox software because updates are available."
+msgid "set-top-box software because updates are available."
 msgstr "Ontvanger software want er zijn updates beschikbaar."
 
 msgid "Dutch"
@@ -1688,10 +1688,10 @@ msgstr "Wijzig zenderlijst"
 msgid "Edit settings"
 msgstr "Instellingen wijzigen"
 
-msgid "Edit the Nameserver configuration of your Dreambox.\n"
+msgid "Edit the Nameserver configuration of your set-top-box.\n"
 msgstr "De nameserver configuaratie van uw ontvanger wijzigen.\n"
 
-msgid "Edit the network configuration of your Dreambox.\n"
+msgid "Edit the network configuration of your set-top-box.\n"
 msgstr "De netwerk configuratie van uw ontvanger aanpassen.\n"
 
 msgid "Edit title"
@@ -2985,7 +2985,7 @@ msgstr "Nee, vanaf begin herstarten"
 msgid "No, do nothing."
 msgstr "nee, geen actie."
 
-msgid "No, just start my dreambox"
+msgid "No, just start my set-top-box"
 msgstr "Nee, uitsluitend ontvanger starten"
 
 msgid "No, never"
@@ -4342,7 +4342,7 @@ msgstr "Geeft de status van uw WiFi verbinding weer.\n"
 msgid "Shutdown"
 msgstr "Afsluiten"
 
-msgid "Shutdown Dreambox after"
+msgid "Shutdown set-top-box after"
 msgstr "Slaaptimer activeren na"
 
 msgid "Side by Side"
@@ -4726,7 +4726,7 @@ msgstr "Test Type"
 msgid "Test mode"
 msgstr "Test modus"
 
-msgid "Test the network configuration of your Dreambox.\n"
+msgid "Test the network configuration of your set-top-box.\n"
 msgstr "Test de netwerk configuratie van uw ontvanger.\n"
 
 msgid "Test-Messagebox?"
@@ -4750,7 +4750,7 @@ msgstr ""
 
 msgid ""
 "Thank you for using the wizard. Your box is now ready to use.\n"
-"Please press OK to start using your Dreambox."
+"Please press OK to start using your set-top-box."
 msgstr ""
 "Bedankt voor het gebruik van deze wizard. Uw ontvanger is klaar voor "
 "gebruik.\n"
@@ -4758,7 +4758,7 @@ msgstr ""
 
 msgid ""
 "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
-"create a Dreambox format data DVD (which will not play in stand-alone DVD "
+"create a set-top-box format data DVD (which will not play in stand-alone DVD "
 "players) instead?"
 msgstr ""
 "De DVD standaard ondersteunt geen H.264 (HDTV) video. Wil je een ontvanger "
@@ -4846,7 +4846,7 @@ msgstr "De installatie van de standaard zenderlijst is voltooid."
 
 msgid ""
 "The installation of the default settings is finished. You can now continue "
-"configuring your Dreambox by pressing the OK button on the remote control."
+"configuring your set-top-box by pressing the OK button on the remote control."
 msgstr ""
 "De installatie van de standaard zenderlijst is voltooid. U kunt nu uw "
 "ontvanger verder configureren door op OK te drukken."
@@ -4961,7 +4961,7 @@ msgstr ""
 "op deze disk."
 
 #, python-format
-msgid "This Dreambox can't decode %s streams!"
+msgid "This set-top-box can't decode %s streams!"
 msgstr "Deze ontvanger kan geen %s decoderen!"
 
 msgid "This is step number 2."
@@ -4969,7 +4969,7 @@ msgstr "Dit is stap nummer 2."
 
 msgid ""
 "This plugin creates a USB stick which can be used to update the firmware of "
-"your Dreambox without the need for a network or WLAN connection.\n"
+"your set-top-box without the need for a network or WLAN connection.\n"
 "First, a USB stick needs to be prepared so that it becomes bootable.\n"
 "In the next step, an NFI image file can be downloaded from the update server "
 "and saved on the USB stick.\n"
@@ -4977,7 +4977,7 @@ msgid ""
 "Otherwise plug in a USB stick with a minimum size of 64 MB!"
 msgstr ""
 "Deze plugin zorgt voor een USB-stick welke gebruikt kan worden om de "
-"firmware van je Dreambox te updaten zonder de noodzaak van een netwerk of "
+"firmware van je set-top-box te updaten zonder de noodzaak van een netwerk of "
 "WLAN-verbinding. \n"
 "Als eerste moet een USB-stick worden voorbereid, zodat die opstartbaar "
 "wordt. \n"
@@ -5157,14 +5157,14 @@ msgid "To subtitle selection"
 msgstr "Naar ondertitel selectie"
 
 msgid ""
-"To update your Dreambox firmware, please follow these steps:\n"
+"To update your set-top-box firmware, please follow these steps:\n"
 "1) Turn off your box with the rear power switch and make sure the bootable "
 "USB stick is plugged in.\n"
 "2) Turn mains back on and hold the DOWN button on the front panel pressed "
 "for 10 seconds.\n"
 "3) Wait for bootup and follow instructions of the wizard."
 msgstr ""
-"Volg de volgende stappen om uw Dreambox te updaten:\n"
+"Volg de volgende stappen om uw set-top-box te updaten:\n"
 "1) Schakel uw box aan de achterkant uit en verzeker u ervan dat een "
 "opstartbare USB-stick is ingestoken.\n"
 "2) Schakel de spanning in en hou de 'naar beneden Pijl-toets' op het "
@@ -5347,7 +5347,7 @@ msgid "Updatefeed not available."
 msgstr "Updatefeed niet beschikbaar."
 
 msgid "Updates your receiver's software"
-msgstr "Dreambox software vernieuwen"
+msgstr "set-top-box software vernieuwen"
 
 msgid "Updating finished. Here is the result:"
 msgstr "Software update gereed. Dit is het resultaat:"
@@ -5366,13 +5366,13 @@ msgstr "Upgraden en vragen om herstarten"
 msgid "Upgrade finished."
 msgstr "Upgrade voltooid."
 
-msgid "Upgrade finished. Do you want to reboot your Dreambox?"
+msgid "Upgrade finished. Do you want to reboot your set-top-box?"
 msgstr "Software update gereed. Uw ontvanger herstarten?"
 
 msgid "Upgrading"
 msgstr "Bezig met update"
 
-msgid "Upgrading Dreambox... Please wait"
+msgid "Upgrading set-top-box... Please wait"
 msgstr "Update loopt... Een ogenblik geduld a.u.b."
 
 msgid "Use"
@@ -5678,7 +5678,7 @@ msgstr ""
 
 msgid ""
 "Welcome to the Image upgrade wizard. The wizard will assist you in upgrading "
-"the firmware of your Dreambox by providing a backup facility for your "
+"the firmware of your set-top-box by providing a backup facility for your "
 "current settings and a short explanation of how to upgrade your firmware."
 msgstr ""
 "Welkom bij de software update wizard. De wizard biedt u hulp bij het "
@@ -5689,7 +5689,7 @@ msgid ""
 "Welcome to the cleanup wizard.\n"
 "\n"
 "We have detected that your available internal memory has dropped below 2MB.\n"
-"To ensure stable operation of your Dreambox, the internal memory should be "
+"To ensure stable operation of your set-top-box, the internal memory should be "
 "cleaned up.\n"
 "You can use this wizard to remove some extensions.\n"
 msgstr ""
@@ -5703,8 +5703,8 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"If you want to connect your Dreambox to the Internet, this wizard will guide "
-"you through the basic network setup of your Dreambox.\n"
+"If you want to connect your set-top-box to the Internet, this wizard will guide "
+"you through the basic network setup of your set-top-box.\n"
 "\n"
 "Press OK to start configuring your network"
 msgstr ""
@@ -5718,7 +5718,7 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"This start wizard will guide you through the basic setup of your Dreambox.\n"
+"This start wizard will guide you through the basic setup of your set-top-box.\n"
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
 "Welkom.\n"
@@ -5871,8 +5871,8 @@ msgstr "Je kunt TV enz. blijven kijken terwijl dit zijn werk doet."
 msgid "You can install this plugin."
 msgstr "Deze plugin kunt u installeren."
 
-msgid "You can only burn Dreambox recordings!"
-msgstr "Je kunt alleen Dreambox opnamen branden!"
+msgid "You can only burn set-top-box recordings!"
+msgstr "Je kunt alleen set-top-box opnamen branden!"
 
 msgid "You can remove this plugin."
 msgstr "Deze plugin kunt u verwijderen."
@@ -5925,9 +5925,9 @@ msgid "You have to wait %s!"
 msgstr "Wacht op %s!"
 
 msgid ""
-"You need a PC connected to your dreambox. If you need further instructions, "
+"You need a PC connected to your set-top-box. If you need further instructions, "
 "please visit the website http://www.dm7025.de.\n"
-"Your dreambox will now be halted. After you have performed the update "
+"Your set-top-box will now be halted. After you have performed the update "
 "instructions from the website, your new firmware will ask you to restore "
 "your settings."
 msgstr ""
@@ -5950,17 +5950,17 @@ msgid "You system does not support ext4"
 msgstr "Uw systeem ondersteund geen ext4"
 
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
 msgstr ""
-"Uw Dreambox is nu gereed voor gebruik.\n"
+"Uw set-top-box is nu gereed voor gebruik.\n"
 "/nUw internetverbinding werkt correct.\n"
 "\n"
 
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -5972,7 +5972,7 @@ msgstr ""
 "\n"
 "Druk op OK om verder te gaan."
 
-msgid "Your Dreambox will restart after pressing OK on your remote control."
+msgid "Your set-top-box will restart after pressing OK on your remote control."
 msgstr "Uw ontvanger zal herstarten nadat u op OK drukt."
 
 msgid ""
@@ -5992,11 +5992,11 @@ msgstr ""
 msgid "Your current collection will get lost!"
 msgstr "Uw huidige collectie zal verloren gaan!"
 
-msgid "Your dreambox is shutting down. Please stand by..."
+msgid "Your set-top-box is shutting down. Please stand by..."
 msgstr "Uw ontvanger wordt nu afgesloten. Een ogenblik a.u.b..."
 
 msgid ""
-"Your dreambox isn't connected to the internet properly. Please check it and "
+"Your set-top-box isn't connected to the internet properly. Please check it and "
 "try again."
 msgstr ""
 "Uw ontvanger heeft geen verbinding met het internet kunnen maken. Controleer "
@@ -6332,19 +6332,19 @@ msgstr "Niet opnemen"
 msgid "done!"
 msgstr "gereed!"
 
-msgid "dreambox advanced remote control (native)"
+msgid "set-top-box advanced remote control (native)"
 msgstr ""
 
-msgid "dreambox front panel"
+msgid "set-top-box front panel"
 msgstr "voorpaneel"
 
-msgid "dreambox ir keyboard"
+msgid "set-top-box ir keyboard"
 msgstr "IR toetsenbord"
 
-msgid "dreambox ir mouse"
+msgid "set-top-box ir mouse"
 msgstr "IR muis"
 
-msgid "dreambox remote control (native)"
+msgid "set-top-box remote control (native)"
 msgstr "Afstandsbediening (standaard)"
 
 msgid "east"
@@ -7045,8 +7045,8 @@ msgid "yes (keep feeds)"
 msgstr "ja (bewaar feeds)"
 
 msgid ""
-"your dreambox might be unusable now. Please consult the manual for further "
-"assistance before rebooting your dreambox."
+"your set-top-box might be unusable now. Please consult the manual for further "
+"assistance before rebooting your set-top-box."
 msgstr ""
 "uw ontvanger is nu mogelijk onbruikbaar. Raadpleeg de handleiding voordat u "
 "de ontvanger herstart."
@@ -7121,12 +7121,12 @@ msgstr "zapte"
 #~ "\"%s"
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:81
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:84
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:141
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:305
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:309
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:310
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:81
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:84
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:141
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:305
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:309
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:310
 #~ msgid "%i ms"
 #~ msgstr "%i ms"
 
@@ -7138,12 +7138,12 @@ msgstr "zapte"
 #~ "(%s, %d MB vrij)"
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:82
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:82
 #~ msgid "%s delay:"
 #~ msgstr "%s vertraging:"
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:83
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:83
 #~ msgid "%s:"
 #~ msgstr "%s:"
 
@@ -7188,8 +7188,8 @@ msgstr "zapte"
 #~ msgid "A client for www.dyndns.org"
 #~ msgstr "Een client voor www.dyndns.org"
 
-#~ msgid "A dreambox simulation from SG-Atlantis displays."
-#~ msgstr "Een dreambox simulatie van SG-Atlantis displays."
+#~ msgid "A set-top-box simulation from SG-Atlantis displays."
+#~ msgstr "Een set-top-box simulatie van SG-Atlantis displays."
 
 #~ msgid "A graphical EPG interface"
 #~ msgstr "Een grafische EPG interface"
@@ -7221,14 +7221,14 @@ msgstr "zapte"
 #~ msgstr "Eenvoudige downloadapplicatie voor andere plugins"
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/plugin.py:30
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/plugin.py:34
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/plugin.py:36
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/plugin.py:30
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/plugin.py:34
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/plugin.py:36
 #~ msgid "AC3 Lip Sync"
 #~ msgstr "AC3 Lip Sync"
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/plugin.py:35
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/plugin.py:35
 #~ msgid "AC3 Lip Sync Setup"
 #~ msgstr "AC3 Lip Sync Instellingen"
 
@@ -7258,8 +7258,8 @@ msgstr "zapte"
 #~ "Niet-Actief"
 
 #
-#~ msgid "Add a new NFS or CIFS mount point to your Dreambox."
-#~ msgstr "Voeg een nieuwe NFS of CIFS verbinding aan uw Dreambox toe."
+#~ msgid "Add a new NFS or CIFS mount point to your set-top-box."
+#~ msgstr "Voeg een nieuwe NFS of CIFS verbinding aan uw set-top-box toe."
 
 #
 #~ msgid "Add new AutoTimer"
@@ -7294,10 +7294,10 @@ msgstr "zapte"
 #~ msgstr "Geavanceerd"
 
 #~ msgid ""
-#~ "After a reboot or power outage, StartupToStandby will bring your Dreambox "
+#~ "After a reboot or power outage, StartupToStandby will bring your set-top-box "
 #~ "to standby-mode."
 #~ msgstr ""
-#~ "Na een reboot of stroomuitval, brengt StartupToStandby uw Dreambox in "
+#~ "Na een reboot of stroomuitval, brengt StartupToStandby uw set-top-box in "
 #~ "stand-by."
 
 #~ msgid "Ai.HD skin-style control plugin"
@@ -7477,7 +7477,7 @@ msgstr "zapte"
 #~ msgid "BASIC-HD Skin by Ismail Demir"
 #~ msgstr "Basic-HD skin van Ismail Demir"
 
-#~ msgid "BASIC-HD Skin for Dreambox Images created from Ismail Demir"
+#~ msgid "BASIC-HD Skin for set-top-box Images created from Ismail Demir"
 #~ msgstr "Basic-HD skin voor Enigma2 images van Ismail Demir"
 
 #~ msgid "Back, lower USB Slot"
@@ -7636,11 +7636,11 @@ msgstr "zapte"
 #~ msgstr "Wijzig menu PINcode"
 
 #
-#~ msgid "Change the hostname of your Dreambox."
-#~ msgstr "Wijzig de hostnaam van uw Dreambox."
+#~ msgid "Change the hostname of your set-top-box."
+#~ msgstr "Wijzig de hostnaam van uw set-top-box."
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:87
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:87
 #~ msgid "Channel audio:"
 #~ msgstr "Kanaal audio:"
 
@@ -7718,16 +7718,16 @@ msgstr "zapte"
 #~ "mislukt! (%s)\n"
 #~ "probeer opnieuw..."
 
-#~ msgid "Control your Dreambox with your Web browser."
-#~ msgstr "Bedien uw Dreambox met uw webbrowser."
+#~ msgid "Control your set-top-box with your Web browser."
+#~ msgstr "Bedien uw set-top-box met uw webbrowser."
 
-#~ msgid "Control your Dreambox with your browser"
-#~ msgstr "Bedien uw Dreambox met uw browser"
+#~ msgid "Control your set-top-box with your browser"
+#~ msgstr "Bedien uw set-top-box met uw browser"
 
-#~ msgid "Control your dreambox with only the MUTE button"
+#~ msgid "Control your set-top-box with only the MUTE button"
 #~ msgstr "Bedien uw ontvanger met slechts de mute-knop"
 
-#~ msgid "Control your dreambox with only the MUTE button."
+#~ msgid "Control your set-top-box with only the MUTE button."
 #~ msgstr "Bedien uw ontvanger met slechts de mute-knop."
 
 #~ msgid "Control your internal system fan."
@@ -7739,9 +7739,9 @@ msgstr "zapte"
 #~ msgid "Control your system fan"
 #~ msgstr "Bedien uw ventilator"
 
-#~ msgid "Copy, rename, delete, move local files on your Dreambox."
+#~ msgid "Copy, rename, delete, move local files on your set-top-box."
 #~ msgstr ""
-#~ "Kopiëren, hernoemen, wissen, verplaatsen lokale bestanden op je Dreambox."
+#~ "Kopiëren, hernoemen, wissen, verplaatsen lokale bestanden op je set-top-box."
 
 #~ msgid "CrashlogAutoSubmitConfiguration"
 #~ msgstr "Crashlog mailer instellingen"
@@ -7753,9 +7753,9 @@ msgstr "zapte"
 #~ "Crashlogs gevonden!\n"
 #~ "Verstuur ze naar Dream Multimedia?"
 
-#~ msgid "Create a backup of your Video DVD on your DreamBox hard drive."
+#~ msgid "Create a backup of your Video DVD on your set-top-box hard drive."
 #~ msgstr ""
-#~ "Maak een back-up van uw Video-DVD op de harde schijf van uw Dreambox."
+#~ "Maak een back-up van uw Video-DVD op de harde schijf van uw set-top-box."
 
 #~ msgid "Create a backup of your Video-DVD"
 #~ msgstr "Maak een back-up van uw Video-DVD"
@@ -7781,8 +7781,8 @@ msgstr "zapte"
 #~ msgid "Create remote timers"
 #~ msgstr "Creëer op afstand timers"
 
-#~ msgid "Create timers on remote Dreamboxes."
-#~ msgstr "Maakt timers op andere Dreamboxes."
+#~ msgid "Create timers on remote set-top-boxes."
+#~ msgstr "Maakt timers op andere set-top-boxes."
 
 #~ msgid "Creating partition failed"
 #~ msgstr "Aanmaken van de partitie is mislukt"
@@ -7833,16 +7833,16 @@ msgstr "zapte"
 #~ msgid "DVD Drive"
 #~ msgstr "DVD-speler"
 
-#~ msgid "DVDPlayer plays your DVDs on your Dreambox"
-#~ msgstr "DVD-speler speelt uw DVD's af op uw Dreambox"
+#~ msgid "DVDPlayer plays your DVDs on your set-top-box"
+#~ msgstr "DVD-speler speelt uw DVD's af op uw set-top-box"
 
 #~ msgid ""
-#~ "DVDPlayer plays your DVDs on your Dreambox.\n"
-#~ "With the DVDPlayer you can play your DVDs on your Dreambox from a DVD or "
+#~ "DVDPlayer plays your DVDs on your set-top-box.\n"
+#~ "With the DVDPlayer you can play your DVDs on your set-top-box from a DVD or "
 #~ "even from an iso file or video_ts folder on your harddisc or network."
 #~ msgstr ""
-#~ "DVD-speler speelt uw DVD's af op uw Dreambox.\n"
-#~ "Met de DVD-speler kunt u DVD's afspelen op uw Dreambox, maar ook een ISO-"
+#~ "DVD-speler speelt uw DVD's af op uw set-top-box.\n"
+#~ "Met de DVD-speler kunt u DVD's afspelen op uw set-top-box, maar ook een ISO-"
 #~ "bestand en een Video-ts map op uw harde schijf of van uw netwerk."
 
 #~ msgid "December"
@@ -7869,8 +7869,8 @@ msgstr "zapte"
 #~ msgid "Define a startup service"
 #~ msgstr "Bepaal de status na opstarten"
 
-#~ msgid "Define a startup service for your Dreambox."
-#~ msgstr "Bepaal de status na het opstarten van uw Dreambox."
+#~ msgid "Define a startup service for your set-top-box."
+#~ msgstr "Bepaal de status na het opstarten van uw set-top-box."
 
 #~ msgid "Deinterlacer mode for interlaced content"
 #~ msgstr "Deinterlacer modus voor interlaced content"
@@ -8066,8 +8066,8 @@ msgstr "zapte"
 #~ msgid "Education"
 #~ msgstr "Ontwikkeling"
 
-#~ msgid "Emailclient is an IMAP4 e-mail viewer for the Dreambox."
-#~ msgstr "Emailclient is een IMAP4 e-mail client voor uw Dreambox."
+#~ msgid "Emailclient is an IMAP4 e-mail viewer for the set-top-box."
+#~ msgstr "Emailclient is een IMAP4 e-mail client voor uw set-top-box."
 
 #
 #~ msgid "Enable /media"
@@ -8143,11 +8143,11 @@ msgstr "zapte"
 #~ msgstr "Einde van periode"
 
 #~ msgid ""
-#~ "Enigma2 Plugin to play AVI/DIVX/WMV/etc. videos from PC on your Dreambox. "
+#~ "Enigma2 Plugin to play AVI/DIVX/WMV/etc. videos from PC on your set-top-box. "
 #~ "Needs a running VLC from www.videolan.org on your pc."
 #~ msgstr ""
 #~ "Enigma2 Plugin om AVI/DIVX/WMV/etc. video's af te spelen vanaf de PC op "
-#~ "je Dreambox. VLC van www.videolan.org moet op je PC actief zijn."
+#~ "je set-top-box. VLC van www.videolan.org moet op je PC actief zijn."
 
 #~ msgid ""
 #~ "Enigma2 Skinselector v0.5 BETA\n"
@@ -8181,8 +8181,8 @@ msgstr "zapte"
 #~ msgstr "Geef WLAN wachtwoord/sleutel:"
 
 #
-#~ msgid "Enter new hostname for your Dreambox"
-#~ msgstr "Geef een nieuwe hostnaam voor uw Dreambox:"
+#~ msgid "Enter new hostname for your set-top-box"
+#~ msgstr "Geef een nieuwe hostnaam voor uw set-top-box:"
 
 #
 #~ msgid "Enter options:"
@@ -8236,11 +8236,11 @@ msgstr "zapte"
 #~ msgstr "Voer TuxboxPlugins uit"
 
 #~ msgid ""
-#~ "FTPBrowser allows uploading and downloading files between your Dreambox "
+#~ "FTPBrowser allows uploading and downloading files between your set-top-box "
 #~ "and a server using the file transfer protocol."
 #~ msgstr ""
 #~ "FTPBrowser maakt het mogelijk met het FTP-protocol bestanden te up- en "
-#~ "downloaden tussen uw Dreambox en een server."
+#~ "downloaden tussen uw set-top-box en een server."
 
 #~ msgid "Fast scan"
 #~ msgstr "Factscan"
@@ -8333,8 +8333,8 @@ msgstr "zapte"
 #~ msgid "Fritz!Box FON IP address"
 #~ msgstr "Fritz!Box FON IP adres"
 
-#~ msgid "FritzCall shows incoming calls to your Fritz!Box on your Dreambox."
-#~ msgstr "FritzCall toont inkomende gesprekken op uw Dreambox."
+#~ msgid "FritzCall shows incoming calls to your Fritz!Box on your set-top-box."
+#~ msgstr "FritzCall toont inkomende gesprekken op uw set-top-box."
 
 #~ msgid "Front USB Slot"
 #~ msgstr "Voorkant USB Slot"
@@ -8353,10 +8353,10 @@ msgstr "zapte"
 #~ "Gebruikersinterface voor het aanpassen van het FTP-/telnet-wachtwoord."
 
 #~ msgid ""
-#~ "GUI that allows user to change the ftp-/telnet-password of the Dreambox."
+#~ "GUI that allows user to change the ftp-/telnet-password of the set-top-box."
 #~ msgstr ""
 #~ "Gebruikersinterface voor het aanpassen van het FTP-/telnet-wachtwoord van "
-#~ "uw Dreambox."
+#~ "uw set-top-box."
 
 #~ msgid "GUI to change the ftp and telnet-password"
 #~ msgstr ""
@@ -8376,14 +8376,14 @@ msgstr "zapte"
 #~ "Generates and Shows TV Charts of all users having this plugin installed"
 #~ msgstr "Genereert en toont TV grafieken van alle gebruikers"
 
-#~ msgid "Genuine Dreambox"
-#~ msgstr "Echtheid Dreambox"
+#~ msgid "Genuine set-top-box"
+#~ msgstr "Echtheid set-top-box"
 
-#~ msgid "Genuine Dreambox validation failed!"
-#~ msgstr "Echtheid Dreambox validatie mislukt!"
+#~ msgid "Genuine set-top-box validation failed!"
+#~ msgstr "Echtheid set-top-box validatie mislukt!"
 
-#~ msgid "Genuine Dreambox verification"
-#~ msgstr "Echtheid Dreambox controle"
+#~ msgid "Genuine set-top-box verification"
+#~ msgstr "Echtheid set-top-box controle"
 
 #~ msgid "German storm information"
 #~ msgstr "Duitse weersinformatie"
@@ -8426,11 +8426,11 @@ msgstr "zapte"
 #~ msgstr "Groot-Brittannië"
 
 #~ msgid ""
-#~ "Growlee allows your Dreambox to forward notifications like 'Record "
+#~ "Growlee allows your set-top-box to forward notifications like 'Record "
 #~ "started' to a PC running a growl, snarl or syslog compatible client or "
 #~ "directly to an iPhone using prowl."
 #~ msgstr ""
-#~ "Growlee laat uw Dreambox meldingen als 'Opname gestart' doorsturen naar "
+#~ "Growlee laat uw set-top-box meldingen als 'Opname gestart' doorsturen naar "
 #~ "een PC waar een growl-, snarl- of syslog-compatibele client draait, of "
 #~ "naar een iPhone waar prowl draait."
 
@@ -8499,8 +8499,8 @@ msgstr "zapte"
 #~ msgid "Howto & Style"
 #~ msgstr "Hoe & Stijl"
 
-#~ msgid "IMAP4 e-mail viewer for the Dreambox"
-#~ msgstr "IMAP4 e-mail bekijken via uw Dreambox"
+#~ msgid "IMAP4 e-mail viewer for the set-top-box"
+#~ msgstr "IMAP4 e-mail bekijken via uw set-top-box"
 
 #
 #~ msgid "IP:"
@@ -8603,22 +8603,22 @@ msgstr "zapte"
 #~ msgid "Internal firmware updater"
 #~ msgstr "Interne firmware updater"
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 304
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 304
 #
 #~ msgid "Invalid response from Security service pls restart again"
 #~ msgstr "Ongeldig antwoord van de Veiligheidsraad dienst probeer opnieuw"
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 132
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 132
 #~ msgid "Invalid response from server."
 #~ msgstr "Ongeldige reactie van de server."
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 177
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 177
 #~ msgid "Invalid response from server. Please report: %s"
 #~ msgstr "Ongeldige reactie van de server. Melding: %s"
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:228
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:288
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:228
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:288
 #~ msgid "Invalid selection"
 #~ msgstr "Verkeerde keuze"
 
@@ -8647,11 +8647,11 @@ msgstr "zapte"
 #~ "(binnen een boeket).\n"
 #~ "Druk BLAUW voor een nieuwe restrictie of GEEL om één te verwijderen."
 
-#~ msgid "Italian Weather forecast on Dreambox"
-#~ msgstr "Italiaanse weersverwachting op uw Dreambox"
+#~ msgid "Italian Weather forecast on set-top-box"
+#~ msgstr "Italiaanse weersverwachting op uw set-top-box"
 
-#~ msgid "Italian Weather forecast on Dreambox from www.google.it."
-#~ msgstr "Italiaanse weersverwachting van www.google.it op uw Dreambox"
+#~ msgid "Italian Weather forecast on set-top-box from www.google.it."
+#~ msgstr "Italiaanse weersverwachting van www.google.it op uw set-top-box"
 
 #
 #~ msgid "Italy"
@@ -8740,14 +8740,14 @@ msgstr "zapte"
 #~ "Laatste dag voor overeenkomende gebeurtenissen. Gebeurtenissen moeten "
 #~ "eerder plaatsvinden om te worden opgenomen."
 
-#~ msgid "Lets you view/edit files in your Dreambox"
+#~ msgid "Lets you view/edit files in your set-top-box"
 #~ msgstr "Hiermee kunt u bestanden bekijken/bewerken in uw  ontvanger"
 
 #~ msgid "Listen and record internet radio"
 #~ msgstr "Luister en neem internet radio op"
 
-#~ msgid "Listen and record shoutcast internet radio on your Dreambox."
-#~ msgstr "Luister en neem shoutcast internet radio op op je Dreambox."
+#~ msgid "Listen and record shoutcast internet radio on your set-top-box."
+#~ msgstr "Luister en neem shoutcast internet radio op op je set-top-box."
 
 #
 #~ msgid "Load feed on startup:"
@@ -9033,10 +9033,10 @@ msgstr "zapte"
 
 #~ msgid ""
 #~ "NCID Client shows incoming voice calls promoted by any NCID server (e.g. "
-#~ "Vodafone Easybox) on your Dreambox."
+#~ "Vodafone Easybox) on your set-top-box."
 #~ msgstr ""
 #~ "NCID client die inkomende gesprekken van een NCID-server (b.v. Vodafone "
-#~ "Easybox) via uw Dreambox laat zien."
+#~ "Easybox) via uw set-top-box laat zien."
 
 #
 #~ msgid "NFS share"
@@ -9045,98 +9045,98 @@ msgstr "zapte"
 #~ msgid "Nemesis BlackBox Skin"
 #~ msgstr "Nemesis BlackBox Skin"
 
-#~ msgid "Nemesis BlackBox Skin for the Dreambox"
-#~ msgstr "Nemesis BlackBox Skin voor de Dreambox"
+#~ msgid "Nemesis BlackBox Skin for the set-top-box"
+#~ msgstr "Nemesis BlackBox Skin voor de set-top-box"
 
 #~ msgid "Nemesis Blueline Single Skin"
 #~ msgstr "Nemesis Blueline Single Skin"
 
-#~ msgid "Nemesis Blueline Single Skin for the Dreambox"
-#~ msgstr "Nemesis Blueline Single Skin voor de Dreambox"
+#~ msgid "Nemesis Blueline Single Skin for the set-top-box"
+#~ msgstr "Nemesis Blueline Single Skin voor de set-top-box"
 
 #~ msgid "Nemesis Blueline Skin"
 #~ msgstr "Nemesis Blueline Skin"
 
-#~ msgid "Nemesis Blueline Skin for the Dreambox"
-#~ msgstr "Nemesis Blueline Skin voor de Dreambox"
+#~ msgid "Nemesis Blueline Skin for the set-top-box"
+#~ msgstr "Nemesis Blueline Skin voor de set-top-box"
 
 #~ msgid "Nemesis Blueline.Extended Skin"
 #~ msgstr "Nemesis Blueline.Extended Skin"
 
-#~ msgid "Nemesis Blueline.Extended Skin for the Dreambox"
-#~ msgstr "Nemesis Blueline.Extended Skin voor de Dreambox"
+#~ msgid "Nemesis Blueline.Extended Skin for the set-top-box"
+#~ msgstr "Nemesis Blueline.Extended Skin voor de set-top-box"
 
 #~ msgid "Nemesis ChromeLine Cobolt Skin"
 #~ msgstr "Nemesis ChromeLine Cobolt Skin"
 
-#~ msgid "Nemesis ChromeLine Cobolt Skin for the Dreambox"
-#~ msgstr "Nemesis ChromeLine Cobolt Skin voor de Dreambox"
+#~ msgid "Nemesis ChromeLine Cobolt Skin for the set-top-box"
+#~ msgstr "Nemesis ChromeLine Cobolt Skin voor de set-top-box"
 
 #~ msgid "Nemesis ChromeLine Skin"
 #~ msgstr "Nemesis ChromeLine Skin"
 
-#~ msgid "Nemesis ChromeLine Skin for the Dreambox"
-#~ msgstr "Nemesis ChromeLine Skin voor de Dreambox"
+#~ msgid "Nemesis ChromeLine Skin for the set-top-box"
+#~ msgstr "Nemesis ChromeLine Skin voor de set-top-box"
 
 #~ msgid "Nemesis Flatline Blue Skin"
 #~ msgstr "Nemesis Flatline Blue Skin"
 
-#~ msgid "Nemesis Flatline Blue Skin for the Dreambox"
-#~ msgstr "Nemesis Flatline Blue Skin voor de Dreambox"
+#~ msgid "Nemesis Flatline Blue Skin for the set-top-box"
+#~ msgstr "Nemesis Flatline Blue Skin voor de set-top-box"
 
 #~ msgid "Nemesis Flatline Skin"
 #~ msgstr "Nemesis Flatline Skin"
 
-#~ msgid "Nemesis Flatline Skin for the Dreambox"
-#~ msgstr "Nemesis Flatline Skin voor de Dreambox"
+#~ msgid "Nemesis Flatline Skin for the set-top-box"
+#~ msgstr "Nemesis Flatline Skin voor de set-top-box"
 
 #~ msgid "Nemesis GlassLine Skin"
 #~ msgstr "Nemesis GlassLine Skin"
 
-#~ msgid "Nemesis GlassLine Skin for the Dreambox"
-#~ msgstr "Nemesis GlassLine Skin voor de Dreambox"
+#~ msgid "Nemesis GlassLine Skin for the set-top-box"
+#~ msgstr "Nemesis GlassLine Skin voor de set-top-box"
 
 #~ msgid "Nemesis Greenline Extended Skin"
 #~ msgstr "Nemesis Greenline Extended Skin"
 
-#~ msgid "Nemesis Greenline Extended Skin for the Dreambox"
-#~ msgstr "Nemesis Greenline Extended Skin voor de Dreambox"
+#~ msgid "Nemesis Greenline Extended Skin for the set-top-box"
+#~ msgstr "Nemesis Greenline Extended Skin voor de set-top-box"
 
 #~ msgid "Nemesis Greenline Single Skin"
 #~ msgstr "Nemesis Greenline Single Skin"
 
-#~ msgid "Nemesis Greenline Single Skin for the Dreambox"
-#~ msgstr "Nemesis Greenline Single Skin voor de Dreambox"
+#~ msgid "Nemesis Greenline Single Skin for the set-top-box"
+#~ msgstr "Nemesis Greenline Single Skin voor de set-top-box"
 
 #~ msgid "Nemesis Greenline Skin"
 #~ msgstr "Nemesis Greenline Skin"
 
-#~ msgid "Nemesis Greenline Skin for the Dreambox"
-#~ msgstr "Nemesis Greenline Skin voor de Dreambox"
+#~ msgid "Nemesis Greenline Skin for the set-top-box"
+#~ msgstr "Nemesis Greenline Skin voor de set-top-box"
 
 #~ msgid "Nemesis Greyline Extended Skin"
 #~ msgstr "Nemesis Greyline Extended Skin"
 
-#~ msgid "Nemesis Greyline Extended Skin for the Dreambox"
-#~ msgstr "Nemesis Greyline Extended Skin voor de Dreambox"
+#~ msgid "Nemesis Greyline Extended Skin for the set-top-box"
+#~ msgstr "Nemesis Greyline Extended Skin voor de set-top-box"
 
 #~ msgid "Nemesis Greyline Single Skin"
 #~ msgstr "Nemesis Greyline Single Skin"
 
-#~ msgid "Nemesis Greyline Single Skin for the Dreambox"
-#~ msgstr "Nemesis Greyline Single Skin voor de Dreambox"
+#~ msgid "Nemesis Greyline Single Skin for the set-top-box"
+#~ msgstr "Nemesis Greyline Single Skin voor de set-top-box"
 
 #~ msgid "Nemesis Greyline Skin"
 #~ msgstr "Nemesis Greyline Skin"
 
-#~ msgid "Nemesis Greyline Skin for the Dreambox"
-#~ msgstr "Nemesis Greyline Skin voor de Dreambox"
+#~ msgid "Nemesis Greyline Skin for the set-top-box"
+#~ msgstr "Nemesis Greyline Skin voor de set-top-box"
 
 #~ msgid "Nemesis ShadowLine Skin"
 #~ msgstr "Nemesis ShadowLine Skin"
 
-#~ msgid "Nemesis ShadowLine Skin for the Dreambox"
-#~ msgstr "Nemesis ShadowLine Skin voor de Dreambox"
+#~ msgid "Nemesis ShadowLine Skin for the set-top-box"
+#~ msgstr "Nemesis ShadowLine Skin voor de set-top-box"
 
 #~ msgid "Network SSID"
 #~ msgstr "Netwerk SSID"
@@ -9289,10 +9289,10 @@ msgstr "zapte"
 #~ msgstr "Pagina"
 
 #~ msgid ""
-#~ "Partnerbox allows editing a remote Dreambox's record timers and stream "
+#~ "Partnerbox allows editing a remote set-top-box's record timers and stream "
 #~ "its TV  program."
 #~ msgstr ""
-#~ "Partnerbox maakt het mogelijk de timers op een andere Dreambox te beheren "
+#~ "Partnerbox maakt het mogelijk de timers op een andere set-top-box te beheren "
 #~ "en daarvandaan video te streamen."
 
 #~ msgid "People & Blogs"
@@ -9322,8 +9322,8 @@ msgstr "zapte"
 #~ msgid "Play video again"
 #~ msgstr "Speel video opnieuw"
 
-#~ msgid "Play videos from PC on your Dreambox"
-#~ msgstr "Video's afspelen vanaf de pc op je Dreambox"
+#~ msgid "Play videos from PC on your set-top-box"
+#~ msgstr "Video's afspelen vanaf de pc op je set-top-box"
 
 #~ msgid "Playback of Youtube through a PC"
 #~ msgstr "Het afspelen van Youtube door middel van een PC"
@@ -9344,7 +9344,7 @@ msgstr "zapte"
 #~ msgstr "Kies .NFI image bestand van feed server om te downloaden"
 
 #~ msgid ""
-#~ "Please disconnect all USB devices from your Dreambox and (re-)attach the "
+#~ "Please disconnect all USB devices from your set-top-box and (re-)attach the "
 #~ "target USB stick (minimum size is 64 MB) now!"
 #~ msgstr ""
 #~ "Verwijder al uw USB apparaten van uw ontvanger en plaats nu de doel USB "
@@ -9402,8 +9402,8 @@ msgstr "zapte"
 #~ msgid "Plugin: %(plugin)s , Version: %(version)s"
 #~ msgstr "Plugin: %(plugin)s , Versie: %(version)s"
 
-#~ msgid "PodCast streams podcasts to your Dreambox."
-#~ msgstr "PodCast streamt podcasts naar uw Dreambox."
+#~ msgid "PodCast streams podcasts to your set-top-box."
+#~ msgstr "PodCast streamt podcasts naar uw set-top-box."
 
 #
 #~ msgid "Poland"
@@ -9442,7 +9442,7 @@ msgstr "zapte"
 #~ "Power state to change to after recordings. Select \"standard\" to not "
 #~ "change the default behavior of enigma2 or values changed by yourself."
 #~ msgstr ""
-#~ "Met deze optie kan de Dreambox worden uitgeschakeld na een opname. Kies "
+#~ "Met deze optie kan de set-top-box worden uitgeschakeld na een opname. Kies "
 #~ "\"standaard\" om dit ongewijzigd te laten."
 
 #~ msgid "Prefered EPG Language"
@@ -9639,8 +9639,8 @@ msgstr "zapte"
 #~ msgid "Restore running..."
 #~ msgstr "Herstellen bezig..."
 
-#~ msgid "Restore your Dreambox with a USB stick"
-#~ msgstr "Herstel uw Dreambox met een USB-stick"
+#~ msgid "Restore your set-top-box with a USB stick"
+#~ msgstr "Herstel uw set-top-box met een USB-stick"
 
 #~ msgid ""
 #~ "Restoring the settings is done. Please press OK to activate the restored "
@@ -9720,18 +9720,18 @@ msgstr "zapte"
 #~ msgstr "Satellietapparatuur"
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:247
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:248
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:247
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:248
 #~ msgid "Save %s delay"
 #~ msgstr "Bewaar %s vertraging"
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:249
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:249
 #~ msgid "Save both delays"
 #~ msgstr "Bewaar beide vertragingen"
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:215
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:215
 #~ msgid "Save current %(audio)s delay of %(delay)i ms to key"
 #~ msgstr "Bewaar huidige %(audio)s vertraging van %(delay)i ms aan toets"
 
@@ -9752,7 +9752,7 @@ msgstr "zapte"
 #~ msgstr "Bewaar gegevens en sluit scherm"
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:284
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:284
 #~ msgid "Saved %(audio)s value: %(delay)i ms"
 #~ msgstr "Bewaarde %(audio)s waarde: %(delay)i ms"
 
@@ -9947,16 +9947,16 @@ msgstr "zapte"
 #~ msgid "Set zap focus to main screen"
 #~ msgstr "Zappen in hoofdscherm"
 
-#~ msgid "Sets your Dreambox into Deep-Standby"
-#~ msgstr "Zet uw Dreambox in Deep-Standby (uit)"
+#~ msgid "Sets your set-top-box into Deep-Standby"
+#~ msgstr "Zet uw set-top-box in Deep-Standby (uit)"
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:337
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:337
 #~ msgid "Setting key canceled"
 #~ msgstr "Configuratie toets geannuleerd"
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/plugin.py:35
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/plugin.py:35
 #~ msgid "Setup for the AC3 Lip Sync Plugin"
 #~ msgstr "Configuratie van de AC3 Lip Sync Plugin"
 
@@ -10019,8 +10019,8 @@ msgstr "zapte"
 #~ msgid "Simple IRC GroupChat client for e2 #dm8000-vip channel"
 #~ msgstr "Simple IRC GroupChat client voor e2 #dm8000-vip kanaal"
 
-#~ msgid "SimpleRSS allows reading RSS newsfeeds on your Dreambox."
-#~ msgstr "Met SimpleRSS kunt u RSS-feeds lezen via uw Dreambox."
+#~ msgid "SimpleRSS allows reading RSS newsfeeds on your set-top-box."
+#~ msgstr "Met SimpleRSS kunt u RSS-feeds lezen via uw set-top-box."
 
 #~ msgid "Skin..."
 #~ msgstr "Skin..."
@@ -10043,8 +10043,8 @@ msgstr "zapte"
 #~ msgid "Software manager..."
 #~ msgstr "Softwarebeheer..."
 
-#~ msgid "SoftwareManager manages your Dreambox software"
-#~ msgstr "Met de SoftwareManager beheert u de software van uw Dreambox"
+#~ msgid "SoftwareManager manages your set-top-box software"
+#~ msgstr "Met de SoftwareManager beheert u de software van uw set-top-box"
 
 #~ msgid "Somewhere else"
 #~ msgstr "Ergens anders"
@@ -10088,12 +10088,12 @@ msgstr "zapte"
 #~ msgstr "Stap voor stap netwerkconfiguratie"
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3setup.py:44
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3setup.py:44
 #~ msgid "Step in ms for arrow keys"
 #~ msgstr "Stappen in ms voor links/rechts toetsen"
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3setup.py:49
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3setup.py:49
 #~ msgid "Step in ms for key %i"
 #~ msgstr "Stappen in ms voor Toets %i"
 
@@ -10118,7 +10118,7 @@ msgstr "zapte"
 #~ msgstr "Zweden"
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:94
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:94
 #~ msgid "Switch audio"
 #~ msgstr "Kies audio"
 
@@ -10147,7 +10147,7 @@ msgstr "zapte"
 #~ msgstr "Temperatuur afhankelijke ventilator controle."
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 80
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 80
 #~ msgid "Test again"
 #~ msgstr "Test opnieuw"
 
@@ -10166,11 +10166,11 @@ msgstr "zapte"
 
 #~ msgid ""
 #~ "The CleanupWizard informs you when the internal free memory of your "
-#~ "dreambox has dropped below a definable threshold.You can use this wizard "
+#~ "set-top-box has dropped below a definable threshold.You can use this wizard "
 #~ "to remove some plugins."
 #~ msgstr ""
 #~ "De CleanupWizard informeert u wanneer het interne geheugen van uw "
-#~ "dreambox gedaald is onder een instelbare waarde. U kunt deze wizard "
+#~ "set-top-box gedaald is onder een instelbare waarde. U kunt deze wizard "
 #~ "gebruiken om een aantal plugins te verwijderen."
 
 #~ msgid ""
@@ -10210,17 +10210,17 @@ msgstr "zapte"
 
 #~ msgid ""
 #~ "The SkinSelector shows a menu with selectable skins.\n"
-#~ "It's now easy to change the look and feel of your Dreambox."
+#~ "It's now easy to change the look and feel of your set-top-box."
 #~ msgstr ""
 #~ "De SkinSelector toont u een menu met de beschikbare skins.\n"
-#~ "Het is nu heel gemakkelijk om het uiterlijk van uw Dreambox aan te passen."
+#~ "Het is nu heel gemakkelijk om het uiterlijk van uw set-top-box aan te passen."
 
 #~ msgid ""
-#~ "The SoftwareManager manages your Dreambox software.\n"
+#~ "The SoftwareManager manages your set-top-box software.\n"
 #~ "It's easy to update your receiver's software, install or remove plugins "
 #~ "or even backup and restore your system settings."
 #~ msgstr ""
-#~ "De SoftwareManager beheert uw Dreambox software.\n"
+#~ "De SoftwareManager beheert uw set-top-box software.\n"
 #~ "Het is gemakkelijk om uw ontvanger software te bijwerken, installeren of "
 #~ "verwijderen van plugins of zelfs back-up en herstellen van uw "
 #~ "systeeminstellingen."
@@ -10329,12 +10329,12 @@ msgstr "zapte"
 #~ msgstr "Er is een fout bij het ophalen van de feed-items. Probeer opnieuw."
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 130
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 130
 #~ msgid ""
-#~ "There's a certificate update available for your dreambox. Would you like "
+#~ "There's a certificate update available for your set-top-box. Would you like "
 #~ "to apply this update now?"
 #~ msgstr ""
-#~ "Er is een certificaat update beschikbaar voor uw dreambox. Wilt u deze "
+#~ "Er is een certificaat update beschikbaar voor uw set-top-box. Wilt u deze "
 #~ "update nu toepassen?"
 
 #~ msgid "This .NFI file does not contain a valid %s image!"
@@ -10354,7 +10354,7 @@ msgstr "zapte"
 #~ "Dit .NFI bestand heeft een geldige md5 signatuur. Wilt u dit image in het "
 #~ "flash geheugen schrijven?"
 
-#~ msgid "This Dreambox can't decode %s video streams!"
+#~ msgid "This set-top-box can't decode %s video streams!"
 #~ msgstr "Deze ontvanger kan volgende %s video niet decoderen!"
 
 #
@@ -10438,7 +10438,7 @@ msgstr "zapte"
 #~ msgstr "Te gebruiken als eenvoudige downloadapplicatie voor andere Plugins."
 
 #~ msgid ""
-#~ "To update your Dreambox firmware, please follow these steps:\n"
+#~ "To update your set-top-box firmware, please follow these steps:\n"
 #~ "1) Turn off your box with the rear power switch and plug in the bootable "
 #~ "USB stick.\n"
 #~ "2) Turn mains back on and hold the DOWN button on the front panel pressed "
@@ -10480,10 +10480,10 @@ msgstr "zapte"
 
 #
 #~ msgid ""
-#~ "USB stick wizard finished. Your dreambox will now restart with your new "
+#~ "USB stick wizard finished. Your set-top-box will now restart with your new "
 #~ "image!"
 #~ msgstr ""
-#~ "USB-stick wizard klaar. Uw Dreambox zal nu opnieuw opstarten met uw nieuw "
+#~ "USB-stick wizard klaar. Uw set-top-box zal nu opnieuw opstarten met uw nieuw "
 #~ "image!"
 
 #~ msgid "Ukrainian"
@@ -10551,16 +10551,16 @@ msgstr "zapte"
 #~ msgstr "Update klaar..."
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 170
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 170
 #~ msgid ""
-#~ "Update done... The genuine dreambox test will now be rerun and should not "
+#~ "Update done... The genuine set-top-box test will now be rerun and should not "
 #~ "ask you to update again."
 #~ msgstr ""
-#~ "Update klaar... De echtheids dreambox test zal nu worden herhaald en zal "
+#~ "Update klaar... De echtheids set-top-box test zal nu worden herhaald en zal "
 #~ "u niet vragen om nogmaals bij te werken."
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 150
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 150
 #~ msgid ""
 #~ "Updating failed. Nothing is broken, just the update couldn't be applied."
 #~ msgstr ""
@@ -10590,9 +10590,9 @@ msgstr "zapte"
 #~ msgid "Use a custom location"
 #~ msgstr "Gebruik een aangepaste locatie"
 
-#~ msgid "Use and control multiple Dreamboxes with different RCs."
+#~ msgid "Use and control multiple set-top-boxes with different RCs."
 #~ msgstr ""
-#~ "Gebruik en de beheer meerdere Dreamboxen met verschillende "
+#~ "Gebruik en de beheer meerdere set-top-boxen met verschillende "
 #~ "afstandsbedieningen."
 
 #~ msgid "Use non-smooth winding at speeds above"
@@ -10619,10 +10619,10 @@ msgstr "zapte"
 #~ msgstr "Vali.HD.warp skin"
 
 #~ msgid ""
-#~ "Verify your Dreambox authenticity by running the genuine dreambox plugin!"
+#~ "Verify your set-top-box authenticity by running the genuine set-top-box plugin!"
 #~ msgstr ""
-#~ "Controleer uw Dreambox authenticiteit door het uitvoeren van de echtheids "
-#~ "dreambox plugin!"
+#~ "Controleer uw set-top-box authenticiteit door het uitvoeren van de echtheids "
+#~ "set-top-box plugin!"
 
 #~ msgid "Verifying your internet connection..."
 #~ msgstr "Controleren van uw internet verbinding..."
@@ -10657,8 +10657,8 @@ msgstr "zapte"
 #~ msgid "View Google maps"
 #~ msgstr "Bekijk Google Maps"
 
-#~ msgid "View Google maps with your Dreambox."
-#~ msgstr "Bekijk Google Maps met je Dreambox."
+#~ msgid "View Google maps with your set-top-box."
+#~ msgstr "Bekijk Google Maps met je set-top-box."
 
 #
 #~ msgid "View active downloads"
@@ -10676,8 +10676,8 @@ msgstr "zapte"
 #~ msgstr "Bekijk video's reacties"
 
 #
-#~ msgid "View, edit or delete mountpoints on your Dreambox."
-#~ msgstr "Bekijk, wijzig of verwijder verbindingen op uw Dreambox."
+#~ msgid "View, edit or delete mountpoints on your set-top-box."
+#~ msgstr "Bekijk, wijzig of verwijder verbindingen op uw set-top-box."
 
 #
 #~ msgid "View, edit or delete usernames and passwords for your network."
@@ -10702,7 +10702,7 @@ msgstr "zapte"
 #~ msgstr "WLAN adapter."
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3setup.py:45
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3setup.py:45
 #~ msgid "Wait time in ms before activation:"
 #~ msgstr "Wachttijd in ms voor activering"
 
@@ -10719,11 +10719,11 @@ msgstr "zapte"
 #~ "waarna er teruggeschakeld wordt naar 60Hz.\n"
 #~ "Druk nu op OK om met de test te beginnen."
 
-#~ msgid "WeatherPlugin shows weatherforecasts on your Dreambox."
-#~ msgstr "WeatherPlugin toont de weersverwachting op uw Dreambox."
+#~ msgid "WeatherPlugin shows weatherforecasts on your set-top-box."
+#~ msgstr "WeatherPlugin toont de weersverwachting op uw set-top-box."
 
-#~ msgid "Weatherforecast on your Dreambox"
-#~ msgstr "De weersverwachting op uw Dreambox."
+#~ msgid "Weatherforecast on your set-top-box"
+#~ msgstr "De weersverwachting op uw set-top-box."
 
 #~ msgid "Web-Bouquet-Editor for PC"
 #~ msgstr "Web-Bouquet-Editor voor PC"
@@ -10837,7 +10837,7 @@ msgstr "zapte"
 #~ "als een andere timer met dezelfde beschrijving al bestaat."
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:252
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/AC3main.py:252
 #~ msgid "Which delays do you want to set"
 #~ msgstr "Welke vertragingen wilt u instellen..."
 
@@ -10855,12 +10855,12 @@ msgstr "zapte"
 #~ "nieuwskanalen) verbergen."
 
 #~ msgid ""
-#~ "With DVDBurn you can make compilations of records from your Dreambox hard "
+#~ "With DVDBurn you can make compilations of records from your set-top-box hard "
 #~ "drive.\n"
 #~ "Optionally you can add customizable menus. You can record the compilation "
 #~ "to a standard-compliant DVD that can be played on conventinal DVD "
 #~ "players.\n"
-#~ "HDTV recordings can only be burned in proprietary dreambox format."
+#~ "HDTV recordings can only be burned in proprietary set-top-box format."
 #~ msgstr ""
 #~ "Met DVDBurn kunt u compilaties maken van opnames op de schijf van uw "
 #~ "ontvanger.\n"
@@ -10874,9 +10874,9 @@ msgstr "zapte"
 #~ msgstr "Met EPGSearch kunt u de EPG doorzoeken en timers aanmaken."
 
 #~ msgid ""
-#~ "With Genuine Dreambox you can verify the authenticity of your Dreambox."
+#~ "With Genuine set-top-box you can verify the authenticity of your set-top-box."
 #~ msgstr ""
-#~ "Met Genuine Dreambox kunt u de authenticiteit van uw Dreambox verifieren."
+#~ "Met Genuine set-top-box kunt u de authenticiteit van uw set-top-box verifieren."
 
 #~ msgid ""
 #~ "With IMDb you can download and displays movie information (rating, "
@@ -10907,15 +10907,15 @@ msgstr "zapte"
 #~ "kanaal terug te zappen als ze zijn verlopen."
 
 #~ msgid ""
-#~ "With YouTubePlayer you can watch YouTube-Videos on the Dreambox.\n"
+#~ "With YouTubePlayer you can watch YouTube-Videos on the set-top-box.\n"
 #~ "This plugin requires a PC with the VLC program running."
 #~ msgstr ""
-#~ "Met YouTubePlayer kunt u YouTube-video's vertonen op uw Dreambox.\n"
+#~ "Met YouTubePlayer kunt u YouTube-video's vertonen op uw set-top-box.\n"
 #~ "Deze plugin vereist een PC waarop het programma VLC draait."
 
 #~ msgid ""
 #~ "With the CommonInterfaceAssignment plugin it is possible to use "
-#~ "differentCI modules in your Dreambox and assign dedicated providers/"
+#~ "differentCI modules in your set-top-box and assign dedicated providers/"
 #~ "services or caids to each of them.\n"
 #~ "This allows watching a scrambled service while recording another one."
 #~ msgstr ""
@@ -10929,7 +10929,7 @@ msgstr "zapte"
 #~ "crashlogs found on your hard drive to Dream Multimedia."
 #~ msgstr ""
 #~ "Met de CrashlogAutoSubmit plugin is het mogelijk crashlogs op de harde "
-#~ "schijf van uw Dreambox automatisch naar Dream Multimedia te versturen."
+#~ "schijf van uw set-top-box automatisch naar Dream Multimedia te versturen."
 
 #~ msgid ""
 #~ "With the DefaultServicesScanner plugin you can scan default lamedbs "
@@ -10947,12 +10947,12 @@ msgstr "zapte"
 
 #~ msgid ""
 #~ "With the NFIFlash plugin it is possible to prepare a USB stick with an "
-#~ "Dreambox image.\n"
-#~ "It is then possible to flash your Dreambox with the image on that stick."
+#~ "set-top-box image.\n"
+#~ "It is then possible to flash your set-top-box with the image on that stick."
 #~ msgstr ""
-#~ "Met de NFIFlash plugin kunt u een USB-stick met een Dreambox-image "
+#~ "Met de NFIFlash plugin kunt u een USB-stick met een set-top-box-image "
 #~ "gereedmaken.\n"
-#~ "U kunt dan uw Dreambox flashen met het image op de stick."
+#~ "U kunt dan uw set-top-box flashen met het image op de stick."
 
 #~ msgid ""
 #~ "With the NetworkWizard you can easily configure your network step by step."
@@ -11041,7 +11041,7 @@ msgstr "zapte"
 #~ "geven."
 
 #~ msgid ""
-#~ "You do not seem to have a harddisk in your Dreambox. So backing up to a "
+#~ "You do not seem to have a harddisk in your set-top-box. So backing up to a "
 #~ "harddisk is not an option for you."
 #~ msgstr ""
 #~ "Er bevind zich waarschijnlijk geen harde schijf in uw ontvanger. U kunt "
@@ -11230,8 +11230,8 @@ msgstr "zapte"
 #~ msgid "config changed."
 #~ msgstr "configuratie gewijzigd."
 
-#~ msgid "control multiple Dreamboxes with different RCs"
-#~ msgstr "bedien meerdere Dreamboxen met verschillende afstandsbedieningen"
+#~ msgid "control multiple set-top-boxes with different RCs"
+#~ msgstr "bedien meerdere set-top-boxen met verschillende afstandsbedieningen"
 
 #~ msgid "creates virtual series folders from episodes"
 #~ msgstr "Creëert virtuele mappen van de afleveringen"
@@ -11369,8 +11369,8 @@ msgstr "zapte"
 #~ msgstr "Stel enigma2 in op standby-mode na het opstarten"
 
 #
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/plugin.py:34
-# L:\Dreambox\Eclipse\enigma2-plugins\ac3lipsync\src/plugin.py:36
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/plugin.py:34
+# L:\set-top-box\Eclipse\enigma2-plugins\ac3lipsync\src/plugin.py:36
 #~ msgid "sets the AC3 audio Delay (LipSync)"
 #~ msgstr "Stel de AC3 audio vertraging in (LipSync)"
 
@@ -11406,11 +11406,11 @@ msgstr "zapte"
 #~ msgid "use original TXT position"
 #~ msgstr "gebruik standaard TXT positie"
 
-#~ msgid "use your Dreambox as Web proxy"
-#~ msgstr "gebruik je Dreambox als Web Proxy"
+#~ msgid "use your set-top-box as Web proxy"
+#~ msgstr "gebruik je set-top-box als Web Proxy"
 
-#~ msgid "use your Dreambox as Web proxy."
-#~ msgstr "gebruik je Dreambox als Web Proxy."
+#~ msgid "use your set-top-box as Web proxy."
+#~ msgstr "gebruik je set-top-box als Web Proxy."
 
 #~ msgid "zap in pip window..."
 #~ msgstr "zap in PiP venster..."
