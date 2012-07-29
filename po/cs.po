@@ -35,7 +35,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Backup your Dreambox settings."
+"Backup your set-top-box settings."
 msgstr ""
 "\n"
 "Záloha nastavení Vašeho přijímače."
@@ -51,7 +51,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Manage extensions or plugins for your Dreambox"
+"Manage extensions or plugins for your set-top-box"
 msgstr ""
 "\n"
 "Správa rozšíření nebo pluginů Vašeho přijímače"
@@ -59,7 +59,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Online update of your Dreambox software."
+"Online update of your set-top-box software."
 msgstr ""
 "\n"
 "Online aktualizace programového vybavení přijímače."
@@ -75,7 +75,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox settings."
+"Restore your set-top-box settings."
 msgstr ""
 "\n"
 "Obnova nastavení Vašeho přijímače."
@@ -83,7 +83,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox with a new firmware."
+"Restore your set-top-box with a new firmware."
 msgstr ""
 "\n"
 "Obnova přijímače s novým firmware."
@@ -412,7 +412,7 @@ msgstr "Demo plugin pro TPM použití."
 #
 msgid ""
 "A finished record timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "Dokončený časovač nahrávání chce přepnout\n"
 "přijímač do standby módu. Přepnout?"
@@ -420,7 +420,7 @@ msgstr ""
 #
 msgid ""
 "A finished record timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "Dokončený časovač nahrávání chce vypnout\n"
 "přijímač. Vypnout?"
@@ -487,7 +487,7 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "Časovač vypnutí chce přepnout přijímač\n"
 "do standby módu. Přepnout hned?"
@@ -495,7 +495,7 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "Časovač vypnutí chce vypnout přijímač.\n"
 "Vypnout?"
@@ -616,7 +616,7 @@ msgstr "Přidat/Odstranit časovač pro aktuální událost"
 
 #
 msgid ""
-"Adds enigma2 settings and dreambox model informations like SN, rev... if "
+"Adds enigma2 settings and set-top-box model informations like SN, rev... if "
 "enabled."
 msgstr ""
 "Přidá enigma2 nastavení a informace o přijímači, jako je SN, rev..., pokud "
@@ -684,7 +684,7 @@ msgstr "Po stisknutí OK čekejte, prosím!"
 #
 msgid ""
 "After the start wizard is completed, you need to protect single services. "
-"Refer to your dreambox's manual on how to do that."
+"Refer to your set-top-box's manual on how to do that."
 msgstr ""
 "Po skončení průvodce je potřeba zabezpečit jednotlivé programy. Podívejte se "
 "do návodu od přijímače, jak to udělat."
@@ -1415,7 +1415,7 @@ msgid "Copy"
 msgstr "Kopírovat"
 
 #
-msgid "Could not connect to Dreambox .NFI Image Feed Server:"
+msgid "Could not connect to set-top-box .NFI Image Feed Server:"
 msgstr "Nelze se připojit ke zdrojovému serveru s .NFI image"
 
 #
@@ -1900,7 +1900,7 @@ msgid "Do you want to download the image to %s ?"
 msgstr "Chcete stáhnout image do %s?"
 
 #
-msgid "Do you want to enable the parental control feature on your dreambox?"
+msgid "Do you want to enable the parental control feature on your set-top-box?"
 msgstr "Chcete povolit rodičovskou kontrolu na Vašem přijímači?"
 
 #
@@ -1916,7 +1916,7 @@ msgid "Do you want to preview this DVD before burning?"
 msgstr "Chcete si toto DVD před vypálením prohlédnout?"
 
 #
-msgid "Do you want to reboot your Dreambox?"
+msgid "Do you want to reboot your set-top-box?"
 msgstr "Chcete přijímač restartovat?"
 
 #
@@ -1940,11 +1940,11 @@ msgstr ""
 "kontaktovat?"
 
 #
-msgid "Do you want to update your Dreambox?"
+msgid "Do you want to update your set-top-box?"
 msgstr "Chcete zaktualizovat Váš přijímač?"
 
 msgid ""
-"Do you want to update your Dreambox?\n"
+"Do you want to update your set-top-box?\n"
 "After pressing OK, please wait!"
 msgstr ""
 "Chcete aktualizovat Váš přijímač?\n"
@@ -2015,11 +2015,11 @@ msgid "Downloading plugin information. Please wait..."
 msgstr "Stahuji informace o pluginech. Prosím, čekejte..."
 
 #
-msgid "Dreambox format data DVD (HDTV compatible)"
-msgstr "Dreambox formát data DVD (HDTV kompatibilní)"
+msgid "set-top-box format data DVD (HDTV compatible)"
+msgstr "set-top-box formát data DVD (HDTV kompatibilní)"
 
 #
-msgid "Dreambox software because updates are available."
+msgid "set-top-box software because updates are available."
 msgstr "software přijímače, jelikož aktualizace jsou dostupné. "
 
 #
@@ -2087,11 +2087,11 @@ msgid "Edit settings"
 msgstr "upravit nastavení"
 
 #
-msgid "Edit the Nameserver configuration of your Dreambox.\n"
+msgid "Edit the Nameserver configuration of your set-top-box.\n"
 msgstr "Upravit konfiguraci DNS.\n"
 
 #
-msgid "Edit the network configuration of your Dreambox.\n"
+msgid "Edit the network configuration of your set-top-box.\n"
 msgstr "Upravit konfiguraci sítě.\n"
 
 #
@@ -3693,7 +3693,7 @@ msgid "No, do nothing."
 msgstr "Ne, nic nedělej."
 
 #
-msgid "No, just start my dreambox"
+msgid "No, just start my set-top-box"
 msgstr "Ne, pouze spusť můj přijímač"
 
 msgid "No, never"
@@ -5381,7 +5381,7 @@ msgid "Shutdown"
 msgstr "Vypnout"
 
 #
-msgid "Shutdown Dreambox after"
+msgid "Shutdown set-top-box after"
 msgstr "Vypnout přijímač po"
 
 msgid "Side by Side"
@@ -5860,7 +5860,7 @@ msgid "Test mode"
 msgstr "Testovací mód"
 
 #
-msgid "Test the network configuration of your Dreambox.\n"
+msgid "Test the network configuration of your set-top-box.\n"
 msgstr "Otestovat síťovou konfiguraci přijímače.\n"
 
 #
@@ -5887,7 +5887,7 @@ msgstr ""
 #
 msgid ""
 "Thank you for using the wizard. Your box is now ready to use.\n"
-"Please press OK to start using your Dreambox."
+"Please press OK to start using your set-top-box."
 msgstr ""
 "Děkujeme za použítí průvodce. Přijímač je nyní připraven k používání.\n"
 "Stiskněte OK a začněte přijímač používat."
@@ -5895,11 +5895,11 @@ msgstr ""
 #
 msgid ""
 "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
-"create a Dreambox format data DVD (which will not play in stand-alone DVD "
+"create a set-top-box format data DVD (which will not play in stand-alone DVD "
 "players) instead?"
 msgstr ""
 "DVD standard nepodporuje H.264 (HDTV) video streamy. Chcete místo toho "
-"vytvořit Dreambox formát data DVD (které ale nepůjde přehrát ve stolních DVD "
+"vytvořit set-top-box formát data DVD (které ale nepůjde přehrát ve stolních DVD "
 "přehrávačích)?"
 
 #
@@ -5994,7 +5994,7 @@ msgstr "Vybraný setting byl nainstalován."
 #
 msgid ""
 "The installation of the default settings is finished. You can now continue "
-"configuring your Dreambox by pressing the OK button on the remote control."
+"configuring your set-top-box by pressing the OK button on the remote control."
 msgstr ""
 "Standardní nastavení bylo nainstalováno. Nyní můžete pokračovat v "
 "konfiguraci přijímače stisknutím OK na dálkovém ovladači."
@@ -6120,7 +6120,7 @@ msgstr ""
 
 #
 #, python-format
-msgid "This Dreambox can't decode %s streams!"
+msgid "This set-top-box can't decode %s streams!"
 msgstr "Tento přijímač nemůže dekódovat %s streamů!"
 
 #
@@ -6130,7 +6130,7 @@ msgstr "Toto je 2. krok."
 #
 msgid ""
 "This plugin creates a USB stick which can be used to update the firmware of "
-"your Dreambox without the need for a network or WLAN connection.\n"
+"your set-top-box without the need for a network or WLAN connection.\n"
 "First, a USB stick needs to be prepared so that it becomes bootable.\n"
 "In the next step, an NFI image file can be downloaded from the update server "
 "and saved on the USB stick.\n"
@@ -6351,7 +6351,7 @@ msgid "To subtitle selection"
 msgstr "Výběr titulků"
 
 msgid ""
-"To update your Dreambox firmware, please follow these steps:\n"
+"To update your set-top-box firmware, please follow these steps:\n"
 "1) Turn off your box with the rear power switch and make sure the bootable "
 "USB stick is plugged in.\n"
 "2) Turn mains back on and hold the DOWN button on the front panel pressed "
@@ -6613,7 +6613,7 @@ msgid "Upgrade finished."
 msgstr "Aktualizace dokončena."
 
 #
-msgid "Upgrade finished. Do you want to reboot your Dreambox?"
+msgid "Upgrade finished. Do you want to reboot your set-top-box?"
 msgstr "Upgrade skončil. Chcete restartovat váš přijímač?"
 
 #
@@ -6621,7 +6621,7 @@ msgid "Upgrading"
 msgstr "Aktualizace"
 
 #
-msgid "Upgrading Dreambox... Please wait"
+msgid "Upgrading set-top-box... Please wait"
 msgstr "Aktualizuji přijímač... Prosím, čekejte"
 
 #
@@ -6996,7 +6996,7 @@ msgstr ""
 #
 msgid ""
 "Welcome to the Image upgrade wizard. The wizard will assist you in upgrading "
-"the firmware of your Dreambox by providing a backup facility for your "
+"the firmware of your set-top-box by providing a backup facility for your "
 "current settings and a short explanation of how to upgrade your firmware."
 msgstr ""
 "Vítejte v průvodci aktualizace image. Průvodce pomůže při aktualizaci image "
@@ -7008,7 +7008,7 @@ msgid ""
 "Welcome to the cleanup wizard.\n"
 "\n"
 "We have detected that your available internal memory has dropped below 2MB.\n"
-"To ensure stable operation of your Dreambox, the internal memory should be "
+"To ensure stable operation of your set-top-box, the internal memory should be "
 "cleaned up.\n"
 "You can use this wizard to remove some extensions.\n"
 msgstr ""
@@ -7017,8 +7017,8 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"If you want to connect your Dreambox to the Internet, this wizard will guide "
-"you through the basic network setup of your Dreambox.\n"
+"If you want to connect your set-top-box to the Internet, this wizard will guide "
+"you through the basic network setup of your set-top-box.\n"
 "\n"
 "Press OK to start configuring your network"
 msgstr ""
@@ -7033,7 +7033,7 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"This start wizard will guide you through the basic setup of your Dreambox.\n"
+"This start wizard will guide you through the basic setup of your set-top-box.\n"
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
 "Vítejte.\n"
@@ -7216,8 +7216,8 @@ msgid "You can install this plugin."
 msgstr "Můžete instalovat tento plugin."
 
 #
-msgid "You can only burn Dreambox recordings!"
-msgstr "Můžete vypalovat pouze nahrávky z Dreamboxu!"
+msgid "You can only burn set-top-box recordings!"
+msgstr "Můžete vypalovat pouze nahrávky z set-top-boxu!"
 
 #
 msgid "You can remove this plugin."
@@ -7280,9 +7280,9 @@ msgstr "Musíte čekat %s!"
 
 #
 msgid ""
-"You need a PC connected to your dreambox. If you need further instructions, "
+"You need a PC connected to your set-top-box. If you need further instructions, "
 "please visit the website http://www.dm7025.de.\n"
-"Your dreambox will now be halted. After you have performed the update "
+"Your set-top-box will now be halted. After you have performed the update "
 "instructions from the website, your new firmware will ask you to restore "
 "your settings."
 msgstr ""
@@ -7306,7 +7306,7 @@ msgstr "Váš systém nepodporuje ext4"
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -7318,7 +7318,7 @@ msgstr ""
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -7331,7 +7331,7 @@ msgstr ""
 "Prosím, stiskněte OK pro pokračování."
 
 #
-msgid "Your Dreambox will restart after pressing OK on your remote control."
+msgid "Your set-top-box will restart after pressing OK on your remote control."
 msgstr "Váš přijímač bude restartován po stisknutí OK na dálkovém ovladači."
 
 #
@@ -7355,12 +7355,12 @@ msgid "Your current collection will get lost!"
 msgstr "Vaše současná kompilace bude ztracena!"
 
 #
-msgid "Your dreambox is shutting down. Please stand by..."
+msgid "Your set-top-box is shutting down. Please stand by..."
 msgstr "Váš přijímač se vypíná. Prosím, počkejte..."
 
 #
 msgid ""
-"Your dreambox isn't connected to the internet properly. Please check it and "
+"Your set-top-box isn't connected to the internet properly. Please check it and "
 "try again."
 msgstr ""
 "Váš přijímač není správně připojen k internetu. Prosím, prověřte to a zkuste "
@@ -7790,19 +7790,19 @@ msgstr "nenahrávat"
 msgid "done!"
 msgstr "dokončeno!"
 
-msgid "dreambox advanced remote control (native)"
+msgid "set-top-box advanced remote control (native)"
 msgstr "pokročilé dálkové ovládání (původní)"
 
-msgid "dreambox front panel"
+msgid "set-top-box front panel"
 msgstr "přední panel"
 
-msgid "dreambox ir keyboard"
+msgid "set-top-box ir keyboard"
 msgstr "bezdrátová ir klávesnice"
 
-msgid "dreambox ir mouse"
+msgid "set-top-box ir mouse"
 msgstr "bezdrátová ir myš"
 
-msgid "dreambox remote control (native)"
+msgid "set-top-box remote control (native)"
 msgstr "dálkové ovládání (původní)"
 
 msgid "east"
@@ -8717,8 +8717,8 @@ msgstr "ano (uchovat zdroje)"
 
 #
 msgid ""
-"your dreambox might be unusable now. Please consult the manual for further "
-"assistance before rebooting your dreambox."
+"your set-top-box might be unusable now. Please consult the manual for further "
+"assistance before rebooting your set-top-box."
 msgstr ""
 "Váš přijímač může být nyní nepoužitelný. Prosím, konzultujte s manuálem "
 "další pomoc před restartováním přijímače."
