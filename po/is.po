@@ -34,7 +34,7 @@ msgstr ""
 
 msgid ""
 "\n"
-"Backup your Dreambox settings."
+"Backup your set-top-box settings."
 msgstr ""
 "\n"
 "Taka afrit af stillingum."
@@ -48,7 +48,7 @@ msgstr ""
 
 msgid ""
 "\n"
-"Manage extensions or plugins for your Dreambox"
+"Manage extensions or plugins for your set-top-box"
 msgstr ""
 "\n"
 "Umsýsla á viðbótum eða íforritum fyrir móttakarann þinn"
@@ -56,7 +56,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Online update of your Dreambox software."
+"Online update of your set-top-box software."
 msgstr ""
 "\n"
 "Uppfærsla hugbúnaðar beint af neti."
@@ -72,7 +72,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox settings."
+"Restore your set-top-box settings."
 msgstr ""
 "\n"
 "Setja inn þínar stillingar aftur."
@@ -80,10 +80,10 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox with a new firmware."
+"Restore your set-top-box with a new firmware."
 msgstr ""
 "\n"
-"Setja inn nýtt stýrikerfi í Dreamboxið þitt."
+"Setja inn nýtt stýrikerfi í set-top-boxið þitt."
 
 #
 msgid ""
@@ -397,17 +397,17 @@ msgstr "Íforrits sýnishorn."
 #
 msgid ""
 "A finished record timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
-"Tímastilling vill setja Dreamboxið í\n"
+"Tímastilling vill setja set-top-boxið í\n"
 "biðstöðu. Viltu gera það núna?"
 
 #
 msgid ""
 "A finished record timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
-"Tímastilling vill slökkva á Dreamboxinu.\n"
+"Tímastilling vill slökkva á set-top-boxinu.\n"
 "Viltu gera það núna?"
 
 #
@@ -472,17 +472,17 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
-"Tímastilling vill setja Dreamboxið í\n"
+"Tímastilling vill setja set-top-boxið í\n"
 "biðstöðu. Viltu gera það núna?"
 
 #
 msgid ""
 "A sleep timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
-"Tímastilling vill slökkva á Dreamboxinu.\n"
+"Tímastilling vill slökkva á set-top-boxinu.\n"
 "Viltu gera það núna?"
 
 #
@@ -592,10 +592,10 @@ msgid "Add/Remove timer for current event"
 msgstr ""
 
 msgid ""
-"Adds enigma2 settings and dreambox model informations like SN, rev... if "
+"Adds enigma2 settings and set-top-box model informations like SN, rev... if "
 "enabled."
 msgstr ""
-"Bætir við enigma2 stillingum og dreambox gerðar upplýsingum eins og SN, "
+"Bætir við enigma2 stillingum og set-top-box gerðar upplýsingum eins og SN, "
 "útgáfa... ef virkt."
 
 msgid "Adds network configuration if enabled."
@@ -646,7 +646,7 @@ msgstr ""
 
 msgid ""
 "After the start wizard is completed, you need to protect single services. "
-"Refer to your dreambox's manual on how to do that."
+"Refer to your set-top-box's manual on how to do that."
 msgstr ""
 "Eftir að ráðgjafinn er búinn þá þarft þú að læsa sumum rásum. Skoðaðu "
 "leiðbeiningarnar til að sjá hvernig á að gera það."
@@ -1236,8 +1236,8 @@ msgstr ""
 msgid "Copy"
 msgstr ""
 
-msgid "Could not connect to Dreambox .NFI Image Feed Server:"
-msgstr "Gat ekki tengt við Dreambox .NFI stýrikerfis vefþjón:"
+msgid "Could not connect to set-top-box .NFI Image Feed Server:"
+msgstr "Gat ekki tengt við set-top-box .NFI stýrikerfis vefþjón:"
 
 msgid "Could not load Medium! No disc inserted?"
 msgstr "Gat ekki lesið disk! Er enginn diskur í drifi?"
@@ -1674,8 +1674,8 @@ msgid "Do you want to download the image to %s ?"
 msgstr "Viltu hlaða niður stýrikerfinu á %s ?"
 
 #
-msgid "Do you want to enable the parental control feature on your dreambox?"
-msgstr "Viltu gera virkan foreldrastýrðan aðgang að dreamboxinu?"
+msgid "Do you want to enable the parental control feature on your set-top-box?"
+msgstr "Viltu gera virkan foreldrastýrðan aðgang að set-top-boxinu?"
 
 #
 msgid "Do you want to install the package:\n"
@@ -1690,8 +1690,8 @@ msgid "Do you want to preview this DVD before burning?"
 msgstr "Viltu forskoða þennan DVD disk fyrir brennslu?"
 
 #
-msgid "Do you want to reboot your Dreambox?"
-msgstr "Viltu endurræsa Dreamboxinu?"
+msgid "Do you want to reboot your set-top-box?"
+msgstr "Viltu endurræsa set-top-boxinu?"
 
 #
 msgid "Do you want to remove the package:\n"
@@ -1713,15 +1713,15 @@ msgstr ""
 "Viltu senda með netfang og nafn svo að við getum haft samband ef að þarf?"
 
 #
-msgid "Do you want to update your Dreambox?"
-msgstr "Viltu uppfæra Dreamboxið þitt?"
+msgid "Do you want to update your set-top-box?"
+msgstr "Viltu uppfæra set-top-boxið þitt?"
 
 #
 msgid ""
-"Do you want to update your Dreambox?\n"
+"Do you want to update your set-top-box?\n"
 "After pressing OK, please wait!"
 msgstr ""
-"Viltu uppfæra Dreamboxið þitt?\n"
+"Viltu uppfæra set-top-boxið þitt?\n"
 "Þú þarft að bíða eftir að hafa ýtt á OK!"
 
 #
@@ -1780,12 +1780,12 @@ msgid "Downloading plugin information. Please wait..."
 msgstr "Hala niður íforrits upplýsingum. Vinsamlega bíðið..."
 
 #
-msgid "Dreambox format data DVD (HDTV compatible)"
-msgstr "Dreambox gagna formaður DVD diskur (HDTV samhæfður)"
+msgid "set-top-box format data DVD (HDTV compatible)"
+msgstr "set-top-box gagna formaður DVD diskur (HDTV samhæfður)"
 
 #
-msgid "Dreambox software because updates are available."
-msgstr "Hugbúnaður uppfærslur eru tiltækar fyrir Dreamboxið."
+msgid "set-top-box software because updates are available."
+msgstr "Hugbúnaður uppfærslur eru tiltækar fyrir set-top-boxið."
 
 #
 msgid "Dutch"
@@ -1846,12 +1846,12 @@ msgid "Edit settings"
 msgstr "Breyta stillingum"
 
 #
-msgid "Edit the Nameserver configuration of your Dreambox.\n"
-msgstr "Breyta nafnaþjóns stillingum Dreamboxins.\n"
+msgid "Edit the Nameserver configuration of your set-top-box.\n"
+msgstr "Breyta nafnaþjóns stillingum set-top-boxins.\n"
 
 #
-msgid "Edit the network configuration of your Dreambox.\n"
-msgstr "Breyta stillingum netkorts í Dreamboxinu.\n"
+msgid "Edit the network configuration of your set-top-box.\n"
+msgstr "Breyta stillingum netkorts í set-top-boxinu.\n"
 
 #
 msgid "Edit title"
@@ -3366,7 +3366,7 @@ msgid "No, do nothing."
 msgstr "Nei, ekki gera neitt."
 
 #
-msgid "No, just start my dreambox"
+msgid "No, just start my set-top-box"
 msgstr "Nei, ræstu bara boxið mitt"
 
 msgid "No, never"
@@ -4993,7 +4993,7 @@ msgid "Shutdown"
 msgstr "Slökkva"
 
 #
-msgid "Shutdown Dreambox after"
+msgid "Shutdown set-top-box after"
 msgstr "Slökkva á móttakara eftir"
 
 msgid "Side by Side"
@@ -5460,8 +5460,8 @@ msgid "Test mode"
 msgstr "Prufu hamur"
 
 #
-msgid "Test the network configuration of your Dreambox.\n"
-msgstr "Prófa stillingar netkorts í Dreamboxinu.\n"
+msgid "Test the network configuration of your set-top-box.\n"
+msgstr "Prófa stillingar netkorts í set-top-boxinu.\n"
 
 #
 msgid "Test-Messagebox?"
@@ -5486,17 +5486,17 @@ msgstr ""
 
 msgid ""
 "Thank you for using the wizard. Your box is now ready to use.\n"
-"Please press OK to start using your Dreambox."
+"Please press OK to start using your set-top-box."
 msgstr ""
 "Takk fyrir að nota ráðgjafann. Núna er móttakarinn tilbúinn til notkunar.\n"
 "Ýttu á OK til að byrja að nota móttakarann."
 
 msgid ""
 "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
-"create a Dreambox format data DVD (which will not play in stand-alone DVD "
+"create a set-top-box format data DVD (which will not play in stand-alone DVD "
 "players) instead?"
 msgstr ""
-"DVD staðallinn er ekki með möguleika á H.264 (HDTV). Viltu búa til Dreambox "
+"DVD staðallinn er ekki með möguleika á H.264 (HDTV). Viltu búa til set-top-box "
 "gagna disk (sem ekki er hægt að venjulegum DVD spilara) í staðinn?"
 
 msgid ""
@@ -5584,10 +5584,10 @@ msgstr "Innsetning sjálfgefins rásalista er lokið."
 #
 msgid ""
 "The installation of the default settings is finished. You can now continue "
-"configuring your Dreambox by pressing the OK button on the remote control."
+"configuring your set-top-box by pressing the OK button on the remote control."
 msgstr ""
 "Innsetning sjálfgefins rásalista er lokið. Þú getur nú haldið áfram að "
-"stilla Dreamboxið með því að ýta á OK takkann á fjarstýringunni."
+"stilla set-top-boxið með því að ýta á OK takkann á fjarstýringunni."
 
 msgid "The md5sum validation failed, the file may be corrupted!"
 msgstr "Md5sum prufun tókst ekki, skráin er sennilega skemmd!"
@@ -5713,8 +5713,8 @@ msgstr ""
 
 #
 #, python-format
-msgid "This Dreambox can't decode %s streams!"
-msgstr "Þetta Dreambox getur ekki afrugað %s strauma!"
+msgid "This set-top-box can't decode %s streams!"
+msgstr "Þetta set-top-box getur ekki afrugað %s strauma!"
 
 #
 msgid "This is step number 2."
@@ -5722,7 +5722,7 @@ msgstr "Þetta er hluti númer 2"
 
 msgid ""
 "This plugin creates a USB stick which can be used to update the firmware of "
-"your Dreambox without the need for a network or WLAN connection.\n"
+"your set-top-box without the need for a network or WLAN connection.\n"
 "First, a USB stick needs to be prepared so that it becomes bootable.\n"
 "In the next step, an NFI image file can be downloaded from the update server "
 "and saved on the USB stick.\n"
@@ -5730,7 +5730,7 @@ msgid ""
 "Otherwise plug in a USB stick with a minimum size of 64 MB!"
 msgstr ""
 "Þetta íforrit útbýr USB staut sem er hægt að nota til að uppfæta stýrikerfið "
-"í Dreamboxinu án þess að nota tölvu.\n"
+"í set-top-boxinu án þess að nota tölvu.\n"
 "Fyrst þarf að undirbúa USB stautinn þannig að hægt verði að ræsa frá honum.\n"
 "Næst þarf að hlaða niður NFI stýrikerfi frá uppfærslu vefþjóni sem er vistað "
 "á USB stautnum.\n"
@@ -5932,14 +5932,14 @@ msgid "To subtitle selection"
 msgstr ""
 
 msgid ""
-"To update your Dreambox firmware, please follow these steps:\n"
+"To update your set-top-box firmware, please follow these steps:\n"
 "1) Turn off your box with the rear power switch and make sure the bootable "
 "USB stick is plugged in.\n"
 "2) Turn mains back on and hold the DOWN button on the front panel pressed "
 "for 10 seconds.\n"
 "3) Wait for bootup and follow instructions of the wizard."
 msgstr ""
-"TIl að uppfæra stýrikerfið í Dreamboxinu farðu þá eftir þessum "
+"TIl að uppfæra stýrikerfið í set-top-boxinu farðu þá eftir þessum "
 "leiðbeiningum:\n"
 "1. Slökktu á móttakaranum með rofanum aftaná boxinu og vertu viss um að "
 "ræsanlegi USB stauturinn er tengdur.\n"
@@ -6176,16 +6176,16 @@ msgid "Upgrade finished."
 msgstr "Uppfærslu lokið."
 
 #
-msgid "Upgrade finished. Do you want to reboot your Dreambox?"
-msgstr "Uppfærslu lokið. Viltu endurræsa Dreamboxinu þínu?"
+msgid "Upgrade finished. Do you want to reboot your set-top-box?"
+msgstr "Uppfærslu lokið. Viltu endurræsa set-top-boxinu þínu?"
 
 #
 msgid "Upgrading"
 msgstr "Uppfæri"
 
 #
-msgid "Upgrading Dreambox... Please wait"
-msgstr "Uppfæri Dreamboxið...vinsamlegast bíðið"
+msgid "Upgrading set-top-box... Please wait"
+msgstr "Uppfæri set-top-boxið...vinsamlegast bíðið"
 
 #
 msgid "Use"
@@ -6549,11 +6549,11 @@ msgstr ""
 
 msgid ""
 "Welcome to the Image upgrade wizard. The wizard will assist you in upgrading "
-"the firmware of your Dreambox by providing a backup facility for your "
+"the firmware of your set-top-box by providing a backup facility for your "
 "current settings and a short explanation of how to upgrade your firmware."
 msgstr ""
 "Velkominn til stýrikerfis uppfærslu ráðgjafann. Ráðgjafinn aðstoðar þig við "
-"að uppfæra stýrikerfi Dreamboxins með því að sjá um afritun af þínum "
+"að uppfæra stýrikerfi set-top-boxins með því að sjá um afritun af þínum "
 "stillingum og sýnir svo hverning uppfærslan fer fram."
 
 #
@@ -6561,7 +6561,7 @@ msgid ""
 "Welcome to the cleanup wizard.\n"
 "\n"
 "We have detected that your available internal memory has dropped below 2MB.\n"
-"To ensure stable operation of your Dreambox, the internal memory should be "
+"To ensure stable operation of your set-top-box, the internal memory should be "
 "cleaned up.\n"
 "You can use this wizard to remove some extensions.\n"
 msgstr ""
@@ -6575,14 +6575,14 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"If you want to connect your Dreambox to the Internet, this wizard will guide "
-"you through the basic network setup of your Dreambox.\n"
+"If you want to connect your set-top-box to the Internet, this wizard will guide "
+"you through the basic network setup of your set-top-box.\n"
 "\n"
 "Press OK to start configuring your network"
 msgstr ""
 "Velkomin (n).\n"
 "\n"
-"Ef þú vilt tengja Dreamboxið við veraldarvefinn þá getur þessi ráðgjafi "
+"Ef þú vilt tengja set-top-boxið við veraldarvefinn þá getur þessi ráðgjafi "
 "hjálpað þér að setja upp grunnstillingar til þess.\n"
 "\n"
 "Ýttu á OK til að byrja stillingar á netkortinu"
@@ -6590,12 +6590,12 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"This start wizard will guide you through the basic setup of your Dreambox.\n"
+"This start wizard will guide you through the basic setup of your set-top-box.\n"
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
 "Velkomin.\n"
 "\n"
-"Þessi ráðgjafi hjálpar þér í gegnum grunnstillingar á Dreamboxinu.\n"
+"Þessi ráðgjafi hjálpar þér í gegnum grunnstillingar á set-top-boxinu.\n"
 "Ýttu á OK hnappinn á fjarstýringunni til að fara á næsta þrep."
 
 #
@@ -6765,8 +6765,8 @@ msgstr ""
 msgid "You can install this plugin."
 msgstr "Þú getur sett inn þetta íforrit."
 
-msgid "You can only burn Dreambox recordings!"
-msgstr "Þú getur bara brennt Dreambox upptökur!"
+msgid "You can only burn set-top-box recordings!"
+msgstr "Þú getur bara brennt set-top-box upptökur!"
 
 msgid "You can remove this plugin."
 msgstr "Þú getur tekið út þetta íforrit."
@@ -6827,15 +6827,15 @@ msgstr "Þú þarf að bíða %s!"
 
 #
 msgid ""
-"You need a PC connected to your dreambox. If you need further instructions, "
+"You need a PC connected to your set-top-box. If you need further instructions, "
 "please visit the website http://www.dm7025.de.\n"
-"Your dreambox will now be halted. After you have performed the update "
+"Your set-top-box will now be halted. After you have performed the update "
 "instructions from the website, your new firmware will ask you to restore "
 "your settings."
 msgstr ""
-"Þú þarft að hafa tölvu tengda við dreamboxið. Ef þú þarft nánari upplýsingar "
+"Þú þarft að hafa tölvu tengda við set-top-boxið. Ef þú þarft nánari upplýsingar "
 "þá skoðaðu síðuna http://www.dm7025.de.\n"
-"Dreamboxið verður núna stoppað. Eftir að þú hefur uppfært samkvæmt "
+"set-top-boxið verður núna stoppað. Eftir að þú hefur uppfært samkvæmt "
 "leiðbeinungunum á síðunni þá mun nýja stýrikerfið biðja þig um að setja "
 "aftur inn afritið."
 
@@ -6852,34 +6852,34 @@ msgid "You system does not support ext4"
 msgstr ""
 
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
 msgstr ""
-"Dreamboxið þitt er nú tilbúið til notkunar.\n"
+"set-top-boxið þitt er nú tilbúið til notkunar.\n"
 "\n"
 "Veraldarvefs tengingin er virk núna.\n"
 "\n"
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
 "Please press OK to continue."
 msgstr ""
-"Dreamboxið þitt er tilbúið til notkunar.\n"
+"set-top-boxið þitt er tilbúið til notkunar.\n"
 "\n"
 "Veraldarvefs tengingu er komið á.\n"
 "\n"
 "Ýttu á OK til að halda áfram."
 
 #
-msgid "Your Dreambox will restart after pressing OK on your remote control."
+msgid "Your set-top-box will restart after pressing OK on your remote control."
 msgstr ""
-"Dreamboxið þitt mun endurræsa sig eftir að þú ýtir á OK á fjarstýringunni."
+"set-top-boxið þitt mun endurræsa sig eftir að þú ýtir á OK á fjarstýringunni."
 
 #
 msgid ""
@@ -6899,14 +6899,14 @@ msgid "Your current collection will get lost!"
 msgstr "Núverandi safn þitt mun glatast!"
 
 #
-msgid "Your dreambox is shutting down. Please stand by..."
-msgstr "Dreamboxið er að slökkva á sér. Vinsamlega bíðið..."
+msgid "Your set-top-box is shutting down. Please stand by..."
+msgstr "set-top-boxið er að slökkva á sér. Vinsamlega bíðið..."
 
 #
 msgid ""
-"Your dreambox isn't connected to the internet properly. Please check it and "
+"Your set-top-box isn't connected to the internet properly. Please check it and "
 "try again."
-msgstr "Dreamboxið er ekki tengt við internetið. Athugaðu það og reyndu aftur."
+msgstr "set-top-boxið er ekki tengt við internetið. Athugaðu það og reyndu aftur."
 
 #
 msgid "Your email address:"
@@ -7321,19 +7321,19 @@ msgstr "ekki taka upp"
 msgid "done!"
 msgstr "búinn!"
 
-msgid "dreambox advanced remote control (native)"
+msgid "set-top-box advanced remote control (native)"
 msgstr ""
 
-msgid "dreambox front panel"
+msgid "set-top-box front panel"
 msgstr ""
 
-msgid "dreambox ir keyboard"
+msgid "set-top-box ir keyboard"
 msgstr ""
 
-msgid "dreambox ir mouse"
+msgid "set-top-box ir mouse"
 msgstr ""
 
-msgid "dreambox remote control (native)"
+msgid "set-top-box remote control (native)"
 msgstr ""
 
 msgid "east"
@@ -8224,11 +8224,11 @@ msgstr "já (halda fæðirásum)"
 
 #
 msgid ""
-"your dreambox might be unusable now. Please consult the manual for further "
-"assistance before rebooting your dreambox."
+"your set-top-box might be unusable now. Please consult the manual for further "
+"assistance before rebooting your set-top-box."
 msgstr ""
-"Dreamboxið þitt gæti verið óstöðugt núna.  Athugaðu leiðbeiningar um aðstoð "
-"með að endurræsa Dreamboxið."
+"set-top-boxið þitt gæti verið óstöðugt núna.  Athugaðu leiðbeiningar um aðstoð "
+"með að endurræsa set-top-boxið."
 
 #
 msgid "zap"
@@ -8424,7 +8424,7 @@ msgstr "stokkið"
 #~ msgid "A client for www.dyndns.org"
 #~ msgstr "Forrit til uppfærslu á veffangi vistað hjá www.dyndns.org"
 
-#~ msgid "A dreambox simulation from SG-Atlantis displays."
+#~ msgid "A set-top-box simulation from SG-Atlantis displays."
 #~ msgstr "Skinn í stíl SG-Atlantis."
 
 #~ msgid "A graphical EPG interface"
@@ -8462,7 +8462,7 @@ msgstr "stokkið"
 #
 #~ msgid ""
 #~ "A sleep timer want's to set your\n"
-#~ "Dreambox to standby. Do that now?"
+#~ "set-top-box to standby. Do that now?"
 #~ msgstr ""
 #~ "Búið er að stilla tímann núna til\n"
 #~ "að setja á biðstöðu. Gera það núna?"
@@ -8474,7 +8474,7 @@ msgstr "stokkið"
 #
 #~ msgid ""
 #~ "A sleep timer want's to shut down\n"
-#~ "your Dreambox. Shutdown now?"
+#~ "your set-top-box. Shutdown now?"
 #~ msgstr ""
 #~ "Búið er að stilla tímann núna til að\n"
 #~ "slökkva á boxinu. Gera það núna?"
@@ -8514,8 +8514,8 @@ msgstr "stokkið"
 #~ msgid "Add Timer"
 #~ msgstr "Bæta við Tímastillingu"
 
-#~ msgid "Add a new NFS or CIFS mount point to your Dreambox."
-#~ msgstr "Bæta við nýjum NFS eða CIFS tengingu við Dreamboxið."
+#~ msgid "Add a new NFS or CIFS mount point to your set-top-box."
+#~ msgstr "Bæta við nýjum NFS eða CIFS tengingu við set-top-boxið."
 
 #
 #~ msgid "Add alternative"
@@ -8555,7 +8555,7 @@ msgstr "stokkið"
 #~ msgstr "Sérfræði"
 
 #~ msgid ""
-#~ "After a reboot or power outage, StartupToStandby will bring your Dreambox "
+#~ "After a reboot or power outage, StartupToStandby will bring your set-top-box "
 #~ "to standby-mode."
 #~ msgstr "Eftir að rafmagnsleysi þá er móttakari settur í biðstöðu."
 
@@ -8733,8 +8733,8 @@ msgstr "stokkið"
 #~ msgid "BASIC-HD Skin by Ismail Demir"
 #~ msgstr "BASIC-HD Skinn eftir Ismail Demir"
 
-#~ msgid "BASIC-HD Skin for Dreambox Images created from Ismail Demir"
-#~ msgstr "BASIC-HD Skinn fyrir Dreambox stýrikerfi skrifað af Ismail Demir"
+#~ msgid "BASIC-HD Skin for set-top-box Images created from Ismail Demir"
+#~ msgstr "BASIC-HD Skinn fyrir set-top-box stýrikerfi skrifað af Ismail Demir"
 
 #~ msgid "Back, lower USB Slot"
 #~ msgstr "Neðra USB tengi, aftaná"
@@ -8867,8 +8867,8 @@ msgstr "stokkið"
 #~ msgid "Change setup pin"
 #~ msgstr "Breyta valmynda kóða"
 
-#~ msgid "Change the hostname of your Dreambox."
-#~ msgstr "Breyta netnafni á Dreamboxinu þínu."
+#~ msgid "Change the hostname of your set-top-box."
+#~ msgstr "Breyta netnafni á set-top-boxinu þínu."
 
 #~ msgid "Channel audio:"
 #~ msgstr "Hljóð rás:"
@@ -8954,17 +8954,17 @@ msgstr "stokkið"
 #~ "tókst ekki! (%s)\n"
 #~ "retrying..."
 
-#~ msgid "Control your Dreambox with your Web browser."
-#~ msgstr "Stjórna Dreamboxinu þínu með vef vafra."
+#~ msgid "Control your set-top-box with your Web browser."
+#~ msgstr "Stjórna set-top-boxinu þínu með vef vafra."
 
-#~ msgid "Control your Dreambox with your browser"
-#~ msgstr "Stjórna Dreamboxinu þínu með vef vafra"
+#~ msgid "Control your set-top-box with your browser"
+#~ msgstr "Stjórna set-top-boxinu þínu með vef vafra"
 
-#~ msgid "Control your dreambox with only the MUTE button"
-#~ msgstr "Stjórna Dreamboxinu bara með MUTE takka"
+#~ msgid "Control your set-top-box with only the MUTE button"
+#~ msgstr "Stjórna set-top-boxinu bara með MUTE takka"
 
-#~ msgid "Control your dreambox with only the MUTE button."
-#~ msgstr "Stjórna Dreamboxinu bara með MUTE takka."
+#~ msgid "Control your set-top-box with only the MUTE button."
+#~ msgstr "Stjórna set-top-boxinu bara með MUTE takka."
 
 #~ msgid "Control your internal system fan."
 #~ msgstr "Stjórna viftunni í móttakaranum."
@@ -8975,8 +8975,8 @@ msgstr "stokkið"
 #~ msgid "Control your system fan"
 #~ msgstr "Stjórna viftunni í móttakaranum"
 
-#~ msgid "Copy, rename, delete, move local files on your Dreambox."
-#~ msgstr "Afrita, endurnefna, eyða og færa skrár á Dreamboxinu."
+#~ msgid "Copy, rename, delete, move local files on your set-top-box."
+#~ msgstr "Afrita, endurnefna, eyða og færa skrár á set-top-boxinu."
 
 #
 #~ msgid "Copying USB flasher boot image to stick..."
@@ -8994,7 +8994,7 @@ msgstr "stokkið"
 #~ "Hrunskýrslur fundust!\n"
 #~ "Senda þær til Dream Multimedia ?"
 
-#~ msgid "Create a backup of your Video DVD on your DreamBox hard drive."
+#~ msgid "Create a backup of your Video DVD on your set-top-box hard drive."
 #~ msgstr "Taka afrit af DVD disknum yfir á harða diskinn."
 
 #~ msgid "Create a backup of your Video-DVD"
@@ -9018,8 +9018,8 @@ msgstr "stokkið"
 #~ msgid "Create remote timers"
 #~ msgstr "Búa til fjarstýriðar tímastillingar"
 
-#~ msgid "Create timers on remote Dreamboxes."
-#~ msgstr "Búa til tímastillingar á öðrum Dreamboxum"
+#~ msgid "Create timers on remote set-top-boxes."
+#~ msgstr "Búa til tímastillingar á öðrum set-top-boxum"
 
 #~ msgid "Creating partition failed"
 #~ msgstr "Tókst ekki að búa til diskhluta"
@@ -9070,15 +9070,15 @@ msgstr "stokkið"
 #~ msgid "DVD Drive"
 #~ msgstr "DVD drif"
 
-#~ msgid "DVDPlayer plays your DVDs on your Dreambox"
-#~ msgstr "DVD spilari spilar DVD diska á Dreamboxinu"
+#~ msgid "DVDPlayer plays your DVDs on your set-top-box"
+#~ msgstr "DVD spilari spilar DVD diska á set-top-boxinu"
 
 #~ msgid ""
-#~ "DVDPlayer plays your DVDs on your Dreambox.\n"
-#~ "With the DVDPlayer you can play your DVDs on your Dreambox from a DVD or "
+#~ "DVDPlayer plays your DVDs on your set-top-box.\n"
+#~ "With the DVDPlayer you can play your DVDs on your set-top-box from a DVD or "
 #~ "even from an iso file or video_ts folder on your harddisc or network."
 #~ msgstr ""
-#~ "DVD spilari spilar DVD diska á Dreamboxinu.\n"
+#~ "DVD spilari spilar DVD diska á set-top-boxinu.\n"
 #~ "Með DVD spilaranum getur þú spilað DVD diska og einnig ISO skrár frá "
 #~ "harða diskinum þínum eða video_ts möppur af harða disknum eða netinu."
 
@@ -9106,7 +9106,7 @@ msgstr "stokkið"
 #~ msgid "Define a startup service"
 #~ msgstr "Velja þjónustu sem starta á"
 
-#~ msgid "Define a startup service for your Dreambox."
+#~ msgid "Define a startup service for your set-top-box."
 #~ msgstr "Velja þjónustu sem starta á við ræsingu."
 
 #~ msgid "Deinterlacer mode for interlaced content"
@@ -9218,8 +9218,8 @@ msgstr "stokkið"
 #~ "Öll gögn eyðast af diskinum!"
 
 #
-#~ msgid "Do you want to enable the parental control feature or your dreambox?"
-#~ msgstr "Viltu gera barnalæsingu virka í Dreamboxinu?"
+#~ msgid "Do you want to enable the parental control feature or your set-top-box?"
+#~ msgstr "Viltu gera barnalæsingu virka í set-top-boxinu?"
 
 #~ msgid "Do you want to enter a username and password for this host?\n"
 #~ msgstr "Viltu slá inn notendanafn og aðgangsorð fyrir þennan vefþjón?\n"
@@ -9268,7 +9268,7 @@ msgstr "stokkið"
 #~ msgstr "Hleð niður skjámyndum. Vinsamlega bíðið..."
 
 #
-#~ msgid "Dreambox to standby. Do that now?"
+#~ msgid "set-top-box to standby. Do that now?"
 #~ msgstr "Fara í biðstöðu. Gera það núna?"
 
 #~ msgid "Driver for Ralink RT8070/RT3070/RT3370 based wireless-n USB devices."
@@ -9332,8 +9332,8 @@ msgstr "stokkið"
 #~ msgid "Education"
 #~ msgstr "Námsefni"
 
-#~ msgid "Emailclient is an IMAP4 e-mail viewer for the Dreambox."
-#~ msgstr "Emailclient er IMAP4 póst skoðari fyrir Dreambox."
+#~ msgid "Emailclient is an IMAP4 e-mail viewer for the set-top-box."
+#~ msgstr "Emailclient er IMAP4 póst skoðari fyrir set-top-box."
 
 #~ msgid "Enable /media"
 #~ msgstr "Virkja /media"
@@ -9410,11 +9410,11 @@ msgstr "stokkið"
 #~ msgstr "Útvarps stilling eins og Enigma1"
 
 #~ msgid ""
-#~ "Enigma2 Plugin to play AVI/DIVX/WMV/etc. videos from PC on your Dreambox. "
+#~ "Enigma2 Plugin to play AVI/DIVX/WMV/etc. videos from PC on your set-top-box. "
 #~ "Needs a running VLC from www.videolan.org on your pc."
 #~ msgstr ""
 #~ "Enigma2 íforrit til að spila AVI/DIVX/WMV og fleiri myndir frá PC tölvu á "
-#~ "Dreamboxinu. Þarf að hafa VLC spilara keyrandi frá www.videolan.org á "
+#~ "set-top-boxinu. Þarf að hafa VLC spilara keyrandi frá www.videolan.org á "
 #~ "tölvunni þinni."
 
 #
@@ -9452,8 +9452,8 @@ msgstr "stokkið"
 #~ msgid "Enter WLAN passphrase/key:"
 #~ msgstr "Setjið inn WLAN aðgangsorð/lykil:"
 
-#~ msgid "Enter new hostname for your Dreambox"
-#~ msgstr "Slá inn nýtt netnafn fyrir Dreamboxið þitt"
+#~ msgid "Enter new hostname for your set-top-box"
+#~ msgstr "Slá inn nýtt netnafn fyrir set-top-boxið þitt"
 
 #~ msgid "Enter options:"
 #~ msgstr "Slá inn aukaupplýsingar:"
@@ -9504,10 +9504,10 @@ msgstr "stokkið"
 #~ msgstr "Sérfræði uppsetning"
 
 #~ msgid ""
-#~ "FTPBrowser allows uploading and downloading files between your Dreambox "
+#~ "FTPBrowser allows uploading and downloading files between your set-top-box "
 #~ "and a server using the file transfer protocol."
 #~ msgstr ""
-#~ "FTPBrowser gerir mögulegt að hlaða upp og niður skrám frá Dreamboxinu "
+#~ "FTPBrowser gerir mögulegt að hlaða upp og niður skrám frá set-top-boxinu "
 #~ "þínu til vefþjóns með því að nota FTP staðal."
 
 #
@@ -9625,10 +9625,10 @@ msgstr "stokkið"
 #~ msgstr "Forrit til að breyta ftp og telnet aðgangsorði."
 
 #~ msgid ""
-#~ "GUI that allows user to change the ftp-/telnet-password of the Dreambox."
+#~ "GUI that allows user to change the ftp-/telnet-password of the set-top-box."
 #~ msgstr ""
 #~ "Forrit sem að gerir mögulegt að breyta ftp og telnet aðgangsorði á "
-#~ "Dreamboxinu."
+#~ "set-top-boxinu."
 
 #~ msgid "GUI to change the ftp and telnet-password"
 #~ msgstr "Forrit til að breyta ftp og telnet aðgangsorði"
@@ -9657,14 +9657,14 @@ msgstr "stokkið"
 #~ msgid "Genre:"
 #~ msgstr "Gerð:"
 
-#~ msgid "Genuine Dreambox"
-#~ msgstr "Ósvikið Dreambox"
+#~ msgid "Genuine set-top-box"
+#~ msgstr "Ósvikið set-top-box"
 
-#~ msgid "Genuine Dreambox validation failed!"
-#~ msgstr "Staðfesting á að Dreamboxið er ósvikið tókst ekki!"
+#~ msgid "Genuine set-top-box validation failed!"
+#~ msgstr "Staðfesting á að set-top-boxið er ósvikið tókst ekki!"
 
-#~ msgid "Genuine Dreambox verification"
-#~ msgstr "Staðfesting á því að þetta sé orginal Dreambox"
+#~ msgid "Genuine set-top-box verification"
+#~ msgstr "Staðfesting á því að þetta sé orginal set-top-box"
 
 #~ msgid "German storm information"
 #~ msgstr "Þýsk stormviðvörun"
@@ -9695,11 +9695,11 @@ msgstr "stokkið"
 #~ msgstr "Stóra Bretland"
 
 #~ msgid ""
-#~ "Growlee allows your Dreambox to forward notifications like 'Record "
+#~ "Growlee allows your set-top-box to forward notifications like 'Record "
 #~ "started' to a PC running a growl, snarl or syslog compatible client or "
 #~ "directly to an iPhone using prowl."
 #~ msgstr ""
-#~ "Growlee gerir mögulegt að Dreamboxið sendi upplýsingar eins og 'Upptaka "
+#~ "Growlee gerir mögulegt að set-top-boxið sendi upplýsingar eins og 'Upptaka "
 #~ "hófst' til tölvu sem keyrir growl, snarl eða syslog samhæft tæki eða "
 #~ "beint í iPhone sem notar prowl."
 
@@ -9769,8 +9769,8 @@ msgstr "stokkið"
 #~ msgid "Howto & Style"
 #~ msgstr "Hvernig & stíll"
 
-#~ msgid "IMAP4 e-mail viewer for the Dreambox"
-#~ msgstr "IMAP4 póstskoðari fyrir Dreambox"
+#~ msgid "IMAP4 e-mail viewer for the set-top-box"
+#~ msgstr "IMAP4 póstskoðari fyrir set-top-box"
 
 #~ msgid "IP:"
 #~ msgstr "IP:"
@@ -9865,15 +9865,15 @@ msgstr "stokkið"
 #~ msgid "Internal firmware updater"
 #~ msgstr "Innri hugbúnaðar uppfærsla"
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 304
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 304
 #~ msgid "Invalid response from Security service pls restart again"
 #~ msgstr "Ógilt svar frá öryggis þjónustu. Byrjaðu aftur"
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 132
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 132
 #~ msgid "Invalid response from server."
 #~ msgstr "Ógilt svar frá vefþjón."
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 177
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 177
 #~ msgid "Invalid response from server. Please report: %s"
 #~ msgstr "Ógilt svar frá vefþjóni. Vinsamlega tilkynnið: %s"
 
@@ -9904,11 +9904,11 @@ msgstr "stokkið"
 #~ "Ýttu á BLÁA takka til að bæta við takmörkunum og GULA til að taka út "
 #~ "takmarkanir."
 
-#~ msgid "Italian Weather forecast on Dreambox"
-#~ msgstr "Ítölsk veðurspá á Dreamboxið"
+#~ msgid "Italian Weather forecast on set-top-box"
+#~ msgstr "Ítölsk veðurspá á set-top-boxið"
 
-#~ msgid "Italian Weather forecast on Dreambox from www.google.it."
-#~ msgstr "Ítölsk veðurspá á Dreamboxið frá www.google.it"
+#~ msgid "Italian Weather forecast on set-top-box from www.google.it."
+#~ msgstr "Ítölsk veðurspá á set-top-boxið frá www.google.it"
 
 #~ msgid "Italy"
 #~ msgstr "Ítalía"
@@ -9994,14 +9994,14 @@ msgstr "stokkið"
 #~ "dagsetningu verða notuð."
 
 #
-#~ msgid "Lets you view/edit files in your Dreambox"
+#~ msgid "Lets you view/edit files in your set-top-box"
 #~ msgstr "Leyfir skoðun/breytingu á skrám Dreaboxins þíns"
 
 #~ msgid "Listen and record internet radio"
 #~ msgstr "Hlusta á og taka upp netútvarp"
 
-#~ msgid "Listen and record shoutcast internet radio on your Dreambox."
-#~ msgstr "Hlusta á og taka upp shoutcast netútvarp á Dreamboxið."
+#~ msgid "Listen and record shoutcast internet radio on your set-top-box."
+#~ msgstr "Hlusta á og taka upp shoutcast netútvarp á set-top-boxið."
 
 #~ msgid "Load feed on startup:"
 #~ msgstr "Hlaða inn feed við ræsingu:"
@@ -10247,10 +10247,10 @@ msgstr "stokkið"
 
 #~ msgid ""
 #~ "NCID Client shows incoming voice calls promoted by any NCID server (e.g. "
-#~ "Vodafone Easybox) on your Dreambox."
+#~ "Vodafone Easybox) on your set-top-box."
 #~ msgstr ""
 #~ "NCID þjónn sýnir ef að síminn hringir frá einhverjum NCID vefþjón (s.s. "
-#~ "Vodafone Easybox) á Dreamboxinu."
+#~ "Vodafone Easybox) á set-top-boxinu."
 
 #~ msgid "NFS share"
 #~ msgstr "NFS samnýting"
@@ -10266,98 +10266,98 @@ msgstr "stokkið"
 #~ msgid "Nemesis BlackBox Skin"
 #~ msgstr "Nemesis BlackBox Skinn"
 
-#~ msgid "Nemesis BlackBox Skin for the Dreambox"
-#~ msgstr "Nemesis BlackBox Skinn fyrir Dreamboxið"
+#~ msgid "Nemesis BlackBox Skin for the set-top-box"
+#~ msgstr "Nemesis BlackBox Skinn fyrir set-top-boxið"
 
 #~ msgid "Nemesis Blueline Single Skin"
 #~ msgstr "Nemesis Blueline Single Skinn"
 
-#~ msgid "Nemesis Blueline Single Skin for the Dreambox"
-#~ msgstr "Nemesis Blueline Single Skinn fyrir Dreamboxið"
+#~ msgid "Nemesis Blueline Single Skin for the set-top-box"
+#~ msgstr "Nemesis Blueline Single Skinn fyrir set-top-boxið"
 
 #~ msgid "Nemesis Blueline Skin"
 #~ msgstr "Nemesis Blueline Skinn"
 
-#~ msgid "Nemesis Blueline Skin for the Dreambox"
-#~ msgstr "Nemesis Blueline Skinn fyrir Dreamboxið"
+#~ msgid "Nemesis Blueline Skin for the set-top-box"
+#~ msgstr "Nemesis Blueline Skinn fyrir set-top-boxið"
 
 #~ msgid "Nemesis Blueline.Extended Skin"
 #~ msgstr "Nemesis Blueline.Extended Skinn"
 
-#~ msgid "Nemesis Blueline.Extended Skin for the Dreambox"
-#~ msgstr "Nemesis Blueline.Extended Skinn fyrir Dreamboxið"
+#~ msgid "Nemesis Blueline.Extended Skin for the set-top-box"
+#~ msgstr "Nemesis Blueline.Extended Skinn fyrir set-top-boxið"
 
 #~ msgid "Nemesis ChromeLine Cobolt Skin"
 #~ msgstr "Nemesis ChromeLine Cobolt Skinn"
 
-#~ msgid "Nemesis ChromeLine Cobolt Skin for the Dreambox"
-#~ msgstr "Nemesis ChromeLine Cobolt Skinn fyrir Dreamboxið"
+#~ msgid "Nemesis ChromeLine Cobolt Skin for the set-top-box"
+#~ msgstr "Nemesis ChromeLine Cobolt Skinn fyrir set-top-boxið"
 
 #~ msgid "Nemesis ChromeLine Skin"
 #~ msgstr "Nemesis ChromeLine Skinn"
 
-#~ msgid "Nemesis ChromeLine Skin for the Dreambox"
-#~ msgstr "Nemesis ChromeLine Skinn fyrir Dreamboxið"
+#~ msgid "Nemesis ChromeLine Skin for the set-top-box"
+#~ msgstr "Nemesis ChromeLine Skinn fyrir set-top-boxið"
 
 #~ msgid "Nemesis Flatline Blue Skin"
 #~ msgstr "Nemesis Flatline Blue Skinn"
 
-#~ msgid "Nemesis Flatline Blue Skin for the Dreambox"
-#~ msgstr "Nemesis Flatline Blue Skinn fyrir Dreamboxið"
+#~ msgid "Nemesis Flatline Blue Skin for the set-top-box"
+#~ msgstr "Nemesis Flatline Blue Skinn fyrir set-top-boxið"
 
 #~ msgid "Nemesis Flatline Skin"
 #~ msgstr "Nemesis Flatline Skinn"
 
-#~ msgid "Nemesis Flatline Skin for the Dreambox"
-#~ msgstr "Nemesis Flatline Skinn fyrir Dreamboxið"
+#~ msgid "Nemesis Flatline Skin for the set-top-box"
+#~ msgstr "Nemesis Flatline Skinn fyrir set-top-boxið"
 
 #~ msgid "Nemesis GlassLine Skin"
 #~ msgstr "Nemesis GlassLine Skinn"
 
-#~ msgid "Nemesis GlassLine Skin for the Dreambox"
-#~ msgstr "Nemesis GlassLine Skinn fyrir Dreamboxið"
+#~ msgid "Nemesis GlassLine Skin for the set-top-box"
+#~ msgstr "Nemesis GlassLine Skinn fyrir set-top-boxið"
 
 #~ msgid "Nemesis Greenline Extended Skin"
 #~ msgstr "Nemesis Greenline Extended Skinn"
 
-#~ msgid "Nemesis Greenline Extended Skin for the Dreambox"
-#~ msgstr "Nemesis Greenline Extended Skinn fyrir Dreamboxið"
+#~ msgid "Nemesis Greenline Extended Skin for the set-top-box"
+#~ msgstr "Nemesis Greenline Extended Skinn fyrir set-top-boxið"
 
 #~ msgid "Nemesis Greenline Single Skin"
 #~ msgstr "Nemesis Greenline Single Skinn"
 
-#~ msgid "Nemesis Greenline Single Skin for the Dreambox"
-#~ msgstr "Nemesis Greenline Single Skinn fyrir Dreamboxið"
+#~ msgid "Nemesis Greenline Single Skin for the set-top-box"
+#~ msgstr "Nemesis Greenline Single Skinn fyrir set-top-boxið"
 
 #~ msgid "Nemesis Greenline Skin"
 #~ msgstr "Nemesis Greenline Skinn"
 
-#~ msgid "Nemesis Greenline Skin for the Dreambox"
-#~ msgstr "Nemesis Greenline Skinn fyrir Dreamboxið"
+#~ msgid "Nemesis Greenline Skin for the set-top-box"
+#~ msgstr "Nemesis Greenline Skinn fyrir set-top-boxið"
 
 #~ msgid "Nemesis Greyline Extended Skin"
 #~ msgstr "Nemesis Greyline Extended Skinn"
 
-#~ msgid "Nemesis Greyline Extended Skin for the Dreambox"
-#~ msgstr "Nemesis Greyline Extended Skinn fyrir Dreamboxið"
+#~ msgid "Nemesis Greyline Extended Skin for the set-top-box"
+#~ msgstr "Nemesis Greyline Extended Skinn fyrir set-top-boxið"
 
 #~ msgid "Nemesis Greyline Single Skin"
 #~ msgstr "Nemesis Greyline Single Skinn"
 
-#~ msgid "Nemesis Greyline Single Skin for the Dreambox"
-#~ msgstr "Nemesis Greyline Single Skinn fyrir Dreamboxið"
+#~ msgid "Nemesis Greyline Single Skin for the set-top-box"
+#~ msgstr "Nemesis Greyline Single Skinn fyrir set-top-boxið"
 
 #~ msgid "Nemesis Greyline Skin"
 #~ msgstr "Nemesis Greyline Skinn"
 
-#~ msgid "Nemesis Greyline Skin for the Dreambox"
-#~ msgstr "Nemesis Greyline Skinn fyrir Dreamboxið"
+#~ msgid "Nemesis Greyline Skin for the set-top-box"
+#~ msgstr "Nemesis Greyline Skinn fyrir set-top-boxið"
 
 #~ msgid "Nemesis ShadowLine Skin"
 #~ msgstr "Nemesis ShadowLine Skinn"
 
-#~ msgid "Nemesis ShadowLine Skin for the Dreambox"
-#~ msgstr "Nemesis ShadowLine Skinn fyrir Dreamboxið"
+#~ msgid "Nemesis ShadowLine Skin for the set-top-box"
+#~ msgstr "Nemesis ShadowLine Skinn fyrir set-top-boxið"
 
 #
 #~ msgid "Network SSID"
@@ -10548,11 +10548,11 @@ msgstr "stokkið"
 #~ msgstr "Bý til diskhluta á USB staut..."
 
 #~ msgid ""
-#~ "Partnerbox allows editing a remote Dreambox's record timers and stream "
+#~ "Partnerbox allows editing a remote set-top-box's record timers and stream "
 #~ "its TV  program."
 #~ msgstr ""
 #~ "Partnerbox gerir mögulegt að breyta tímastilltum upptökum á öðru "
-#~ "Dreamboxi og streyma myndum þaðan."
+#~ "set-top-boxi og streyma myndum þaðan."
 
 #~ msgid "People & Blogs"
 #~ msgstr "Fólk & blogg"
@@ -10578,8 +10578,8 @@ msgstr "stokkið"
 #~ msgid "Play video again"
 #~ msgstr "Spila bíómynd aftur"
 
-#~ msgid "Play videos from PC on your Dreambox"
-#~ msgstr "Spila bíómyndir frá tölvu á Dreamboxinu"
+#~ msgid "Play videos from PC on your set-top-box"
+#~ msgstr "Spila bíómyndir frá tölvu á set-top-boxinu"
 
 #~ msgid "Playback of Youtube through a PC"
 #~ msgstr "Spila Youtube myndbönd í gegnum tölvuna þína"
@@ -10602,10 +10602,10 @@ msgstr "stokkið"
 #~ msgstr "Vinsamlega veldu .NFI af strauma vefþjón til að hlaða niður"
 
 #~ msgid ""
-#~ "Please disconnect all USB devices from your Dreambox and (re-)attach the "
+#~ "Please disconnect all USB devices from your set-top-box and (re-)attach the "
 #~ "target USB stick (minimum size is 64 MB) now!"
 #~ msgstr ""
-#~ "Vinsamlegast aftengið allt frá USB tengjum á Dreamboxinu þínu og tengið "
+#~ "Vinsamlegast aftengið allt frá USB tengjum á set-top-boxinu þínu og tengið "
 #~ "USB stautinn sem að þú ætlar að nota (minnst 64 MB) núna!"
 
 #
@@ -10665,8 +10665,8 @@ msgstr "stokkið"
 #~ msgid "Plugin: %(plugin)s , Version: %(version)s"
 #~ msgstr "Íforrit: %(plugin)s , Útgáfa: %(version)s"
 
-#~ msgid "PodCast streams podcasts to your Dreambox."
-#~ msgstr "PodCast strauma hlaðvarp í Dreamboxið þitt."
+#~ msgid "PodCast streams podcasts to your set-top-box."
+#~ msgstr "PodCast strauma hlaðvarp í set-top-boxið þitt."
 
 #~ msgid "Poland"
 #~ msgstr "Pólland"
@@ -10934,8 +10934,8 @@ msgstr "stokkið"
 #~ msgid "Restore running..."
 #~ msgstr "Innsetning afrita í gangi..."
 
-#~ msgid "Restore your Dreambox with a USB stick"
-#~ msgstr "Endurforrita Dreamboxið með USB staut"
+#~ msgid "Restore your set-top-box with a USB stick"
+#~ msgstr "Endurforrita set-top-boxið með USB staut"
 
 #
 #~ msgid ""
@@ -11206,8 +11206,8 @@ msgstr "stokkið"
 #~ msgid "Set this NO to disable this AutoTimer."
 #~ msgstr "Stilla á NEI til að hætta með sjálfvirka tímastillingu"
 
-#~ msgid "Sets your Dreambox into Deep-Standby"
-#~ msgstr "Setja Dreamboxið þitt í djúpan svefn"
+#~ msgid "Sets your set-top-box into Deep-Standby"
+#~ msgstr "Setja set-top-boxið þitt í djúpan svefn"
 
 #~ msgid "Setting key canceled"
 #~ msgstr "Hætt við að stilla takka"
@@ -11282,8 +11282,8 @@ msgstr "stokkið"
 #~ msgid "Simple IRC GroupChat client for e2 #dm8000-vip channel"
 #~ msgstr "Einfalt IRC hópspjalls forrit fyrir e2 #dm8000-vip rásina"
 
-#~ msgid "SimpleRSS allows reading RSS newsfeeds on your Dreambox."
-#~ msgstr "EinfaltRSS gerir mögulegt að lesa RSS fréttastrauma á Dreamboxinu."
+#~ msgid "SimpleRSS allows reading RSS newsfeeds on your set-top-box."
+#~ msgstr "EinfaltRSS gerir mögulegt að lesa RSS fréttastrauma á set-top-boxinu."
 
 #
 #~ msgid "Skin..."
@@ -11316,8 +11316,8 @@ msgstr "stokkið"
 #~ msgid "Software manager..."
 #~ msgstr "Hugbúnaðar stjóri..."
 
-#~ msgid "SoftwareManager manages your Dreambox software"
-#~ msgstr "Hugbúnaðarumsýsla stjórnar hugbúnaði á Dreamboxinu"
+#~ msgid "SoftwareManager manages your set-top-box software"
+#~ msgstr "Hugbúnaðarumsýsla stjórnar hugbúnaði á set-top-boxinu"
 
 #
 #~ msgid "Somewhere else"
@@ -11417,7 +11417,7 @@ msgstr "stokkið"
 #~ msgid "Temperature-dependent fan control."
 #~ msgstr "Hitastýrð hraðastýring fyrir viftu."
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 80
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 80
 #~ msgid "Test again"
 #~ msgstr "Prufa aftur"
 
@@ -11447,7 +11447,7 @@ msgstr "stokkið"
 
 #~ msgid ""
 #~ "The CleanupWizard informs you when the internal free memory of your "
-#~ "dreambox has dropped below a definable threshold.You can use this wizard "
+#~ "set-top-box has dropped below a definable threshold.You can use this wizard "
 #~ "to remove some plugins."
 #~ msgstr ""
 #~ "Hreinsiálfurinn lætur vita þegar innraminni móttakarans er komið niður "
@@ -11489,17 +11489,17 @@ msgstr "stokkið"
 
 #~ msgid ""
 #~ "The SkinSelector shows a menu with selectable skins.\n"
-#~ "It's now easy to change the look and feel of your Dreambox."
+#~ "It's now easy to change the look and feel of your set-top-box."
 #~ msgstr ""
 #~ "Skinnval sýnir valmynd með veljanlegur skinnum.\n"
-#~ "Núna er einfalt að breyta úliti valmynda í Dreamboxinu."
+#~ "Núna er einfalt að breyta úliti valmynda í set-top-boxinu."
 
 #~ msgid ""
-#~ "The SoftwareManager manages your Dreambox software.\n"
+#~ "The SoftwareManager manages your set-top-box software.\n"
 #~ "It's easy to update your receiver's software, install or remove plugins "
 #~ "or even backup and restore your system settings."
 #~ msgstr ""
-#~ "Hugbúnaðarstjórinn stjórnar hugbúnaði Dreamboxins þíns.\n"
+#~ "Hugbúnaðarstjórinn stjórnar hugbúnaði set-top-boxins þíns.\n"
 #~ "Það er einfalt að uppfæra hugbúnað móttakarans, setja inn eða taka út "
 #~ "íforrit eða jafnvel taka afrit eða setja inn stillingar þínar."
 
@@ -11601,12 +11601,12 @@ msgstr "stokkið"
 #~ msgid "There was an error getting the feed entries. Please try again."
 #~ msgstr "Það varð villa við að sækja fæðirásir. Reyndu aftur."
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 130
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 130
 #~ msgid ""
-#~ "There's a certificate update available for your dreambox. Would you like "
+#~ "There's a certificate update available for your set-top-box. Would you like "
 #~ "to apply this update now?"
 #~ msgstr ""
-#~ "Það er tiltæk uppfærsla fyrir Dreamboxið þitt. Viltu setja þessa "
+#~ "Það er tiltæk uppfærsla fyrir set-top-boxið þitt. Viltu setja þessa "
 #~ "uppfærslu inn núna?"
 
 #
@@ -11630,8 +11630,8 @@ msgstr "stokkið"
 #~ "forrita minni móttakarans með henni?"
 
 #
-#~ msgid "This Dreambox can't decode %s video streams!"
-#~ msgstr "Þetta Dreambox getur ekki spilað %s mynd strauma!"
+#~ msgid "This set-top-box can't decode %s video streams!"
+#~ msgstr "Þetta set-top-box getur ekki spilað %s mynd strauma!"
 
 #~ msgid "This Month"
 #~ msgstr "Þennan mánuð"
@@ -11727,14 +11727,14 @@ msgstr "stokkið"
 
 #
 #~ msgid ""
-#~ "To update your Dreambox firmware, please follow these steps:\n"
+#~ "To update your set-top-box firmware, please follow these steps:\n"
 #~ "1) Turn off your box with the rear power switch and plug in the bootable "
 #~ "USB stick.\n"
 #~ "2) Turn mains back on and hold the DOWN button on the front panel pressed "
 #~ "for 10 seconds.\n"
 #~ "3) Wait for bootup and follow instructions of the wizard."
 #~ msgstr ""
-#~ "Til að uppfæra stýrikerfi Dreamboxins, fylgdu þá þessum leiðbeiningum:\n"
+#~ "Til að uppfæra stýrikerfi set-top-boxins, fylgdu þá þessum leiðbeiningum:\n"
 #~ "1) Slökktu á móttakaranum með rofanum aftaná og settu inn startanlega USB "
 #~ "stautinn í USB tengið.\n"
 #~ "2) Kveiktu á rofanum aftaná móttakaranum og haldu inni NIÐUR takkanum á "
@@ -11772,10 +11772,10 @@ msgstr "stokkið"
 #~ msgstr "USB"
 
 #~ msgid ""
-#~ "USB stick wizard finished. Your dreambox will now restart with your new "
+#~ "USB stick wizard finished. Your set-top-box will now restart with your new "
 #~ "image!"
 #~ msgstr ""
-#~ "USB stauts ráðgjafi er búinn. Dreamboxið mun nú endurræsa nýja "
+#~ "USB stauts ráðgjafi er búinn. set-top-boxið mun nú endurræsa nýja "
 #~ "stýrikerfinu!"
 
 #
@@ -11849,15 +11849,15 @@ msgstr "stokkið"
 #~ msgid "Update done..."
 #~ msgstr "Uppfærslu lokið..."
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 170
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 170
 #~ msgid ""
-#~ "Update done... The genuine dreambox test will now be rerun and should not "
+#~ "Update done... The genuine set-top-box test will now be rerun and should not "
 #~ "ask you to update again."
 #~ msgstr ""
-#~ "Uppfærslu lokið... Orginal Dreambox prufa verður núna keyrt aftur og mun "
+#~ "Uppfærslu lokið... Orginal set-top-box prufa verður núna keyrt aftur og mun "
 #~ "ekki spyrja aftur."
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 150
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 150
 #~ msgid ""
 #~ "Updating failed. Nothing is broken, just the update couldn't be applied."
 #~ msgstr "Uppfærsla tókst ekki. Ekkert er að, það tókst bara ekki að uppfæra."
@@ -11890,8 +11890,8 @@ msgstr "stokkið"
 #~ msgid "Use a custom location"
 #~ msgstr "Nota sérstakan stað"
 
-#~ msgid "Use and control multiple Dreamboxes with different RCs."
-#~ msgstr "Stjórna mörgum Dreamboxum með mismunandi fjarstýringum."
+#~ msgid "Use and control multiple set-top-boxes with different RCs."
+#~ msgstr "Stjórna mörgum set-top-boxum með mismunandi fjarstýringum."
 
 #
 #~ msgid "Use non-smooth winding at speeds above"
@@ -11920,9 +11920,9 @@ msgstr "stokkið"
 #~ msgstr "Vali.HD.warp skinn"
 
 #~ msgid ""
-#~ "Verify your Dreambox authenticity by running the genuine dreambox plugin!"
+#~ "Verify your set-top-box authenticity by running the genuine set-top-box plugin!"
 #~ msgstr ""
-#~ "Athuga hvort Dreamboxið þitt er orginal með því að keyra genuine dreambox "
+#~ "Athuga hvort set-top-boxið þitt er orginal með því að keyra genuine set-top-box "
 #~ "íforrit!"
 
 #~ msgid "Verifying your internet connection..."
@@ -11952,8 +11952,8 @@ msgstr "stokkið"
 #~ msgid "View Google maps"
 #~ msgstr "Skoða Google maps"
 
-#~ msgid "View Google maps with your Dreambox."
-#~ msgstr "Skoða Google maps með dreamboxinu þinu."
+#~ msgid "View Google maps with your set-top-box."
+#~ msgstr "Skoða Google maps með set-top-boxinu þinu."
 
 #~ msgid "View active downloads"
 #~ msgstr "Skoða virk niðurhöl"
@@ -11968,8 +11968,8 @@ msgstr "stokkið"
 #~ msgid "View response videos"
 #~ msgstr "Skoða svörunar myndbönd"
 
-#~ msgid "View, edit or delete mountpoints on your Dreambox."
-#~ msgstr "Skoða, breyta eða eyða tengipunkta við Dreamboxið."
+#~ msgid "View, edit or delete mountpoints on your set-top-box."
+#~ msgstr "Skoða, breyta eða eyða tengipunkta við set-top-boxið."
 
 #~ msgid "View, edit or delete usernames and passwords for your network."
 #~ msgstr "Skoða, breyta eða eyða notendanöfnum og aðgangsorðum að netkerfinu."
@@ -12015,11 +12015,11 @@ msgstr "stokkið"
 #~ "sekúndur og þá breytist hann aftur.\n"
 #~ "Ýttu á OK til að byrja."
 
-#~ msgid "WeatherPlugin shows weatherforecasts on your Dreambox."
-#~ msgstr "Veður íforritið sýnir veðurspá á Dreamboxinu þínu."
+#~ msgid "WeatherPlugin shows weatherforecasts on your set-top-box."
+#~ msgstr "Veður íforritið sýnir veðurspá á set-top-boxinu þínu."
 
-#~ msgid "Weatherforecast on your Dreambox"
-#~ msgstr "Veðurspá á Dreamboxið"
+#~ msgid "Weatherforecast on your set-top-box"
+#~ msgstr "Veðurspá á set-top-boxið"
 
 #~ msgid "Web-Bouquet-Editor for PC"
 #~ msgstr "Rása ritill fyrir vefinn"
@@ -12134,18 +12134,18 @@ msgstr "stokkið"
 #~ "svo sem á fréttarásum."
 
 #~ msgid ""
-#~ "With DVDBurn you can make compilations of records from your Dreambox hard "
+#~ "With DVDBurn you can make compilations of records from your set-top-box hard "
 #~ "drive.\n"
 #~ "Optionally you can add customizable menus. You can record the compilation "
 #~ "to a standard-compliant DVD that can be played on conventinal DVD "
 #~ "players.\n"
-#~ "HDTV recordings can only be burned in proprietary dreambox format."
+#~ "HDTV recordings can only be burned in proprietary set-top-box format."
 #~ msgstr ""
 #~ "Með DVD brennara getur þú búið til ISO skrár úr upptökum af harða "
 #~ "diskinum þínum.\n"
 #~ "Þú getur líka búið til valmyndir og svo brennt skrána á DVD diska sem "
 #~ "hægt er svo að spila á venjulegur DVD spilurum.\n"
-#~ "HDTV staðal er bara hægt að brenna á diska í Dreambox formi."
+#~ "HDTV staðal er bara hægt að brenna á diska í set-top-box formi."
 
 #~ msgid "With EPGSearch you can search through the EPG and create timers."
 #~ msgstr ""
@@ -12153,9 +12153,9 @@ msgstr "stokkið"
 #~ "upptökur."
 
 #~ msgid ""
-#~ "With Genuine Dreambox you can verify the authenticity of your Dreambox."
+#~ "With Genuine set-top-box you can verify the authenticity of your set-top-box."
 #~ msgstr ""
-#~ "Með Genuine Dreambox getur þú athugað hvort að þú sért með ekta Dreambox."
+#~ "Með Genuine set-top-box getur þú athugað hvort að þú sért með ekta set-top-box."
 
 #~ msgid ""
 #~ "With IMDb you can download and displays movie information (rating, "
@@ -12189,20 +12189,20 @@ msgstr "stokkið"
 #~ "keyrslu."
 
 #~ msgid ""
-#~ "With YouTubePlayer you can watch YouTube-Videos on the Dreambox.\n"
+#~ "With YouTubePlayer you can watch YouTube-Videos on the set-top-box.\n"
 #~ "This plugin requires a PC with the VLC program running."
 #~ msgstr ""
-#~ "Með YouTubeSpilara getur þú spilað YouTube myndbönd á Dreamboxinu.\n"
+#~ "Með YouTubeSpilara getur þú spilað YouTube myndbönd á set-top-boxinu.\n"
 #~ "Þetta íforrit þarf PC með keyrandi VLC spilara."
 
 #~ msgid ""
 #~ "With the CommonInterfaceAssignment plugin it is possible to use "
-#~ "differentCI modules in your Dreambox and assign dedicated providers/"
+#~ "differentCI modules in your set-top-box and assign dedicated providers/"
 #~ "services or caids to each of them.\n"
 #~ "This allows watching a scrambled service while recording another one."
 #~ msgstr ""
 #~ "Með CommonInterfaceAssignment íforritinu þá er mögulegt að nota "
-#~ "mismunandi CI einingar í Dreamboxinu og tengja ákveðin sendanda eða rása "
+#~ "mismunandi CI einingar í set-top-boxinu og tengja ákveðin sendanda eða rása "
 #~ "caid við hvert CI.\n"
 #~ "Þetta gerir mögulegt að horfa á ruglaða rás og taka upp aðra ruglaða um "
 #~ "leið."
@@ -12230,12 +12230,12 @@ msgstr "stokkið"
 
 #~ msgid ""
 #~ "With the NFIFlash plugin it is possible to prepare a USB stick with an "
-#~ "Dreambox image.\n"
-#~ "It is then possible to flash your Dreambox with the image on that stick."
+#~ "set-top-box image.\n"
+#~ "It is then possible to flash your set-top-box with the image on that stick."
 #~ msgstr ""
-#~ "Með NFIFlash í forritinu er hægt að útbúa USB staut með Dreambox "
+#~ "Með NFIFlash í forritinu er hægt að útbúa USB staut með set-top-box "
 #~ "stýrikerfi.\n"
-#~ "Það er svo hægt að forrita Dreamboxið þitt með því stýrikerfi."
+#~ "Það er svo hægt að forrita set-top-boxið þitt með því stýrikerfi."
 
 #~ msgid ""
 #~ "With the NetworkWizard you can easily configure your network step by step."
@@ -12331,7 +12331,7 @@ msgstr "stokkið"
 
 #
 #~ msgid ""
-#~ "You do not seem to have a harddisk in your Dreambox. So backing up to a "
+#~ "You do not seem to have a harddisk in your set-top-box. So backing up to a "
 #~ "harddisk is not an option for you."
 #~ msgstr ""
 #~ "Þú ert ekki með harðan disk í boxinu svo að afritun á harðan disk er ekki "
@@ -12539,8 +12539,8 @@ msgstr "stokkið"
 #~ msgid "config changed."
 #~ msgstr "Stillingum breytt."
 
-#~ msgid "control multiple Dreamboxes with different RCs"
-#~ msgstr "stjórna mörgum Dreamboxum með mismunandi fjarstýringum"
+#~ msgid "control multiple set-top-boxes with different RCs"
+#~ msgstr "stjórna mörgum set-top-boxum með mismunandi fjarstýringum"
 
 #
 #~ msgid "copy to favourites"
@@ -12775,7 +12775,7 @@ msgstr "stokkið"
 #~ msgstr "rása kóði"
 
 #~ msgid "set enigma2 to standby-mode after startup"
-#~ msgstr "setja Dreamboxið í biðstöðu eftir ræsingu"
+#~ msgstr "setja set-top-boxið í biðstöðu eftir ræsingu"
 
 #~ msgid "sets the Audio Delay (LipSync)"
 #~ msgstr "stilla hljóð seinkum (LipSync)"
@@ -12834,16 +12834,16 @@ msgstr "stokkið"
 #~ msgid "use power delta"
 #~ msgstr "nota afl delta"
 
-#~ msgid "use your Dreambox as Web proxy"
-#~ msgstr "nota Dreamboxið sem Vefumboð (proxy)"
+#~ msgid "use your set-top-box as Web proxy"
+#~ msgstr "nota set-top-boxið sem Vefumboð (proxy)"
 
-#~ msgid "use your Dreambox as Web proxy."
-#~ msgstr "Nota Dreamboxið sem Vefumboð (proxy)."
+#~ msgid "use your set-top-box as Web proxy."
+#~ msgstr "Nota set-top-boxið sem Vefumboð (proxy)."
 
 #
 #~ msgid "year"
 #~ msgstr "ár"
 
 #
-#~ msgid "your Dreambox. Shutdown now?"
-#~ msgstr "Dreamboxið þitt. Slökkva núna?"
+#~ msgid "your set-top-box. Shutdown now?"
+#~ msgstr "set-top-boxið þitt. Slökkva núna?"
