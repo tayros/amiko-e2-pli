@@ -34,7 +34,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Backup your Dreambox settings."
+"Backup your set-top-box settings."
 msgstr ""
 "\n"
 "POMEMBNA FUNKCIJA! Varnostno kopiranje nastavitev sprejemnika."
@@ -50,7 +50,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Manage extensions or plugins for your Dreambox"
+"Manage extensions or plugins for your set-top-box"
 msgstr ""
 "\n"
 "Upravljanje z razširitvami in vtičniki sprejemnika."
@@ -58,7 +58,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Online update of your Dreambox software."
+"Online update of your set-top-box software."
 msgstr ""
 "\n"
 "POMEMBNA FUNKCIJA! Omogoča nadgradnjo na najnovejšo verzijo OpenPLi slike."
@@ -74,7 +74,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox settings."
+"Restore your set-top-box settings."
 msgstr ""
 "\n"
 "Obnovitev varnostne kopije nastavitev sprejemnika."
@@ -82,7 +82,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox with a new firmware."
+"Restore your set-top-box with a new firmware."
 msgstr ""
 "\n"
 "Ta funkcija nima koristnega namena."
@@ -408,7 +408,7 @@ msgstr "Poskusni vtičnik za TMP."
 #
 msgid ""
 "A finished record timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "Zaključen časovnik snemanja želi vaš\n"
 "sprejemnik poslati v stanje pripravljenosti. Se strinjate s tem dejanjem?"
@@ -416,7 +416,7 @@ msgstr ""
 #
 msgid ""
 "A finished record timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "Zaključen časovnik snemanja želi izklopiti vaš\n"
 "sprejemnik. Se strinjate s tem dejanjem?"
@@ -485,7 +485,7 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "Časovnik mirovanja želi vaš sprejemnik\n"
 "poslati v stanje pripravljenosti. Se strinjate?"
@@ -493,7 +493,7 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "Časovnik mirovanja želi izklopiti vaš\n"
 "sprejemnik. Se strinjate?"
@@ -615,7 +615,7 @@ msgstr "Dodaj/Izbriši časovnik za trenutni dogodek"
 
 #
 msgid ""
-"Adds enigma2 settings and dreambox model informations like SN, rev... if "
+"Adds enigma2 settings and set-top-box model informations like SN, rev... if "
 "enabled."
 msgstr ""
 
@@ -674,7 +674,7 @@ msgstr ""
 #
 msgid ""
 "After the start wizard is completed, you need to protect single services. "
-"Refer to your dreambox's manual on how to do that."
+"Refer to your set-top-box's manual on how to do that."
 msgstr ""
 "Ko se čarovnik zaključi, zaščitite posamezne kanale. Za podrobno razlago "
 "postopka, preverite priložena navodila."
@@ -1401,8 +1401,8 @@ msgid "Copy"
 msgstr "Kopiranje"
 
 #
-msgid "Could not connect to Dreambox .NFI Image Feed Server:"
-msgstr "Povezava z Dreambox .NFI izvornim strežnikom ni uspela:"
+msgid "Could not connect to set-top-box .NFI Image Feed Server:"
+msgstr "Povezava z set-top-box .NFI izvornim strežnikom ni uspela:"
 
 #
 msgid "Could not load Medium! No disc inserted?"
@@ -1876,7 +1876,7 @@ msgid "Do you want to download the image to %s ?"
 msgstr "Želite presneti sliko k %s?"
 
 #
-msgid "Do you want to enable the parental control feature on your dreambox?"
+msgid "Do you want to enable the parental control feature on your set-top-box?"
 msgstr "Želite na vašem sprejemniku omogočiti funkcijo starševskega nadzora?"
 
 #
@@ -1892,7 +1892,7 @@ msgid "Do you want to preview this DVD before burning?"
 msgstr "Ali želite predogled zbirke pred zapisom na DVD?"
 
 #
-msgid "Do you want to reboot your Dreambox?"
+msgid "Do you want to reboot your set-top-box?"
 msgstr "Želite ponovno zagnati vaš sprejemnik?"
 
 #
@@ -1916,12 +1916,12 @@ msgstr ""
 "navežemo stik?"
 
 #
-msgid "Do you want to update your Dreambox?"
+msgid "Do you want to update your set-top-box?"
 msgstr "Želite nadgraditi vaš sprejemnik?"
 
 #
 msgid ""
-"Do you want to update your Dreambox?\n"
+"Do you want to update your set-top-box?\n"
 "After pressing OK, please wait!"
 msgstr ""
 "Želite nadgraditi vaš sprejemnik?\n"
@@ -1990,11 +1990,11 @@ msgid "Downloading plugin information. Please wait..."
 msgstr "Poteka pridobivanje seznama vtičnikov... Prosim počakajte!"
 
 #
-msgid "Dreambox format data DVD (HDTV compatible)"
-msgstr "Dreambox/VU+ oblika podatkov DVD (HDTV združljiva)"
+msgid "set-top-box format data DVD (HDTV compatible)"
+msgstr "set-top-box/VU+ oblika podatkov DVD (HDTV združljiva)"
 
 #
-msgid "Dreambox software because updates are available."
+msgid "set-top-box software because updates are available."
 msgstr ""
 
 #
@@ -2062,11 +2062,11 @@ msgid "Edit settings"
 msgstr "Spreminjanje nastavitev"
 
 #
-msgid "Edit the Nameserver configuration of your Dreambox.\n"
+msgid "Edit the Nameserver configuration of your set-top-box.\n"
 msgstr "Spremenite nastavitve imenskega strežnika sprejemnika.\n"
 
 #
-msgid "Edit the network configuration of your Dreambox.\n"
+msgid "Edit the network configuration of your set-top-box.\n"
 msgstr "Spremenite mrežne nastavitve sprejemnika.\n"
 
 #
@@ -3653,7 +3653,7 @@ msgid "No, do nothing."
 msgstr "Ne stori ničesar."
 
 #
-msgid "No, just start my dreambox"
+msgid "No, just start my set-top-box"
 msgstr "Ne, samo zaženi moj sprejemnik"
 
 msgid "No, never"
@@ -5335,7 +5335,7 @@ msgid "Shutdown"
 msgstr "Izklop"
 
 #
-msgid "Shutdown Dreambox after"
+msgid "Shutdown set-top-box after"
 msgstr "Izklopi sprejemnik po"
 
 msgid "Side by Side"
@@ -5805,7 +5805,7 @@ msgid "Test mode"
 msgstr "Testni način"
 
 #
-msgid "Test the network configuration of your Dreambox.\n"
+msgid "Test the network configuration of your set-top-box.\n"
 msgstr "Preverite omrežne nastavitve vašega sprejemnika.\n"
 
 #
@@ -5832,7 +5832,7 @@ msgstr "Hvala, da ste uporabili čarovnik. Za nadaljevanje pritisnite OK!"
 #
 msgid ""
 "Thank you for using the wizard. Your box is now ready to use.\n"
-"Please press OK to start using your Dreambox."
+"Please press OK to start using your set-top-box."
 msgstr ""
 "Hvala, da ste uporabili čarovnik. Sprejemnik je sedaj pripravljen za "
 "uporabo.\n"
@@ -5841,11 +5841,11 @@ msgstr ""
 #
 msgid ""
 "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
-"create a Dreambox format data DVD (which will not play in stand-alone DVD "
+"create a set-top-box format data DVD (which will not play in stand-alone DVD "
 "players) instead?"
 msgstr ""
 "Standarden DVD ne podpira H.264 (HD) video zapisa. Ali želite namesto tega "
-"ustvariti Dreambox obliko podatkovnega DVD (le-tega ne boste mogli "
+"ustvariti set-top-box obliko podatkovnega DVD (le-tega ne boste mogli "
 "predvajati v samostojnih DVD predvajalnikih)?"
 
 #
@@ -5934,7 +5934,7 @@ msgstr "Namestitev privzetih seznamov kanalov je končana."
 #
 msgid ""
 "The installation of the default settings is finished. You can now continue "
-"configuring your Dreambox by pressing the OK button on the remote control."
+"configuring your set-top-box by pressing the OK button on the remote control."
 msgstr ""
 "Namestitev privzetih nastavitev je končana. Sedaj lahko nadaljujete s "
 "spreminjanjem nastavitev vašega sprejemnika - pritisnite tipko OK."
@@ -6069,7 +6069,7 @@ msgstr ""
 
 #
 #, python-format
-msgid "This Dreambox can't decode %s streams!"
+msgid "This set-top-box can't decode %s streams!"
 msgstr "Sprejemnik ne more odkleniti %s tokov!"
 
 #
@@ -6078,7 +6078,7 @@ msgstr "Korak št.2."
 
 msgid ""
 "This plugin creates a USB stick which can be used to update the firmware of "
-"your Dreambox without the need for a network or WLAN connection.\n"
+"your set-top-box without the need for a network or WLAN connection.\n"
 "First, a USB stick needs to be prepared so that it becomes bootable.\n"
 "In the next step, an NFI image file can be downloaded from the update server "
 "and saved on the USB stick.\n"
@@ -6288,7 +6288,7 @@ msgid "To subtitle selection"
 msgstr "Pojdite na izbiro podnapisa"
 
 msgid ""
-"To update your Dreambox firmware, please follow these steps:\n"
+"To update your set-top-box firmware, please follow these steps:\n"
 "1) Turn off your box with the rear power switch and make sure the bootable "
 "USB stick is plugged in.\n"
 "2) Turn mains back on and hold the DOWN button on the front panel pressed "
@@ -6543,7 +6543,7 @@ msgstr "Nadgradi in vprašaj za ponovni zagon"
 msgid "Upgrade finished."
 msgstr "Nadgradnja končana."
 
-msgid "Upgrade finished. Do you want to reboot your Dreambox?"
+msgid "Upgrade finished. Do you want to reboot your set-top-box?"
 msgstr "Nadgradnja je končana. Želite izvesti ponovni zagon sprejemnika?"
 
 #
@@ -6551,7 +6551,7 @@ msgid "Upgrading"
 msgstr "Nadgrajujem"
 
 #
-msgid "Upgrading Dreambox... Please wait"
+msgid "Upgrading set-top-box... Please wait"
 msgstr "Poteka posodabljanje sprejemnika... Prosim počakajte!"
 
 #
@@ -6927,7 +6927,7 @@ msgstr ""
 #
 msgid ""
 "Welcome to the Image upgrade wizard. The wizard will assist you in upgrading "
-"the firmware of your Dreambox by providing a backup facility for your "
+"the firmware of your set-top-box by providing a backup facility for your "
 "current settings and a short explanation of how to upgrade your firmware."
 msgstr ""
 "Dobrodošli v čarovniku za nadgradnjo. Čarovnik vam bo pomagal pri nadgradnji "
@@ -6939,7 +6939,7 @@ msgid ""
 "Welcome to the cleanup wizard.\n"
 "\n"
 "We have detected that your available internal memory has dropped below 2MB.\n"
-"To ensure stable operation of your Dreambox, the internal memory should be "
+"To ensure stable operation of your set-top-box, the internal memory should be "
 "cleaned up.\n"
 "You can use this wizard to remove some extensions.\n"
 msgstr ""
@@ -6948,8 +6948,8 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"If you want to connect your Dreambox to the Internet, this wizard will guide "
-"you through the basic network setup of your Dreambox.\n"
+"If you want to connect your set-top-box to the Internet, this wizard will guide "
+"you through the basic network setup of your set-top-box.\n"
 "\n"
 "Press OK to start configuring your network"
 msgstr ""
@@ -6958,7 +6958,7 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"This start wizard will guide you through the basic setup of your Dreambox.\n"
+"This start wizard will guide you through the basic setup of your set-top-box.\n"
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
 "Dobrodošli.\n"
@@ -7141,7 +7141,7 @@ msgid "You can install this plugin."
 msgstr "Izbrani vtičnik lahko izbrišete."
 
 #
-msgid "You can only burn Dreambox recordings!"
+msgid "You can only burn set-top-box recordings!"
 msgstr ""
 
 #
@@ -7206,15 +7206,15 @@ msgstr "Počakati morate %s!"
 
 #
 msgid ""
-"You need a PC connected to your dreambox. If you need further instructions, "
+"You need a PC connected to your set-top-box. If you need further instructions, "
 "please visit the website http://www.dm7025.de.\n"
-"Your dreambox will now be halted. After you have performed the update "
+"Your set-top-box will now be halted. After you have performed the update "
 "instructions from the website, your new firmware will ask you to restore "
 "your settings."
 msgstr ""
 "Na vaš sprejemnik morate povezati na računalnik. Če potrebujete dodatna "
 "navodila, prosim obiščite stran http://www.dm7025.de.\n"
-"Vaš Dreambox bo sedaj ustavljen. Ko končate nadgradnjo sistema po navodilih "
+"Vaš set-top-box bo sedaj ustavljen. Ko končate nadgradnjo sistema po navodilih "
 "iz spletne strani bo vaša nova programska oprema zahtevala izdelavo varne "
 "kopije vaših nastavitev."
 
@@ -7229,7 +7229,7 @@ msgstr "Vaš sprejemnik ne podpira ext4 datotečni sistem."
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -7241,7 +7241,7 @@ msgstr ""
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -7254,7 +7254,7 @@ msgstr ""
 "Za nadaljevanje pritisnite OK."
 
 #
-msgid "Your Dreambox will restart after pressing OK on your remote control."
+msgid "Your set-top-box will restart after pressing OK on your remote control."
 msgstr "Vaš sprejemnik se bo po pritisku na tipko OK ponovno zagnal."
 
 #
@@ -7276,12 +7276,12 @@ msgid "Your current collection will get lost!"
 msgstr ""
 
 #
-msgid "Your dreambox is shutting down. Please stand by..."
+msgid "Your set-top-box is shutting down. Please stand by..."
 msgstr "Poteka postopek ugašanja sprejemnika... Prosim počakajte!"
 
 #
 msgid ""
-"Your dreambox isn't connected to the internet properly. Please check it and "
+"Your set-top-box isn't connected to the internet properly. Please check it and "
 "try again."
 msgstr ""
 "Vaš sprejemnik ni pravilno povezan na omrežje. Prosim preverite omrežne "
@@ -7706,20 +7706,20 @@ msgstr "Ne snemaj"
 msgid "done!"
 msgstr "Storjeno!"
 
-msgid "dreambox advanced remote control (native)"
-msgstr "Dreambox napredni daljinski upravljalnik (izvirno)"
+msgid "set-top-box advanced remote control (native)"
+msgstr "set-top-box napredni daljinski upravljalnik (izvirno)"
 
-msgid "dreambox front panel"
-msgstr "Dreambox front panel"
+msgid "set-top-box front panel"
+msgstr "set-top-box front panel"
 
-msgid "dreambox ir keyboard"
-msgstr "Dreambox IR tipkovnica"
+msgid "set-top-box ir keyboard"
+msgstr "set-top-box IR tipkovnica"
 
-msgid "dreambox ir mouse"
-msgstr "Dreambox IR miška"
+msgid "set-top-box ir mouse"
+msgstr "set-top-box IR miška"
 
-msgid "dreambox remote control (native)"
-msgstr "Dreambox daljinski upravljalnik (izvirno)"
+msgid "set-top-box remote control (native)"
+msgstr "set-top-box daljinski upravljalnik (izvirno)"
 
 msgid "east"
 msgstr "vzhod"
@@ -8621,8 +8621,8 @@ msgstr "Da (obdrži feed-e)"
 
 #
 msgid ""
-"your dreambox might be unusable now. Please consult the manual for further "
-"assistance before rebooting your dreambox."
+"your set-top-box might be unusable now. Please consult the manual for further "
+"assistance before rebooting your set-top-box."
 msgstr ""
 "vaš sprejemnik je sedaj možno uporabljati. Pred ponovnim zagonom "
 "sprejemnika, preverite uporabnika navodila."
