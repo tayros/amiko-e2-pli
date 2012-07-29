@@ -38,7 +38,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Backup your Dreambox settings."
+"Backup your set-top-box settings."
 msgstr ""
 "\n"
 "A készülék beállításainak mentése."
@@ -54,7 +54,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Manage extensions or plugins for your Dreambox"
+"Manage extensions or plugins for your set-top-box"
 msgstr ""
 "\n"
 "Pluginek és bővítmények kezelése"
@@ -62,7 +62,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Online update of your Dreambox software."
+"Online update of your set-top-box software."
 msgstr ""
 "\n"
 "Online szoftverfrissítés."
@@ -78,7 +78,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox settings."
+"Restore your set-top-box settings."
 msgstr ""
 "\n"
 "A készülék beállításainak visszaállítása."
@@ -86,7 +86,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox with a new firmware."
+"Restore your set-top-box with a new firmware."
 msgstr ""
 "\n"
 "A készülék visszaállítása egy új firmware-el."
@@ -409,7 +409,7 @@ msgstr "Egy demó plugin TPM használathoz."
 #
 msgid ""
 "A finished record timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "Egy befejezett időzítés le akarja kapcsolni\n"
 "a készüléket készenléti módba. Engedélyezi?"
@@ -417,7 +417,7 @@ msgstr ""
 #
 msgid ""
 "A finished record timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "Egy befejezett időzítés ki akarja kapcsolni\n"
 "a készüléket. Engedélyezi?"
@@ -486,7 +486,7 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "Az elalvásidőzítő le akarja kapcsolni\n"
 "a készüléket készenléti módba. Engedélyezi?"
@@ -494,7 +494,7 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "Az elalvásidőzítő ki akarja kapcsolni\n"
 "a készüléket. Engedélyezi?"
@@ -615,7 +615,7 @@ msgstr ""
 
 #
 msgid ""
-"Adds enigma2 settings and dreambox model informations like SN, rev... if "
+"Adds enigma2 settings and set-top-box model informations like SN, rev... if "
 "enabled."
 msgstr ""
 "Hozzáadja az enigma2 beállításokat, és típus infókat mint gyári szám, rev..."
@@ -680,7 +680,7 @@ msgstr ""
 #
 msgid ""
 "After the start wizard is completed, you need to protect single services. "
-"Refer to your dreambox's manual on how to do that."
+"Refer to your set-top-box's manual on how to do that."
 msgstr ""
 "Miután az indítási varázsló befejeződött, le kell védenie a szimpla "
 "szolgáltatásokat. Olvassa el a készülék kezelési útmutatóját, további "
@@ -1396,7 +1396,7 @@ msgid "Copy"
 msgstr ""
 
 #
-msgid "Could not connect to Dreambox .NFI Image Feed Server:"
+msgid "Could not connect to set-top-box .NFI Image Feed Server:"
 msgstr "Nem lehet csatlakozni az .NFI Image feed szerverhez: "
 
 #
@@ -1869,7 +1869,7 @@ msgid "Do you want to download the image to %s ?"
 msgstr "Biztos benne, hogy le szeretné tölteni a %s image-t?"
 
 #
-msgid "Do you want to enable the parental control feature on your dreambox?"
+msgid "Do you want to enable the parental control feature on your set-top-box?"
 msgstr "Be szeretné kapcsolni a készüléken a gyermekzárat?"
 
 #
@@ -1885,7 +1885,7 @@ msgid "Do you want to preview this DVD before burning?"
 msgstr "Kiírás előtt meg szeretné tekinteni a DVD tartalmat?"
 
 #
-msgid "Do you want to reboot your Dreambox?"
+msgid "Do you want to reboot your set-top-box?"
 msgstr "Újra szeretné indítani a készüléket?"
 
 #
@@ -1909,12 +1909,12 @@ msgstr ""
 "kapcsolatot?"
 
 #
-msgid "Do you want to update your Dreambox?"
+msgid "Do you want to update your set-top-box?"
 msgstr "Biztos benne, hogy frissíteni szeretné a készülék szoftverét?"
 
 #
 msgid ""
-"Do you want to update your Dreambox?\n"
+"Do you want to update your set-top-box?\n"
 "After pressing OK, please wait!"
 msgstr ""
 "Biztos benne, hogy frissíteni szeretné a készülék szoftverét?\n"
@@ -1984,11 +1984,11 @@ msgid "Downloading plugin information. Please wait..."
 msgstr "Plugin-lista letöltése. Kérem, várjon..."
 
 #
-msgid "Dreambox format data DVD (HDTV compatible)"
-msgstr "Dreambox formátumú adat DVD (HDTV kompatibilis)"
+msgid "set-top-box format data DVD (HDTV compatible)"
+msgstr "set-top-box formátumú adat DVD (HDTV kompatibilis)"
 
 #
-msgid "Dreambox software because updates are available."
+msgid "set-top-box software because updates are available."
 msgstr "(a készülék szoftverének frissítése)"
 
 #
@@ -2054,11 +2054,11 @@ msgid "Edit settings"
 msgstr "Beállítások módosítása"
 
 #
-msgid "Edit the Nameserver configuration of your Dreambox.\n"
+msgid "Edit the Nameserver configuration of your set-top-box.\n"
 msgstr "A készülék névszerver beállításainak módosítása.\n"
 
 #
-msgid "Edit the network configuration of your Dreambox.\n"
+msgid "Edit the network configuration of your set-top-box.\n"
 msgstr "A készülék hálózati beállításainak módosítása.\n"
 
 #
@@ -3622,7 +3622,7 @@ msgid "No, do nothing."
 msgstr "Nem, ne csináljon semmit."
 
 #
-msgid "No, just start my dreambox"
+msgid "No, just start my set-top-box"
 msgstr "Nem, csak indítsa el a készüléket"
 
 msgid "No, never"
@@ -5282,7 +5282,7 @@ msgid "Shutdown"
 msgstr "Kikapcsolás"
 
 #
-msgid "Shutdown Dreambox after"
+msgid "Shutdown set-top-box after"
 msgstr "Kapcsolja le a készüléket miután"
 
 msgid "Side by Side"
@@ -5746,7 +5746,7 @@ msgid "Test mode"
 msgstr "Teszt mód"
 
 #
-msgid "Test the network configuration of your Dreambox.\n"
+msgid "Test the network configuration of your set-top-box.\n"
 msgstr "A készülék hálózati konfigurációjának ellenőrzése.\n"
 
 #
@@ -5773,7 +5773,7 @@ msgstr ""
 #
 msgid ""
 "Thank you for using the wizard. Your box is now ready to use.\n"
-"Please press OK to start using your Dreambox."
+"Please press OK to start using your set-top-box."
 msgstr ""
 "Köszönöm hogy használta a varázslót. A készüléke most már be van állítva.\n"
 "Az OK gomb megnyomása után máris használatba veheti a készüléket."
@@ -5781,11 +5781,11 @@ msgstr ""
 #
 msgid ""
 "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
-"create a Dreambox format data DVD (which will not play in stand-alone DVD "
+"create a set-top-box format data DVD (which will not play in stand-alone DVD "
 "players) instead?"
 msgstr ""
 "A DVD szabvány nem támogatja a H.264 (HDTV) videó streamet. Szeretne "
-"ehelyett létrehozni egy Dreambox formátumó adat DVD-t (mely azonban nem "
+"ehelyett létrehozni egy set-top-box formátumó adat DVD-t (mely azonban nem "
 "játszható le a hagyományos lejátszókban)?"
 
 #
@@ -5868,7 +5868,7 @@ msgstr "A csatornalisták telepítése elkészült."
 #
 msgid ""
 "The installation of the default settings is finished. You can now continue "
-"configuring your Dreambox by pressing the OK button on the remote control."
+"configuring your set-top-box by pressing the OK button on the remote control."
 msgstr ""
 "A beállítások telepítése elkészült. Az OK gomb megnyomásával folytathatja a  "
 "készülék további beállítását."
@@ -6000,7 +6000,7 @@ msgstr ""
 
 #
 #, python-format
-msgid "This Dreambox can't decode %s streams!"
+msgid "This set-top-box can't decode %s streams!"
 msgstr ""
 
 #
@@ -6009,7 +6009,7 @@ msgstr "Ez a 2. lépés."
 
 msgid ""
 "This plugin creates a USB stick which can be used to update the firmware of "
-"your Dreambox without the need for a network or WLAN connection.\n"
+"your set-top-box without the need for a network or WLAN connection.\n"
 "First, a USB stick needs to be prepared so that it becomes bootable.\n"
 "In the next step, an NFI image file can be downloaded from the update server "
 "and saved on the USB stick.\n"
@@ -6220,7 +6220,7 @@ msgid "To subtitle selection"
 msgstr "Felirat kiválasztása"
 
 msgid ""
-"To update your Dreambox firmware, please follow these steps:\n"
+"To update your set-top-box firmware, please follow these steps:\n"
 "1) Turn off your box with the rear power switch and make sure the bootable "
 "USB stick is plugged in.\n"
 "2) Turn mains back on and hold the DOWN button on the front panel pressed "
@@ -6468,14 +6468,14 @@ msgstr ""
 msgid "Upgrade finished."
 msgstr "A frissítés elkészült."
 
-msgid "Upgrade finished. Do you want to reboot your Dreambox?"
+msgid "Upgrade finished. Do you want to reboot your set-top-box?"
 msgstr "Frissiítés sikeres. Újraindítsam most a készüléket?"
 
 msgid "Upgrading"
 msgstr "Frissítés"
 
 #
-msgid "Upgrading Dreambox... Please wait"
+msgid "Upgrading set-top-box... Please wait"
 msgstr "Készülék frissítése... Kérem, várjon"
 
 #
@@ -6847,7 +6847,7 @@ msgstr ""
 #
 msgid ""
 "Welcome to the Image upgrade wizard. The wizard will assist you in upgrading "
-"the firmware of your Dreambox by providing a backup facility for your "
+"the firmware of your set-top-box by providing a backup facility for your "
 "current settings and a short explanation of how to upgrade your firmware."
 msgstr ""
 "Üdvözlöm az Image frissítés varázslójában. A varázsló segít Önnek a "
@@ -6860,7 +6860,7 @@ msgid ""
 "Welcome to the cleanup wizard.\n"
 "\n"
 "We have detected that your available internal memory has dropped below 2MB.\n"
-"To ensure stable operation of your Dreambox, the internal memory should be "
+"To ensure stable operation of your set-top-box, the internal memory should be "
 "cleaned up.\n"
 "You can use this wizard to remove some extensions.\n"
 msgstr ""
@@ -6875,8 +6875,8 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"If you want to connect your Dreambox to the Internet, this wizard will guide "
-"you through the basic network setup of your Dreambox.\n"
+"If you want to connect your set-top-box to the Internet, this wizard will guide "
+"you through the basic network setup of your set-top-box.\n"
 "\n"
 "Press OK to start configuring your network"
 msgstr ""
@@ -6891,7 +6891,7 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"This start wizard will guide you through the basic setup of your Dreambox.\n"
+"This start wizard will guide you through the basic setup of your set-top-box.\n"
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
 "Üdvözlöm.\n"
@@ -7069,7 +7069,7 @@ msgid "You can install this plugin."
 msgstr "A plugin telepíthető."
 
 #
-msgid "You can only burn Dreambox recordings!"
+msgid "You can only burn set-top-box recordings!"
 msgstr "Csak ezzel a készülékkel felvett anyagokat lehet kiírni!"
 
 #
@@ -7133,9 +7133,9 @@ msgstr "Várnia kell (%s)!"
 
 #
 msgid ""
-"You need a PC connected to your dreambox. If you need further instructions, "
+"You need a PC connected to your set-top-box. If you need further instructions, "
 "please visit the website http://www.dm7025.de.\n"
-"Your dreambox will now be halted. After you have performed the update "
+"Your set-top-box will now be halted. After you have performed the update "
 "instructions from the website, your new firmware will ask you to restore "
 "your settings."
 msgstr ""
@@ -7159,7 +7159,7 @@ msgstr "Az ön rendszere nem támogatja az ext4-et."
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -7170,7 +7170,7 @@ msgstr ""
 "\n"
 
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -7182,7 +7182,7 @@ msgstr ""
 "\n"
 "Nyomja le az OK gombot a folytatáshoz."
 
-msgid "Your Dreambox will restart after pressing OK on your remote control."
+msgid "Your set-top-box will restart after pressing OK on your remote control."
 msgstr "Az OK gomb megnyomása után a készülék újra fog indulni."
 
 msgid ""
@@ -7205,12 +7205,12 @@ msgid "Your current collection will get lost!"
 msgstr ""
 
 #
-msgid "Your dreambox is shutting down. Please stand by..."
+msgid "Your set-top-box is shutting down. Please stand by..."
 msgstr "A készülék most kikapcsol. Kérem, várjon..."
 
 #
 msgid ""
-"Your dreambox isn't connected to the internet properly. Please check it and "
+"Your set-top-box isn't connected to the internet properly. Please check it and "
 "try again."
 msgstr ""
 "A készülék nem csatlakozik helyesen az internetre. Kérem, nézze át a "
@@ -7632,19 +7632,19 @@ msgstr "ne vegye fel"
 msgid "done!"
 msgstr "kész!"
 
-msgid "dreambox advanced remote control (native)"
+msgid "set-top-box advanced remote control (native)"
 msgstr ""
 
-msgid "dreambox front panel"
+msgid "set-top-box front panel"
 msgstr ""
 
-msgid "dreambox ir keyboard"
+msgid "set-top-box ir keyboard"
 msgstr "infra billentyűzet"
 
-msgid "dreambox ir mouse"
+msgid "set-top-box ir mouse"
 msgstr "infra egér"
 
-msgid "dreambox remote control (native)"
+msgid "set-top-box remote control (native)"
 msgstr "eredeti távirányító"
 
 msgid "east"
@@ -8544,8 +8544,8 @@ msgstr "igen (feed-ek megtartása)"
 
 #
 msgid ""
-"your dreambox might be unusable now. Please consult the manual for further "
-"assistance before rebooting your dreambox."
+"your set-top-box might be unusable now. Please consult the manual for further "
+"assistance before rebooting your set-top-box."
 msgstr ""
 "A készüléke most lehet, hogy használhatatlanná vált. Kérem, vegye fel a "
 "kapcsolatot a szervízzel, vagy szakemberrel újraindítás elött."
@@ -8693,7 +8693,7 @@ msgstr "ugrott"
 #~ "Inaktív"
 
 #
-#~ msgid "Add a new NFS or CIFS mount point to your Dreambox."
+#~ msgid "Add a new NFS or CIFS mount point to your set-top-box."
 #~ msgstr "Egy új hálózati megosztás csatolása."
 
 #
@@ -8723,7 +8723,7 @@ msgstr "ugrott"
 #~ msgstr "Felnőtt streaming plugin."
 
 #~ msgid ""
-#~ "After a reboot or power outage, StartupToStandby will bring your Dreambox "
+#~ "After a reboot or power outage, StartupToStandby will bring your set-top-box "
 #~ "to standby-mode."
 #~ msgstr ""
 #~ "Egy újraindítás, vagy áramkimaradás után, a StartupToStandby készenléti "
@@ -8954,7 +8954,7 @@ msgstr "ugrott"
 #~ msgstr "Gépnév megváltoztatása"
 
 #
-#~ msgid "Change the hostname of your Dreambox."
+#~ msgid "Change the hostname of your set-top-box."
 #~ msgstr "A készülék hálózati gépnevének megváltoztatása."
 
 #~ msgid "Changing keymap failed (%s)."
@@ -9016,16 +9016,16 @@ msgstr "ugrott"
 #~ msgid "Configure your WLAN network interface"
 #~ msgstr "A vezeték nélküli hálózati interfész konfigurálása"
 
-#~ msgid "Control your Dreambox with your Web browser."
+#~ msgid "Control your set-top-box with your Web browser."
 #~ msgstr "A készülék vezérlése webes felületről"
 
-#~ msgid "Control your Dreambox with your browser"
+#~ msgid "Control your set-top-box with your browser"
 #~ msgstr "A készülék vezérlése webes felületről"
 
-#~ msgid "Control your dreambox with only the MUTE button"
+#~ msgid "Control your set-top-box with only the MUTE button"
 #~ msgstr "A készülék vezérlése csupán a MUTE gombbal"
 
-#~ msgid "Control your dreambox with only the MUTE button."
+#~ msgid "Control your set-top-box with only the MUTE button."
 #~ msgstr "A készülék vezérlése csupán a MUTE gombbal"
 
 #~ msgid "Control your internal system fan."
@@ -9037,10 +9037,10 @@ msgstr "ugrott"
 #~ msgid "Control your system fan"
 #~ msgstr "A belső ventilátor vezérlése"
 
-#~ msgid "Copy, rename, delete, move local files on your Dreambox."
+#~ msgid "Copy, rename, delete, move local files on your set-top-box."
 #~ msgstr "Helyben lévő fájlok másolása, átnevezése, törlése, áthelyezése."
 
-#~ msgid "Create a backup of your Video DVD on your DreamBox hard drive."
+#~ msgid "Create a backup of your Video DVD on your set-top-box hard drive."
 #~ msgstr "DVD másolása a készülék belső merevlemezére."
 
 #~ msgid "Create a backup of your Video-DVD"
@@ -9068,7 +9068,7 @@ msgstr "ugrott"
 #~ msgid "Create remote timers"
 #~ msgstr "Távoli időzítők létrehozása"
 
-#~ msgid "Create timers on remote Dreamboxes."
+#~ msgid "Create timers on remote set-top-boxes."
 #~ msgstr "Időzítések létrehozása távoli készülékekben"
 
 #
@@ -9100,7 +9100,7 @@ msgstr "ugrott"
 #~ msgid "Czech Republic"
 #~ msgstr "Csehország"
 
-#~ msgid "DVDPlayer plays your DVDs on your Dreambox"
+#~ msgid "DVDPlayer plays your DVDs on your set-top-box"
 #~ msgstr "A DVD lejátszóként is használhatja a készüléket"
 
 #
@@ -9122,7 +9122,7 @@ msgstr "ugrott"
 #~ msgid "Define a startup service"
 #~ msgstr "Indítási csatorna definiálása"
 
-#~ msgid "Define a startup service for your Dreambox."
+#~ msgid "Define a startup service for your set-top-box."
 #~ msgstr ""
 #~ "Beállít egy csatornát úgy, hogy a készülék bekapcsolásakor az "
 #~ "automatikusan induljon el."
@@ -9312,7 +9312,7 @@ msgstr "ugrott"
 #~ msgstr "Időtartam vége"
 
 #~ msgid ""
-#~ "Enigma2 Plugin to play AVI/DIVX/WMV/etc. videos from PC on your Dreambox. "
+#~ "Enigma2 Plugin to play AVI/DIVX/WMV/etc. videos from PC on your set-top-box. "
 #~ "Needs a running VLC from www.videolan.org on your pc."
 #~ msgstr ""
 #~ "Enigma2 Plugin amivel az AVI/DIVX/WMV/stb. videófájlok lejátszása "
@@ -9332,7 +9332,7 @@ msgstr "ugrott"
 #~ msgstr "Kezdeti vissza-tekerési sebesség"
 
 #
-#~ msgid "Enter new hostname for your Dreambox"
+#~ msgid "Enter new hostname for your set-top-box"
 #~ msgstr "Adja meg a készülék új hosztnevét"
 
 #
@@ -9437,14 +9437,14 @@ msgstr "ugrott"
 #~ msgstr "Játék"
 
 #
-#~ msgid "Genuine Dreambox"
-#~ msgstr "Eredeti Dreambox"
+#~ msgid "Genuine set-top-box"
+#~ msgstr "Eredeti set-top-box"
 
-#~ msgid "Genuine Dreambox validation failed!"
-#~ msgstr "Az Ön Dreambox készüléke valószínűleg nem eredeti!"
+#~ msgid "Genuine set-top-box validation failed!"
+#~ msgstr "Az Ön set-top-box készüléke valószínűleg nem eredeti!"
 
-#~ msgid "Genuine Dreambox verification"
-#~ msgstr "Eredeti Dreambox ellenőrzés"
+#~ msgid "Genuine set-top-box verification"
+#~ msgstr "Eredeti set-top-box ellenőrzés"
 
 #
 #~ msgid "Germany"
@@ -9579,18 +9579,18 @@ msgstr "ugrott"
 #~ msgstr "Belső firmware frissítő"
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 304
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 304
 #~ msgid "Invalid response from Security service pls restart again"
 #~ msgstr ""
 #~ "Érvénytelen válasz a biztonsági szolgáltatástól, kérem újraindítani ismét"
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 132
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 132
 #~ msgid "Invalid response from server."
 #~ msgstr "Érvénytelen válasz a szervertől."
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 177
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 177
 #~ msgid "Invalid response from server. Please report: %s"
 #~ msgstr "Érvénytelen válasz a szervertől. Kérem jelenteni: %s"
 
@@ -9632,7 +9632,7 @@ msgstr "ugrott"
 #~ msgid "Listen and record internet radio"
 #~ msgstr "Internet-rádió hallgatás és felvétel"
 
-#~ msgid "Listen and record shoutcast internet radio on your Dreambox."
+#~ msgid "Listen and record shoutcast internet radio on your set-top-box."
 #~ msgstr ""
 #~ "Shoutcast Internet-rádió hallgatás és felvétel a készülékkel közvetlenűl."
 
@@ -9954,7 +9954,7 @@ msgstr "ugrott"
 #~ msgstr "Futószalag eltakarás"
 
 #~ msgid ""
-#~ "Partnerbox allows editing a remote Dreambox's record timers and stream "
+#~ "Partnerbox allows editing a remote set-top-box's record timers and stream "
 #~ "its TV  program."
 #~ msgstr ""
 #~ "A Partnerbox lehetőséget a egy másik készülék időzítéseinek "
@@ -9988,7 +9988,7 @@ msgstr "ugrott"
 #~ msgstr "Kérem, indítsa újra a készüléket"
 
 #~ msgid ""
-#~ "Please disconnect all USB devices from your Dreambox and (re-)attach the "
+#~ "Please disconnect all USB devices from your set-top-box and (re-)attach the "
 #~ "target USB stick (minimum size is 64 MB) now!"
 #~ msgstr ""
 #~ "Kérem, távolítson el minden USB eszközt a készülékből, majd "
@@ -9999,7 +9999,7 @@ msgstr "ugrott"
 #~ msgstr "Kérem, írja be a keresendő kifejezést."
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 137
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 137
 #~ msgid "Please wait (Step 2)"
 #~ msgstr "Kérem, várjon (2. lépés)"
 
@@ -10264,7 +10264,7 @@ msgstr "ugrott"
 #~ msgid "Set limits"
 #~ msgstr "Limitek beállítása"
 
-#~ msgid "Sets your Dreambox into Deep-Standby"
+#~ msgid "Sets your set-top-box into Deep-Standby"
 #~ msgstr "A készülék mély-készenlétbe helyezése"
 
 #
@@ -10308,7 +10308,7 @@ msgstr "ugrott"
 #~ msgid "Softcam setup..."
 #~ msgstr "SoftCam beállítások..."
 
-#~ msgid "SoftwareManager manages your Dreambox software"
+#~ msgid "SoftwareManager manages your set-top-box software"
 #~ msgstr ""
 #~ "A Szoftverkezeléssel a készülék szoftveres környezetét szabhatja testre"
 
@@ -10384,7 +10384,7 @@ msgstr "ugrott"
 #~ msgstr "Teletext felirat késleltetése ha nincs saját időzítése"
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 80
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 80
 #~ msgid "Test again"
 #~ msgstr "Újratesztelés"
 
@@ -10508,7 +10508,7 @@ msgstr "ugrott"
 #~ msgstr "Megtekintések száma"
 
 #
-#~ msgid "View, edit or delete mountpoints on your Dreambox."
+#~ msgid "View, edit or delete mountpoints on your set-top-box."
 #~ msgstr ""
 #~ "Csatlakoztatott hálózati megosztások megtekintése, szerkesztése vagy "
 #~ "törlése."
@@ -10620,7 +10620,7 @@ msgstr "ugrott"
 #~ msgid "choose destination directory"
 #~ msgstr "válasszon célkönyvtárat"
 
-#~ msgid "control multiple Dreamboxes with different RCs"
+#~ msgid "control multiple set-top-boxes with different RCs"
 #~ msgstr "több készülék vezérlése külömböző távirányítókkal"
 
 #~ msgid "copy"
@@ -10761,10 +10761,10 @@ msgstr "ugrott"
 #~ msgid "use as HDD replacement"
 #~ msgstr "Használat merevlemez helyett"
 
-#~ msgid "use your Dreambox as Web proxy"
+#~ msgid "use your set-top-box as Web proxy"
 #~ msgstr "A készülék web-proxy-ként történő használata"
 
-#~ msgid "use your Dreambox as Web proxy."
+#~ msgid "use your set-top-box as Web proxy."
 #~ msgstr "A készülék web-proxy-ként történő használata."
 
 #~ msgid "username"
