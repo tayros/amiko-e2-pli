@@ -36,7 +36,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Backup your Dreambox settings."
+"Backup your set--top-box settings."
 msgstr ""
 "\n"
 "عمل نسخه إحتياطيه  للاعدادات"
@@ -52,14 +52,14 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Manage extensions or plugins for your Dreambox"
+"Manage extensions or plugins for your set--top-box"
 msgstr ""
 "\n"
 "تحكم فى الاضافات والبلج إنز للدريم بوكس"
 
 msgid ""
 "\n"
-"Online update of your Dreambox software."
+"Online update of your set--top-box software."
 msgstr ""
 "\n"
 "تحديث البرنامج التشغيلى عن طريق الانترنت"
@@ -75,7 +75,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox settings."
+"Restore your set--top-box settings."
 msgstr ""
 "\n"
 "إستعادة إعدادات الدريم بوكس"
@@ -83,7 +83,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox with a new firmware."
+"Restore your set--top-box with a new firmware."
 msgstr ""
 "\n"
 "إستعاده الدريم بوكس بصوره جديده"
@@ -387,14 +387,14 @@ msgstr ""
 
 msgid ""
 "A finished record timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set--top-box to standby. Do that now?"
 msgstr ""
 "انتهاء التسجيل بالمؤقت ، يجب وضع \n"
 "الدريم بوكس فى وضع الاستعداد , أفعل ذلك الان ؟"
 
 msgid ""
 "A finished record timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set--top-box. Shutdown now?"
 msgstr ""
 "انتهاء التسجيل بالمؤقت ، يجب إغلاق الدريم بوكس \n"
 "أغلاق الان؟"
@@ -453,7 +453,7 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set--top-box to standby. Do that now?"
 msgstr ""
 "مؤقت النوم يريد نقل\n"
 "الدريم بوكس الى وضع الاستعداد. هل توافق ؟"
@@ -461,7 +461,7 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set--top-box. Shutdown now?"
 msgstr ""
 "مؤقت النوم يريد إغلاف\n"
 "الدريم بوكس . هل توافق ؟"
@@ -580,7 +580,7 @@ msgstr ""
 
 #
 msgid ""
-"Adds enigma2 settings and dreambox model informations like SN, rev... if "
+"Adds enigma2 settings and set-top-box model informations like SN, rev... if "
 "enabled."
 msgstr " يضيف إعدادات وموديل الدريم بوكسإذا كانت مفعله"
 
@@ -641,7 +641,7 @@ msgstr ""
 
 msgid ""
 "After the start wizard is completed, you need to protect single services. "
-"Refer to your dreambox's manual on how to do that."
+"Refer to your set-top-box's manual on how to do that."
 msgstr ""
 "إذا أردت حمايه خدمه واحده بعد انتهاء نافذه البدأأرجع الى دليل المستخدم لتعرف "
 "كيف تفعل ذلك"
@@ -1278,7 +1278,7 @@ msgid "Copy"
 msgstr ""
 
 #
-msgid "Could not connect to Dreambox .NFI Image Feed Server:"
+msgid "Could not connect to set--top-box .NFI Image Feed Server:"
 msgstr "NFIتعذر إتصال الدريم بوكس بخادم تغذية صور "
 
 #
@@ -1691,7 +1691,7 @@ msgstr "هل تريد عمل بحث يدوى جديد ؟"
 msgid "Do you want to download the image to %s ?"
 msgstr ""
 
-msgid "Do you want to enable the parental control feature on your dreambox?"
+msgid "Do you want to enable the parental control feature on your set-top-box?"
 msgstr "هل تريد تفعيل خاصية التحكم الابوى فى الدريم بوكس ؟"
 
 msgid "Do you want to install the package:\n"
@@ -1705,7 +1705,7 @@ msgstr "هل تريد تشغيل الدى فى دى الموجود فى السو
 msgid "Do you want to preview this DVD before burning?"
 msgstr "هل تريد معاينة هذا الدى فى دى قبل الحرق؟"
 
-msgid "Do you want to reboot your Dreambox?"
+msgid "Do you want to reboot your set--top-box?"
 msgstr "هل تريد إعادة تشغيل الدريم بوكس ؟"
 
 msgid "Do you want to remove the package:\n"
@@ -1725,11 +1725,11 @@ msgid ""
 msgstr "هل تريد وضع أسمك وبريدك الالكترونى ليتم الاتصال بكعند الحاجه ؟"
 
 #
-msgid "Do you want to update your Dreambox?"
+msgid "Do you want to update your set--top-box?"
 msgstr "هل تريد تحديث الدريم بوكس"
 
 msgid ""
-"Do you want to update your Dreambox?\n"
+"Do you want to update your set--top-box?\n"
 "After pressing OK, please wait!"
 msgstr ""
 "هل تريد تحديث الدريم بوكس؟\n"
@@ -1786,10 +1786,10 @@ msgid "Downloading plugin information. Please wait..."
 msgstr "جارى تحميل معلومات عن البلج إن. رجاء الانتظار.."
 
 #
-msgid "Dreambox format data DVD (HDTV compatible)"
+msgid "set--top-box format data DVD (HDTV compatible)"
 msgstr ""
 
-msgid "Dreambox software because updates are available."
+msgid "set--top-box software because updates are available."
 msgstr "البرنامج التشغيلى للدريم بوكس لتوافر تحديثات"
 
 #
@@ -1849,11 +1849,11 @@ msgid "Edit settings"
 msgstr "تحرير الاعدادات"
 
 #
-msgid "Edit the Nameserver configuration of your Dreambox.\n"
+msgid "Edit the Nameserver configuration of your set--top-box.\n"
 msgstr "تحرير تهيئة اسم الخادم للدريم بوكس. \n"
 
 #
-msgid "Edit the network configuration of your Dreambox.\n"
+msgid "Edit the network configuration of your set--top-box.\n"
 msgstr "تحرير تهيئة الشبكه للدريم بوكس. \n"
 
 msgid "Edit title"
@@ -3278,7 +3278,7 @@ msgid "No, do nothing."
 msgstr "لا ، لا تفعل شيئ"
 
 #
-msgid "No, just start my dreambox"
+msgid "No, just start my set-top-box"
 msgstr "لا ، فقط قم بتشغيل الدريم بوكس"
 
 msgid "No, never"
@@ -4745,7 +4745,7 @@ msgid "Shutdown"
 msgstr "إغلاق"
 
 #
-msgid "Shutdown Dreambox after"
+msgid "Shutdown set--top-box after"
 msgstr "إغلاق الدريم بوكس بعد"
 
 msgid "Side by Side"
@@ -5179,7 +5179,7 @@ msgstr "نوع الاختبار"
 msgid "Test mode"
 msgstr "وضع الاختبار"
 
-msgid "Test the network configuration of your Dreambox.\n"
+msgid "Test the network configuration of your set--top-box.\n"
 msgstr "اختبر تكوين الشبكه الخاصه بالدريم بوكس. \n"
 
 msgid "Test-Messagebox?"
@@ -5203,14 +5203,14 @@ msgstr ""
 
 msgid ""
 "Thank you for using the wizard. Your box is now ready to use.\n"
-"Please press OK to start using your Dreambox."
+"Please press OK to start using your set--top-box."
 msgstr ""
 "شكرا لأستخدامك نافذة الاعدادات . الدريم بوكس جاهز الا للاستخدام. \n"
 "من فضلك أضغط موافق لتبدأ استخدام الدريم بوكس."
 
 msgid ""
 "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
-"create a Dreambox format data DVD (which will not play in stand-alone DVD "
+"create a set--top-box format data DVD (which will not play in stand-alone DVD "
 "players) instead?"
 msgstr ""
 "نظام دى فى دى القياسى لا يدعم الفيديو H.264 (HDTV) .هل تريد عمل نسق معلومات "
@@ -5296,7 +5296,7 @@ msgstr "تم الانتهاء من تثبيت قوائم القنوات الاف
 
 msgid ""
 "The installation of the default settings is finished. You can now continue "
-"configuring your Dreambox by pressing the OK button on the remote control."
+"configuring your set--top-box by pressing the OK button on the remote control."
 msgstr ""
 "تم تثبيت الاعدادات الافتراضيه . يمكنك الان استكمال تهيئة الدريم بوكس بالضغط "
 "على ذر موافق من الريموت كونترول ."
@@ -5413,7 +5413,7 @@ msgstr ""
 
 #
 #, python-format
-msgid "This Dreambox can't decode %s streams!"
+msgid "This set--top-box can't decode %s streams!"
 msgstr ""
 
 #
@@ -5422,7 +5422,7 @@ msgstr "هذه هى الخطوه رقم 2"
 
 msgid ""
 "This plugin creates a USB stick which can be used to update the firmware of "
-"your Dreambox without the need for a network or WLAN connection.\n"
+"your set--top-box without the need for a network or WLAN connection.\n"
 "First, a USB stick needs to be prepared so that it becomes bootable.\n"
 "In the next step, an NFI image file can be downloaded from the update server "
 "and saved on the USB stick.\n"
@@ -5612,7 +5612,7 @@ msgid "To subtitle selection"
 msgstr ""
 
 msgid ""
-"To update your Dreambox firmware, please follow these steps:\n"
+"To update your set--top-box firmware, please follow these steps:\n"
 "1) Turn off your box with the rear power switch and make sure the bootable "
 "USB stick is plugged in.\n"
 "2) Turn mains back on and hold the DOWN button on the front panel pressed "
@@ -5840,14 +5840,14 @@ msgstr ""
 msgid "Upgrade finished."
 msgstr "إنتهاء الترقيه ."
 
-msgid "Upgrade finished. Do you want to reboot your Dreambox?"
+msgid "Upgrade finished. Do you want to reboot your set--top-box?"
 msgstr ""
 
 #
 msgid "Upgrading"
 msgstr "جارى الترقيه"
 
-msgid "Upgrading Dreambox... Please wait"
+msgid "Upgrading set--top-box... Please wait"
 msgstr "جارى ترقية الدريم بوكس ... رجاء الانتظار"
 
 #
@@ -6178,7 +6178,7 @@ msgstr ""
 
 msgid ""
 "Welcome to the Image upgrade wizard. The wizard will assist you in upgrading "
-"the firmware of your Dreambox by providing a backup facility for your "
+"the firmware of your set--top-box by providing a backup facility for your "
 "current settings and a short explanation of how to upgrade your firmware."
 msgstr ""
 "مرحبا بك فى نافذة ترقية الصوره. هذه النافذه ستساعدك فى ترقية البرنامج "
@@ -6190,7 +6190,7 @@ msgid ""
 "Welcome to the cleanup wizard.\n"
 "\n"
 "We have detected that your available internal memory has dropped below 2MB.\n"
-"To ensure stable operation of your Dreambox, the internal memory should be "
+"To ensure stable operation of your set--top-box, the internal memory should be "
 "cleaned up.\n"
 "You can use this wizard to remove some extensions.\n"
 msgstr ""
@@ -6199,8 +6199,8 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"If you want to connect your Dreambox to the Internet, this wizard will guide "
-"you through the basic network setup of your Dreambox.\n"
+"If you want to connect your set--top-box to the Internet, this wizard will guide "
+"you through the basic network setup of your set--top-box.\n"
 "\n"
 "Press OK to start configuring your network"
 msgstr ""
@@ -6208,7 +6208,7 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"This start wizard will guide you through the basic setup of your Dreambox.\n"
+"This start wizard will guide you through the basic setup of your set--top-box.\n"
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
 "اهلا وسهلا\n"
@@ -6364,7 +6364,7 @@ msgstr ""
 msgid "You can install this plugin."
 msgstr "تستطيع تثبيت هذا البلج إن"
 
-msgid "You can only burn Dreambox recordings!"
+msgid "You can only burn set--top-box recordings!"
 msgstr "تستطيع فقط حرق تسجيلات الدريم بوكس!"
 
 msgid "You can remove this plugin."
@@ -6416,9 +6416,9 @@ msgid "You have to wait %s!"
 msgstr "يجب أن تنتظر %s !"
 
 msgid ""
-"You need a PC connected to your dreambox. If you need further instructions, "
+"You need a PC connected to your set-top-box. If you need further instructions, "
 "please visit the website http://www.dm7025.de.\n"
-"Your dreambox will now be halted. After you have performed the update "
+"Your set-top-box will now be halted. After you have performed the update "
 "instructions from the website, your new firmware will ask you to restore "
 "your settings."
 msgstr ""
@@ -6437,7 +6437,7 @@ msgid "You system does not support ext4"
 msgstr ""
 
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set--top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -6448,7 +6448,7 @@ msgstr ""
 "\n"
 
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set--top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -6460,7 +6460,7 @@ msgstr ""
 "\n"
 "أضغط موافق للاستمرار."
 
-msgid "Your Dreambox will restart after pressing OK on your remote control."
+msgid "Your set--top-box will restart after pressing OK on your remote control."
 msgstr ""
 "سيتم إعادة تشغيل الدريم بوكس بعد الضغط على ذر موافق من الريموت كونترول."
 
@@ -6479,11 +6479,11 @@ msgstr ""
 msgid "Your current collection will get lost!"
 msgstr "سوف تفقد المجموعه الحاليه !"
 
-msgid "Your dreambox is shutting down. Please stand by..."
+msgid "Your set-top-box is shutting down. Please stand by..."
 msgstr "يتم الان إغلاق الدريم بوكس. من فضلك كن مستعدا..."
 
 msgid ""
-"Your dreambox isn't connected to the internet properly. Please check it and "
+"Your set-top-box isn't connected to the internet properly. Please check it and "
 "try again."
 msgstr ""
 "الدريم بوكس غير متصل بالانترنت بشكل صحيح. من فضلكأفحصه وحاول مره ثانيه."
@@ -6851,19 +6851,19 @@ msgstr ""
 msgid "done!"
 msgstr "تم !"
 
-msgid "dreambox advanced remote control (native)"
+msgid "set-top-box advanced remote control (native)"
 msgstr ""
 
-msgid "dreambox front panel"
+msgid "set-top-box front panel"
 msgstr ""
 
-msgid "dreambox ir keyboard"
+msgid "set-top-box ir keyboard"
 msgstr ""
 
-msgid "dreambox ir mouse"
+msgid "set-top-box ir mouse"
 msgstr ""
 
-msgid "dreambox remote control (native)"
+msgid "set-top-box remote control (native)"
 msgstr ""
 
 msgid "east"
@@ -7633,8 +7633,8 @@ msgid "yes (keep feeds)"
 msgstr ""
 
 msgid ""
-"your dreambox might be unusable now. Please consult the manual for further "
-"assistance before rebooting your dreambox."
+"your set-top-box might be unusable now. Please consult the manual for further "
+"assistance before rebooting your set-top-box."
 msgstr ""
 "الدريم بوكس غير مستقر الان ، من فضلك راجع دليل المستخدم للمساعده قبل إعادة "
 "التشغيل"
@@ -7843,7 +7843,7 @@ msgstr "تم الانتقال"
 #~ msgid "Cable provider"
 #~ msgstr "مقدم خدمه الكابل"
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 108
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 108
 #~ msgid "Can't connect to server. Please check your network!"
 #~ msgstr "تعذر الاتصال بالخادم. رجاء فحص الشبكه !"
 
@@ -7885,7 +7885,7 @@ msgstr "تم الانتقال"
 #~ msgstr "تغيير الرقم السرى للضبط"
 
 #
-#~ msgid "Change the hostname of your Dreambox."
+#~ msgid "Change the hostname of your set--top-box."
 #~ msgstr "تغيير أسم المضيف للدريم بوكس"
 
 #~ msgid "Channel audio:"
@@ -8133,7 +8133,7 @@ msgstr "تم الانتقال"
 #~ msgstr "أدخل سرعة الرجوع"
 
 #
-#~ msgid "Enter new hostname for your Dreambox"
+#~ msgid "Enter new hostname for your set--top-box"
 #~ msgstr "أدخا أسم المضيف الجديد للدريم بوكس"
 
 #~ msgid "Enter options:"
@@ -8218,7 +8218,7 @@ msgstr "تم الانتقال"
 #~ msgid "Games / Plugins"
 #~ msgstr "العاب/بلج إنز"
 
-#~ msgid "Genuine Dreambox"
+#~ msgid "Genuine set--top-box"
 #~ msgstr "دريم بوكس أصلى"
 
 #~ msgid "Germany"
@@ -8321,11 +8321,11 @@ msgstr "تم الانتقال"
 #~ msgid "Internal LAN adapter."
 #~ msgstr "محول شبكه محليه داخلى"
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 132
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 132
 #~ msgid "Invalid response from server."
 #~ msgstr "رد غير صالح من الخادم"
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 177
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 177
 #~ msgid "Invalid response from server. Please report: %s"
 #~ msgstr "رد غير صالح من الخادم . من فضلك أبلغ %s"
 
@@ -8626,7 +8626,7 @@ msgstr "تم الانتقال"
 #~ msgstr "من فضلك أختار صوره nfi للتحميل من خادم التغذيه "
 
 #~ msgid ""
-#~ "Please disconnect all USB devices from your Dreambox and (re-)attach the "
+#~ "Please disconnect all USB devices from your set--top-box and (re-)attach the "
 #~ "target USB stick (minimum size is 64 MB) now!"
 #~ msgstr ""
 #~ "من فضلك أفصل الان كل اجهزة USB من الدريم بوكس، ثم اشبك الـ USB المستهدف "
@@ -8651,7 +8651,7 @@ msgstr "تم الانتقال"
 #~ msgid "Please select target directory or medium"
 #~ msgstr "من فضلك إختار الدليل الهدف أو الوسيط"
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 137
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 137
 #~ msgid "Please wait (Step 2)"
 #~ msgstr "رجاء الانتظار (خطوه 2)"
 
@@ -8843,7 +8843,7 @@ msgstr "تم الانتقال"
 #~ msgid "Searching your network. Please wait..."
 #~ msgstr "بحث عن الشبكه. رجاء الانتظار..."
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 160
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 160
 #~ msgid "Security service not running."
 #~ msgstr "خدمة الامن لا تعمل"
 
@@ -9004,7 +9004,7 @@ msgstr "تم الانتقال"
 #~ msgstr "تايوانى"
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 80
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 80
 #~ msgid "Test again"
 #~ msgstr "أختبر مره ثانيه"
 
@@ -9072,9 +9072,9 @@ msgstr "تم الانتقال"
 #~ msgstr "الرقمان اللذان اخلتهما غير متطابقين"
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 130
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 130
 #~ msgid ""
-#~ "There's a certificate update available for your dreambox. Would you like "
+#~ "There's a certificate update available for your set-top-box. Would you like "
 #~ "to apply this update now?"
 #~ msgstr "يوجد تحديث وثيقه متاح للدريم بوكس . هل تريدتطبيق هذا التحديث الان ؟"
 
@@ -9131,7 +9131,7 @@ msgstr "تم الانتقال"
 #~ msgstr "نوع المؤقت"
 
 #~ msgid ""
-#~ "To update your Dreambox firmware, please follow these steps:\n"
+#~ "To update your set--top-box firmware, please follow these steps:\n"
 #~ "1) Turn off your box with the rear power switch and plug in the bootable "
 #~ "USB stick.\n"
 #~ "2) Turn mains back on and hold the DOWN button on the front panel pressed "
@@ -9161,7 +9161,7 @@ msgstr "تم الانتقال"
 #~ msgstr "جارى محاولة تحميل نتائج بحث اليوتيوب. رجاء الانتظار"
 
 #~ msgid ""
-#~ "USB stick wizard finished. Your dreambox will now restart with your new "
+#~ "USB stick wizard finished. Your set-top-box will now restart with your new "
 #~ "image!"
 #~ msgstr ""
 #~ "إنتهاء نافذة إعداد الـ USB . الان سيتم إعادة تشغيل الدريم بوكس بالصوره "
@@ -9208,19 +9208,19 @@ msgstr "تم الانتقال"
 #~ "إن لم يكن هذا مفعلا فإن المؤقت الالى لن يبحث آليا عن أحداث تطابق المؤقت "
 #~ "الالى الخاص بك، لكن فقط عندما تغادر الواجهه التخطيطيه بالذر الأخضر"
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 167
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 167
 #~ msgid "Update done..."
 #~ msgstr "تم التحديث ..."
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 170
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 170
 #~ msgid ""
-#~ "Update done... The genuine dreambox test will now be rerun and should not "
+#~ "Update done... The genuine set-top-box test will now be rerun and should not "
 #~ "ask you to update again."
 #~ msgstr ""
 #~ "تم التحديث... اختبار الدريم بوكس الاصلى سيعمل الان ولن يسألك بعد ذلك عن "
 #~ "التحديث."
 
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 118
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 118
 #~ msgid "Updating, please wait..."
 #~ msgstr "جارى التحديث. رجاء الانتظار ..."
 
@@ -9537,10 +9537,10 @@ msgstr "تم الانتقال"
 #~ msgid "show all"
 #~ msgstr "إظهر الكل"
 
-#~ msgid "use your Dreambox as Web proxy"
+#~ msgid "use your set--top-box as Web proxy"
 #~ msgstr "أستخدم الدريم بوكس كبروكسى شبكه"
 
-#~ msgid "use your Dreambox as Web proxy."
+#~ msgid "use your set--top-box as Web proxy."
 #~ msgstr "استخدم الدريم بوكس كبروكسى شبكه"
 
 #

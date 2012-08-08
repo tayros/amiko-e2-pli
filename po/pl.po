@@ -32,7 +32,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Backup your Dreambox settings."
+"Backup your set-top-box settings."
 msgstr ""
 "\n"
 "Wykonaj kopię ustawień."
@@ -47,7 +47,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Manage extensions or plugins for your Dreambox"
+"Manage extensions or plugins for your set-top-box"
 msgstr ""
 "\n"
 "Zarządzaj rozszerzeniami lub pluginami"
@@ -55,7 +55,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Online update of your Dreambox software."
+"Online update of your set-top-box software."
 msgstr ""
 "\n"
 "Aktualizacja oprogramowania online."
@@ -71,7 +71,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox settings."
+"Restore your set-top-box settings."
 msgstr ""
 "\n"
 "Przywróć własne ustawienia odbiornika."
@@ -79,7 +79,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox with a new firmware."
+"Restore your set-top-box with a new firmware."
 msgstr ""
 "\n"
 "Przywróć własne ustawienia odbiornika w nowym sofcie"
@@ -408,7 +408,7 @@ msgstr ""
 #
 msgid ""
 "A finished record timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "Wykonany timer nagrywanie chce ustawić\n"
 "odbiornik w stan czuwania. Zrobić to teraz?"
@@ -416,7 +416,7 @@ msgstr ""
 #
 msgid ""
 "A finished record timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "Wykonany timer nagrywanie chce wyłączyć\n"
 "odbiornik. Wyłączyć teraz?"
@@ -485,7 +485,7 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "Wyłącznik czasowy chce przełączyć\n"
 "odbiornik w tryb czuwania. Zrobić to teraz?"
@@ -493,7 +493,7 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "Wyłącznik czasowy chce wyłączyć\n"
 "odbiornik. Wyłączyć teraz?"
@@ -613,7 +613,7 @@ msgid "Add/Remove timer for current event"
 msgstr "Dodaj/usuń timer dla bieżącej audycji"
 
 msgid ""
-"Adds enigma2 settings and dreambox model informations like SN, rev... if "
+"Adds enigma2 settings and set-top-box model informations like SN, rev... if "
 "enabled."
 msgstr ""
 
@@ -679,7 +679,7 @@ msgstr "Po naciśnięciu OK czekaj!"
 #
 msgid ""
 "After the start wizard is completed, you need to protect single services. "
-"Refer to your dreambox's manual on how to do that."
+"Refer to your set-top-box's manual on how to do that."
 msgstr ""
 "Po zakończeniu działania kreatora, należy zabezpieczyć pojedyncze serwisy. "
 "Opis w instrukcji obsługi... "
@@ -1416,7 +1416,7 @@ msgstr "Konwertuj ext3 do ext4"
 msgid "Copy"
 msgstr "Kopiuj"
 
-msgid "Could not connect to Dreambox .NFI Image Feed Server:"
+msgid "Could not connect to set-top-box .NFI Image Feed Server:"
 msgstr ""
 
 #
@@ -1894,7 +1894,7 @@ msgid "Do you want to download the image to %s ?"
 msgstr "Czy chcesz pobrać image do %s ?"
 
 #
-msgid "Do you want to enable the parental control feature on your dreambox?"
+msgid "Do you want to enable the parental control feature on your set-top-box?"
 msgstr "Czy chcesz włączyć kontrolę rodzicielską w odbiorniku?"
 
 #
@@ -1910,7 +1910,7 @@ msgid "Do you want to preview this DVD before burning?"
 msgstr "Czy chcesz obejrzeć DVD przed jego nagraniem?"
 
 #
-msgid "Do you want to reboot your Dreambox?"
+msgid "Do you want to reboot your set-top-box?"
 msgstr "Chcesz uruchomić ponownie odbiornik?"
 
 #
@@ -1931,12 +1931,12 @@ msgid ""
 msgstr ""
 
 #
-msgid "Do you want to update your Dreambox?"
+msgid "Do you want to update your set-top-box?"
 msgstr "Chcesz zaktualizować oprogramowanie odbiornika?"
 
 #
 msgid ""
-"Do you want to update your Dreambox?\n"
+"Do you want to update your set-top-box?\n"
 "After pressing OK, please wait!"
 msgstr ""
 "Czy chcesz zaktualizować oprogramowanie odbiornika?\n"
@@ -2006,11 +2006,11 @@ msgid "Downloading plugin information. Please wait..."
 msgstr "Pobieranie informacji o pluginach. Proszę czekać..."
 
 #
-msgid "Dreambox format data DVD (HDTV compatible)"
+msgid "set-top-box format data DVD (HDTV compatible)"
 msgstr "Format danych DVD (kompatybilny z HDTV)"
 
 #
-msgid "Dreambox software because updates are available."
+msgid "set-top-box software because updates are available."
 msgstr "Oprogramowanie odbiornika ponieważ aktualizacje są dostępne"
 
 #
@@ -2078,11 +2078,11 @@ msgid "Edit settings"
 msgstr "Edytuj ustawienia"
 
 #
-msgid "Edit the Nameserver configuration of your Dreambox.\n"
+msgid "Edit the Nameserver configuration of your set-top-box.\n"
 msgstr "Edytuj ustawienia namservera odbiornika.\n"
 
 #
-msgid "Edit the network configuration of your Dreambox.\n"
+msgid "Edit the network configuration of your set-top-box.\n"
 msgstr "Edytuj ustawienia sieci.\n"
 
 #
@@ -3679,7 +3679,7 @@ msgid "No, do nothing."
 msgstr "Nie, nie rób nic."
 
 #
-msgid "No, just start my dreambox"
+msgid "No, just start my set-top-box"
 msgstr "Nie, po prostu włącz odbiornik"
 
 msgid "No, never"
@@ -5388,7 +5388,7 @@ msgid "Shutdown"
 msgstr "Wyłącz"
 
 #
-msgid "Shutdown Dreambox after"
+msgid "Shutdown set-top-box after"
 msgstr "Wyłącz odbiornik po"
 
 msgid "Side by Side"
@@ -5873,7 +5873,7 @@ msgid "Test mode"
 msgstr "Tryb testowy"
 
 #
-msgid "Test the network configuration of your Dreambox.\n"
+msgid "Test the network configuration of your set-top-box.\n"
 msgstr "Testuj konfiguracjię sieci.\n"
 
 #
@@ -5902,7 +5902,7 @@ msgstr ""
 #
 msgid ""
 "Thank you for using the wizard. Your box is now ready to use.\n"
-"Please press OK to start using your Dreambox."
+"Please press OK to start using your set-top-box."
 msgstr ""
 "Dziękuję za skorzystanie z kreatora. Odbiornik jest już gotowy do użycia.\n"
 "Wciśnij OK aby kontynuować."
@@ -5910,7 +5910,7 @@ msgstr ""
 #
 msgid ""
 "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
-"create a Dreambox format data DVD (which will not play in stand-alone DVD "
+"create a set-top-box format data DVD (which will not play in stand-alone DVD "
 "players) instead?"
 msgstr ""
 "Standard DVD nie wspiera strumienia video H.264 (HDTV). Czy zamiast tego "
@@ -6004,7 +6004,7 @@ msgstr "Instalowanie domyślnej listy kanałów zostało zakończone."
 #
 msgid ""
 "The installation of the default settings is finished. You can now continue "
-"configuring your Dreambox by pressing the OK button on the remote control."
+"configuring your set-top-box by pressing the OK button on the remote control."
 msgstr ""
 "Instalacja domyślnej listy kanałów została zakończona. Aby kontynuować "
 "konfigurację odbiornika naciśnij przycisk OK."
@@ -6142,7 +6142,7 @@ msgstr ""
 
 #
 #, python-format
-msgid "This Dreambox can't decode %s streams!"
+msgid "This set-top-box can't decode %s streams!"
 msgstr "Ten odbiornik nie może zdekodować %s strumieni!"
 
 #
@@ -6151,7 +6151,7 @@ msgstr "To jest krok numer 2."
 
 msgid ""
 "This plugin creates a USB stick which can be used to update the firmware of "
-"your Dreambox without the need for a network or WLAN connection.\n"
+"your set-top-box without the need for a network or WLAN connection.\n"
 "First, a USB stick needs to be prepared so that it becomes bootable.\n"
 "In the next step, an NFI image file can be downloaded from the update server "
 "and saved on the USB stick.\n"
@@ -6363,7 +6363,7 @@ msgid "To subtitle selection"
 msgstr "Przejdź do wyboru napisów"
 
 msgid ""
-"To update your Dreambox firmware, please follow these steps:\n"
+"To update your set-top-box firmware, please follow these steps:\n"
 "1) Turn off your box with the rear power switch and make sure the bootable "
 "USB stick is plugged in.\n"
 "2) Turn mains back on and hold the DOWN button on the front panel pressed "
@@ -6617,7 +6617,7 @@ msgid "Upgrade finished."
 msgstr "Aktualizacja zakończona."
 
 #
-msgid "Upgrade finished. Do you want to reboot your Dreambox?"
+msgid "Upgrade finished. Do you want to reboot your set-top-box?"
 msgstr "Aktualizacja zakończona. Czy chcesz zrestartować odbiornik?"
 
 #
@@ -6625,7 +6625,7 @@ msgid "Upgrading"
 msgstr "Aktualizowanie"
 
 #
-msgid "Upgrading Dreambox... Please wait"
+msgid "Upgrading set-top-box... Please wait"
 msgstr "Aktualizacja... Proszę czekać"
 
 #
@@ -7006,7 +7006,7 @@ msgstr ""
 #
 msgid ""
 "Welcome to the Image upgrade wizard. The wizard will assist you in upgrading "
-"the firmware of your Dreambox by providing a backup facility for your "
+"the firmware of your set-top-box by providing a backup facility for your "
 "current settings and a short explanation of how to upgrade your firmware."
 msgstr ""
 "Witaj w kreatorze aktualizacji oprogramowania. Kreator będzie asystował przy "
@@ -7017,7 +7017,7 @@ msgid ""
 "Welcome to the cleanup wizard.\n"
 "\n"
 "We have detected that your available internal memory has dropped below 2MB.\n"
-"To ensure stable operation of your Dreambox, the internal memory should be "
+"To ensure stable operation of your set-top-box, the internal memory should be "
 "cleaned up.\n"
 "You can use this wizard to remove some extensions.\n"
 msgstr ""
@@ -7026,8 +7026,8 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"If you want to connect your Dreambox to the Internet, this wizard will guide "
-"you through the basic network setup of your Dreambox.\n"
+"If you want to connect your set-top-box to the Internet, this wizard will guide "
+"you through the basic network setup of your set-top-box.\n"
 "\n"
 "Press OK to start configuring your network"
 msgstr ""
@@ -7041,7 +7041,7 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"This start wizard will guide you through the basic setup of your Dreambox.\n"
+"This start wizard will guide you through the basic setup of your set-top-box.\n"
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
 "Witaj.\n"
@@ -7228,7 +7228,7 @@ msgid "You can install this plugin."
 msgstr "Możesz zainstalować ten plugin"
 
 #
-msgid "You can only burn Dreambox recordings!"
+msgid "You can only burn set-top-box recordings!"
 msgstr "Możesz wypalać tylko nagrania!"
 
 #
@@ -7287,9 +7287,9 @@ msgstr "Musisz poczekać na %s!"
 
 #
 msgid ""
-"You need a PC connected to your dreambox. If you need further instructions, "
+"You need a PC connected to your set-top-box. If you need further instructions, "
 "please visit the website http://www.dm7025.de.\n"
-"Your dreambox will now be halted. After you have performed the update "
+"Your set-top-box will now be halted. After you have performed the update "
 "instructions from the website, your new firmware will ask you to restore "
 "your settings."
 msgstr ""
@@ -7312,7 +7312,7 @@ msgstr "Twój system nie wspiera ext4"
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -7324,7 +7324,7 @@ msgstr ""
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -7337,7 +7337,7 @@ msgstr ""
 "Wciśnij OK aby kontynuować"
 
 #
-msgid "Your Dreambox will restart after pressing OK on your remote control."
+msgid "Your set-top-box will restart after pressing OK on your remote control."
 msgstr "Odbiornik zostanie zrestartowany po wciśnięciu OK."
 
 #
@@ -7361,12 +7361,12 @@ msgid "Your current collection will get lost!"
 msgstr "Twoja obecna kolekcja zostanie utracona!"
 
 #
-msgid "Your dreambox is shutting down. Please stand by..."
+msgid "Your set-top-box is shutting down. Please stand by..."
 msgstr "Wyłączanie odbiornika. Prosze czekać..."
 
 #
 msgid ""
-"Your dreambox isn't connected to the internet properly. Please check it and "
+"Your set-top-box isn't connected to the internet properly. Please check it and "
 "try again."
 msgstr ""
 "Odbiornik nie jest właściwie połączony z internetem. Sprawdź i spróbuj "
@@ -7794,19 +7794,19 @@ msgstr "Nie nagrywaj"
 msgid "done!"
 msgstr "Zrobione!"
 
-msgid "dreambox advanced remote control (native)"
+msgid "set-top-box advanced remote control (native)"
 msgstr ""
 
-msgid "dreambox front panel"
+msgid "set-top-box front panel"
 msgstr ""
 
-msgid "dreambox ir keyboard"
+msgid "set-top-box ir keyboard"
 msgstr ""
 
-msgid "dreambox ir mouse"
+msgid "set-top-box ir mouse"
 msgstr ""
 
-msgid "dreambox remote control (native)"
+msgid "set-top-box remote control (native)"
 msgstr ""
 
 msgid "east"
@@ -8723,8 +8723,8 @@ msgstr "Tak (trzymaj feedy)"
 
 #
 msgid ""
-"your dreambox might be unusable now. Please consult the manual for further "
-"assistance before rebooting your dreambox."
+"your set-top-box might be unusable now. Please consult the manual for further "
+"assistance before rebooting your set-top-box."
 msgstr ""
 "Odbiornik może być teraz niezdatny do użytku. Zajrzyj do instrukcji "
 "użytkownika przed ponownym uruchomieniem."

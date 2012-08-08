@@ -35,10 +35,10 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Backup your Dreambox settings."
+"Backup your set-top-box settings."
 msgstr ""
 "\n"
-"Veidot Dreambox iestatījumu dublējumkopiju."
+"Veidot set-top-box iestatījumu dublējumkopiju."
 
 #
 msgid ""
@@ -51,16 +51,16 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Manage extensions or plugins for your Dreambox"
+"Manage extensions or plugins for your set-top-box"
 msgstr ""
 
 #
 msgid ""
 "\n"
-"Online update of your Dreambox software."
+"Online update of your set-top-box software."
 msgstr ""
 "\n"
-"Dreambox programmatūras atjaunināšana tiešsaistē."
+"set-top-box programmatūras atjaunināšana tiešsaistē."
 
 #
 msgid ""
@@ -73,18 +73,18 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox settings."
+"Restore your set-top-box settings."
 msgstr ""
 "\n"
-"Atjaunot Dreambox iestatījumus."
+"Atjaunot set-top-box iestatījumus."
 
 #
 msgid ""
 "\n"
-"Restore your Dreambox with a new firmware."
+"Restore your set-top-box with a new firmware."
 msgstr ""
 "\n"
-"Atjaunot Dreambox ar jaunu programmatūru."
+"Atjaunot set-top-box ar jaunu programmatūru."
 
 #
 msgid ""
@@ -406,18 +406,18 @@ msgstr ""
 #
 msgid ""
 "A finished record timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "Taimeris ir beidzis ierakstu un vēlas pārslēgt\n"
-"Dreambox gaidstāves režīmā. Vai darīt to tagad?"
+"set-top-box gaidstāves režīmā. Vai darīt to tagad?"
 
 #
 msgid ""
 "A finished record timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "Taimeris ir beidzis ierakstu un vēlas izslēgt\n"
-"Dreambox. Vai darīt to tagad?"
+"set-top-box. Vai darīt to tagad?"
 
 #
 # ???
@@ -481,18 +481,18 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "Miega taimeris vēlas pārslēgt\n"
-"Dreambox gaidstāves režīmā. Vai darīt to tagad?"
+"set-top-box gaidstāves režīmā. Vai darīt to tagad?"
 
 #
 msgid ""
 "A sleep timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "Miega taimeris vēlas izslēgt\n"
-"Dreambox. Vai darīt to tagad?"
+"set-top-box. Vai darīt to tagad?"
 
 #
 msgid "A small overview of the available icon states and actions."
@@ -612,7 +612,7 @@ msgstr ""
 
 #
 msgid ""
-"Adds enigma2 settings and dreambox model informations like SN, rev... if "
+"Adds enigma2 settings and set-top-box model informations like SN, rev... if "
 "enabled."
 msgstr ""
 
@@ -677,10 +677,10 @@ msgstr ""
 # ???
 msgid ""
 "After the start wizard is completed, you need to protect single services. "
-"Refer to your dreambox's manual on how to do that."
+"Refer to your set-top-box's manual on how to do that."
 msgstr ""
 "Pēc starta vednis ir pabeigts, jums ir jāaizsargā atsevišķi kanāli. "
-"Meklējiet dreambox rokasgrāmatā kā to izdarīt."
+"Meklējiet set-top-box rokasgrāmatā kā to izdarīt."
 
 #
 msgid "Album"
@@ -1403,8 +1403,8 @@ msgid "Copy"
 msgstr ""
 
 #
-msgid "Could not connect to Dreambox .NFI Image Feed Server:"
-msgstr "Nevar savienoties ar Dreambox .NFI imidža barotnes serveris:"
+msgid "Could not connect to set-top-box .NFI Image Feed Server:"
+msgstr "Nevar savienoties ar set-top-box .NFI imidža barotnes serveris:"
 
 #
 msgid "Could not load Medium! No disc inserted?"
@@ -1875,7 +1875,7 @@ msgid "Do you want to download the image to %s ?"
 msgstr ""
 
 #
-msgid "Do you want to enable the parental control feature on your dreambox?"
+msgid "Do you want to enable the parental control feature on your set-top-box?"
 msgstr "Vai vēlaties aktivizēt vecāku kontroles iespēju?"
 
 #
@@ -1891,8 +1891,8 @@ msgid "Do you want to preview this DVD before burning?"
 msgstr "Vai vēleties skatīt šo DVD pirms rakstīšanas?"
 
 #
-msgid "Do you want to reboot your Dreambox?"
-msgstr "Vai vēlaties atsāknēt Dreambox?"
+msgid "Do you want to reboot your set-top-box?"
+msgstr "Vai vēlaties atsāknēt set-top-box?"
 
 #
 msgid "Do you want to remove the package:\n"
@@ -1913,15 +1913,15 @@ msgid ""
 msgstr ""
 
 #
-msgid "Do you want to update your Dreambox?"
-msgstr "Vai vēlaties atjaunināt Dreambox?"
+msgid "Do you want to update your set-top-box?"
+msgstr "Vai vēlaties atjaunināt set-top-box?"
 
 #
 msgid ""
-"Do you want to update your Dreambox?\n"
+"Do you want to update your set-top-box?\n"
 "After pressing OK, please wait!"
 msgstr ""
-"Vai vēlaties atjaunināt Dreambox?\n"
+"Vai vēlaties atjaunināt set-top-box?\n"
 "Nospiediet OK un gaidiet!"
 
 #
@@ -1987,11 +1987,11 @@ msgid "Downloading plugin information. Please wait..."
 msgstr "Lejuplādē spraudņu informāciju. Lūdzu gaidiet..."
 
 #
-msgid "Dreambox format data DVD (HDTV compatible)"
-msgstr "Dreambox formāta datu DVD (savietojams ar HDTV)"
+msgid "set-top-box format data DVD (HDTV compatible)"
+msgstr "set-top-box formāta datu DVD (savietojams ar HDTV)"
 
 #
-msgid "Dreambox software because updates are available."
+msgid "set-top-box software because updates are available."
 msgstr ""
 
 #
@@ -2058,12 +2058,12 @@ msgid "Edit settings"
 msgstr "Rediģēt iestatījumus"
 
 #
-msgid "Edit the Nameserver configuration of your Dreambox.\n"
-msgstr "Rediģēt Dreambox domēna vārdu servera konfigurāciju.\n"
+msgid "Edit the Nameserver configuration of your set-top-box.\n"
+msgstr "Rediģēt set-top-box domēna vārdu servera konfigurāciju.\n"
 
 #
-msgid "Edit the network configuration of your Dreambox.\n"
-msgstr "Rediģēt Dreambox tīkla konfigurāciju.\n"
+msgid "Edit the network configuration of your set-top-box.\n"
+msgstr "Rediģēt set-top-box tīkla konfigurāciju.\n"
 
 #
 msgid "Edit title"
@@ -3624,8 +3624,8 @@ msgid "No, do nothing."
 msgstr "Nē, nedarīt neko"
 
 #
-msgid "No, just start my dreambox"
-msgstr "Nē, vienkārši startēt dreambox"
+msgid "No, just start my set-top-box"
+msgstr "Nē, vienkārši startēt set-top-box"
 
 msgid "No, never"
 msgstr ""
@@ -5276,8 +5276,8 @@ msgid "Shutdown"
 msgstr ""
 
 #
-msgid "Shutdown Dreambox after"
-msgstr "Izslēgt Dreambox pēc"
+msgid "Shutdown set-top-box after"
+msgstr "Izslēgt set-top-box pēc"
 
 msgid "Side by Side"
 msgstr ""
@@ -5743,8 +5743,8 @@ msgid "Test mode"
 msgstr "Testa režīms"
 
 #
-msgid "Test the network configuration of your Dreambox.\n"
-msgstr "Pārbaudīt tīkla Dreambox konfigurāciju.\n"
+msgid "Test the network configuration of your set-top-box.\n"
+msgstr "Pārbaudīt tīkla set-top-box konfigurāciju.\n"
 
 #
 msgid "Test-Messagebox?"
@@ -5768,19 +5768,19 @@ msgstr ""
 #
 msgid ""
 "Thank you for using the wizard. Your box is now ready to use.\n"
-"Please press OK to start using your Dreambox."
+"Please press OK to start using your set-top-box."
 msgstr ""
 "Pateicamies par vedņa izmantošanu. Ierīce ir gatava lietošanai.\n"
-"Lūdzu spiediet OK, lai sāktu lietot Dreambox."
+"Lūdzu spiediet OK, lai sāktu lietot set-top-box."
 
 #
 msgid ""
 "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
-"create a Dreambox format data DVD (which will not play in stand-alone DVD "
+"create a set-top-box format data DVD (which will not play in stand-alone DVD "
 "players) instead?"
 msgstr ""
 "DVD standarts neatbalsta H.264 (HDTV) attēla plūsmas. Vai jūs tā vietā "
-"vēlaties izveidot Dreambox formāta datu DVD (kuru nevarēs izmantot standarta "
+"vēlaties izveidot set-top-box formāta datu DVD (kuru nevarēs izmantot standarta "
 "DVD atskaņotājos)?"
 
 #
@@ -5866,9 +5866,9 @@ msgstr "Noklusēto kanālu sarakstu uzstādīšana ir pabeigta."
 #
 msgid ""
 "The installation of the default settings is finished. You can now continue "
-"configuring your Dreambox by pressing the OK button on the remote control."
+"configuring your set-top-box by pressing the OK button on the remote control."
 msgstr ""
-"Noklusēto iestatījumu uzstādīšana ir pabeigta. Tagad varat turpināt Dreambox "
+"Noklusēto iestatījumu uzstādīšana ir pabeigta. Tagad varat turpināt set-top-box "
 "konfigurēšanu, spiežot OK taustiņu uz tālvadības pults."
 
 msgid "The md5sum validation failed, the file may be corrupted!"
@@ -5997,7 +5997,7 @@ msgstr ""
 
 #
 #, python-format
-msgid "This Dreambox can't decode %s streams!"
+msgid "This set-top-box can't decode %s streams!"
 msgstr ""
 
 #
@@ -6006,7 +6006,7 @@ msgstr "Šis ir solis numur 2."
 
 msgid ""
 "This plugin creates a USB stick which can be used to update the firmware of "
-"your Dreambox without the need for a network or WLAN connection.\n"
+"your set-top-box without the need for a network or WLAN connection.\n"
 "First, a USB stick needs to be prepared so that it becomes bootable.\n"
 "In the next step, an NFI image file can be downloaded from the update server "
 "and saved on the USB stick.\n"
@@ -6215,7 +6215,7 @@ msgid "To subtitle selection"
 msgstr ""
 
 msgid ""
-"To update your Dreambox firmware, please follow these steps:\n"
+"To update your set-top-box firmware, please follow these steps:\n"
 "1) Turn off your box with the rear power switch and make sure the bootable "
 "USB stick is plugged in.\n"
 "2) Turn mains back on and hold the DOWN button on the front panel pressed "
@@ -6461,16 +6461,16 @@ msgid "Upgrade finished."
 msgstr "Atjaunināšana pabeigta."
 
 #
-msgid "Upgrade finished. Do you want to reboot your Dreambox?"
-msgstr "Atjaunināšana pabeigta. Vai vēlaties atsāknēt Dreambox?"
+msgid "Upgrade finished. Do you want to reboot your set-top-box?"
+msgstr "Atjaunināšana pabeigta. Vai vēlaties atsāknēt set-top-box?"
 
 #
 msgid "Upgrading"
 msgstr "Atjaunošana"
 
 #
-msgid "Upgrading Dreambox... Please wait"
-msgstr "Atjauno Dreambox... Lūdzu gaidiet"
+msgid "Upgrading set-top-box... Please wait"
+msgstr "Atjauno set-top-box... Lūdzu gaidiet"
 
 #
 msgid "Use"
@@ -6844,11 +6844,11 @@ msgstr ""
 #
 msgid ""
 "Welcome to the Image upgrade wizard. The wizard will assist you in upgrading "
-"the firmware of your Dreambox by providing a backup facility for your "
+"the firmware of your set-top-box by providing a backup facility for your "
 "current settings and a short explanation of how to upgrade your firmware."
 msgstr ""
 "Sveicināti imidža atjaunināšanas vednī. Vednis palīdzēs Jums atjaunot "
-"Dreambox programmatūru, sniedzot pašreizējo iestatījumu dublējumkopēšanas "
+"set-top-box programmatūru, sniedzot pašreizējo iestatījumu dublējumkopēšanas "
 "iespējas, kā arī īsumā izskaidros, kā veikt programmatūras atjaunināšanu."
 
 #
@@ -6856,7 +6856,7 @@ msgid ""
 "Welcome to the cleanup wizard.\n"
 "\n"
 "We have detected that your available internal memory has dropped below 2MB.\n"
-"To ensure stable operation of your Dreambox, the internal memory should be "
+"To ensure stable operation of your set-top-box, the internal memory should be "
 "cleaned up.\n"
 "You can use this wizard to remove some extensions.\n"
 msgstr ""
@@ -6865,8 +6865,8 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"If you want to connect your Dreambox to the Internet, this wizard will guide "
-"you through the basic network setup of your Dreambox.\n"
+"If you want to connect your set-top-box to the Internet, this wizard will guide "
+"you through the basic network setup of your set-top-box.\n"
 "\n"
 "Press OK to start configuring your network"
 msgstr ""
@@ -6875,12 +6875,12 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"This start wizard will guide you through the basic setup of your Dreambox.\n"
+"This start wizard will guide you through the basic setup of your set-top-box.\n"
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
 "Sveicināti.\n"
 "\n"
-"Šis sākuma vednis būs Jūsu ceļvedis Dreambox pamata iestatnē.\n"
+"Šis sākuma vednis būs Jūsu ceļvedis set-top-box pamata iestatnē.\n"
 "Spiediet OK taustiņu uz tālvadības pults, lai pārietu uz nākamo soli."
 
 #
@@ -7053,7 +7053,7 @@ msgid "You can install this plugin."
 msgstr ""
 
 #
-msgid "You can only burn Dreambox recordings!"
+msgid "You can only burn set-top-box recordings!"
 msgstr ""
 
 #
@@ -7117,15 +7117,15 @@ msgstr "Jums jāuzgaida %s!"
 
 #
 msgid ""
-"You need a PC connected to your dreambox. If you need further instructions, "
+"You need a PC connected to your set-top-box. If you need further instructions, "
 "please visit the website http://www.dm7025.de.\n"
-"Your dreambox will now be halted. After you have performed the update "
+"Your set-top-box will now be halted. After you have performed the update "
 "instructions from the website, your new firmware will ask you to restore "
 "your settings."
 msgstr ""
-"Personālajam datoram jābūt savienotam ar Dreambox. Ja Jums ir nepieciešamas "
+"Personālajam datoram jābūt savienotam ar set-top-box. Ja Jums ir nepieciešamas "
 "turpmākas instrukcijas, lūdzu apmeklējiet vietni http://www.dm7025.de.\n"
-"Dreambox tagad tiks apturēts. Pēc tam, kad būs izpildītas atjaunināšanas "
+"set-top-box tagad tiks apturēts. Pēc tam, kad būs izpildītas atjaunināšanas "
 "instrukcijas no tīkla vietnes, jaunā programmatūra piedāvās Jums atjaunot "
 "iestatījumus."
 
@@ -7140,7 +7140,7 @@ msgstr ""
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -7148,7 +7148,7 @@ msgstr ""
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -7156,8 +7156,8 @@ msgid ""
 msgstr ""
 
 #
-msgid "Your Dreambox will restart after pressing OK on your remote control."
-msgstr "Dreambox restartēsies pēc OK taustiņa nospiešanas uz tālvadības pults."
+msgid "Your set-top-box will restart after pressing OK on your remote control."
+msgstr "set-top-box restartēsies pēc OK taustiņa nospiešanas uz tālvadības pults."
 
 #
 msgid ""
@@ -7178,15 +7178,15 @@ msgid "Your current collection will get lost!"
 msgstr ""
 
 #
-msgid "Your dreambox is shutting down. Please stand by..."
-msgstr "Dreambox izslēdzas. Lūdzu gaidiet..."
+msgid "Your set-top-box is shutting down. Please stand by..."
+msgstr "set-top-box izslēdzas. Lūdzu gaidiet..."
 
 #
 msgid ""
-"Your dreambox isn't connected to the internet properly. Please check it and "
+"Your set-top-box isn't connected to the internet properly. Please check it and "
 "try again."
 msgstr ""
-"Dreambox nav pievienots internetam kā nākas. Lūdzu pārbaudiet un mēģiniet "
+"set-top-box nav pievienots internetam kā nākas. Lūdzu pārbaudiet un mēģiniet "
 "vēl."
 
 #
@@ -7600,19 +7600,19 @@ msgstr "nerakstīt"
 msgid "done!"
 msgstr "pabeigts!"
 
-msgid "dreambox advanced remote control (native)"
+msgid "set-top-box advanced remote control (native)"
 msgstr ""
 
-msgid "dreambox front panel"
+msgid "set-top-box front panel"
 msgstr ""
 
-msgid "dreambox ir keyboard"
+msgid "set-top-box ir keyboard"
 msgstr ""
 
-msgid "dreambox ir mouse"
+msgid "set-top-box ir mouse"
 msgstr ""
 
-msgid "dreambox remote control (native)"
+msgid "set-top-box remote control (native)"
 msgstr ""
 
 msgid "east"
@@ -8513,11 +8513,11 @@ msgstr "jā (paturēt barotnes)"
 
 #
 msgid ""
-"your dreambox might be unusable now. Please consult the manual for further "
-"assistance before rebooting your dreambox."
+"your set-top-box might be unusable now. Please consult the manual for further "
+"assistance before rebooting your set-top-box."
 msgstr ""
-"Dreambox tagad var būt nelietojams. Lūdzu skatīt lietošanas instrukciju "
-"tālākai palīdzībai, pirms atsāknējat Dreambox."
+"set-top-box tagad var būt nelietojams. Lūdzu skatīt lietošanas instrukciju "
+"tālākai palīdzībai, pirms atsāknējat set-top-box."
 
 #
 msgid "zap"
@@ -9054,10 +9054,10 @@ msgstr "pārslēgts"
 
 #
 #~ msgid ""
-#~ "Please disconnect all USB devices from your Dreambox and (re-)attach the "
+#~ "Please disconnect all USB devices from your set-top-box and (re-)attach the "
 #~ "target USB stick (minimum size is 64 MB) now!"
 #~ msgstr ""
-#~ "Tagad lūdzu atvienojiet visas USB ierīces no Dreambox, un pievienojiet "
+#~ "Tagad lūdzu atvienojiet visas USB ierīces no set-top-box, un pievienojiet "
 #~ "atpakaļ USB atmiņu (minimālais izmērs 64 MB)!"
 
 #
@@ -9283,8 +9283,8 @@ msgstr "pārslēgts"
 #~ "programmēšanu iekšējā atmiņā?"
 
 #
-#~ msgid "This Dreambox can't decode %s video streams!"
-#~ msgstr "Šis Dreambox modelis nevar atkodēt %s attēla plūsmas!"
+#~ msgid "This set-top-box can't decode %s video streams!"
+#~ msgstr "Šis set-top-box modelis nevar atkodēt %s attēla plūsmas!"
 
 #
 #~ msgid "This is unsupported at the moment."
@@ -9296,14 +9296,14 @@ msgstr "pārslēgts"
 
 #
 #~ msgid ""
-#~ "To update your Dreambox firmware, please follow these steps:\n"
+#~ "To update your set-top-box firmware, please follow these steps:\n"
 #~ "1) Turn off your box with the rear power switch and plug in the bootable "
 #~ "USB stick.\n"
 #~ "2) Turn mains back on and hold the DOWN button on the front panel pressed "
 #~ "for 10 seconds.\n"
 #~ "3) Wait for bootup and follow instructions of the wizard."
 #~ msgstr ""
-#~ "Lūdzu veiciet šādus soļus, lai atjauninātu Dreambox programmatūru:\n"
+#~ "Lūdzu veiciet šādus soļus, lai atjauninātu set-top-box programmatūru:\n"
 #~ "1) Izslēdziet ierīci ar aizmugures barošanas slēdzi un iespraudiet "
 #~ "sāknējamu USB atmiņu.\n"
 #~ "2) Ieslēdziet ierīci un 10 sekundes turiet nospiestu DOWN pogu uz "
@@ -9372,10 +9372,10 @@ msgstr "pārslēgts"
 
 #
 #~ msgid ""
-#~ "You do not seem to have a harddisk in your Dreambox. So backing up to a "
+#~ "You do not seem to have a harddisk in your set-top-box. So backing up to a "
 #~ "harddisk is not an option for you."
 #~ msgstr ""
-#~ "Izskatās, ka šajā Dreambox nav uzstādīts cietais disks. Tādēļ "
+#~ "Izskatās, ka šajā set-top-box nav uzstādīts cietais disks. Tādēļ "
 #~ "dublējumkopijas veidošana uz cietā diska jums nav pieejama."
 
 #

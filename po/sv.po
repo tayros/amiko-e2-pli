@@ -36,10 +36,10 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Backup your Dreambox settings."
+"Backup your set-top-box settings."
 msgstr ""
 "\n"
-"Backup av din Dreamboxs inställningar."
+"Backup av din set-top-boxs inställningar."
 
 #
 msgid ""
@@ -51,18 +51,18 @@ msgstr ""
 
 msgid ""
 "\n"
-"Manage extensions or plugins for your Dreambox"
+"Manage extensions or plugins for your set-top-box"
 msgstr ""
 "\n"
-"Hantera utökningar eller plugins för din Dreambox"
+"Hantera utökningar eller plugins för din set-top-box"
 
 #
 msgid ""
 "\n"
-"Online update of your Dreambox software."
+"Online update of your set-top-box software."
 msgstr ""
 "\n"
-"Online uppdatering av din Dreamboxs mjukvara."
+"Online uppdatering av din set-top-boxs mjukvara."
 
 #
 msgid ""
@@ -75,15 +75,15 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox settings."
+"Restore your set-top-box settings."
 msgstr ""
 "\n"
-"Återskapa din Dreamboxs inställningar."
+"Återskapa din set-top-boxs inställningar."
 
 #
 msgid ""
 "\n"
-"Restore your Dreambox with a new firmware."
+"Restore your set-top-box with a new firmware."
 msgstr ""
 "\n"
 "Återskapa din reambox med en ny firmware."
@@ -399,18 +399,18 @@ msgstr "Ett demoplugin för TPM användning."
 #
 msgid ""
 "A finished record timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "En utförd inspelningstimer vill försätta din\n"
-"Dreambox i standby. Utföra det nu?"
+"set-top-box i standby. Utföra det nu?"
 
 #
 msgid ""
 "A finished record timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "En utförd inspelningstimer vill stänga av\n"
-"din Dreambox. Stänga av nu?"
+"din set-top-box. Stänga av nu?"
 
 #
 msgid "A graphical EPG for all services of an specific bouquet"
@@ -475,18 +475,18 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "En sovtimer vill försätta din\n"
-"Dreambox i standby. Utföra det?"
+"set-top-box i standby. Utföra det?"
 
 #
 msgid ""
 "A sleep timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "En sovtimer vill stänga av\n"
-"din Dreambox. Stänga av nu?"
+"din set-top-box. Stänga av nu?"
 
 #
 msgid "A small overview of the available icon states and actions."
@@ -602,10 +602,10 @@ msgid "Add/Remove timer for current event"
 msgstr ""
 
 msgid ""
-"Adds enigma2 settings and dreambox model informations like SN, rev... if "
+"Adds enigma2 settings and set-top-box model informations like SN, rev... if "
 "enabled."
 msgstr ""
-"Lägger till enigma2 inställningar och dreambox modellinformation såsom SN, "
+"Lägger till enigma2 inställningar och set-top-box modellinformation såsom SN, "
 "rev... om aktiverad."
 
 #
@@ -667,10 +667,10 @@ msgstr ""
 #
 msgid ""
 "After the start wizard is completed, you need to protect single services. "
-"Refer to your dreambox's manual on how to do that."
+"Refer to your set-top-box's manual on how to do that."
 msgstr ""
 "Efter att startguiden är avslutad, behöver du skydda enskilda kanaler. Läs i "
-"din manual för Dreambox om hur du utför det."
+"din manual för set-top-box om hur du utför det."
 
 #
 msgid "Album"
@@ -1381,8 +1381,8 @@ msgid "Copy"
 msgstr ""
 
 #
-msgid "Could not connect to Dreambox .NFI Image Feed Server:"
-msgstr "Kunde inte ansluta till Dreambox .NFI image feed Server:"
+msgid "Could not connect to set-top-box .NFI Image Feed Server:"
+msgstr "Kunde inte ansluta till set-top-box .NFI image feed Server:"
 
 #
 msgid "Could not load Medium! No disc inserted?"
@@ -1843,8 +1843,8 @@ msgstr "Vill du göra en ny manuell sökning?"
 msgid "Do you want to download the image to %s ?"
 msgstr "Vill du ladda ner image till %s ?"
 
-msgid "Do you want to enable the parental control feature on your dreambox?"
-msgstr "Vill du aktivera föräldrakontroll på din dreambox?"
+msgid "Do you want to enable the parental control feature on your set-top-box?"
+msgstr "Vill du aktivera föräldrakontroll på din set-top-box?"
 
 #
 msgid "Do you want to install the package:\n"
@@ -1859,8 +1859,8 @@ msgid "Do you want to preview this DVD before burning?"
 msgstr "Vill du förhandsvisa denna DVD innan bränning?"
 
 #
-msgid "Do you want to reboot your Dreambox?"
-msgstr "Vill du starta om din Dreambox?"
+msgid "Do you want to reboot your set-top-box?"
+msgstr "Vill du starta om din set-top-box?"
 
 #
 msgid "Do you want to remove the package:\n"
@@ -1882,15 +1882,15 @@ msgstr ""
 "Vill du skicka med din epost och namn så vi kan kontakta dig om så behövs?"
 
 #
-msgid "Do you want to update your Dreambox?"
-msgstr "Vill du uppdatera din Dreambox?"
+msgid "Do you want to update your set-top-box?"
+msgstr "Vill du uppdatera din set-top-box?"
 
 #
 msgid ""
-"Do you want to update your Dreambox?\n"
+"Do you want to update your set-top-box?\n"
 "After pressing OK, please wait!"
 msgstr ""
-"Vill du uppdatera din Dreambox?\n"
+"Vill du uppdatera din set-top-box?\n"
 "Tryck OK och vänligen vänta!"
 
 #
@@ -1956,12 +1956,12 @@ msgid "Downloading plugin information. Please wait..."
 msgstr "Hämtar plugininformation. Var vänlig vänta..."
 
 #
-msgid "Dreambox format data DVD (HDTV compatible)"
-msgstr "Dreambox formaterad data DVD (HDTV kompatibel)"
+msgid "set-top-box format data DVD (HDTV compatible)"
+msgstr "set-top-box formaterad data DVD (HDTV kompatibel)"
 
 #
-msgid "Dreambox software because updates are available."
-msgstr "Dreambox mjukvara på grund av uppdateringar är tillgängliga."
+msgid "set-top-box software because updates are available."
+msgstr "set-top-box mjukvara på grund av uppdateringar är tillgängliga."
 
 #
 msgid "Dutch"
@@ -2025,12 +2025,12 @@ msgid "Edit settings"
 msgstr "Ändra inställningar"
 
 #
-msgid "Edit the Nameserver configuration of your Dreambox.\n"
-msgstr "Ändra Namnserver konfiguration för din Dreambox.\n"
+msgid "Edit the Nameserver configuration of your set-top-box.\n"
+msgstr "Ändra Namnserver konfiguration för din set-top-box.\n"
 
 #
-msgid "Edit the network configuration of your Dreambox.\n"
-msgstr "Ändra nätverks konfiguration för din Dreambox.\n"
+msgid "Edit the network configuration of your set-top-box.\n"
+msgstr "Ändra nätverks konfiguration för din set-top-box.\n"
 
 #
 msgid "Edit title"
@@ -3576,8 +3576,8 @@ msgid "No, do nothing."
 msgstr "Nej, gör inget."
 
 #
-msgid "No, just start my dreambox"
-msgstr "Nej, starta bara dreamboxen"
+msgid "No, just start my set-top-box"
+msgstr "Nej, starta bara set-top-boxen"
 
 msgid "No, never"
 msgstr "Nej, aldrig"
@@ -5226,8 +5226,8 @@ msgid "Shutdown"
 msgstr "Stäng av"
 
 #
-msgid "Shutdown Dreambox after"
-msgstr "Stäng av Dreambox efter"
+msgid "Shutdown set-top-box after"
+msgstr "Stäng av set-top-box efter"
 
 msgid "Side by Side"
 msgstr ""
@@ -5687,8 +5687,8 @@ msgid "Test mode"
 msgstr "Testläge"
 
 #
-msgid "Test the network configuration of your Dreambox.\n"
-msgstr "Testa nätverkskonfigurationen för din Dreambox.\n"
+msgid "Test the network configuration of your set-top-box.\n"
+msgstr "Testa nätverkskonfigurationen för din set-top-box.\n"
 
 #
 msgid "Test-Messagebox?"
@@ -5714,18 +5714,18 @@ msgstr ""
 #
 msgid ""
 "Thank you for using the wizard. Your box is now ready to use.\n"
-"Please press OK to start using your Dreambox."
+"Please press OK to start using your set-top-box."
 msgstr ""
 "Tack för att du använde guiden. Din box är nu konfigurerad.\n"
-"Tryck OK för att börja använda din Dreambox."
+"Tryck OK för att börja använda din set-top-box."
 
 msgid ""
 "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
-"create a Dreambox format data DVD (which will not play in stand-alone DVD "
+"create a set-top-box format data DVD (which will not play in stand-alone DVD "
 "players) instead?"
 msgstr ""
 "DVD standarden stödjer inte H.264 (HDTV) videoströmmar. Vill du skapa en "
-"Dreambox format data DVD (kommer ej kunnas spelas i vanlig DVD spelare) "
+"set-top-box format data DVD (kommer ej kunnas spelas i vanlig DVD spelare) "
 "istället?"
 
 #
@@ -5815,10 +5815,10 @@ msgstr "Installationen av grundservicelistan är klar."
 #
 msgid ""
 "The installation of the default settings is finished. You can now continue "
-"configuring your Dreambox by pressing the OK button on the remote control."
+"configuring your set-top-box by pressing the OK button on the remote control."
 msgstr ""
 "Installationen av grundinställningar är nu klar. Du kan nu slutföra din "
-"konfiguration av Dreambox med att trycka på OK knappen på din fjärrkontroll."
+"konfiguration av set-top-box med att trycka på OK knappen på din fjärrkontroll."
 
 msgid "The md5sum validation failed, the file may be corrupted!"
 msgstr "Validering av md5sum misslyckades, filen kan vara korrupt!"
@@ -5949,8 +5949,8 @@ msgstr ""
 
 #
 #, python-format
-msgid "This Dreambox can't decode %s streams!"
-msgstr "Den här dreamboxen kan in avkoda %s strömmar!"
+msgid "This set-top-box can't decode %s streams!"
+msgstr "Den här set-top-boxen kan in avkoda %s strömmar!"
 
 #
 msgid "This is step number 2."
@@ -5958,7 +5958,7 @@ msgstr "Det här är steg 2."
 
 msgid ""
 "This plugin creates a USB stick which can be used to update the firmware of "
-"your Dreambox without the need for a network or WLAN connection.\n"
+"your set-top-box without the need for a network or WLAN connection.\n"
 "First, a USB stick needs to be prepared so that it becomes bootable.\n"
 "In the next step, an NFI image file can be downloaded from the update server "
 "and saved on the USB stick.\n"
@@ -5966,7 +5966,7 @@ msgid ""
 "Otherwise plug in a USB stick with a minimum size of 64 MB!"
 msgstr ""
 "Den här pluginen skapar en USB-sticka som kan användas för att uppdatera "
-"firmware i din Dreambox utan behovet av nätverks- eller WLAN anslutning.\n"
+"firmware i din set-top-box utan behovet av nätverks- eller WLAN anslutning.\n"
 " Först, en USB sticka måste förberedas så att den blir bootbar.\n"
 "Nästa steg, en NFI image fil ska laddas ner från uppdateringsservern och "
 "sparas till USB stickan.\n"
@@ -6175,14 +6175,14 @@ msgid "To subtitle selection"
 msgstr ""
 
 msgid ""
-"To update your Dreambox firmware, please follow these steps:\n"
+"To update your set-top-box firmware, please follow these steps:\n"
 "1) Turn off your box with the rear power switch and make sure the bootable "
 "USB stick is plugged in.\n"
 "2) Turn mains back on and hold the DOWN button on the front panel pressed "
 "for 10 seconds.\n"
 "3) Wait for bootup and follow instructions of the wizard."
 msgstr ""
-"För att uppdatera din Dreambox, vänligen följ dessa anvisningar:\n"
+"För att uppdatera din set-top-box, vänligen följ dessa anvisningar:\n"
 "1) Stäng av din box med strömbrytaren på baksidan och säkerställ att bootbar "
 "USB-sticka är ansluten.\n"
 "2) Slå på strömmen och håll NER knappen på framsidan intryckt i cirka 10 "
@@ -6422,7 +6422,7 @@ msgstr ""
 msgid "Upgrade finished."
 msgstr "Uppgradering färdig."
 
-msgid "Upgrade finished. Do you want to reboot your Dreambox?"
+msgid "Upgrade finished. Do you want to reboot your set-top-box?"
 msgstr ""
 
 #
@@ -6430,8 +6430,8 @@ msgid "Upgrading"
 msgstr "Uppgradering"
 
 #
-msgid "Upgrading Dreambox... Please wait"
-msgstr "Uppgraderar Dreambox... Vänligen vänta"
+msgid "Upgrading set-top-box... Please wait"
+msgstr "Uppgraderar set-top-box... Vänligen vänta"
 
 #
 msgid "Use"
@@ -6799,11 +6799,11 @@ msgstr ""
 
 msgid ""
 "Welcome to the Image upgrade wizard. The wizard will assist you in upgrading "
-"the firmware of your Dreambox by providing a backup facility for your "
+"the firmware of your set-top-box by providing a backup facility for your "
 "current settings and a short explanation of how to upgrade your firmware."
 msgstr ""
 "Välkommen till uppgraderingsguiden för image. Guiden hjälper dig med "
-"uppgraderingen av mjukvaran i din Dreambox genom att tillgodose en "
+"uppgraderingen av mjukvaran i din set-top-box genom att tillgodose en "
 "backupmöjlighet av dina aktuella inställningar och en kort förklaring hur du "
 "uppgraderar mjukvaran."
 
@@ -6812,7 +6812,7 @@ msgid ""
 "Welcome to the cleanup wizard.\n"
 "\n"
 "We have detected that your available internal memory has dropped below 2MB.\n"
-"To ensure stable operation of your Dreambox, the internal memory should be "
+"To ensure stable operation of your set-top-box, the internal memory should be "
 "cleaned up.\n"
 "You can use this wizard to remove some extensions.\n"
 msgstr ""
@@ -6820,21 +6820,21 @@ msgstr ""
 "\n"
 "Det har upptäckts att tillgängligt utrymme på interna minnet understiger "
 "2MB.\n"
-"För att uppnå en stabil Dreambox bör interna minnet rensas upp.\n"
+"För att uppnå en stabil set-top-box bör interna minnet rensas upp.\n"
 "Du kan använda den här guiden för att ta bort vissa utökningar.\n"
 
 msgid ""
 "Welcome.\n"
 "\n"
-"If you want to connect your Dreambox to the Internet, this wizard will guide "
-"you through the basic network setup of your Dreambox.\n"
+"If you want to connect your set-top-box to the Internet, this wizard will guide "
+"you through the basic network setup of your set-top-box.\n"
 "\n"
 "Press OK to start configuring your network"
 msgstr ""
 "Välkommen.\n"
 "\n"
-"Om du vill ansluta din Dreambox till Internet, då kommer den här guiden "
-"hjälpa dig genom grundläggande konfiguration av din Dreambox.\n"
+"Om du vill ansluta din set-top-box till Internet, då kommer den här guiden "
+"hjälpa dig genom grundläggande konfiguration av din set-top-box.\n"
 "\n"
 "Tryck OK för att starta konfigurationen av ditt nätverk"
 
@@ -6842,12 +6842,12 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"This start wizard will guide you through the basic setup of your Dreambox.\n"
+"This start wizard will guide you through the basic setup of your set-top-box.\n"
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
 "Välkommen.\n"
 "\n"
-"Den här guiden hjälper dig med grundinställningarna av din Dreambox.\n"
+"Den här guiden hjälper dig med grundinställningarna av din set-top-box.\n"
 "Tryck OK på din fjärrkontroll för att komma till nästa steg."
 
 #
@@ -7019,8 +7019,8 @@ msgid "You can install this plugin."
 msgstr "Du kan installera den pluginen."
 
 #
-msgid "You can only burn Dreambox recordings!"
-msgstr "Du kan bara bränna Dreambox inspelningar!"
+msgid "You can only burn set-top-box recordings!"
+msgstr "Du kan bara bränna set-top-box inspelningar!"
 
 #
 msgid "You can remove this plugin."
@@ -7083,15 +7083,15 @@ msgstr "Du måste vänta %s!"
 
 #
 msgid ""
-"You need a PC connected to your dreambox. If you need further instructions, "
+"You need a PC connected to your set-top-box. If you need further instructions, "
 "please visit the website http://www.dm7025.de.\n"
-"Your dreambox will now be halted. After you have performed the update "
+"Your set-top-box will now be halted. After you have performed the update "
 "instructions from the website, your new firmware will ask you to restore "
 "your settings."
 msgstr ""
-"Du behöver ha en PC kopplad till din Dreambox. Behöver du ytterligare "
+"Du behöver ha en PC kopplad till din set-top-box. Behöver du ytterligare "
 "instruktioner vänligen gå till websidan http://www.dm7025.de.\n"
-"Din dreambox kommer nu att stoppas. När du har genomfört uppdateringen "
+"Din set-top-box kommer nu att stoppas. När du har genomfört uppdateringen "
 "enligt instruktionerna från websidan, kommer din nya mjukvara kommer att "
 "fråga dig om du vill återställa dina inställningar."
 
@@ -7106,33 +7106,33 @@ msgstr ""
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
 msgstr ""
-"Din Dreambox är nu klar för att användas.\n"
+"Din set-top-box är nu klar för att användas.\n"
 "\n"
 "Din Internet anslutning fungerar.\n"
 "\n"
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
 "Please press OK to continue."
 msgstr ""
-"Din Dreambox är nu klar för användning.\n"
+"Din set-top-box är nu klar för användning.\n"
 "\n"
 "Din Internet anslutning fungerar nu.\n"
 "\n"
 "Vänligen tryck OK för att forsätta."
 
 #
-msgid "Your Dreambox will restart after pressing OK on your remote control."
-msgstr "Din Dreambox kommer starta vid tryck på OK på din fjärrkontroll."
+msgid "Your set-top-box will restart after pressing OK on your remote control."
+msgstr "Din set-top-box kommer starta vid tryck på OK på din fjärrkontroll."
 
 #
 msgid ""
@@ -7155,15 +7155,15 @@ msgid "Your current collection will get lost!"
 msgstr "Din nuvarande samling kommer försvinna!"
 
 #
-msgid "Your dreambox is shutting down. Please stand by..."
-msgstr "Din Dreambox håller på att stängas av. Vänligen vänta..."
+msgid "Your set-top-box is shutting down. Please stand by..."
+msgstr "Din set-top-box håller på att stängas av. Vänligen vänta..."
 
 #
 msgid ""
-"Your dreambox isn't connected to the internet properly. Please check it and "
+"Your set-top-box isn't connected to the internet properly. Please check it and "
 "try again."
 msgstr ""
-"Din dreambox är inte ansluten till Internet på korrekt sätt. Åtgärda och "
+"Din set-top-box är inte ansluten till Internet på korrekt sätt. Åtgärda och "
 "försök igen."
 
 #
@@ -7581,19 +7581,19 @@ msgstr "spela inte in"
 msgid "done!"
 msgstr "klar!"
 
-msgid "dreambox advanced remote control (native)"
+msgid "set-top-box advanced remote control (native)"
 msgstr ""
 
-msgid "dreambox front panel"
+msgid "set-top-box front panel"
 msgstr ""
 
-msgid "dreambox ir keyboard"
+msgid "set-top-box ir keyboard"
 msgstr ""
 
-msgid "dreambox ir mouse"
+msgid "set-top-box ir mouse"
 msgstr ""
 
-msgid "dreambox remote control (native)"
+msgid "set-top-box remote control (native)"
 msgstr ""
 
 msgid "east"
@@ -8488,11 +8488,11 @@ msgstr "ja (behåll feeds)"
 
 #
 msgid ""
-"your dreambox might be unusable now. Please consult the manual for further "
-"assistance before rebooting your dreambox."
+"your set-top-box might be unusable now. Please consult the manual for further "
+"assistance before rebooting your set-top-box."
 msgstr ""
-"din dreambox kanske inte fungerar längre. Vänligen läs manualen hur du får "
-"hjälp innan du startar om din dreambox."
+"din set-top-box kanske inte fungerar längre. Vänligen läs manualen hur du får "
+"hjälp innan du startar om din set-top-box."
 
 #
 msgid "zap"
@@ -8589,8 +8589,8 @@ msgstr "zapped"
 #~ msgid "A client for www.dyndns.org"
 #~ msgstr "En klient för www.dyndns.org"
 
-#~ msgid "A dreambox simulation from SG-Atlantis displays."
-#~ msgstr "En dreambox simulering av SG-Atlantis skärmar."
+#~ msgid "A set-top-box simulation from SG-Atlantis displays."
+#~ msgstr "En set-top-box simulering av SG-Atlantis skärmar."
 
 #~ msgid "A graphical EPG interface"
 #~ msgstr "Ett grafiskt EPG gränssnitt"
@@ -8648,8 +8648,8 @@ msgstr "zapped"
 #~ "Inaktiv"
 
 #
-#~ msgid "Add a new NFS or CIFS mount point to your Dreambox."
-#~ msgstr "Lägg till ny NFS eller CIFS monteringspunkt i din Dreambox."
+#~ msgid "Add a new NFS or CIFS mount point to your set-top-box."
+#~ msgstr "Lägg till ny NFS eller CIFS monteringspunkt i din set-top-box."
 
 #
 #~ msgid "Add new AutoTimer"
@@ -8678,11 +8678,11 @@ msgstr "zapped"
 #~ msgstr "Vuxenstreaming klient."
 
 #~ msgid ""
-#~ "After a reboot or power outage, StartupToStandby will bring your Dreambox "
+#~ "After a reboot or power outage, StartupToStandby will bring your set-top-box "
 #~ "to standby-mode."
 #~ msgstr ""
 #~ "Efter en omstart eller strömbortfall, StartupToStandby kommer då ställa "
-#~ "din Dreambox i standbyläge."
+#~ "din set-top-box i standbyläge."
 
 #~ msgid "Ai.HD skin-style control plugin"
 #~ msgstr "Ai.HD skin-stil kontrollplugin"
@@ -8838,8 +8838,8 @@ msgstr "zapped"
 #~ msgid "BASIC-HD Skin by Ismail Demir"
 #~ msgstr "BASIC-HD Skin av Ismail Demir"
 
-#~ msgid "BASIC-HD Skin for Dreambox Images created from Ismail Demir"
-#~ msgstr "BASIC-HD Skin för Dreambox Images skapat av Ismail Demir"
+#~ msgid "BASIC-HD Skin for set-top-box Images created from Ismail Demir"
+#~ msgstr "BASIC-HD Skin för set-top-box Images skapat av Ismail Demir"
 
 #~ msgid "Back, lower USB Slot"
 #~ msgstr "Bak, nedre USB kontakt"
@@ -8954,8 +8954,8 @@ msgstr "zapped"
 #~ msgstr "Byt hostnamn"
 
 #
-#~ msgid "Change the hostname of your Dreambox."
-#~ msgstr "Byt hostnamn på din Dreambox."
+#~ msgid "Change the hostname of your set-top-box."
+#~ msgstr "Byt hostnamn på din set-top-box."
 
 #
 #~ msgid "Channel audio:"
@@ -9010,17 +9010,17 @@ msgstr "zapped"
 #~ msgid "Configure your WLAN network interface"
 #~ msgstr "Konfigurera ditt WLAN nätverkskort"
 
-#~ msgid "Control your Dreambox with your Web browser."
-#~ msgstr "Kontrollera din Dreambox med din Webläsare."
+#~ msgid "Control your set-top-box with your Web browser."
+#~ msgstr "Kontrollera din set-top-box med din Webläsare."
 
-#~ msgid "Control your Dreambox with your browser"
-#~ msgstr "Kontrollera din Dreambox med din webläsare"
+#~ msgid "Control your set-top-box with your browser"
+#~ msgstr "Kontrollera din set-top-box med din webläsare"
 
-#~ msgid "Control your dreambox with only the MUTE button"
-#~ msgstr "Kontrollera din dreambox enbart med MUTE knappen"
+#~ msgid "Control your set-top-box with only the MUTE button"
+#~ msgstr "Kontrollera din set-top-box enbart med MUTE knappen"
 
-#~ msgid "Control your dreambox with only the MUTE button."
-#~ msgstr "Kontrollera din dreambox enbart med MUTE knappen."
+#~ msgid "Control your set-top-box with only the MUTE button."
+#~ msgstr "Kontrollera din set-top-box enbart med MUTE knappen."
 
 #~ msgid "Control your internal system fan."
 #~ msgstr "Kontrollera inbyggd systemfläkt."
@@ -9031,11 +9031,11 @@ msgstr "zapped"
 #~ msgid "Control your system fan"
 #~ msgstr "Kontrollera din systemfläkt"
 
-#~ msgid "Copy, rename, delete, move local files on your Dreambox."
-#~ msgstr "Kopiera, döp om, ta bort, flytta lokala filer på din Dreambox."
+#~ msgid "Copy, rename, delete, move local files on your set-top-box."
+#~ msgstr "Kopiera, döp om, ta bort, flytta lokala filer på din set-top-box."
 
-#~ msgid "Create a backup of your Video DVD on your DreamBox hard drive."
-#~ msgstr "Skapa en backup av din Video DVD på din Dreamboxs hårddisk."
+#~ msgid "Create a backup of your Video DVD on your set-top-box hard drive."
+#~ msgstr "Skapa en backup av din Video DVD på din set-top-boxs hårddisk."
 
 #~ msgid "Create a backup of your Video-DVD"
 #~ msgstr "Skapa en backup av din Video-DVD"
@@ -9060,8 +9060,8 @@ msgstr "zapped"
 #~ msgid "Create remote timers"
 #~ msgstr "Skapa fjärrtimers"
 
-#~ msgid "Create timers on remote Dreamboxes."
-#~ msgstr "Skapa timers på andra Dreamboxar."
+#~ msgid "Create timers on remote set-top-boxes."
+#~ msgstr "Skapa timers på andra set-top-boxar."
 
 #
 #~ msgid "Creating partition failed"
@@ -9101,8 +9101,8 @@ msgstr "zapped"
 #~ msgid "DVD Drive"
 #~ msgstr "DVD Läsare"
 
-#~ msgid "DVDPlayer plays your DVDs on your Dreambox"
-#~ msgstr "DVDPlayer spelar upp dina DVDs på din Dreambox"
+#~ msgid "DVDPlayer plays your DVDs on your set-top-box"
+#~ msgstr "DVDPlayer spelar upp dina DVDs på din set-top-box"
 
 #
 #~ msgid "Decrease delay"
@@ -9122,8 +9122,8 @@ msgstr "zapped"
 #~ msgid "Define a startup service"
 #~ msgstr "Definera en startkanal"
 
-#~ msgid "Define a startup service for your Dreambox."
-#~ msgstr "Definera en startkanal för din Dreambox."
+#~ msgid "Define a startup service for your set-top-box."
+#~ msgstr "Definera en startkanal för din set-top-box."
 
 #~ msgid "Deinterlacer mode for interlaced content"
 #~ msgstr "Deinterlaced lägen för interlaced innehåll"
@@ -9269,8 +9269,8 @@ msgstr "zapped"
 #~ msgid "Education"
 #~ msgstr "Utbildning"
 
-#~ msgid "Emailclient is an IMAP4 e-mail viewer for the Dreambox."
-#~ msgstr "Epostklient är en IMAP4 e-postvisare för Dreambox."
+#~ msgid "Emailclient is an IMAP4 e-mail viewer for the set-top-box."
+#~ msgstr "Epostklient är en IMAP4 e-postvisare för set-top-box."
 
 #
 #~ msgid "Enable /media"
@@ -9350,8 +9350,8 @@ msgstr "zapped"
 #~ msgstr "Ange IP för sökning..."
 
 #
-#~ msgid "Enter new hostname for your Dreambox"
-#~ msgstr "Ange nytt hostnamn för din Dreambox"
+#~ msgid "Enter new hostname for your set-top-box"
+#~ msgstr "Ange nytt hostnamn för din set-top-box"
 
 #
 #~ msgid "Enter options:"
@@ -9459,9 +9459,9 @@ msgstr "zapped"
 #~ msgid "Frisian"
 #~ msgstr "Frisiska"
 
-#~ msgid "FritzCall shows incoming calls to your Fritz!Box on your Dreambox."
+#~ msgid "FritzCall shows incoming calls to your Fritz!Box on your set-top-box."
 #~ msgstr ""
-#~ "Fritz!Call visar inkommande samtal till din Fritz!Box på din Dreambox"
+#~ "Fritz!Call visar inkommande samtal till din Fritz!Box på din set-top-box"
 
 #~ msgid "Front USB Slot"
 #~ msgstr "Fram USB kontakt"
@@ -9477,9 +9477,9 @@ msgstr "zapped"
 #~ msgstr "GUI som tillåter användare att ändra ftp- / telnet lösenord."
 
 #~ msgid ""
-#~ "GUI that allows user to change the ftp-/telnet-password of the Dreambox."
+#~ "GUI that allows user to change the ftp-/telnet-password of the set-top-box."
 #~ msgstr ""
-#~ "GUI som tillåter användare att ändra ftp- / telnet-lösenord på Dreambox."
+#~ "GUI som tillåter användare att ändra ftp- / telnet-lösenord på set-top-box."
 
 #~ msgid "GUI to change the ftp and telnet-password"
 #~ msgstr "GUI för att ändra ftp- / telnet-lösenord"
@@ -9489,14 +9489,14 @@ msgstr "zapped"
 #~ msgstr "Spel"
 
 #
-#~ msgid "Genuine Dreambox"
-#~ msgstr "Äkta Dreambox"
+#~ msgid "Genuine set-top-box"
+#~ msgstr "Äkta set-top-box"
 
-#~ msgid "Genuine Dreambox validation failed!"
-#~ msgstr "Äkta Dreambox validering misslyckades!"
+#~ msgid "Genuine set-top-box validation failed!"
+#~ msgstr "Äkta set-top-box validering misslyckades!"
 
-#~ msgid "Genuine Dreambox verification"
-#~ msgstr "Äkta Dreambox verifiering"
+#~ msgid "Genuine set-top-box verification"
+#~ msgstr "Äkta set-top-box verifiering"
 
 #
 #~ msgid "Germany"
@@ -9612,17 +9612,17 @@ msgstr "zapped"
 #~ msgstr "Intern LAN adapter."
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 304
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 304
 #~ msgid "Invalid response from Security service pls restart again"
 #~ msgstr "Ogiltig respons från Säkerhetstjänst, vänligen starta om"
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 132
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 132
 #~ msgid "Invalid response from server."
 #~ msgstr "Ogiltig respons från server."
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 177
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 177
 #~ msgid "Invalid response from server. Please report: %s"
 #~ msgstr "Ogiltig respons från server. Vänligen rapportera: %s"
 
@@ -9942,98 +9942,98 @@ msgstr "zapped"
 #~ msgid "Nemesis BlackBox Skin"
 #~ msgstr "Nemesis BlackBox Skin"
 
-#~ msgid "Nemesis BlackBox Skin for the Dreambox"
-#~ msgstr "Nemesis BlackBox Skin för Dreamboxen"
+#~ msgid "Nemesis BlackBox Skin for the set-top-box"
+#~ msgstr "Nemesis BlackBox Skin för set-top-boxen"
 
 #~ msgid "Nemesis Blueline Single Skin"
 #~ msgstr "Nemesis Blueline Single Skin"
 
-#~ msgid "Nemesis Blueline Single Skin for the Dreambox"
-#~ msgstr "Nemesis Blueline Single Skin för Dreamboxen"
+#~ msgid "Nemesis Blueline Single Skin for the set-top-box"
+#~ msgstr "Nemesis Blueline Single Skin för set-top-boxen"
 
 #~ msgid "Nemesis Blueline Skin"
 #~ msgstr "Nemesis Blueline Skin"
 
-#~ msgid "Nemesis Blueline Skin for the Dreambox"
-#~ msgstr "Nemesis Blueline Skin för Dreamboxen"
+#~ msgid "Nemesis Blueline Skin for the set-top-box"
+#~ msgstr "Nemesis Blueline Skin för set-top-boxen"
 
 #~ msgid "Nemesis Blueline.Extended Skin"
 #~ msgstr "Nemesis Blueline.Extended Skin"
 
-#~ msgid "Nemesis Blueline.Extended Skin for the Dreambox"
-#~ msgstr "Nemesis Blueline.Extended Skin för Dreamboxen"
+#~ msgid "Nemesis Blueline.Extended Skin for the set-top-box"
+#~ msgstr "Nemesis Blueline.Extended Skin för set-top-boxen"
 
 #~ msgid "Nemesis ChromeLine Cobolt Skin"
 #~ msgstr "Nemesis ChromeLine Cobolt Skin"
 
-#~ msgid "Nemesis ChromeLine Cobolt Skin for the Dreambox"
-#~ msgstr "Nemesis ChromeLine Cobolt Skin för Dreamboxen"
+#~ msgid "Nemesis ChromeLine Cobolt Skin for the set-top-box"
+#~ msgstr "Nemesis ChromeLine Cobolt Skin för set-top-boxen"
 
 #~ msgid "Nemesis ChromeLine Skin"
 #~ msgstr "Nemesis ChromeLine Skin"
 
-#~ msgid "Nemesis ChromeLine Skin for the Dreambox"
-#~ msgstr "Nemesis ChromeLine Skin för Dreamboxen"
+#~ msgid "Nemesis ChromeLine Skin for the set-top-box"
+#~ msgstr "Nemesis ChromeLine Skin för set-top-boxen"
 
 #~ msgid "Nemesis Flatline Blue Skin"
 #~ msgstr "Nemesis Flatline Blue Skin"
 
-#~ msgid "Nemesis Flatline Blue Skin for the Dreambox"
-#~ msgstr "Nemesis Flatline Blue Skin för Dreamboxen"
+#~ msgid "Nemesis Flatline Blue Skin for the set-top-box"
+#~ msgstr "Nemesis Flatline Blue Skin för set-top-boxen"
 
 #~ msgid "Nemesis Flatline Skin"
 #~ msgstr "Nemesis Flatline Skin"
 
-#~ msgid "Nemesis Flatline Skin for the Dreambox"
-#~ msgstr "Nemesis Flatline Skin för Dreamboxen"
+#~ msgid "Nemesis Flatline Skin for the set-top-box"
+#~ msgstr "Nemesis Flatline Skin för set-top-boxen"
 
 #~ msgid "Nemesis GlassLine Skin"
 #~ msgstr "Nemesis GlassLine Skin"
 
-#~ msgid "Nemesis GlassLine Skin for the Dreambox"
-#~ msgstr "Nemesis GlassLine Skin för Dreamboxen"
+#~ msgid "Nemesis GlassLine Skin for the set-top-box"
+#~ msgstr "Nemesis GlassLine Skin för set-top-boxen"
 
 #~ msgid "Nemesis Greenline Extended Skin"
 #~ msgstr "Nemesis Greenline Extended Skin"
 
-#~ msgid "Nemesis Greenline Extended Skin for the Dreambox"
-#~ msgstr "Nemesis Greenline Extended Skin för Dreamboxen"
+#~ msgid "Nemesis Greenline Extended Skin for the set-top-box"
+#~ msgstr "Nemesis Greenline Extended Skin för set-top-boxen"
 
 #~ msgid "Nemesis Greenline Single Skin"
 #~ msgstr "Nemesis Greenline Single Skin"
 
-#~ msgid "Nemesis Greenline Single Skin for the Dreambox"
-#~ msgstr "Nemesis Greenline Single Skin för Dreamboxen"
+#~ msgid "Nemesis Greenline Single Skin for the set-top-box"
+#~ msgstr "Nemesis Greenline Single Skin för set-top-boxen"
 
 #~ msgid "Nemesis Greenline Skin"
 #~ msgstr "Nemesis Greenline Skin"
 
-#~ msgid "Nemesis Greenline Skin for the Dreambox"
-#~ msgstr "Nemesis Greenline Skin för Dreamboxen"
+#~ msgid "Nemesis Greenline Skin for the set-top-box"
+#~ msgstr "Nemesis Greenline Skin för set-top-boxen"
 
 #~ msgid "Nemesis Greyline Extended Skin"
 #~ msgstr "Nemesis Greyline Extended Skin"
 
-#~ msgid "Nemesis Greyline Extended Skin for the Dreambox"
-#~ msgstr "Nemesis Greyline Extended Skin för Dreamboxen"
+#~ msgid "Nemesis Greyline Extended Skin for the set-top-box"
+#~ msgstr "Nemesis Greyline Extended Skin för set-top-boxen"
 
 #~ msgid "Nemesis Greyline Single Skin"
 #~ msgstr "Nemesis Greyline Single Skin"
 
-#~ msgid "Nemesis Greyline Single Skin for the Dreambox"
-#~ msgstr "Nemesis Greyline Single Skin för Dreamboxen"
+#~ msgid "Nemesis Greyline Single Skin for the set-top-box"
+#~ msgstr "Nemesis Greyline Single Skin för set-top-boxen"
 
 #~ msgid "Nemesis Greyline Skin"
 #~ msgstr "Nemesis Greyline Skin"
 
-#~ msgid "Nemesis Greyline Skin for the Dreambox"
-#~ msgstr "Nemesis Greyline Skin för Dreamboxen"
+#~ msgid "Nemesis Greyline Skin for the set-top-box"
+#~ msgstr "Nemesis Greyline Skin för set-top-boxen"
 
 #~ msgid "Nemesis ShadowLine Skin"
 #~ msgstr "Nemesis ShadowLine Skin"
 
-#~ msgid "Nemesis ShadowLine Skin for the Dreambox"
-#~ msgstr "Nemesis ShadowLine Skin för Dreamboxen"
+#~ msgid "Nemesis ShadowLine Skin for the set-top-box"
+#~ msgstr "Nemesis ShadowLine Skin för set-top-boxen"
 
 #
 #~ msgid "Network SSID"
@@ -10621,7 +10621,7 @@ msgstr "zapped"
 #~ msgstr "Taiwan"
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 80
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 80
 #~ msgid "Test again"
 #~ msgstr "Prova igen"
 
@@ -10675,12 +10675,12 @@ msgstr "zapped"
 #~ msgstr "Det uppstod ett fel i strömningen. Vänlig försök igen."
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 130
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 130
 #~ msgid ""
-#~ "There's a certificate update available for your dreambox. Would you like "
+#~ "There's a certificate update available for your set-top-box. Would you like "
 #~ "to apply this update now?"
 #~ msgstr ""
-#~ "Det finne en uppdatering till ditt certifikat för din Dreambox. Vill du "
+#~ "Det finne en uppdatering till ditt certifikat för din set-top-box. Vill du "
 #~ "uppdatera nu?"
 
 #
@@ -10813,16 +10813,16 @@ msgstr "zapped"
 #~ msgstr "Uppdatering klar..."
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 170
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 170
 #~ msgid ""
-#~ "Update done... The genuine dreambox test will now be rerun and should not "
+#~ "Update done... The genuine set-top-box test will now be rerun and should not "
 #~ "ask you to update again."
 #~ msgstr ""
-#~ "Uppdatering utförd... Äkta dreambox testet kommer nu köras igen och du "
+#~ "Uppdatering utförd... Äkta set-top-box testet kommer nu köras igen och du "
 #~ "kommer inte få frågan om uppdatering igen."
 
 #
-# File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 150
+# File: tmp/enigma2_plugins/genuineset-top-box/src/plugin.py, line: 150
 #~ msgid ""
 #~ "Updating failed. Nothing is broken, just the update couldn't be applied."
 #~ msgstr ""
@@ -10862,9 +10862,9 @@ msgstr "zapped"
 #~ msgstr "Vali.HD.nano skin"
 
 #~ msgid ""
-#~ "Verify your Dreambox authenticity by running the genuine dreambox plugin!"
+#~ "Verify your set-top-box authenticity by running the genuine set-top-box plugin!"
 #~ msgstr ""
-#~ "Kontrollera din Dreamboxs äkthet genom att köra Äkta Dreambox plugin!"
+#~ "Kontrollera din set-top-boxs äkthet genom att köra Äkta set-top-box plugin!"
 
 #~ msgid "Videobrowser exit behavior:"
 #~ msgstr "Videobläddrarens uppförande vid avslut:"
@@ -10890,8 +10890,8 @@ msgstr "zapped"
 #~ msgstr "Visa resultatets videos"
 
 #
-#~ msgid "View, edit or delete mountpoints on your Dreambox."
-#~ msgstr "Visa, ändra eller ta bort monteringspunkter på din Dreambox."
+#~ msgid "View, edit or delete mountpoints on your set-top-box."
+#~ msgstr "Visa, ändra eller ta bort monteringspunkter på din set-top-box."
 
 #
 #~ msgid "View, edit or delete usernames and passwords for your network."
@@ -11145,8 +11145,8 @@ msgstr "zapped"
 #~ msgid "case-sensitive search"
 #~ msgstr "skiftläges känslig sökning"
 
-#~ msgid "control multiple Dreamboxes with different RCs"
-#~ msgstr "styr flera Dreamboxar med olika fjärrkontrollers"
+#~ msgid "control multiple set-top-boxes with different RCs"
+#~ msgstr "styr flera set-top-boxar med olika fjärrkontrollers"
 
 #~ msgid "default"
 #~ msgstr "grundvärde"
@@ -11256,8 +11256,8 @@ msgstr "zapped"
 #~ msgid "use as HDD replacement"
 #~ msgstr "använd som HDD ersättning"
 
-#~ msgid "use your Dreambox as Web proxy"
-#~ msgstr "använd din Dreambox som en webproxy"
+#~ msgid "use your set-top-box as Web proxy"
+#~ msgstr "använd din set-top-box som en webproxy"
 
-#~ msgid "use your Dreambox as Web proxy."
-#~ msgstr "använd din Dreambox som en webproxy."
+#~ msgid "use your set-top-box as Web proxy."
+#~ msgstr "använd din set-top-box som en webproxy."

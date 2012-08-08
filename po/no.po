@@ -32,7 +32,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Backup your Dreambox settings."
+"Backup your set-top-box settings."
 msgstr ""
 
 #
@@ -44,13 +44,13 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Manage extensions or plugins for your Dreambox"
+"Manage extensions or plugins for your set-top-box"
 msgstr ""
 
 #
 msgid ""
 "\n"
-"Online update of your Dreambox software."
+"Online update of your set-top-box software."
 msgstr ""
 
 #
@@ -62,13 +62,13 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox settings."
+"Restore your set-top-box settings."
 msgstr ""
 
 #
 msgid ""
 "\n"
-"Restore your Dreambox with a new firmware."
+"Restore your set-top-box with a new firmware."
 msgstr ""
 
 #
@@ -380,17 +380,17 @@ msgstr ""
 #
 msgid ""
 "A finished record timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
-"En avluttet timer ønsker å sett din Dreambox\n"
+"En avluttet timer ønsker å sett din set-top-box\n"
 "i standby. Skal det gjøres nå ?"
 
 #
 msgid ""
 "A finished record timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
-"En avluttet timer ønsker å slå av din Dreambox.\n"
+"En avluttet timer ønsker å slå av din set-top-box.\n"
 "Skal den slås av nå ?"
 
 #
@@ -454,18 +454,18 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "En sleeptimer ønsker å sette din\n"
-"Dreambox i standby. Skal det gjøres nå?"
+"set-top-box i standby. Skal det gjøres nå?"
 
 #
 msgid ""
 "A sleep timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "En sleeptimer ønsker å slå av din\n"
-"Dreambox. Slå av nå?"
+"set-top-box. Slå av nå?"
 
 #
 msgid "A small overview of the available icon states and actions."
@@ -583,7 +583,7 @@ msgstr ""
 
 #
 msgid ""
-"Adds enigma2 settings and dreambox model informations like SN, rev... if "
+"Adds enigma2 settings and set-top-box model informations like SN, rev... if "
 "enabled."
 msgstr ""
 
@@ -647,10 +647,10 @@ msgstr ""
 #
 msgid ""
 "After the start wizard is completed, you need to protect single services. "
-"Refer to your dreambox's manual on how to do that."
+"Refer to your set-top-box's manual on how to do that."
 msgstr ""
 "Etter oppstartsguiden er ferdig, trenger du beskytte enkelte kanaler. Les i "
-"manualen for din Dreambox hvordan det gjøres."
+"manualen for din set-top-box hvordan det gjøres."
 
 #
 msgid "Album"
@@ -1358,7 +1358,7 @@ msgid "Copy"
 msgstr ""
 
 #
-msgid "Could not connect to Dreambox .NFI Image Feed Server:"
+msgid "Could not connect to set-top-box .NFI Image Feed Server:"
 msgstr ""
 
 #
@@ -1819,8 +1819,8 @@ msgid "Do you want to download the image to %s ?"
 msgstr ""
 
 #
-msgid "Do you want to enable the parental control feature on your dreambox?"
-msgstr "Vil du aktivere foreldrekontroll på dreamboxen din?"
+msgid "Do you want to enable the parental control feature on your set-top-box?"
+msgstr "Vil du aktivere foreldrekontroll på set-top-boxen din?"
 
 #
 msgid "Do you want to install the package:\n"
@@ -1835,7 +1835,7 @@ msgid "Do you want to preview this DVD before burning?"
 msgstr ""
 
 #
-msgid "Do you want to reboot your Dreambox?"
+msgid "Do you want to reboot your set-top-box?"
 msgstr ""
 
 #
@@ -1857,15 +1857,15 @@ msgid ""
 msgstr ""
 
 #
-msgid "Do you want to update your Dreambox?"
+msgid "Do you want to update your set-top-box?"
 msgstr ""
 
 #
 msgid ""
-"Do you want to update your Dreambox?\n"
+"Do you want to update your set-top-box?\n"
 "After pressing OK, please wait!"
 msgstr ""
-"Vil du oppdatere din Dreambox?\n"
+"Vil du oppdatere din set-top-box?\n"
 "Etter å ha trykt OK, vennligst vent!"
 
 #
@@ -1930,11 +1930,11 @@ msgid "Downloading plugin information. Please wait..."
 msgstr "Laster ned plugin informasjon. Vennligst vent..."
 
 #
-msgid "Dreambox format data DVD (HDTV compatible)"
+msgid "set-top-box format data DVD (HDTV compatible)"
 msgstr ""
 
 #
-msgid "Dreambox software because updates are available."
+msgid "set-top-box software because updates are available."
 msgstr ""
 
 #
@@ -2000,12 +2000,12 @@ msgid "Edit settings"
 msgstr "Endre instillinger"
 
 #
-msgid "Edit the Nameserver configuration of your Dreambox.\n"
-msgstr "Endre navneserver konfigurasjon for din Dreambox.\n"
+msgid "Edit the Nameserver configuration of your set-top-box.\n"
+msgstr "Endre navneserver konfigurasjon for din set-top-box.\n"
 
 #
-msgid "Edit the network configuration of your Dreambox.\n"
-msgstr "Endre nettverk konfigurasjon for din Dreambox.\n"
+msgid "Edit the network configuration of your set-top-box.\n"
+msgstr "Endre nettverk konfigurasjon for din set-top-box.\n"
 
 #
 msgid "Edit title"
@@ -3557,8 +3557,8 @@ msgid "No, do nothing."
 msgstr "Nei, gjør ingenting"
 
 #
-msgid "No, just start my dreambox"
-msgstr "Nei, bare start min dreambox"
+msgid "No, just start my set-top-box"
+msgstr "Nei, bare start min set-top-box"
 
 msgid "No, never"
 msgstr ""
@@ -5197,8 +5197,8 @@ msgid "Shutdown"
 msgstr ""
 
 #
-msgid "Shutdown Dreambox after"
-msgstr "Slå av Dreamboxen etter"
+msgid "Shutdown set-top-box after"
+msgstr "Slå av set-top-boxen etter"
 
 msgid "Side by Side"
 msgstr ""
@@ -5663,8 +5663,8 @@ msgid "Test mode"
 msgstr "Testmodus"
 
 #
-msgid "Test the network configuration of your Dreambox.\n"
-msgstr "Test nettverkskonfigurasjonen for din Dreambox.\n"
+msgid "Test the network configuration of your set-top-box.\n"
+msgstr "Test nettverkskonfigurasjonen for din set-top-box.\n"
 
 #
 msgid "Test-Messagebox?"
@@ -5688,15 +5688,15 @@ msgstr ""
 #
 msgid ""
 "Thank you for using the wizard. Your box is now ready to use.\n"
-"Please press OK to start using your Dreambox."
+"Please press OK to start using your set-top-box."
 msgstr ""
-"Takk for at du brukte guiden. Din Dreambox er nå klar til bruk .\n"
+"Takk for at du brukte guiden. Din set-top-box er nå klar til bruk .\n"
 "Vennligst trykk OK å begynne å bruke den."
 
 #
 msgid ""
 "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
-"create a Dreambox format data DVD (which will not play in stand-alone DVD "
+"create a set-top-box format data DVD (which will not play in stand-alone DVD "
 "players) instead?"
 msgstr ""
 
@@ -5776,10 +5776,10 @@ msgstr "Installasjonen av standard tjenesteliste er ferdig."
 #
 msgid ""
 "The installation of the default settings is finished. You can now continue "
-"configuring your Dreambox by pressing the OK button on the remote control."
+"configuring your set-top-box by pressing the OK button on the remote control."
 msgstr ""
 "Installasjonen av standard innstillinger er ferdig. Du kan nå fortsette å "
-"konfigurere din Dreambox, ved å trykke OK knappen."
+"konfigurere din set-top-box, ved å trykke OK knappen."
 
 msgid "The md5sum validation failed, the file may be corrupted!"
 msgstr ""
@@ -5902,7 +5902,7 @@ msgstr ""
 
 #
 #, python-format
-msgid "This Dreambox can't decode %s streams!"
+msgid "This set-top-box can't decode %s streams!"
 msgstr ""
 
 #
@@ -5911,7 +5911,7 @@ msgstr "Dette er steg nr.2"
 
 msgid ""
 "This plugin creates a USB stick which can be used to update the firmware of "
-"your Dreambox without the need for a network or WLAN connection.\n"
+"your set-top-box without the need for a network or WLAN connection.\n"
 "First, a USB stick needs to be prepared so that it becomes bootable.\n"
 "In the next step, an NFI image file can be downloaded from the update server "
 "and saved on the USB stick.\n"
@@ -6119,7 +6119,7 @@ msgid "To subtitle selection"
 msgstr ""
 
 msgid ""
-"To update your Dreambox firmware, please follow these steps:\n"
+"To update your set-top-box firmware, please follow these steps:\n"
 "1) Turn off your box with the rear power switch and make sure the bootable "
 "USB stick is plugged in.\n"
 "2) Turn mains back on and hold the DOWN button on the front panel pressed "
@@ -6364,16 +6364,16 @@ msgid "Upgrade finished."
 msgstr ""
 
 #
-msgid "Upgrade finished. Do you want to reboot your Dreambox?"
-msgstr "Oppgradering er ferdig. Vil du restarte din Dreambox?"
+msgid "Upgrade finished. Do you want to reboot your set-top-box?"
+msgstr "Oppgradering er ferdig. Vil du restarte din set-top-box?"
 
 #
 msgid "Upgrading"
 msgstr "Oppgraderer"
 
 #
-msgid "Upgrading Dreambox... Please wait"
-msgstr "Oppgraderer Dreambox... Vennligst vent"
+msgid "Upgrading set-top-box... Please wait"
+msgstr "Oppgraderer set-top-box... Vennligst vent"
 
 #
 msgid "Use"
@@ -6736,7 +6736,7 @@ msgstr ""
 #
 msgid ""
 "Welcome to the Image upgrade wizard. The wizard will assist you in upgrading "
-"the firmware of your Dreambox by providing a backup facility for your "
+"the firmware of your set-top-box by providing a backup facility for your "
 "current settings and a short explanation of how to upgrade your firmware."
 msgstr ""
 "Velkommen til Image-Oppgraderings-Guiden. Guiden vil assistere deg i "
@@ -6749,7 +6749,7 @@ msgid ""
 "Welcome to the cleanup wizard.\n"
 "\n"
 "We have detected that your available internal memory has dropped below 2MB.\n"
-"To ensure stable operation of your Dreambox, the internal memory should be "
+"To ensure stable operation of your set-top-box, the internal memory should be "
 "cleaned up.\n"
 "You can use this wizard to remove some extensions.\n"
 msgstr ""
@@ -6758,8 +6758,8 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"If you want to connect your Dreambox to the Internet, this wizard will guide "
-"you through the basic network setup of your Dreambox.\n"
+"If you want to connect your set-top-box to the Internet, this wizard will guide "
+"you through the basic network setup of your set-top-box.\n"
 "\n"
 "Press OK to start configuring your network"
 msgstr ""
@@ -6768,12 +6768,12 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"This start wizard will guide you through the basic setup of your Dreambox.\n"
+"This start wizard will guide you through the basic setup of your set-top-box.\n"
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
 "Velkommen.\n"
 "\n"
-"Denne Guiden vil hjelpe deg gjennom basis setup av din Dreambox.\n"
+"Denne Guiden vil hjelpe deg gjennom basis setup av din set-top-box.\n"
 "Vennligst trykk OK på din fjernkontroll for å gå til neste steg."
 
 #
@@ -6940,7 +6940,7 @@ msgid "You can install this plugin."
 msgstr ""
 
 #
-msgid "You can only burn Dreambox recordings!"
+msgid "You can only burn set-top-box recordings!"
 msgstr ""
 
 #
@@ -6998,15 +6998,15 @@ msgstr "Du må vente %s!"
 
 #
 msgid ""
-"You need a PC connected to your dreambox. If you need further instructions, "
+"You need a PC connected to your set-top-box. If you need further instructions, "
 "please visit the website http://www.dm7025.de.\n"
-"Your dreambox will now be halted. After you have performed the update "
+"Your set-top-box will now be halted. After you have performed the update "
 "instructions from the website, your new firmware will ask you to restore "
 "your settings."
 msgstr ""
 "Du trenger en PC koblet til din DB. Trenger du videre informasjonvennligst "
 "gå til Websiden http://www.dm7025.de.\n"
-"Din Dreambox vil nå bli stoppet. Etter du har gjennomførtoppdaterings- "
+"Din set-top-box vil nå bli stoppet. Etter du har gjennomførtoppdaterings- "
 "instruksjonene fra websiden, vil din nye firmware spørre deg om å legg inn "
 "igjen innstillingene."
 
@@ -7021,7 +7021,7 @@ msgstr ""
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -7029,7 +7029,7 @@ msgstr ""
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -7037,15 +7037,15 @@ msgid ""
 msgstr ""
 
 #
-msgid "Your Dreambox will restart after pressing OK on your remote control."
-msgstr "Din Dreambox vil restarte etter at du har trykket OK."
+msgid "Your set-top-box will restart after pressing OK on your remote control."
+msgstr "Din set-top-box vil restarte etter at du har trykket OK."
 
 #
 msgid ""
 "Your backup succeeded. We will now continue to explain the further upgrade "
 "process."
 msgstr ""
-"Din backup var OK. Dreamboxen vil nå fortelle deg den videre gangen i "
+"Din backup var OK. set-top-boxen vil nå fortelle deg den videre gangen i "
 "oppdaterings-prosessen."
 
 #
@@ -7059,15 +7059,15 @@ msgid "Your current collection will get lost!"
 msgstr ""
 
 #
-msgid "Your dreambox is shutting down. Please stand by..."
-msgstr "Din dreambox slår seg av. Vennligst vent..."
+msgid "Your set-top-box is shutting down. Please stand by..."
+msgstr "Din set-top-box slår seg av. Vennligst vent..."
 
 #
 msgid ""
-"Your dreambox isn't connected to the internet properly. Please check it and "
+"Your set-top-box isn't connected to the internet properly. Please check it and "
 "try again."
 msgstr ""
-"Din dreambox er ikke koblet til internet skikkelig. Vennligst sjekk dette og "
+"Din set-top-box er ikke koblet til internet skikkelig. Vennligst sjekk dette og "
 "prøv igjen"
 
 #
@@ -7480,19 +7480,19 @@ msgstr "ikke ta opp"
 msgid "done!"
 msgstr "ferdig!"
 
-msgid "dreambox advanced remote control (native)"
+msgid "set-top-box advanced remote control (native)"
 msgstr ""
 
-msgid "dreambox front panel"
+msgid "set-top-box front panel"
 msgstr ""
 
-msgid "dreambox ir keyboard"
+msgid "set-top-box ir keyboard"
 msgstr ""
 
-msgid "dreambox ir mouse"
+msgid "set-top-box ir mouse"
 msgstr ""
 
-msgid "dreambox remote control (native)"
+msgid "set-top-box remote control (native)"
 msgstr ""
 
 msgid "east"
@@ -8390,11 +8390,11 @@ msgstr "ja (behold feeds)"
 
 #
 msgid ""
-"your dreambox might be unusable now. Please consult the manual for further "
-"assistance before rebooting your dreambox."
+"your set-top-box might be unusable now. Please consult the manual for further "
+"assistance before rebooting your set-top-box."
 msgstr ""
-"din dreambox fungerer kanskje ikke nå. Vennligst les manualen for hvordan du "
-"får hjelp før du starter om din dreambox."
+"din set-top-box fungerer kanskje ikke nå. Vennligst les manualen for hvordan du "
+"får hjelp før du starter om din set-top-box."
 
 #
 msgid "zap"
@@ -8527,11 +8527,11 @@ msgstr "zapped"
 #
 #~ msgid ""
 #~ "Are you sure you want to enable WLAN support?\n"
-#~ "Connect your Wlan USB Stick to your Dreambox and press OK.\n"
+#~ "Connect your Wlan USB Stick to your set-top-box and press OK.\n"
 #~ "\n"
 #~ msgstr ""
 #~ "Er du sikker på at du vil aktivere WLAN støtte?\n"
-#~ "Koble til din WLAN usb adapter til Dreamboxen og trykk OK.\n"
+#~ "Koble til din WLAN usb adapter til set-top-boxen og trykk OK.\n"
 
 #
 #~ msgid ""
@@ -8789,10 +8789,10 @@ msgstr "zapped"
 
 #
 #~ msgid ""
-#~ "Enable the local network of your Dreambox.\n"
+#~ "Enable the local network of your set-top-box.\n"
 #~ "\n"
 #~ msgstr ""
-#~ "Aktiver det lokale nettverket på din Dreambox.\n"
+#~ "Aktiver det lokale nettverket på din set-top-box.\n"
 #~ "\n"
 
 #
@@ -9048,11 +9048,11 @@ msgstr "zapped"
 #
 #~ msgid ""
 #~ "Please attach your Zydas ZD1211B chipset compatibe WLAN USB Stick to your "
-#~ "Dreambox and press the OK button on your remote control to enable the "
+#~ "set-top-box and press the OK button on your remote control to enable the "
 #~ "built in wireless network support"
 #~ msgstr ""
 #~ "Vennligst koble til din Zydas ZD1211B kompatible WLAN USB adapter til "
-#~ "Dreamboxen og trykk OK for å aktivere the innebygde trådløse nettverket"
+#~ "set-top-boxen og trykk OK for å aktivere the innebygde trådløse nettverket"
 
 #
 #~ msgid ""
@@ -9108,17 +9108,17 @@ msgstr "zapped"
 
 #
 #~ msgid ""
-#~ "Pressing OK enables the built in wireless LAN support of your Dreambox.\n"
+#~ "Pressing OK enables the built in wireless LAN support of your set-top-box.\n"
 #~ "Wlan USB Sticks with Zydas ZD1211B and RAlink RT73 Chipset are "
 #~ "supported.\n"
-#~ "Connect your Wlan USB Stick to your Dreambox before pressing OK.\n"
+#~ "Connect your Wlan USB Stick to your set-top-box before pressing OK.\n"
 #~ "\n"
 #~ msgstr ""
 #~ "Ved å trykke OK aktiveres the innebygde tråløse nettverket på din "
-#~ "Dreambox.\n"
+#~ "set-top-box.\n"
 #~ "WLAN USB adapter basert på Zydas ZD1211B og RAlink RT73 Chipset er "
 #~ "støttet.\n"
-#~ "Koble ditt WLAN USB adapter til Dreamboxen før du trykker OK.\n"
+#~ "Koble ditt WLAN USB adapter til set-top-boxen før du trykker OK.\n"
 #~ "\n"
 
 #
@@ -9271,13 +9271,13 @@ msgstr "zapped"
 
 #
 #~ msgid ""
-#~ "Thank you for using the wizard. Your Dreambox is now ready to use.\n"
+#~ "Thank you for using the wizard. Your set-top-box is now ready to use.\n"
 #~ "\n"
 #~ "Your local LAN internet connection is working now.\n"
 #~ "\n"
 #~ "Please press OK to continue."
 #~ msgstr ""
-#~ "Takk for at du brukte guiden. Din Dreambox er nå klar til bruk.\n"
+#~ "Takk for at du brukte guiden. Din set-top-box er nå klar til bruk.\n"
 #~ "\n"
 #~ "Din lokale nettverksforbindelse fungerer nå.\n"
 #~ "\n"
@@ -9285,13 +9285,13 @@ msgstr "zapped"
 
 #
 #~ msgid ""
-#~ "Thank you for using the wizard. Your Dreambox is now ready to use.\n"
+#~ "Thank you for using the wizard. Your set-top-box is now ready to use.\n"
 #~ "\n"
 #~ "Your wireless internet connection is working now.\n"
 #~ "\n"
 #~ "Please press OK to continue."
 #~ msgstr ""
-#~ "Takk for at du brukte guiden. Din Dreambox er nå klar til bruk.\n"
+#~ "Takk for at du brukte guiden. Din set-top-box er nå klar til bruk.\n"
 #~ "\n"
 #~ "Din trådløse nettverksforbindelse fungerer nå.\n"
 #~ "\n"
@@ -9299,11 +9299,11 @@ msgstr "zapped"
 
 #
 #~ msgid ""
-#~ "Thank you for using the wizard. Your Dreambox is now ready to use.\n"
-#~ "Please press OK to start using your Dreambox."
+#~ "Thank you for using the wizard. Your set-top-box is now ready to use.\n"
+#~ "Please press OK to start using your set-top-box."
 #~ msgstr ""
-#~ "Takk for at du brukte guiden. Din Dreambox er nå klar til bruk.\n"
-#~ "Vennligst trykk OK for å begynne å bruke din Dreambox."
+#~ "Takk for at du brukte guiden. Din set-top-box er nå klar til bruk.\n"
+#~ "Vennligst trykk OK for å begynne å bruke din set-top-box."
 
 #
 #~ msgid "Thanks for using the wizard. Your box is now ready to use."
@@ -9312,10 +9312,10 @@ msgstr "zapped"
 #
 #~ msgid ""
 #~ "Thanks for using the wizard. Your box is now ready to use.\n"
-#~ "Please press OK to start using your Dreambox."
+#~ "Please press OK to start using your set-top-box."
 #~ msgstr ""
-#~ "Takk for at du brukte denne guiden. Din Dreambox er klar til bruk.Trykk "
-#~ "OK for å begynne å bruke din Dreambox."
+#~ "Takk for at du brukte denne guiden. Din set-top-box er klar til bruk.Trykk "
+#~ "OK for å begynne å bruke din set-top-box."
 
 #
 #~ msgid "The pin code has been changed successfully."
@@ -9426,14 +9426,14 @@ msgstr "zapped"
 #~ msgid ""
 #~ "Welcome.\n"
 #~ "\n"
-#~ "If you want to connect your Dreambox to the Internet, this wizard will "
-#~ "guide you through the basic network setup of your Dreambox.\n"
+#~ "If you want to connect your set-top-box to the Internet, this wizard will "
+#~ "guide you through the basic network setup of your set-top-box.\n"
 #~ "\n"
 #~ "Press the OK button on your remote control to move to the next step."
 #~ msgstr ""
 #~ "Velkommen.\n"
 #~ "\n"
-#~ "Hvis du vil koble din Dreambox til Internet, vil denne guide hjelpe deg "
+#~ "Hvis du vil koble din set-top-box til Internet, vil denne guide hjelpe deg "
 #~ "gjennom nettverksoppsettet.\n"
 #~ "\n"
 #~ "Trykk OK for å fortsette til neste steg."
@@ -9448,7 +9448,7 @@ msgstr "zapped"
 
 #
 #~ msgid ""
-#~ "You do not seem to have a harddisk in your Dreambox. So backing up to a "
+#~ "You do not seem to have a harddisk in your set-top-box. So backing up to a "
 #~ "harddisk is not an option for you."
 #~ msgstr ""
 #~ "Det ser ikke ut til at du har en harddisk in din DB. Så backup til HDD er "
@@ -9526,18 +9526,18 @@ msgstr "zapped"
 #
 #~ msgid ""
 #~ "Your wired LAN Adapter could not be started.\n"
-#~ "Do you want to reboot your Dreambox to apply the new configuration?\n"
+#~ "Do you want to reboot your set-top-box to apply the new configuration?\n"
 #~ msgstr ""
 #~ "Ditt LAN-adapter kunne ikke startes.\n"
-#~ "Vil du restarte din Dreambox for å aktivere den nye konfigurasjonen?\n"
+#~ "Vil du restarte din set-top-box for å aktivere den nye konfigurasjonen?\n"
 
 #
 #~ msgid ""
 #~ "Your wireless LAN Adapter could not be started.\n"
-#~ "Do you want to reboot your Dreambox to apply the new configuration?\n"
+#~ "Do you want to reboot your set-top-box to apply the new configuration?\n"
 #~ msgstr ""
 #~ "Ditt trådløse adapter kunne ikke startes.\n"
-#~ "Vil du restarte din Dreambox for å aktivere den nye konfigurasjonen?\n"
+#~ "Vil du restarte din set-top-box for å aktivere den nye konfigurasjonen?\n"
 
 #
 #~ msgid ""

@@ -34,7 +34,7 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Backup your Dreambox settings."
+"Backup your set-top-box settings."
 msgstr ""
 
 #
@@ -46,13 +46,13 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Manage extensions or plugins for your Dreambox"
+"Manage extensions or plugins for your set-top-box"
 msgstr ""
 
 #
 msgid ""
 "\n"
-"Online update of your Dreambox software."
+"Online update of your set-top-box software."
 msgstr ""
 
 #
@@ -64,13 +64,13 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox settings."
+"Restore your set-top-box settings."
 msgstr ""
 
 #
 msgid ""
 "\n"
-"Restore your Dreambox with a new firmware."
+"Restore your set-top-box with a new firmware."
 msgstr ""
 
 #
@@ -384,18 +384,18 @@ msgstr ""
 #
 msgid ""
 "A finished record timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "Una gravació acabada pretén posar\n"
-"la Dreambox en repòs. Vols fer-ho ara?"
+"la set-top-box en repòs. Vols fer-ho ara?"
 
 #
 msgid ""
 "A finished record timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "Una gravació acabada pretén apagar\n"
-"la Dreambox ara. Vols apagar-la?"
+"la set-top-box ara. Vols apagar-la?"
 
 #
 msgid "A graphical EPG for all services of an specific bouquet"
@@ -458,18 +458,18 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "Una programació d'apagada vol posar\n"
-"la Dreambox en repòs. Vols fer-ho ara?"
+"la set-top-box en repòs. Vols fer-ho ara?"
 
 #
 msgid ""
 "A sleep timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "Una programació d'apagada vol apagar\n"
-"la Dreambox ara mateix. Vols fer-ho?"
+"la set-top-box ara mateix. Vols fer-ho?"
 
 #
 msgid "A small overview of the available icon states and actions."
@@ -587,7 +587,7 @@ msgstr ""
 
 #
 msgid ""
-"Adds enigma2 settings and dreambox model informations like SN, rev... if "
+"Adds enigma2 settings and set-top-box model informations like SN, rev... if "
 "enabled."
 msgstr ""
 
@@ -647,10 +647,10 @@ msgstr ""
 #
 msgid ""
 "After the start wizard is completed, you need to protect single services. "
-"Refer to your dreambox's manual on how to do that."
+"Refer to your set-top-box's manual on how to do that."
 msgstr ""
 "Quan acabi aquest assistent caldrà protegir els canals desitjats. Mira el "
-"manual de la Dreambox per saber com fer-ho."
+"manual de la set-top-box per saber com fer-ho."
 
 #
 msgid "Album"
@@ -1359,7 +1359,7 @@ msgid "Copy"
 msgstr ""
 
 #
-msgid "Could not connect to Dreambox .NFI Image Feed Server:"
+msgid "Could not connect to set-top-box .NFI Image Feed Server:"
 msgstr ""
 
 #
@@ -1818,7 +1818,7 @@ msgid "Do you want to download the image to %s ?"
 msgstr ""
 
 #
-msgid "Do you want to enable the parental control feature on your dreambox?"
+msgid "Do you want to enable the parental control feature on your set-top-box?"
 msgstr "Vols habilitar el control parental?"
 
 #
@@ -1834,7 +1834,7 @@ msgid "Do you want to preview this DVD before burning?"
 msgstr ""
 
 #
-msgid "Do you want to reboot your Dreambox?"
+msgid "Do you want to reboot your set-top-box?"
 msgstr ""
 
 #
@@ -1856,15 +1856,15 @@ msgid ""
 msgstr ""
 
 #
-msgid "Do you want to update your Dreambox?"
+msgid "Do you want to update your set-top-box?"
 msgstr ""
 
 #
 msgid ""
-"Do you want to update your Dreambox?\n"
+"Do you want to update your set-top-box?\n"
 "After pressing OK, please wait!"
 msgstr ""
-"Vols actualitzar la Dreambox?\n"
+"Vols actualitzar la set-top-box?\n"
 "Després de prémer OK, espera!"
 
 #
@@ -1929,11 +1929,11 @@ msgid "Downloading plugin information. Please wait..."
 msgstr "Descarregant informació del plugin. Espera..."
 
 #
-msgid "Dreambox format data DVD (HDTV compatible)"
+msgid "set-top-box format data DVD (HDTV compatible)"
 msgstr ""
 
 #
-msgid "Dreambox software because updates are available."
+msgid "set-top-box software because updates are available."
 msgstr ""
 
 #
@@ -1999,11 +1999,11 @@ msgid "Edit settings"
 msgstr ""
 
 #
-msgid "Edit the Nameserver configuration of your Dreambox.\n"
+msgid "Edit the Nameserver configuration of your set-top-box.\n"
 msgstr ""
 
 #
-msgid "Edit the network configuration of your Dreambox.\n"
+msgid "Edit the network configuration of your set-top-box.\n"
 msgstr ""
 
 #
@@ -3548,8 +3548,8 @@ msgid "No, do nothing."
 msgstr "No, no cal."
 
 #
-msgid "No, just start my dreambox"
-msgstr "No, només arrenca la Dreambox"
+msgid "No, just start my set-top-box"
+msgstr "No, només arrenca la set-top-box"
 
 msgid "No, never"
 msgstr ""
@@ -5187,8 +5187,8 @@ msgid "Shutdown"
 msgstr ""
 
 #
-msgid "Shutdown Dreambox after"
-msgstr "Apagar la Dreambox després de"
+msgid "Shutdown set-top-box after"
+msgstr "Apagar la set-top-box després de"
 
 msgid "Side by Side"
 msgstr ""
@@ -5650,7 +5650,7 @@ msgid "Test mode"
 msgstr "Mode test"
 
 #
-msgid "Test the network configuration of your Dreambox.\n"
+msgid "Test the network configuration of your set-top-box.\n"
 msgstr ""
 
 #
@@ -5675,16 +5675,16 @@ msgstr ""
 #
 msgid ""
 "Thank you for using the wizard. Your box is now ready to use.\n"
-"Please press OK to start using your Dreambox."
+"Please press OK to start using your set-top-box."
 msgstr ""
-"Gràcies per utilitzar l'assistent. La Dreambox ara ja està llesta per a ser "
+"Gràcies per utilitzar l'assistent. La set-top-box ara ja està llesta per a ser "
 "utilitzada.\n"
 "Sisplau, prem OK per a començar a fer-la servir."
 
 #
 msgid ""
 "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
-"create a Dreambox format data DVD (which will not play in stand-alone DVD "
+"create a set-top-box format data DVD (which will not play in stand-alone DVD "
 "players) instead?"
 msgstr ""
 
@@ -5761,7 +5761,7 @@ msgstr ""
 #
 msgid ""
 "The installation of the default settings is finished. You can now continue "
-"configuring your Dreambox by pressing the OK button on the remote control."
+"configuring your set-top-box by pressing the OK button on the remote control."
 msgstr ""
 
 msgid "The md5sum validation failed, the file may be corrupted!"
@@ -5884,7 +5884,7 @@ msgstr ""
 
 #
 #, python-format
-msgid "This Dreambox can't decode %s streams!"
+msgid "This set-top-box can't decode %s streams!"
 msgstr ""
 
 #
@@ -5893,7 +5893,7 @@ msgstr "Aquest és el pas número 2."
 
 msgid ""
 "This plugin creates a USB stick which can be used to update the firmware of "
-"your Dreambox without the need for a network or WLAN connection.\n"
+"your set-top-box without the need for a network or WLAN connection.\n"
 "First, a USB stick needs to be prepared so that it becomes bootable.\n"
 "In the next step, an NFI image file can be downloaded from the update server "
 "and saved on the USB stick.\n"
@@ -6079,7 +6079,7 @@ msgid "To subtitle selection"
 msgstr ""
 
 msgid ""
-"To update your Dreambox firmware, please follow these steps:\n"
+"To update your set-top-box firmware, please follow these steps:\n"
 "1) Turn off your box with the rear power switch and make sure the bootable "
 "USB stick is plugged in.\n"
 "2) Turn mains back on and hold the DOWN button on the front panel pressed "
@@ -6329,16 +6329,16 @@ msgid "Upgrade finished."
 msgstr ""
 
 #
-msgid "Upgrade finished. Do you want to reboot your Dreambox?"
-msgstr "S'ha acabat l'actualització. Vols tornar a arrancar la Dreambox?"
+msgid "Upgrade finished. Do you want to reboot your set-top-box?"
+msgstr "S'ha acabat l'actualització. Vols tornar a arrancar la set-top-box?"
 
 #
 msgid "Upgrading"
 msgstr "Actualitzant"
 
 #
-msgid "Upgrading Dreambox... Please wait"
-msgstr "Actualitzant la Dreambox... Sisplau espera"
+msgid "Upgrading set-top-box... Please wait"
+msgstr "Actualitzant la set-top-box... Sisplau espera"
 
 #
 msgid "Use"
@@ -6698,11 +6698,11 @@ msgstr ""
 #
 msgid ""
 "Welcome to the Image upgrade wizard. The wizard will assist you in upgrading "
-"the firmware of your Dreambox by providing a backup facility for your "
+"the firmware of your set-top-box by providing a backup facility for your "
 "current settings and a short explanation of how to upgrade your firmware."
 msgstr ""
 "Benvingut a l'assistent per a l'actualització de la imatge. Aquest t'ajudarà "
-"a actualitzar el firmware de la Dreambox, donant-te la possibilitat de fer "
+"a actualitzar el firmware de la set-top-box, donant-te la possibilitat de fer "
 "una còpia de seguretat de la configuració actual, i amb una petita "
 "explicació sobre com actualitzar-ne el firmware."
 
@@ -6711,7 +6711,7 @@ msgid ""
 "Welcome to the cleanup wizard.\n"
 "\n"
 "We have detected that your available internal memory has dropped below 2MB.\n"
-"To ensure stable operation of your Dreambox, the internal memory should be "
+"To ensure stable operation of your set-top-box, the internal memory should be "
 "cleaned up.\n"
 "You can use this wizard to remove some extensions.\n"
 msgstr ""
@@ -6720,8 +6720,8 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"If you want to connect your Dreambox to the Internet, this wizard will guide "
-"you through the basic network setup of your Dreambox.\n"
+"If you want to connect your set-top-box to the Internet, this wizard will guide "
+"you through the basic network setup of your set-top-box.\n"
 "\n"
 "Press OK to start configuring your network"
 msgstr ""
@@ -6730,13 +6730,13 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"This start wizard will guide you through the basic setup of your Dreambox.\n"
+"This start wizard will guide you through the basic setup of your set-top-box.\n"
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
 "Benvingut.\n"
 "\n"
 "Aquest asistent et guiarà a través de la configuració bàsica de la "
-"Dreambox.\n"
+"set-top-box.\n"
 "Prem el botó OK del comandament a distància per anar al següent pas."
 
 #
@@ -6902,7 +6902,7 @@ msgid "You can install this plugin."
 msgstr ""
 
 #
-msgid "You can only burn Dreambox recordings!"
+msgid "You can only burn set-top-box recordings!"
 msgstr ""
 
 #
@@ -6956,15 +6956,15 @@ msgstr ""
 
 #
 msgid ""
-"You need a PC connected to your dreambox. If you need further instructions, "
+"You need a PC connected to your set-top-box. If you need further instructions, "
 "please visit the website http://www.dm7025.de.\n"
-"Your dreambox will now be halted. After you have performed the update "
+"Your set-top-box will now be halted. After you have performed the update "
 "instructions from the website, your new firmware will ask you to restore "
 "your settings."
 msgstr ""
-"Et caldrà un PC connectat a la dreambox. Si necesites més instruccions, "
+"Et caldrà un PC connectat a la set-top-box. Si necesites més instruccions, "
 "consulta la pàgina web http://www.dm7025.de.\n"
-"Ara s'apagarà la dreambox. Després d'haver fer l'actualització segons les "
+"Ara s'apagarà la set-top-box. Després d'haver fer l'actualització segons les "
 "instruccions de la web,  el nou firmware et demanarà actualitzar la "
 "configuració."
 
@@ -6979,7 +6979,7 @@ msgstr ""
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -6987,7 +6987,7 @@ msgstr ""
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -6995,7 +6995,7 @@ msgid ""
 msgstr ""
 
 #
-msgid "Your Dreambox will restart after pressing OK on your remote control."
+msgid "Your set-top-box will restart after pressing OK on your remote control."
 msgstr ""
 
 #
@@ -7016,12 +7016,12 @@ msgid "Your current collection will get lost!"
 msgstr ""
 
 #
-msgid "Your dreambox is shutting down. Please stand by..."
-msgstr "La dreambox s'està reiniciant. Espera un moment..."
+msgid "Your set-top-box is shutting down. Please stand by..."
+msgstr "La set-top-box s'està reiniciant. Espera un moment..."
 
 #
 msgid ""
-"Your dreambox isn't connected to the internet properly. Please check it and "
+"Your set-top-box isn't connected to the internet properly. Please check it and "
 "try again."
 msgstr ""
 "La connexió a internet no és correcta. Sisplau comprova-ho i torna-ho a "
@@ -7437,19 +7437,19 @@ msgstr "no gravar"
 msgid "done!"
 msgstr "fet!"
 
-msgid "dreambox advanced remote control (native)"
+msgid "set-top-box advanced remote control (native)"
 msgstr ""
 
-msgid "dreambox front panel"
+msgid "set-top-box front panel"
 msgstr ""
 
-msgid "dreambox ir keyboard"
+msgid "set-top-box ir keyboard"
 msgstr ""
 
-msgid "dreambox ir mouse"
+msgid "set-top-box ir mouse"
 msgstr ""
 
-msgid "dreambox remote control (native)"
+msgid "set-top-box remote control (native)"
 msgstr ""
 
 msgid "east"
@@ -8350,10 +8350,10 @@ msgstr "si (mantenir feeds)"
 
 #
 msgid ""
-"your dreambox might be unusable now. Please consult the manual for further "
-"assistance before rebooting your dreambox."
+"your set-top-box might be unusable now. Please consult the manual for further "
+"assistance before rebooting your set-top-box."
 msgstr ""
-"Ara la Dreambox podria ser inusable. Sisplau consulta el manual abans de "
+"Ara la set-top-box podria ser inusable. Sisplau consulta el manual abans de "
 "reiniciar-la."
 
 #
@@ -8879,10 +8879,10 @@ msgstr "zappejat"
 
 #
 #~ msgid ""
-#~ "You do not seem to have a harddisk in your Dreambox. So backing up to a "
+#~ "You do not seem to have a harddisk in your set-top-box. So backing up to a "
 #~ "harddisk is not an option for you."
 #~ msgstr ""
-#~ "Sembla que no hi ha cap disc dur connectat a la Dreambox. Per tant, no "
+#~ "Sembla que no hi ha cap disc dur connectat a la set-top-box. Per tant, no "
 #~ "podràs fer un backup en disc."
 
 #

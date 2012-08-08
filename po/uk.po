@@ -36,10 +36,10 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Backup your Dreambox settings."
+"Backup your set-top-box settings."
 msgstr ""
 "\n"
-"Створення резервної копії налаштувань Dreambox'a."
+"Створення резервної копії налаштувань set-top-box'a."
 
 #
 msgid ""
@@ -52,16 +52,16 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Manage extensions or plugins for your Dreambox"
+"Manage extensions or plugins for your set-top-box"
 msgstr ""
 
 #
 msgid ""
 "\n"
-"Online update of your Dreambox software."
+"Online update of your set-top-box software."
 msgstr ""
 "\n"
-"Онлайн оновлення пакетів вашого Dreambox'a."
+"Онлайн оновлення пакетів вашого set-top-box'a."
 
 #
 msgid ""
@@ -74,18 +74,18 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox settings."
+"Restore your set-top-box settings."
 msgstr ""
 "\n"
-"Відновлення системних налаштувань вашого Dreambox'a."
+"Відновлення системних налаштувань вашого set-top-box'a."
 
 #
 msgid ""
 "\n"
-"Restore your Dreambox with a new firmware."
+"Restore your set-top-box with a new firmware."
 msgstr ""
 "\n"
-"Встановлення нового іміджу на Dreambox."
+"Встановлення нового іміджу на set-top-box."
 
 #
 msgid ""
@@ -403,18 +403,18 @@ msgstr ""
 #
 msgid ""
 "A finished record timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
-"Запис закінчено. Таймер переведе ваш Dreambox\n"
+"Запис закінчено. Таймер переведе ваш set-top-box\n"
 "в режим очікування. Зробити це?"
 
 #
 msgid ""
 "A finished record timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "Запис закінчено. Таймер зараз вимкне ваш\n"
-"Dreambox. Зробити це?"
+"set-top-box. Зробити це?"
 
 #
 msgid "A graphical EPG for all services of an specific bouquet"
@@ -473,18 +473,18 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
-"Таймер переведе ваш Dreambox\n"
+"Таймер переведе ваш set-top-box\n"
 "в режим очікування. Зробити це?"
 
 #
 msgid ""
 "A sleep timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "Таймер зараз вимкне\n"
-"ваш Dreambox. Зробити це?"
+"ваш set-top-box. Зробити це?"
 
 #
 msgid "A small overview of the available icon states and actions."
@@ -602,10 +602,10 @@ msgstr ""
 
 #
 msgid ""
-"Adds enigma2 settings and dreambox model informations like SN, rev... if "
+"Adds enigma2 settings and set-top-box model informations like SN, rev... if "
 "enabled."
 msgstr ""
-"Додавати параметри Енігми2 і інформацію про Dreambox, таку як сер.номер та "
+"Додавати параметри Енігми2 і інформацію про set-top-box, таку як сер.номер та "
 "іншу... якщо доступна"
 
 #
@@ -668,7 +668,7 @@ msgstr ""
 #
 msgid ""
 "After the start wizard is completed, you need to protect single services. "
-"Refer to your dreambox's manual on how to do that."
+"Refer to your set-top-box's manual on how to do that."
 msgstr ""
 "Після завершення роботи помічника Ви можете встановити обмеження на деякі "
 "сервіси. Як це зробити, Ви можете прочитати в інструкції. "
@@ -1391,8 +1391,8 @@ msgid "Copy"
 msgstr ""
 
 #
-msgid "Could not connect to Dreambox .NFI Image Feed Server:"
-msgstr "Підключення з сервером Dreambox .NFI Image не вдалось:"
+msgid "Could not connect to set-top-box .NFI Image Feed Server:"
+msgstr "Підключення з сервером set-top-box .NFI Image не вдалось:"
 
 #
 msgid "Could not load Medium! No disc inserted?"
@@ -1596,7 +1596,7 @@ msgstr "Вирішіть, що повинно відбутися з крешло
 
 #
 msgid "Deep Standby"
-msgstr "Вимкнути Dreambox"
+msgstr "Вимкнути set-top-box"
 
 #
 msgid "Default"
@@ -1858,8 +1858,8 @@ msgid "Do you want to download the image to %s ?"
 msgstr ""
 
 #
-msgid "Do you want to enable the parental control feature on your dreambox?"
-msgstr "Ви хочете встановити батьківський контроль на Dreambox?"
+msgid "Do you want to enable the parental control feature on your set-top-box?"
+msgstr "Ви хочете встановити батьківський контроль на set-top-box?"
 
 #
 msgid "Do you want to install the package:\n"
@@ -1874,8 +1874,8 @@ msgid "Do you want to preview this DVD before burning?"
 msgstr "Ви хочете переглянути цей DVD перед записом?"
 
 #
-msgid "Do you want to reboot your Dreambox?"
-msgstr "Бажаєте перезавантажити Dreambox?"
+msgid "Do you want to reboot your set-top-box?"
+msgstr "Бажаєте перезавантажити set-top-box?"
 
 #
 msgid "Do you want to remove the package:\n"
@@ -1898,15 +1898,15 @@ msgstr ""
 "Вами у разі потреби?"
 
 #
-msgid "Do you want to update your Dreambox?"
+msgid "Do you want to update your set-top-box?"
 msgstr "Бажаєте оновити пакети?"
 
 #
 msgid ""
-"Do you want to update your Dreambox?\n"
+"Do you want to update your set-top-box?\n"
 "After pressing OK, please wait!"
 msgstr ""
-"Бажаєте оновити ПЗ вашого Dreambox?\n"
+"Бажаєте оновити ПЗ вашого set-top-box?\n"
 "Після натискання OK, будь ласка зачекайте!"
 
 #
@@ -1971,12 +1971,12 @@ msgid "Downloading plugin information. Please wait..."
 msgstr "Завантаження інформації про додатки. Зачекайте..."
 
 #
-msgid "Dreambox format data DVD (HDTV compatible)"
-msgstr "DVD дані в Dreambox-формат (HDTV-сумісний)"
+msgid "set-top-box format data DVD (HDTV compatible)"
+msgstr "DVD дані в set-top-box-формат (HDTV-сумісний)"
 
 #
-msgid "Dreambox software because updates are available."
-msgstr "ПЗ Dreambox, тому що оновлення доступні."
+msgid "set-top-box software because updates are available."
+msgstr "ПЗ set-top-box, тому що оновлення доступні."
 
 #
 msgid "Dutch"
@@ -2041,12 +2041,12 @@ msgid "Edit settings"
 msgstr "редагування налаштувань"
 
 #
-msgid "Edit the Nameserver configuration of your Dreambox.\n"
-msgstr "Редагувати налаштування Nameserver вашого Dreambox.\n"
+msgid "Edit the Nameserver configuration of your set-top-box.\n"
+msgstr "Редагувати налаштування Nameserver вашого set-top-box.\n"
 
 #
-msgid "Edit the network configuration of your Dreambox.\n"
-msgstr "Редагувати налаштування мережі Dreambox.\n"
+msgid "Edit the network configuration of your set-top-box.\n"
+msgstr "Редагувати налаштування мережі set-top-box.\n"
 
 #
 msgid "Edit title"
@@ -3616,8 +3616,8 @@ msgid "No, do nothing."
 msgstr "Ні, не робити нічого."
 
 #
-msgid "No, just start my dreambox"
-msgstr "Ні, просто ввімкнути мого Dreambox'a"
+msgid "No, just start my set-top-box"
+msgstr "Ні, просто ввімкнути мого set-top-box'a"
 
 msgid "No, never"
 msgstr ""
@@ -5265,8 +5265,8 @@ msgid "Shutdown"
 msgstr ""
 
 #
-msgid "Shutdown Dreambox after"
-msgstr "Вимкнути Dreambox після"
+msgid "Shutdown set-top-box after"
+msgstr "Вимкнути set-top-box після"
 
 msgid "Side by Side"
 msgstr ""
@@ -5732,8 +5732,8 @@ msgid "Test mode"
 msgstr "Тестовий режим"
 
 #
-msgid "Test the network configuration of your Dreambox.\n"
-msgstr "Тест мережевого з'єднання Вашого Dreambox'а.\n"
+msgid "Test the network configuration of your set-top-box.\n"
+msgstr "Тест мережевого з'єднання Вашого set-top-box'а.\n"
 
 #
 msgid "Test-Messagebox?"
@@ -5757,19 +5757,19 @@ msgstr ""
 #
 msgid ""
 "Thank you for using the wizard. Your box is now ready to use.\n"
-"Please press OK to start using your Dreambox."
+"Please press OK to start using your set-top-box."
 msgstr ""
-"Дякуємо за використання помічника. Ваш Dreambox готовий до використання.\n"
-"Будь-ласка натисніть OK, для користування Dreambox'ом."
+"Дякуємо за використання помічника. Ваш set-top-box готовий до використання.\n"
+"Будь-ласка натисніть OK, для користування set-top-box'ом."
 
 #
 msgid ""
 "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
-"create a Dreambox format data DVD (which will not play in stand-alone DVD "
+"create a set-top-box format data DVD (which will not play in stand-alone DVD "
 "players) instead?"
 msgstr ""
 "DVD-стандарт не підтримує H.264 (HDTV) відео. Ви хочете створити DVD з "
-"даними в Dreambox-форматі (який не буде програватись в стандартних DVD "
+"даними в set-top-box-форматі (який не буде програватись в стандартних DVD "
 "програвачах)?"
 
 #
@@ -5853,10 +5853,10 @@ msgstr "Встановлення стандартного списку кана�
 #
 msgid ""
 "The installation of the default settings is finished. You can now continue "
-"configuring your Dreambox by pressing the OK button on the remote control."
+"configuring your set-top-box by pressing the OK button on the remote control."
 msgstr ""
 "Встановлення стандартних параметрів завершено. Ви можете продовжити "
-"налаштування Dreambox'а натиснувши OK на пульті."
+"налаштування set-top-box'а натиснувши OK на пульті."
 
 msgid "The md5sum validation failed, the file may be corrupted!"
 msgstr ""
@@ -5982,8 +5982,8 @@ msgstr ""
 
 #
 #, python-format
-msgid "This Dreambox can't decode %s streams!"
-msgstr "Dreambox не в змозі декодувати %s потік!"
+msgid "This set-top-box can't decode %s streams!"
+msgstr "set-top-box не в змозі декодувати %s потік!"
 
 #
 msgid "This is step number 2."
@@ -5991,7 +5991,7 @@ msgstr "Це крок номер 2."
 
 msgid ""
 "This plugin creates a USB stick which can be used to update the firmware of "
-"your Dreambox without the need for a network or WLAN connection.\n"
+"your set-top-box without the need for a network or WLAN connection.\n"
 "First, a USB stick needs to be prepared so that it becomes bootable.\n"
 "In the next step, an NFI image file can be downloaded from the update server "
 "and saved on the USB stick.\n"
@@ -6202,7 +6202,7 @@ msgid "To subtitle selection"
 msgstr ""
 
 msgid ""
-"To update your Dreambox firmware, please follow these steps:\n"
+"To update your set-top-box firmware, please follow these steps:\n"
 "1) Turn off your box with the rear power switch and make sure the bootable "
 "USB stick is plugged in.\n"
 "2) Turn mains back on and hold the DOWN button on the front panel pressed "
@@ -6452,16 +6452,16 @@ msgid "Upgrade finished."
 msgstr "Оновлення завершено."
 
 #
-msgid "Upgrade finished. Do you want to reboot your Dreambox?"
-msgstr "Оновлення завершено. Бажаєте перезавантажити Dreambox?"
+msgid "Upgrade finished. Do you want to reboot your set-top-box?"
+msgstr "Оновлення завершено. Бажаєте перезавантажити set-top-box?"
 
 #
 msgid "Upgrading"
 msgstr "Оновлення"
 
 #
-msgid "Upgrading Dreambox... Please wait"
-msgstr "Оновлення Dreambox'a... Прохання зачекати"
+msgid "Upgrading set-top-box... Please wait"
+msgstr "Оновлення set-top-box'a... Прохання зачекати"
 
 #
 msgid "Use"
@@ -6833,7 +6833,7 @@ msgstr ""
 #
 msgid ""
 "Welcome to the Image upgrade wizard. The wizard will assist you in upgrading "
-"the firmware of your Dreambox by providing a backup facility for your "
+"the firmware of your set-top-box by providing a backup facility for your "
 "current settings and a short explanation of how to upgrade your firmware."
 msgstr ""
 "Ласкаво просимо до помічника оновлення Іміджів. Він допоможе Вам в оновленні "
@@ -6845,14 +6845,14 @@ msgid ""
 "Welcome to the cleanup wizard.\n"
 "\n"
 "We have detected that your available internal memory has dropped below 2MB.\n"
-"To ensure stable operation of your Dreambox, the internal memory should be "
+"To ensure stable operation of your set-top-box, the internal memory should be "
 "cleaned up.\n"
 "You can use this wizard to remove some extensions.\n"
 msgstr ""
 "Ласкаво просимо до майстер очищення.\n"
 "\n"
 "Виявлено, що внутрішньої пам'яті доступно менше 2Мб.\n"
-"Щоб забезпечити стабільну роботу Вашого Dreambox, внутрішня пам'ять повинна "
+"Щоб забезпечити стабільну роботу Вашого set-top-box, внутрішня пам'ять повинна "
 "бути очищена.\n"
 "Ви можете використати цей майстер для видалення деяких компонентів.\n"
 
@@ -6860,8 +6860,8 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"If you want to connect your Dreambox to the Internet, this wizard will guide "
-"you through the basic network setup of your Dreambox.\n"
+"If you want to connect your set-top-box to the Internet, this wizard will guide "
+"you through the basic network setup of your set-top-box.\n"
 "\n"
 "Press OK to start configuring your network"
 msgstr ""
@@ -6870,12 +6870,12 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"This start wizard will guide you through the basic setup of your Dreambox.\n"
+"This start wizard will guide you through the basic setup of your set-top-box.\n"
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
 "Ласкаво просимо.\n"
 "\n"
-"Цей помічник допоможе Вам зробити основні налаштування вашого Dreambox'а\n"
+"Цей помічник допоможе Вам зробити основні налаштування вашого set-top-box'а\n"
 "Натисніть на ОК щоб перейти до слідуючого кроку."
 
 #
@@ -7048,7 +7048,7 @@ msgid "You can install this plugin."
 msgstr "Ви можете встановити цей додаток"
 
 #
-msgid "You can only burn Dreambox recordings!"
+msgid "You can only burn set-top-box recordings!"
 msgstr ""
 
 #
@@ -7111,9 +7111,9 @@ msgstr "Необхідно почекати %s!"
 
 #
 msgid ""
-"You need a PC connected to your dreambox. If you need further instructions, "
+"You need a PC connected to your set-top-box. If you need further instructions, "
 "please visit the website http://www.dm7025.de.\n"
-"Your dreambox will now be halted. After you have performed the update "
+"Your set-top-box will now be halted. After you have performed the update "
 "instructions from the website, your new firmware will ask you to restore "
 "your settings."
 msgstr ""
@@ -7133,7 +7133,7 @@ msgstr ""
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -7141,7 +7141,7 @@ msgstr ""
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
@@ -7149,8 +7149,8 @@ msgid ""
 msgstr ""
 
 #
-msgid "Your Dreambox will restart after pressing OK on your remote control."
-msgstr "Ваш Dreambox перезавантажиться після натиснення ОК на пульті ДУ."
+msgid "Your set-top-box will restart after pressing OK on your remote control."
+msgstr "Ваш set-top-box перезавантажиться після натиснення ОК на пульті ДУ."
 
 #
 msgid ""
@@ -7173,15 +7173,15 @@ msgid "Your current collection will get lost!"
 msgstr ""
 
 #
-msgid "Your dreambox is shutting down. Please stand by..."
-msgstr "Ваш Dreambox вимикається. Прохання зачекати..."
+msgid "Your set-top-box is shutting down. Please stand by..."
+msgstr "Ваш set-top-box вимикається. Прохання зачекати..."
 
 #
 msgid ""
-"Your dreambox isn't connected to the internet properly. Please check it and "
+"Your set-top-box isn't connected to the internet properly. Please check it and "
 "try again."
 msgstr ""
-"Ваш Dreambox не під'єднаний до інтернету належним чином. Будь ласка "
+"Ваш set-top-box не під'єднаний до інтернету належним чином. Будь ласка "
 "перевірте і спробуйте знов."
 
 #
@@ -7596,19 +7596,19 @@ msgstr "не записувати"
 msgid "done!"
 msgstr "виконано!"
 
-msgid "dreambox advanced remote control (native)"
+msgid "set-top-box advanced remote control (native)"
 msgstr ""
 
-msgid "dreambox front panel"
+msgid "set-top-box front panel"
 msgstr ""
 
-msgid "dreambox ir keyboard"
+msgid "set-top-box ir keyboard"
 msgstr ""
 
-msgid "dreambox ir mouse"
+msgid "set-top-box ir mouse"
 msgstr ""
 
-msgid "dreambox remote control (native)"
+msgid "set-top-box remote control (native)"
 msgstr ""
 
 msgid "east"
@@ -7729,7 +7729,7 @@ msgstr ""
 
 #
 msgid "go to deep standby"
-msgstr "вимкнути Dreambox"
+msgstr "вимкнути set-top-box"
 
 #
 msgid "go to standby"
@@ -8507,11 +8507,11 @@ msgstr "Так"
 
 #
 msgid ""
-"your dreambox might be unusable now. Please consult the manual for further "
-"assistance before rebooting your dreambox."
+"your set-top-box might be unusable now. Please consult the manual for further "
+"assistance before rebooting your set-top-box."
 msgstr ""
-"Ваш Dreambox зараз може бути непридатним для роботи. Будь ласка перегляньте "
-"інструкцію користувача перед тим як перезавантажити ваш Dreambox."
+"Ваш set-top-box зараз може бути непридатним для роботи. Будь ласка перегляньте "
+"інструкцію користувача перед тим як перезавантажити ваш set-top-box."
 
 #
 msgid "zap"
@@ -8591,7 +8591,7 @@ msgstr "Переключений"
 #
 #~ msgid ""
 #~ "Are you sure you want to enable WLAN support?\n"
-#~ "Connect your Wlan USB Stick to your Dreambox and press OK.\n"
+#~ "Connect your Wlan USB Stick to your set-top-box and press OK.\n"
 #~ "\n"
 #~ msgstr ""
 #~ "Ви дійсно бажаєте задіяти мережу WLAN?\n"
@@ -8999,7 +8999,7 @@ msgstr "Переключений"
 #~ msgstr "Мова..."
 
 #
-#~ msgid "Lets you view/edit files in your Dreambox"
+#~ msgid "Lets you view/edit files in your set-top-box"
 #~ msgstr "Дозволяє переглядати/редагувати файли"
 
 #
@@ -9101,10 +9101,10 @@ msgstr "Переключений"
 
 #
 #~ msgid ""
-#~ "Please disconnect all USB devices from your Dreambox and (re-)attach the "
+#~ "Please disconnect all USB devices from your set-top-box and (re-)attach the "
 #~ "target USB stick (minimum size is 64 MB) now!"
 #~ msgstr ""
-#~ "Будь ласка від'єднайте усі USB пристрої від вашого  Dreambox і (пере-) "
+#~ "Будь ласка від'єднайте усі USB пристрої від вашого  set-top-box і (пере-) "
 #~ "під'єднайте USB-флеш (мінімальний розмір 64 Mб) зараз!"
 
 #
@@ -9162,13 +9162,13 @@ msgstr "Переключений"
 
 #
 #~ msgid ""
-#~ "Pressing OK enables the built in wireless LAN support of your Dreambox.\n"
+#~ "Pressing OK enables the built in wireless LAN support of your set-top-box.\n"
 #~ "Wlan USB Sticks with Zydas ZD1211B and RAlink RT73 Chipset are "
 #~ "supported.\n"
-#~ "Connect your Wlan USB Stick to your Dreambox before pressing OK.\n"
+#~ "Connect your Wlan USB Stick to your set-top-box before pressing OK.\n"
 #~ "\n"
 #~ msgstr ""
-#~ "Натисніть ОК для активації WI-FI мережі на вашому Dreambox.\n"
+#~ "Натисніть ОК для активації WI-FI мережі на вашому set-top-box.\n"
 #~ "Підтримуюються USB адаптери з чіпсетами Zydas ZD1211B i RAlink RT73.\n"
 #~ "Перед тим як натиснути OK вставте USB WI-FI адаптер.\n"
 #~ "\n"
@@ -9231,9 +9231,9 @@ msgstr "Переключений"
 
 #
 #~ msgid ""
-#~ "Reset the network configuration of your Dreambox.\n"
+#~ "Reset the network configuration of your set-top-box.\n"
 #~ "\n"
-#~ msgstr "Скинути мережеві налаштування Вашого Dreambox.\n"
+#~ msgstr "Скинути мережеві налаштування Вашого set-top-box.\n"
 
 #
 #~ msgid "Restart GUI"
@@ -9367,10 +9367,10 @@ msgstr "Переключений"
 #
 #~ msgid ""
 #~ "Thank you for using the wizard. Your box is now ready to use.\n"
-#~ "Please press OK to start using you Dreambox."
+#~ "Please press OK to start using you set-top-box."
 #~ msgstr ""
 #~ "Дякуєм за використання помічника. Ваш бокс готовий до використання.\n"
-#~ "Натисніть на ОК і почніть користуватись вашим Dreambox'ом."
+#~ "Натисніть на ОК і почніть користуватись вашим set-top-box'ом."
 
 #
 #~ msgid ""
@@ -9383,11 +9383,11 @@ msgstr "Переключений"
 #
 #~ msgid ""
 #~ "The installation of the default settings is finished. Your can now "
-#~ "continue configuring your Dreambox by pressing the OK button on the "
+#~ "continue configuring your set-top-box by pressing the OK button on the "
 #~ "remote control."
 #~ msgstr ""
 #~ "Встановлення стандартних параметрів завершено. Ви можете продовжити "
-#~ "налаштування Dreambox'а натиснувши OK на пульті."
+#~ "налаштування set-top-box'а натиснувши OK на пульті."
 
 #
 #~ msgid ""
@@ -9436,8 +9436,8 @@ msgstr "Переключений"
 #~ "флеш пам'ять?"
 
 #
-#~ msgid "This Dreambox can't decode %s video streams!"
-#~ msgstr "Dreambox не в змозі декодувати %s відео потік!"
+#~ msgid "This set-top-box can't decode %s video streams!"
+#~ msgstr "set-top-box не в змозі декодувати %s відео потік!"
 
 #
 #~ msgid "This is unsupported at the moment."
@@ -9449,14 +9449,14 @@ msgstr "Переключений"
 
 #
 #~ msgid ""
-#~ "To update your Dreambox firmware, please follow these steps:\n"
+#~ "To update your set-top-box firmware, please follow these steps:\n"
 #~ "1) Turn off your box with the rear power switch and plug in the bootable "
 #~ "USB stick.\n"
 #~ "2) Turn mains back on and hold the DOWN button on the front panel pressed "
 #~ "for 10 seconds.\n"
 #~ "3) Wait for bootup and follow instructions of the wizard."
 #~ msgstr ""
-#~ "Щоб оновити імідж в Вашому Dreambox, будь-ласка виконайте наступні "
+#~ "Щоб оновити імідж в Вашому set-top-box, будь-ласка виконайте наступні "
 #~ "кроки:\n"
 #~ "1) Вимкніть ваш приймач за допомогою кнопки напруги і вставте "
 #~ "завантажувальний USB-стік.\n"
@@ -9557,10 +9557,10 @@ msgstr "Переключений"
 
 #
 #~ msgid ""
-#~ "You do not seem to have a harddisk in your Dreambox. So backing up to a "
+#~ "You do not seem to have a harddisk in your set-top-box. So backing up to a "
 #~ "harddisk is not an option for you."
 #~ msgstr ""
-#~ "Здається, що нема жорсткого диску в Dreambox'і. Отже створити копію на "
+#~ "Здається, що нема жорсткого диску в set-top-box'і. Отже створити копію на "
 #~ "HDD неможливо."
 
 #

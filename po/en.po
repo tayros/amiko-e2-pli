@@ -33,10 +33,10 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Backup your Dreambox settings."
+"Backup your set-top-box settings."
 msgstr ""
 "\n"
-"Backup your Dreambox settings."
+"Backup your set-top-box settings."
 
 #
 msgid ""
@@ -49,18 +49,18 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Manage extensions or plugins for your Dreambox"
+"Manage extensions or plugins for your set-top-box"
 msgstr ""
 "\n"
-"Manage extensions or plugins for your Dreambox"
+"Manage extensions or plugins for your set-top-box"
 
 #
 msgid ""
 "\n"
-"Online update of your Dreambox software."
+"Online update of your set-top-box software."
 msgstr ""
 "\n"
-"Online update of your Dreambox software."
+"Online update of your set-top-box software."
 
 #
 msgid ""
@@ -73,18 +73,18 @@ msgstr ""
 #
 msgid ""
 "\n"
-"Restore your Dreambox settings."
+"Restore your set-top-box settings."
 msgstr ""
 "\n"
-"Restore your Dreambox settings."
+"Restore your set-top-box settings."
 
 #
 msgid ""
 "\n"
-"Restore your Dreambox with a new firmware."
+"Restore your set-top-box with a new firmware."
 msgstr ""
 "\n"
-"Restore your Dreambox with a new firmware."
+"Restore your set-top-box with a new firmware."
 
 #
 msgid ""
@@ -406,18 +406,18 @@ msgstr ""
 #
 msgid ""
 "A finished record timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "A finished record timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 
 #
 msgid ""
 "A finished record timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "A finished record timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 
 #
 msgid "A graphical EPG for all services of an specific bouquet"
@@ -483,18 +483,18 @@ msgstr ""
 #
 msgid ""
 "A sleep timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 msgstr ""
 "A sleep timer wants to set your\n"
-"Dreambox to standby. Do that now?"
+"set-top-box to standby. Do that now?"
 
 #
 msgid ""
 "A sleep timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 msgstr ""
 "A sleep timer wants to shut down\n"
-"your Dreambox. Shutdown now?"
+"your set-top-box. Shutdown now?"
 
 #
 msgid "A small overview of the available icon states and actions."
@@ -612,10 +612,10 @@ msgstr ""
 
 #
 msgid ""
-"Adds enigma2 settings and dreambox model informations like SN, rev... if "
+"Adds enigma2 settings and set-top-box model informations like SN, rev... if "
 "enabled."
 msgstr ""
-"Adds enigma2 settings and dreambox model informations like SN, rev... if "
+"Adds enigma2 settings and set-top-box model informations like SN, rev... if "
 "enabled."
 
 #
@@ -678,10 +678,10 @@ msgstr ""
 #
 msgid ""
 "After the start wizard is completed, you need to protect single services. "
-"Refer to your dreambox's manual on how to do that."
+"Refer to your set-top-box's manual on how to do that."
 msgstr ""
 "After the start wizard is completed, you need to protect single services. "
-"Refer to your dreambox's manual on how to do that."
+"Refer to your set-top-box's manual on how to do that."
 
 #
 msgid "Album"
@@ -1403,8 +1403,8 @@ msgid "Copy"
 msgstr ""
 
 #
-msgid "Could not connect to Dreambox .NFI Image Feed Server:"
-msgstr "Could not connect to Dreambox .NFI Image Feed Server:"
+msgid "Could not connect to set-top-box .NFI Image Feed Server:"
+msgstr "Could not connect to set-top-box .NFI Image Feed Server:"
 
 #
 msgid "Could not load Medium! No disc inserted?"
@@ -1872,8 +1872,8 @@ msgid "Do you want to download the image to %s ?"
 msgstr ""
 
 #
-msgid "Do you want to enable the parental control feature on your dreambox?"
-msgstr "Do you want to enable the parental control feature on your dreambox?"
+msgid "Do you want to enable the parental control feature on your set-top-box?"
+msgstr "Do you want to enable the parental control feature on your set-top-box?"
 
 #
 msgid "Do you want to install the package:\n"
@@ -1888,8 +1888,8 @@ msgid "Do you want to preview this DVD before burning?"
 msgstr "Do you want to preview this DVD before burning?"
 
 #
-msgid "Do you want to reboot your Dreambox?"
-msgstr "Do you want to reboot your Dreambox?"
+msgid "Do you want to reboot your set-top-box?"
+msgstr "Do you want to reboot your set-top-box?"
 
 #
 msgid "Do you want to remove the package:\n"
@@ -1912,15 +1912,15 @@ msgstr ""
 "if needed?"
 
 #
-msgid "Do you want to update your Dreambox?"
-msgstr "Do you want to update your Dreambox?"
+msgid "Do you want to update your set-top-box?"
+msgstr "Do you want to update your set-top-box?"
 
 #
 msgid ""
-"Do you want to update your Dreambox?\n"
+"Do you want to update your set-top-box?\n"
 "After pressing OK, please wait!"
 msgstr ""
-"Do you want to update your Dreambox?\n"
+"Do you want to update your set-top-box?\n"
 "After pressing OK, please wait!"
 
 #
@@ -1985,12 +1985,12 @@ msgid "Downloading plugin information. Please wait..."
 msgstr "Downloading plugin information. Please wait..."
 
 #
-msgid "Dreambox format data DVD (HDTV compatible)"
-msgstr "Dreambox format data DVD (HDTV compatible)"
+msgid "set-top-box format data DVD (HDTV compatible)"
+msgstr "set-top-box format data DVD (HDTV compatible)"
 
 #
-msgid "Dreambox software because updates are available."
-msgstr "Dreambox software because updates are available."
+msgid "set-top-box software because updates are available."
+msgstr "set-top-box software because updates are available."
 
 #
 msgid "Dutch"
@@ -2055,12 +2055,12 @@ msgid "Edit settings"
 msgstr "Edit settings"
 
 #
-msgid "Edit the Nameserver configuration of your Dreambox.\n"
-msgstr "Edit the Nameserver configuration of your Dreambox.\n"
+msgid "Edit the Nameserver configuration of your set-top-box.\n"
+msgstr "Edit the Nameserver configuration of your set-top-box.\n"
 
 #
-msgid "Edit the network configuration of your Dreambox.\n"
-msgstr "Edit the network configuration of your Dreambox.\n"
+msgid "Edit the network configuration of your set-top-box.\n"
+msgstr "Edit the network configuration of your set-top-box.\n"
 
 #
 msgid "Edit title"
@@ -3629,8 +3629,8 @@ msgid "No, do nothing."
 msgstr "No, do nothing."
 
 #
-msgid "No, just start my dreambox"
-msgstr "No, just start my dreambox"
+msgid "No, just start my set-top-box"
+msgstr "No, just start my set-top-box"
 
 msgid "No, never"
 msgstr ""
@@ -5291,8 +5291,8 @@ msgid "Shutdown"
 msgstr "Shutdown"
 
 #
-msgid "Shutdown Dreambox after"
-msgstr "Shutdown Dreambox after"
+msgid "Shutdown set-top-box after"
+msgstr "Shutdown set-top-box after"
 
 msgid "Side by Side"
 msgstr ""
@@ -5758,8 +5758,8 @@ msgid "Test mode"
 msgstr "Test mode"
 
 #
-msgid "Test the network configuration of your Dreambox.\n"
-msgstr "Test the network configuration of your Dreambox.\n"
+msgid "Test the network configuration of your set-top-box.\n"
+msgstr "Test the network configuration of your set-top-box.\n"
 
 #
 msgid "Test-Messagebox?"
@@ -5785,19 +5785,19 @@ msgstr ""
 #
 msgid ""
 "Thank you for using the wizard. Your box is now ready to use.\n"
-"Please press OK to start using your Dreambox."
+"Please press OK to start using your set-top-box."
 msgstr ""
 "Thank you for using the wizard. Your box is now ready to use.\n"
-"Please press OK to start using your Dreambox."
+"Please press OK to start using your set-top-box."
 
 #
 msgid ""
 "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
-"create a Dreambox format data DVD (which will not play in stand-alone DVD "
+"create a set-top-box format data DVD (which will not play in stand-alone DVD "
 "players) instead?"
 msgstr ""
 "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
-"create a Dreambox format data DVD (which will not play in stand-alone DVD "
+"create a set-top-box format data DVD (which will not play in stand-alone DVD "
 "players) instead?"
 
 #
@@ -5887,10 +5887,10 @@ msgstr "The installation of the default services lists is finished."
 #
 msgid ""
 "The installation of the default settings is finished. You can now continue "
-"configuring your Dreambox by pressing the OK button on the remote control."
+"configuring your set-top-box by pressing the OK button on the remote control."
 msgstr ""
 "The installation of the default settings is finished. You can now continue "
-"configuring your Dreambox by pressing the OK button on the remote control."
+"configuring your set-top-box by pressing the OK button on the remote control."
 
 msgid "The md5sum validation failed, the file may be corrupted!"
 msgstr ""
@@ -6019,8 +6019,8 @@ msgstr ""
 
 #
 #, python-format
-msgid "This Dreambox can't decode %s streams!"
-msgstr "This Dreambox can't decode %s streams!"
+msgid "This set-top-box can't decode %s streams!"
+msgstr "This set-top-box can't decode %s streams!"
 
 #
 msgid "This is step number 2."
@@ -6028,7 +6028,7 @@ msgstr "This is step number 2."
 
 msgid ""
 "This plugin creates a USB stick which can be used to update the firmware of "
-"your Dreambox without the need for a network or WLAN connection.\n"
+"your set-top-box without the need for a network or WLAN connection.\n"
 "First, a USB stick needs to be prepared so that it becomes bootable.\n"
 "In the next step, an NFI image file can be downloaded from the update server "
 "and saved on the USB stick.\n"
@@ -6237,7 +6237,7 @@ msgid "To subtitle selection"
 msgstr ""
 
 msgid ""
-"To update your Dreambox firmware, please follow these steps:\n"
+"To update your set-top-box firmware, please follow these steps:\n"
 "1) Turn off your box with the rear power switch and make sure the bootable "
 "USB stick is plugged in.\n"
 "2) Turn mains back on and hold the DOWN button on the front panel pressed "
@@ -6483,16 +6483,16 @@ msgid "Upgrade finished."
 msgstr "Upgrade finished."
 
 #
-msgid "Upgrade finished. Do you want to reboot your Dreambox?"
-msgstr "Upgrade finished. Do you want to reboot your Dreambox?"
+msgid "Upgrade finished. Do you want to reboot your set-top-box?"
+msgstr "Upgrade finished. Do you want to reboot your set-top-box?"
 
 #
 msgid "Upgrading"
 msgstr "Upgrading"
 
 #
-msgid "Upgrading Dreambox... Please wait"
-msgstr "Upgrading Dreambox... Please wait"
+msgid "Upgrading set-top-box... Please wait"
+msgstr "Upgrading set-top-box... Please wait"
 
 #
 msgid "Use"
@@ -6863,11 +6863,11 @@ msgstr ""
 #
 msgid ""
 "Welcome to the Image upgrade wizard. The wizard will assist you in upgrading "
-"the firmware of your Dreambox by providing a backup facility for your "
+"the firmware of your set-top-box by providing a backup facility for your "
 "current settings and a short explanation of how to upgrade your firmware."
 msgstr ""
 "Welcome to the Image upgrade wizard. The wizard will assist you in upgrading "
-"the firmware of your Dreambox by providing a backup facility for your "
+"the firmware of your set-top-box by providing a backup facility for your "
 "current settings and a short explanation of how to upgrade your firmware."
 
 #
@@ -6875,14 +6875,14 @@ msgid ""
 "Welcome to the cleanup wizard.\n"
 "\n"
 "We have detected that your available internal memory has dropped below 2MB.\n"
-"To ensure stable operation of your Dreambox, the internal memory should be "
+"To ensure stable operation of your set-top-box, the internal memory should be "
 "cleaned up.\n"
 "You can use this wizard to remove some extensions.\n"
 msgstr ""
 "Welcome to the cleanup wizard.\n"
 "\n"
 "We have detected that your available internal memory has dropped below 2MB.\n"
-"To ensure stable operation of your Dreambox, the internal memory should be "
+"To ensure stable operation of your set-top-box, the internal memory should be "
 "cleaned up.\n"
 "You can use this wizard to remove some extensions.\n"
 
@@ -6890,15 +6890,15 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"If you want to connect your Dreambox to the Internet, this wizard will guide "
-"you through the basic network setup of your Dreambox.\n"
+"If you want to connect your set-top-box to the Internet, this wizard will guide "
+"you through the basic network setup of your set-top-box.\n"
 "\n"
 "Press OK to start configuring your network"
 msgstr ""
 "Welcome.\n"
 "\n"
-"If you want to connect your Dreambox to the Internet, this wizard will guide "
-"you through the basic network setup of your Dreambox.\n"
+"If you want to connect your set-top-box to the Internet, this wizard will guide "
+"you through the basic network setup of your set-top-box.\n"
 "\n"
 "Press OK to start configuring your network"
 
@@ -6906,12 +6906,12 @@ msgstr ""
 msgid ""
 "Welcome.\n"
 "\n"
-"This start wizard will guide you through the basic setup of your Dreambox.\n"
+"This start wizard will guide you through the basic setup of your set-top-box.\n"
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
 "Welcome.\n"
 "\n"
-"This start wizard will guide you through the basic setup of your Dreambox.\n"
+"This start wizard will guide you through the basic setup of your set-top-box.\n"
 "Press the OK button on your remote control to move to the next step."
 
 #
@@ -7085,8 +7085,8 @@ msgid "You can install this plugin."
 msgstr "You can install this plugin."
 
 #
-msgid "You can only burn Dreambox recordings!"
-msgstr "You can only burn Dreambox recordings!"
+msgid "You can only burn set-top-box recordings!"
+msgstr "You can only burn set-top-box recordings!"
 
 #
 msgid "You can remove this plugin."
@@ -7148,15 +7148,15 @@ msgstr "You have to wait %s!"
 
 #
 msgid ""
-"You need a PC connected to your dreambox. If you need further instructions, "
+"You need a PC connected to your set-top-box. If you need further instructions, "
 "please visit the website http://www.dm7025.de.\n"
-"Your dreambox will now be halted. After you have performed the update "
+"Your set-top-box will now be halted. After you have performed the update "
 "instructions from the website, your new firmware will ask you to restore "
 "your settings."
 msgstr ""
-"You need a PC connected to your dreambox. If you need further instructions, "
+"You need a PC connected to your set-top-box. If you need further instructions, "
 "please visit the website http://www.dm7025.de.\n"
-"Your dreambox will now be halted. After you have performed the update "
+"Your set-top-box will now be halted. After you have performed the update "
 "instructions from the website, your new firmware will ask you to restore "
 "your settings."
 
@@ -7171,33 +7171,33 @@ msgstr ""
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
 msgstr ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
 
 #
 msgid ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
 "Please press OK to continue."
 msgstr ""
-"Your Dreambox is now ready to use.\n"
+"Your set-top-box is now ready to use.\n"
 "\n"
 "Your internet connection is working now.\n"
 "\n"
 "Please press OK to continue."
 
 #
-msgid "Your Dreambox will restart after pressing OK on your remote control."
-msgstr "Your Dreambox will restart after pressing OK on your remote control."
+msgid "Your set-top-box will restart after pressing OK on your remote control."
+msgstr "Your set-top-box will restart after pressing OK on your remote control."
 
 #
 msgid ""
@@ -7220,15 +7220,15 @@ msgid "Your current collection will get lost!"
 msgstr "Your current collection will get lost!"
 
 #
-msgid "Your dreambox is shutting down. Please stand by..."
-msgstr "Your dreambox is shutting down. Please stand by..."
+msgid "Your set-top-box is shutting down. Please stand by..."
+msgstr "Your set-top-box is shutting down. Please stand by..."
 
 #
 msgid ""
-"Your dreambox isn't connected to the internet properly. Please check it and "
+"Your set-top-box isn't connected to the internet properly. Please check it and "
 "try again."
 msgstr ""
-"Your dreambox isn't connected to the internet properly. Please check it and "
+"Your set-top-box isn't connected to the internet properly. Please check it and "
 "try again."
 
 #
@@ -7643,19 +7643,19 @@ msgstr "don't record"
 msgid "done!"
 msgstr "done!"
 
-msgid "dreambox advanced remote control (native)"
+msgid "set-top-box advanced remote control (native)"
 msgstr ""
 
-msgid "dreambox front panel"
+msgid "set-top-box front panel"
 msgstr ""
 
-msgid "dreambox ir keyboard"
+msgid "set-top-box ir keyboard"
 msgstr ""
 
-msgid "dreambox ir mouse"
+msgid "set-top-box ir mouse"
 msgstr ""
 
-msgid "dreambox remote control (native)"
+msgid "set-top-box remote control (native)"
 msgstr ""
 
 msgid "east"
@@ -8555,11 +8555,11 @@ msgstr "yes (keep feeds)"
 
 #
 msgid ""
-"your dreambox might be unusable now. Please consult the manual for further "
-"assistance before rebooting your dreambox."
+"your set-top-box might be unusable now. Please consult the manual for further "
+"assistance before rebooting your set-top-box."
 msgstr ""
-"your dreambox might be unusable now. Please consult the manual for further "
-"assistance before rebooting your dreambox."
+"your set-top-box might be unusable now. Please consult the manual for further "
+"assistance before rebooting your set-top-box."
 
 #
 msgid "zap"
@@ -8696,8 +8696,8 @@ msgstr "zapped"
 #~ "Inactive"
 
 #
-#~ msgid "Add a new NFS or CIFS mount point to your Dreambox."
-#~ msgstr "Add a new NFS or CIFS mount point to your Dreambox."
+#~ msgid "Add a new NFS or CIFS mount point to your set-top-box."
+#~ msgstr "Add a new NFS or CIFS mount point to your set-top-box."
 
 #
 #~ msgid "Add new AutoTimer"
@@ -8908,8 +8908,8 @@ msgstr "zapped"
 #~ msgstr "Change setup pin"
 
 #
-#~ msgid "Change the hostname of your Dreambox."
-#~ msgstr "Change the hostname of your Dreambox."
+#~ msgid "Change the hostname of your set-top-box."
+#~ msgstr "Change the hostname of your set-top-box."
 
 #
 #~ msgid "Channel audio:"
@@ -9321,8 +9321,8 @@ msgstr "zapped"
 #~ msgstr "Enter WLAN passphrase/key:"
 
 #
-#~ msgid "Enter new hostname for your Dreambox"
-#~ msgstr "Enter new hostname for your Dreambox"
+#~ msgid "Enter new hostname for your set-top-box"
+#~ msgstr "Enter new hostname for your set-top-box"
 
 #
 #~ msgid "Enter options:"
@@ -9463,8 +9463,8 @@ msgstr "zapped"
 #~ msgstr "General PCM delay"
 
 #
-#~ msgid "Genuine Dreambox"
-#~ msgstr "Genuine Dreambox"
+#~ msgid "Genuine set-top-box"
+#~ msgstr "Genuine set-top-box"
 
 #
 #~ msgid "Germany"
@@ -10070,10 +10070,10 @@ msgstr "zapped"
 
 #
 #~ msgid ""
-#~ "Please disconnect all USB devices from your Dreambox and (re-)attach the "
+#~ "Please disconnect all USB devices from your set-top-box and (re-)attach the "
 #~ "target USB stick (minimum size is 64 MB) now!"
 #~ msgstr ""
-#~ "Please disconnect all USB devices from your Dreambox and (re-)attach the "
+#~ "Please disconnect all USB devices from your set-top-box and (re-)attach the "
 #~ "target USB stick (minimum size is 64 MB) now!"
 
 #
@@ -10791,8 +10791,8 @@ msgstr "zapped"
 #~ "to flash memory?"
 
 #
-#~ msgid "This Dreambox can't decode %s video streams!"
-#~ msgstr "This Dreambox can't decode %s video streams!"
+#~ msgid "This set-top-box can't decode %s video streams!"
+#~ msgstr "This set-top-box can't decode %s video streams!"
 
 #
 #~ msgid "This Month"
@@ -10886,14 +10886,14 @@ msgstr "zapped"
 
 #
 #~ msgid ""
-#~ "To update your Dreambox firmware, please follow these steps:\n"
+#~ "To update your set-top-box firmware, please follow these steps:\n"
 #~ "1) Turn off your box with the rear power switch and plug in the bootable "
 #~ "USB stick.\n"
 #~ "2) Turn mains back on and hold the DOWN button on the front panel pressed "
 #~ "for 10 seconds.\n"
 #~ "3) Wait for bootup and follow instructions of the wizard."
 #~ msgstr ""
-#~ "To update your Dreambox firmware, please follow these steps:\n"
+#~ "To update your set-top-box firmware, please follow these steps:\n"
 #~ "1) Turn off your box with the rear power switch and plug in the bootable "
 #~ "USB stick.\n"
 #~ "2) Turn mains back on and hold the DOWN button on the front panel pressed "
@@ -11048,8 +11048,8 @@ msgstr "zapped"
 #~ msgstr "View response videos"
 
 #
-#~ msgid "View, edit or delete mountpoints on your Dreambox."
-#~ msgstr "View, edit or delete mountpoints on your Dreambox."
+#~ msgid "View, edit or delete mountpoints on your set-top-box."
+#~ msgstr "View, edit or delete mountpoints on your set-top-box."
 
 #
 #~ msgid "View, edit or delete usernames and passwords for your network."
@@ -11229,10 +11229,10 @@ msgstr "zapped"
 
 #
 #~ msgid ""
-#~ "You do not seem to have a harddisk in your Dreambox. So backing up to a "
+#~ "You do not seem to have a harddisk in your set-top-box. So backing up to a "
 #~ "harddisk is not an option for you."
 #~ msgstr ""
-#~ "You do not seem to have a harddisk in your Dreambox. So backing up to a "
+#~ "You do not seem to have a harddisk in your set-top-box. So backing up to a "
 #~ "harddisk is not an option for you."
 
 #
