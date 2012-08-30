@@ -144,7 +144,7 @@ msgid " extensions."
 msgstr " расширений"
 
 msgid " ms"
-msgstr ""
+msgstr "мс"
 
 msgid " packages selected."
 msgstr " пакетов выбрано."
@@ -1261,7 +1261,7 @@ msgstr "Common Interfaсе"
 
 #
 msgid "Common Interface Assignment"
-msgstr ""
+msgstr "Назначение Common Interface"
 
 #
 msgid "CommonInterface"
@@ -1512,7 +1512,7 @@ msgstr "DTS микширование"
 
 #
 msgid "DUAL LAYER DVD"
-msgstr ""
+msgstr "Двухслойный DVD"
 
 msgid "DVB subtitle black transparency"
 msgstr "Прозрачность DVB субтитров"
@@ -1547,7 +1547,7 @@ msgstr "DVD плеер"
 
 #
 msgid "DVD Titlelist"
-msgstr ""
+msgstr "Заголовки DVD"
 
 msgid "DVD data format"
 msgstr "Формат данных DVD"
@@ -1601,7 +1601,7 @@ msgstr "Удалить"
 
 #
 msgid "Delete crashlogs"
-msgstr ""
+msgstr "Удалить крешлоги"
 
 #
 msgid "Delete entry"
@@ -1719,7 +1719,7 @@ msgstr "Отменить фоновое сканирование"
 
 #
 msgid "Disable crashlog reporting"
-msgstr ""
+msgstr "Отменить отчет о сбое"
 
 #
 msgid "Disable timer"
@@ -1957,7 +1957,7 @@ msgstr "Формат данных DVD set-top-box(HDTV-совместимый)"
 
 #
 msgid "set-top-box software because updates are available."
-msgstr ""
+msgstr "Доступно обновление программного обеспечения"
 
 #
 msgid "Dutch"
@@ -3000,7 +3000,7 @@ msgstr "Ограничения включить"
 
 #
 msgid "Link Quality:"
-msgstr ""
+msgstr "Качество соединения:"
 
 #
 msgid "Link:"
@@ -3354,7 +3354,7 @@ msgid "Network Configuration..."
 msgstr "Конфигурация сети..."
 
 msgid "Network ID"
-msgstr ""
+msgstr "ID сети"
 
 #
 msgid "Network Mount"
@@ -3549,7 +3549,7 @@ msgstr ""
 "не будет включена!"
 
 msgid "No wireless networks found! Searching..."
-msgstr ""
+msgstr "Беспроводная сеть не найдена! Поиск..."
 
 #
 msgid ""
@@ -4174,7 +4174,7 @@ msgid "Position of finished Timers in Timerlist"
 msgstr "Позиция окончания Таймеров в списке таймеров"
 
 msgid "Position stored at index"
-msgstr ""
+msgstr "Позиция сохранена как индекс"
 
 #
 msgid "Positioner"
@@ -4542,7 +4542,7 @@ msgstr "Переименовать"
 
 #
 msgid "Rename crashlogs"
-msgstr ""
+msgstr "Переименовать крешлоги"
 
 #
 msgid "Repeat Type"
@@ -6367,7 +6367,7 @@ msgid ""
 msgstr ""
 
 msgid "Unattended upgrade without GUI and reboot system"
-msgstr ""
+msgstr "Автоматическое обновление без GUI и перезагрузка"
 
 #
 msgid "Uncommitted DiSEqC command"
@@ -6807,9 +6807,6 @@ msgstr "Среда"
 #
 msgid "Weekday"
 msgstr "День недели"
-
-msgid "Взвешенная позиция"
-msgstr ""
 
 #
 msgid ""
@@ -8454,7 +8451,7 @@ msgstr "неизвестный сервис"
 
 #
 msgid "until standby/restart"
-msgstr ""
+msgstr "до ждущего режима/перезагрузки"
 
 #
 msgid "user defined"
