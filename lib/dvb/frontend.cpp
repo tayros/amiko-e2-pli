@@ -572,10 +572,12 @@ int eDVBFrontend::openFrontend()
 #endif
 					break;
 				}
+#if not defined(__sh__)
 				case FE_ATSC:	// placeholder to prevent warning
 				{
 					break;
 				}
+#endif
 			}
 #endif
 			switch (fe_info.type)
