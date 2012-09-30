@@ -97,6 +97,7 @@ class AutoDiseqc(Screen, ConfigListScreen):
 		eDVBFrontendParametersSatellite.RollOff_auto, eDVBFrontendParametersSatellite.Pilot_Unknown, \
 		101, 100, \
 		"900", "Yamal 201 90.0e"),
+
 	]
 
 	SAT_TABLE_FREQUENCY = 0
