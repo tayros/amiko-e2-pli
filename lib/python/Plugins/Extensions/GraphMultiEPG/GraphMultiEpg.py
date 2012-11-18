@@ -40,10 +40,11 @@ config.misc.graph_mepg.items_per_page_listscreen = ConfigSelectionNumber(min = 3
 config.misc.graph_mepg.default_mode = ConfigYesNo(default = False)
 config.misc.graph_mepg.overjump = ConfigYesNo(default = True)
 config.misc.graph_mepg.servicetitle_mode = ConfigSelection(default = "picon+servicename", choices = [
-	("servicename", _("Service Name")),
+	("servicename", _("Service name")),
 	("picon", _("Picon")),
-	("picon+servicename", _("Picon and Service Name")) ])
-config.misc.graph_mepg.roundTo = ConfigSelection(default = 15, choices = [("900", _("%d minutes") % 15), ("1800", _("%d minutes") % 30), ("3600", _("%d minutes") % 60)])
+	("picon+servicename", _("Picon and service name")) ])
+config.misc.graph_mepg.roundTo = ConfigSelection(default = "900", choices = [("900", _("%d minutes") % 15), ("1800", _("%d minutes") % 30), ("3600", _("%d minutes") % 60)])
+config.misc.graph_mepg.OKButton = ConfigSelection(default = "info", choices = [("info", _("Show detailed event info")), ("zap", _("Zap to selected channel"))])
 
 listscreen = config.misc.graph_mepg.default_mode.value
 
@@ -61,11 +62,11 @@ class EPGList(HTMLComponent, GUIComponent):
 		self.l.setBuildFunc(self.buildEntry)
 		self.setOverjump_Empty(overjump_empty)
 		self.epgcache = eEPGCache.getInstance()
-		self.clock_pixmap = LoadPixmap(cached=True, path=resolveFilename(SCOPE_CURRENT_SKIN, 'skin_default/icons/epgclock.png'))
-		self.clock_add_pixmap = LoadPixmap(cached=True, path=resolveFilename(SCOPE_CURRENT_SKIN, 'skin_default/icons/epgclock_add.png'))
-		self.clock_pre_pixmap = LoadPixmap(cached=True, path=resolveFilename(SCOPE_CURRENT_SKIN, 'skin_default/icons/epgclock_pre.png'))
-		self.clock_post_pixmap = LoadPixmap(cached=True, path=resolveFilename(SCOPE_CURRENT_SKIN, 'skin_default/icons/epgclock_post.png'))
-		self.clock_prepost_pixmap = LoadPixmap(cached=True, path=resolveFilename(SCOPE_CURRENT_SKIN, 'skin_default/icons/epgclock_prepost.png'))
+		self.clocks =  [ LoadPixmap(cached=True, path=resolveFilename(SCOPE_CURRENT_SKIN, 'skin_default/icons/epgclock_add.png')),
+				 LoadPixmap(cached=True, path=resolveFilename(SCOPE_CURRENT_SKIN, 'skin_default/icons/epgclock_pre.png')),
+				 LoadPixmap(cached=True, path=resolveFilename(SCOPE_CURRENT_SKIN, 'skin_default/icons/epgclock.png')),
+				 LoadPixmap(cached=True, path=resolveFilename(SCOPE_CURRENT_SKIN, 'skin_default/icons/epgclock_prepost.png')),
+				 LoadPixmap(cached=True, path=resolveFilename(SCOPE_CURRENT_SKIN, 'skin_default/icons/epgclock_post.png')) ]
 		self.time_base = None
 		self.time_epoch = time_epoch
 		self.list = None
@@ -80,6 +81,7 @@ class EPGList(HTMLComponent, GUIComponent):
 		self.nowEvPix = None
 		self.othEvPix = None
 		self.selEvPix = None
+		self.recEvPix = None
 
 		self.foreColor = 0xffffff
 		self.foreColorSelected = 0xffc000
@@ -286,6 +288,7 @@ class EPGList(HTMLComponent, GUIComponent):
 		self.l.setItemHeight(itemHeight)
 
 		self.picload.setPara((self.listWidth, itemHeight - 2 * self.eventBorderWidth, 0, 0, 1, 1, "#00000000"))
+
 		self.picload.startDecode(resolveFilename(SCOPE_CURRENT_SKIN, 'epg/CurrentEvent.png'), 0, 0, False)
 		self.nowEvPix = self.picload.getData()
 
@@ -294,6 +297,9 @@ class EPGList(HTMLComponent, GUIComponent):
 
 		self.picload.startDecode(resolveFilename(SCOPE_CURRENT_SKIN, 'epg/SelectedEvent.png'), 0, 0, False)
 		self.selEvPix = self.picload.getData()
+
+		self.picload.startDecode(resolveFilename(SCOPE_CURRENT_SKIN, 'epg/RecordingEvent.png'), 0, 0, False)
+		self.recEvPix = self.picload.getData()
 
 	def setEventFontsize(self):
 		self.l.setFont(1, gFont(self.entryFontName, self.entryFontSize + config.misc.graph_mepg.ev_fontsize.getValue()))
@@ -430,6 +436,7 @@ class EPGList(HTMLComponent, GUIComponent):
 				stime = ev[2]
 				duration = ev[3]
 				xpos, ewidth = self.calcEntryPosAndWidthHelper(stime, duration, start, end, width)
+				rec = self.timer.isInTimer(ev[0], stime, duration, service)
 
 				# event box background
 				if stime <= now and now < stime + duration:
@@ -442,6 +449,8 @@ class EPGList(HTMLComponent, GUIComponent):
 				if selected and self.select_rect.x == xpos + left and self.selEvPix:
 					bgpng = self.selEvPix
 					backColorSel = None
+				elif rec is not None and rec[1] == 2:
+					bgpng = self.recEvPix
 				elif stime <= now and now < stime + duration:
 					bgpng = self.nowEvPix
 				else:
@@ -473,11 +482,10 @@ class EPGList(HTMLComponent, GUIComponent):
 						color = foreColor, color_sel = self.foreColorSelected,
 						backcolor_sel = backColorSel))
 				# recording icons
-				rec = stime and self.timer.isInTimer(ev[0], stime, duration, service)
-				if rec and ewidth > 23:
+				if rec is not None and ewidth > 23:
 					res.append(MultiContentEntryPixmapAlphaTest(
 						pos = (left + xpos + ewidth - 22, top + height - 22), size = (21, 21),
-						png = self.getClockPixmap(service, stime, duration, ev[0])) )
+						png = self.clocks[rec[1]] ) )
 		return res
 
 	def selEntry(self, dir, visible = True):
@@ -582,30 +590,6 @@ class EPGList(HTMLComponent, GUIComponent):
 	def resetOffset(self):
 		self.offs = 0
 	
-	def getClockPixmap(self, refstr, beginTime, duration, eventId):
-		pre_clock = 1
-		post_clock = 2
-		clock_type = 0
-		endTime = beginTime + duration
-		for x in self.timer.timer_list:
-			if x.service_ref.ref.toString() == refstr:
-				if x.eit == eventId:
-					return self.clock_pixmap
-				beg = x.begin
-				end = x.end
-				if beginTime > beg and beginTime < end and endTime > end:
-					clock_type |= pre_clock
-				elif beginTime < beg and endTime > beg and endTime < end:
-					clock_type |= post_clock
-		if clock_type == 0:
-			return self.clock_add_pixmap
-		elif clock_type == pre_clock:
-			return self.clock_pre_pixmap
-		elif clock_type == post_clock:
-			return self.clock_post_pixmap
-		else:
-			return self.clock_prepost_pixmap
-
 class TimelineText(HTMLComponent, GUIComponent):
 	def __init__(self):
 		GUIComponent.__init__(self)
@@ -762,15 +746,15 @@ class GraphMultiEPG(Screen, HelpableScreen):
 		self["okactions"] = HelpableActionMap(self, "OkCancelActions",
 			{
 				"cancel": (self.closeScreen,   _("Exit EPG")),
-				"ok":	  (self.eventSelected, _("Show detailed event info"))
+				"ok":	  (self.eventSelected, _("Zap to selected channel, or show detailed event info (depends on configuration)"))
 			}, -1)
 		self["okactions"].csel = self
 		self["epgactions"] = HelpableActionMap(self, "EPGSelectActions",
 			{
-				"timerAdd":    (self.timerAdd,       _("Add/Remove timer for current event")),
+				"timerAdd":    (self.timerAdd,       _("Add/remove timer for current event")),
 				"info":        (self.infoKeyPressed, _("Show detailed event info")),
 				"red":         (self.zapTo,          _("Zap to selected channel")),
-				"yellow":      (self.swapMode,       _("Swap from normal to list mode")),	
+				"yellow":      (self.swapMode,       _("Switch between normal mode and list mode")),	
 				"blue":        (self.enterDateTime,  _("Goto specific data/time")),
 				"menu":        (self.showSetup,      _("Setup menu")),
 				"nextBouquet": (self.nextBouquet,    _("Show bouquet selection menu")),
@@ -783,17 +767,17 @@ class GraphMultiEPG(Screen, HelpableScreen):
 
 		self["inputactions"] = HelpableActionMap(self, "InputActions",
 			{
-				"left":  (self.leftPressed,  _("Goto previous event")),
-				"right": (self.rightPressed, _("Goto next event")),
+				"left":  (self.leftPressed,  _("Go to previous event")),
+				"right": (self.rightPressed, _("Go to next event")),
 				"1":     (self.key1,         _("Set time window to 1 hour")),
 				"2":     (self.key2,         _("Set time window to 2 hours")),
 				"3":     (self.key3,         _("Set time window to 3 hours")),
 				"4":     (self.key4,         _("Set time window to 4 hours")),
 				"5":     (self.key5,         _("Set time window to 5 hours")),
-				"7":     (self.prevPage,     _("Goto previous page of service")),
-				"9":     (self.nextPage,     _("Goto next page of service")),
-				"8":     (self.toTop,        _("Goto first service")),
-				"0":     (self.toEnd,        _("Goto last service"))
+				"7":     (self.prevPage,     _("Go to previous page of service")),
+				"9":     (self.nextPage,     _("Go to next page of service")),
+				"8":     (self.toTop,        _("Go to first service")),
+				"0":     (self.toEnd,        _("Go to last service"))
 			}, -1)
 		self["inputactions"].csel = self
 
@@ -968,7 +952,10 @@ class GraphMultiEPG(Screen, HelpableScreen):
 		self.close(None)
 
 	def eventSelected(self):
-		self.infoKeyPressed()
+		if config.misc.graph_mepg.OKButton.value == "info":
+			self.infoKeyPressed()
+		else:
+			self.zapTo()
 
 	def removeTimer(self, timer):
 		timer.afterEvent = AFTEREVENT.NONE

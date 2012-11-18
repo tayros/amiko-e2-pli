@@ -28,6 +28,12 @@ TUXBOX_APPS_DVB
 AM_CONDITIONAL(HAVE_GIT_DIR, test -d "$srcdir/.git")
 AM_CONDITIONAL(HAVE_FAKE_GIT_DIR, test -f "$srcdir/.git/last_commit_info")
 
+dnl versions of gstreamer and plugins-base
+AC_ARG_WITH(gstversion,
+	AS_HELP_STRING([--with-gstversion],[use gstreamer version (major.minor)]),
+	[GST_MAJORMINOR=$withval],[GST_MAJORMINOR=0.10])
+
+PKG_CHECK_MODULES(BASE, [freetype2 fribidi gstreamer-$GST_MAJORMINOR gstreamer-pbutils-$GST_MAJORMINOR libdvbsi++ libpng libxml-2.0 sigc++-1.2 libssl libcrypto])
 PKG_CHECK_MODULES(LIBDDVD, libdreamdvd, HAVE_LIBDDVD="yes", HAVE_LIBDDVD="no")
 
 AC_ARG_ENABLE(libeplayer3,
@@ -46,24 +52,6 @@ PKG_CHECK_MODULES(BASE, [freetype2 fribidi libdvbsi++ libpng libxml-2.0 sigc++-1
 fi
 
 AM_CONDITIONAL(HAVE_LIBDDVD, test "$HAVE_LIBDDVD" = "yes")
-
-AC_ARG_ENABLE([tf7700],
-	[AS_HELP_STRING(--enable-tf7700,    enable topfield tf7700 stuff)],
-	[case "${enableval}" in
-		yes) enable_tf7700=true ;;
-		no) enable_tf7700=false ;;
-		*) AC_MSG_ERROR([bad value ${enableval} for --enable-tf7700]) ;;
-	esac])
-AM_CONDITIONAL([ENABLE_TF7700], [test x$enable_tf7700 = xtrue])
-
-AC_ARG_ENABLE([cuberevo],
-	[AS_HELP_STRING(--enable-cuberevo,    enable cuberevo stuff)],
-	[case "${enableval}" in
-		yes) enable_cuberevo=true ;;
-		no) enable_cuberevo=false ;;
-		*) AC_MSG_ERROR([bad value ${enableval} for --enable-cuberevo]) ;;
-	esac])
-AM_CONDITIONAL([ENABLE_CUBEREVO], [test x$enable_cuberevo = xtrue])
 
 AC_CHECK_LIB([dl], [dlopen], [LIBDL_LIBS="-ldl"], [AC_MSG_ERROR([Could not find libdl])])
 AC_SUBST(LIBDL_LIBS)
@@ -128,10 +116,6 @@ if test x"$witholdpvr" != xno ; then
 	AC_DEFINE(HAVE_OLDPVR, 1,[Define when using /dev/misc/pvr])
 fi
 AM_CONDITIONAL(HAVE_OLDPVR, test x"$witholdpvr" != xno)
-
-if test x"$BOXTYPE" == "xdm8000" -o x"$BOXTYPE" == "xdm7020hd" ; then
-	AC_DEFINE(KEY_PLAY_ACTUALLY_IS_KEY_PLAYPAUSE, 1,[define when rc sends a KEY_PLAY event for its KEY_PLAYPAUSE key])
-fi
 
 if test x"$BOXTYPE" == "xvuduo" -o x"$BOXTYPE" == "xvusolo" -o x"$BOXTYPE" == "xvuuno" -o x"$BOXTYPE" == "xvuultimo"; then
 	AC_DEFINE(FORCE_NO_BLENDING_ACCELERATION, 1,[define when the framebuffer acceleration does not have alphablending support, though the autodetection might indicate that it does])
@@ -252,12 +236,8 @@ lib/python/Plugins/Extensions/SocketMMI/Makefile
 lib/python/Plugins/Extensions/SocketMMI/meta/Makefile
 lib/python/Plugins/Extensions/SocketMMI/src/Makefile
 lib/python/Plugins/PLi/Makefile
-lib/python/Plugins/SystemPlugins/CleanupWizard/Makefile
-lib/python/Plugins/SystemPlugins/CleanupWizard/meta/Makefile
 lib/python/Plugins/SystemPlugins/CommonInterfaceAssignment/Makefile
 lib/python/Plugins/SystemPlugins/CommonInterfaceAssignment/meta/Makefile
-lib/python/Plugins/SystemPlugins/CrashlogAutoSubmit/Makefile
-lib/python/Plugins/SystemPlugins/CrashlogAutoSubmit/meta/Makefile
 lib/python/Plugins/SystemPlugins/DefaultServicesScanner/Makefile
 lib/python/Plugins/SystemPlugins/DefaultServicesScanner/meta/Makefile
 lib/python/Plugins/SystemPlugins/DiseqcTester/Makefile

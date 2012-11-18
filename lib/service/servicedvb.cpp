@@ -97,11 +97,6 @@ int eStaticServiceDVBInformation::isPlayable(const eServiceReference &ref, const
 	return false;
 }
 
-extern void PutToDict(ePyObject &dict, const char*key, long value);  // defined in dvb/frontend.cpp
-extern void PutSatelliteDataToDict(ePyObject &dict, eDVBFrontendParametersSatellite &feparm); // defined in dvb/frontend.cpp
-extern void PutTerrestrialDataToDict(ePyObject &dict, eDVBFrontendParametersTerrestrial &feparm); // defined in dvb/frontend.cpp
-extern void PutCableDataToDict(ePyObject &dict, eDVBFrontendParametersCable &feparm); // defined in dvb/frontend.cpp
-
 PyObject *eStaticServiceDVBInformation::getInfoObject(const eServiceReference &r, int what)
 {
 	if (r.type == eServiceReference::idDVB)
@@ -126,27 +121,21 @@ PyObject *eStaticServiceDVBInformation::getInfoObject(const eServiceReference &r
 							if (!feparm->getSystem(system))
 							{
 								ePyObject dict = PyDict_New();
-								switch(system)
+								switch (system)
 								{
 									case iDVBFrontend::feSatellite:
 									{
-										eDVBFrontendParametersSatellite s;
-										feparm->getDVBS(s);
-										PutSatelliteDataToDict(dict, s);
+										PutSatelliteDataToDict(dict, feparm);
 										break;
 									}
 									case iDVBFrontend::feTerrestrial:
 									{
-										eDVBFrontendParametersTerrestrial t;
-										feparm->getDVBT(t);
-										PutTerrestrialDataToDict(dict, t);
+										PutTerrestrialDataToDict(dict, feparm);
 										break;
 									}
 									case iDVBFrontend::feCable:
 									{
-										eDVBFrontendParametersCable c;
-										feparm->getDVBC(c);
-										PutCableDataToDict(dict, c);
+										PutCableDataToDict(dict, feparm);
 										break;
 									}
 									default:
@@ -556,7 +545,7 @@ RESULT eDVBPVRServiceOfflineOperations::reindex()
 
 	eRawFile f;
 
-	int err = f.open(m_ref.path.c_str(), 0);
+	int err = f.open(m_ref.path.c_str());
 	if (err < 0)
 		return -1;
 
@@ -576,7 +565,6 @@ RESULT eDVBPVRServiceOfflineOperations::reindex()
 	}
 
 	parser.stopSave();
-	f.close();
 
 	return 0;
 }
@@ -1588,7 +1576,7 @@ RESULT eDVBServicePlay::getPlayPosition(pts_t &pos)
 	}
 
 		/* fixup */
-	return pvr_channel->getCurrentPosition(m_decode_demux, pos, m_decoder ? 1 : 0);
+	return pvr_channel->getCurrentPosition(m_decode_demux, pos, m_decoder);
 }
 
 RESULT eDVBServicePlay::setTrickmode(int trick)
@@ -1872,6 +1860,13 @@ std::string eDVBServicePlay::getInfoString(int w)
 		eDVBServicePMTHandler &h = m_timeshift_active ? m_service_handler_timeshift : m_service_handler;
 		h.getHBBTVUrl(url);
 		return url;
+	}
+	case sLiveStreamDemuxId:
+	{
+		eDVBServicePMTHandler &h = m_timeshift_active ? m_service_handler_timeshift : m_service_handler;
+		std::string demux;
+		demux += h.getDemuxID() + '0';
+		return demux;
 	}
 	default:
 		break;

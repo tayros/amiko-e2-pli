@@ -11,30 +11,28 @@ class eRawFile: public iTsSource
 public:
 	eRawFile(int packetsize = 188);
 	~eRawFile();
-	int open(const char *filename, int cached = 0);
-	void setfd(int fd);
-	int close();
+	int open(const char *filename);
 
 	// iTsSource
-	off_t lseek(off_t offset, int whence);
 	ssize_t read(off_t offset, void *buf, size_t count);
 	off_t length();
 	off_t offset();
 	int valid();
 private:
-	int m_fd;     /* for uncached */
-	FILE *m_file; /* for cached */
-	int m_cached;
-	off_t m_splitsize, m_totallength, m_current_offset, m_base_offset, m_last_offset;
+	int m_fd;
 	int m_nrfiles;
+	off_t m_splitsize;
+	off_t m_totallength;
+	off_t m_current_offset;
+	off_t m_base_offset;
+	off_t m_last_offset;
 	int m_current_file;
-	int m_fadvise_chunk;
 	std::string m_basename;
 
+	int close();
 	void scan();
 	int switchOffset(off_t off);
-	off_t lseek_internal(off_t offset, int whence);
-	FILE *openFileCached(int nr);
+	off_t lseek_internal(off_t offset);
 	int openFileUncached(int nr);
 };
 

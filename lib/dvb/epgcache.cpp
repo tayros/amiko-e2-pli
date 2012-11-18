@@ -7,6 +7,7 @@
 #include <lib/service/event.h>
 #endif
 
+#include <fstream>
 #include <time.h>
 #include <unistd.h>  // for usleep
 #include <sys/vfs.h> // for statfs
@@ -23,7 +24,7 @@
 int eventData::CacheSize=0;
 bool eventData::isCacheCorrupt = 0;
 descriptorMap eventData::descriptors;
-__u8 eventData::data[4108];
+__u8 eventData::data[2 * 4096 + 12];
 extern const uint32_t crc32_table[256];
 
 const eServiceReference &handleGroup(const eServiceReference &ref)
@@ -215,17 +216,17 @@ eventData::eventData(const eit_event_struct* e, int size, int type, int tsidonid
 
 const eit_event_struct* eventData::get() const
 {
-	int pos = 12;
-	int tmp = ByteSize-10;
+	unsigned int pos = 12;
+	int tmp = ByteSize - 10;
 	memcpy(data, EITdata, 10);
-	int descriptors_length=0;
+	unsigned int descriptors_length = 0;
 #ifndef __sh__
-	__u32 *p = (__u32*)(EITdata+10);
+	__u32 *p = (__u32*)(EITdata + 10);
 #else
 // Dagobert: fix not aligned access
 	__u8 *p = (__u8*)(EITdata+10);
 #endif
-	while(tmp>3)
+	while (tmp > 3)
 	{
 #ifndef __sh__
 		descriptorMap::iterator it =
@@ -238,18 +239,20 @@ const eit_event_struct* eventData::get() const
 
 		p += 4;
 #endif
-		if ( it != descriptors.end() )
+		if (it != descriptors.end())
 		{
-			int b = it->second.second[1]+2;
-			memcpy(data+pos, it->second.second, b );
-			pos += b;
-			descriptors_length += b;
+			unsigned int b = it->second.second[1] + 2;
+			if (pos + b < sizeof(data))
+			{
+				memcpy(data + pos, it->second.second, b);
+				pos += b;
+				descriptors_length += b;
+			}
 		}
 		else
 			cacheCorrupt("eventData::get");
-		tmp-=4;
+		tmp -= 4;
 	}
-	ASSERT(pos <= 4108);
 	data[10] = (descriptors_length >> 8) & 0x0F;
 	data[11] = descriptors_length & 0xFF;
 	return (eit_event_struct*)data;
@@ -372,6 +375,14 @@ eEPGCache::eEPGCache()
 	CONNECT(messages.recv_msg, eEPGCache::gotMessage);
 	CONNECT(eDVBLocalTimeHandler::getInstance()->m_timeUpdated, eEPGCache::timeUpdated);
 	CONNECT(cleanTimer->timeout, eEPGCache::cleanLoop);
+
+	std::ifstream onid_file;
+	onid_file.open("/etc/enigma2/blacklist.onid");
+	int tmp_onid;
+
+	while (onid_file >> std::hex >>tmp_onid)
+	         onid_blacklist.insert(onid_blacklist.end(),1,tmp_onid);
+	onid_file.close();
 
 	ePtr<eDVBResourceManager> res_mgr;
 	eDVBResourceManager::getInstance(res_mgr);
@@ -748,6 +759,10 @@ void eEPGCache::sectionRead(const __u8 *data, int source, channel_data *channel)
 			eit_event->start_time_4,
 			eit_event->start_time_5,
 			&event_hash);
+
+		std::vector<int>::iterator m_it=find(onid_blacklist.begin(),onid_blacklist.end(),onid);
+		if (m_it != onid_blacklist.end())
+			goto next;
 
 		if ( (TM != 3599) &&		// NVOD Service
 		     (now <= (TM+duration)) &&	// skip old events
@@ -1188,113 +1203,125 @@ void eEPGCache::thread()
 	m_running = false;
 }
 
+static const char* EPGDAT_IN_FLASH = "/epg.dat";
+
 void eEPGCache::load()
 {
 	if (m_filename.empty())
 		m_filename = "/hdd/epg.dat";
+	const char* EPGDAT = m_filename.c_str();
 	std::string filenamex = m_filename + ".loading";
 	const char* EPGDATX = filenamex.c_str();
-	const char* EPGDAT = m_filename.c_str();
-	// cleanup any mess
-	unlink(EPGDATX);
-	FILE *f = fopen(EPGDAT, "r");
-	if (f)
+	FILE *f = fopen(EPGDAT, "rb");
+	int renameResult;
+	if (f == NULL)
 	{
-		int renameResult = rename(EPGDAT, EPGDATX);
-		if (renameResult) eDebug("[EPGC] failed to rename epg.dat");
+		/* No EPG on harddisk, so try internal flash */
+		eDebug("[EPGC] %s not found, try /epg.dat", EPGDAT);
+		EPGDAT = EPGDAT_IN_FLASH;
+		f = fopen(EPGDAT, "rb");
+		if (f == NULL)
+			return;
+		renameResult = -1;
+	}
+	else
+	{
+		unlink(EPGDATX);
+		renameResult = rename(EPGDAT, EPGDATX);
+		if (renameResult) eDebug("[EPGC] failed to rename %s", EPGDAT);
+	}
+	{
 		int size=0;
 		int cnt=0;
-
+		unsigned int magic=0;
+		unlink(EPGDAT_IN_FLASH);/* Don't keep it around when in flash */
+		fread( &magic, sizeof(int), 1, f);
+		if (magic != 0x98765432)
 		{
-			unsigned int magic=0;
-			fread( &magic, sizeof(int), 1, f);
-			if (magic != 0x98765432)
+			eDebug("[EPGC] epg file has incorrect byte order.. dont read it");
+			fclose(f);
+			return;
+		}
+		char text1[13];
+		fread( text1, 13, 1, f);
+		if ( !memcmp( text1, "ENIGMA_EPG_V7", 13) )
+		{
+			singleLock s(cache_lock);
+			fread( &size, sizeof(int), 1, f);
+			while(size--)
 			{
-				eDebug("[EPGC] epg file has incorrect byte order.. dont read it");
-				fclose(f);
-				return;
-			}
-			char text1[13];
-			fread( text1, 13, 1, f);
-			if ( !memcmp( text1, "ENIGMA_EPG_V7", 13) )
-			{
-				singleLock s(cache_lock);
+				uniqueEPGKey key;
+				eventMap evMap;
+				timeMap tmMap;
+				int size=0;
+				fread( &key, sizeof(uniqueEPGKey), 1, f);
 				fread( &size, sizeof(int), 1, f);
 				while(size--)
 				{
-					uniqueEPGKey key;
-					eventMap evMap;
-					timeMap tmMap;
-					int size=0;
-					fread( &key, sizeof(uniqueEPGKey), 1, f);
-					fread( &size, sizeof(int), 1, f);
-					while(size--)
-					{
-						__u8 len=0;
-						__u8 type=0;
-						eventData *event=0;
-						fread( &type, sizeof(__u8), 1, f);
-						fread( &len, sizeof(__u8), 1, f);
-						event = new eventData(0, len, type);
-						event->EITdata = new __u8[len];
-						eventData::CacheSize+=len;
-						fread( event->EITdata, len, 1, f);
-						evMap[ event->getEventID() ]=event;
-						tmMap[ event->getStartTime() ]=event;
-						++cnt;
-					}
-					eventDB[key]=std::pair<eventMap,timeMap>(evMap,tmMap);
+					__u8 len=0;
+					__u8 type=0;
+					eventData *event=0;
+					fread( &type, sizeof(__u8), 1, f);
+					fread( &len, sizeof(__u8), 1, f);
+					event = new eventData(0, len, type);
+					event->EITdata = new __u8[len];
+					eventData::CacheSize+=len;
+					fread( event->EITdata, len, 1, f);
+					evMap[ event->getEventID() ]=event;
+					tmMap[ event->getStartTime() ]=event;
+					++cnt;
 				}
-				eventData::load(f);
-				eDebug("[EPGC] %d events read from %s", cnt, EPGDAT);
+				eventDB[key]=std::pair<eventMap,timeMap>(evMap,tmMap);
+			}
+			eventData::load(f);
+			eDebug("[EPGC] %d events read from %s", cnt, EPGDAT);
 #ifdef ENABLE_PRIVATE_EPG
-				char text2[11];
-				fread( text2, 11, 1, f);
-				if ( !memcmp( text2, "PRIVATE_EPG", 11) )
+			char text2[11];
+			fread( text2, 11, 1, f);
+			if ( !memcmp( text2, "PRIVATE_EPG", 11) )
+			{
+				size=0;
+				fread( &size, sizeof(int), 1, f);
+				while(size--)
 				{
-					size=0;
+					int size=0;
+					uniqueEPGKey key;
+					fread( &key, sizeof(uniqueEPGKey), 1, f);
+					eventMap &evMap=eventDB[key].first;
 					fread( &size, sizeof(int), 1, f);
 					while(size--)
 					{
-						int size=0;
-						uniqueEPGKey key;
-						fread( &key, sizeof(uniqueEPGKey), 1, f);
-						eventMap &evMap=eventDB[key].first;
+						int size;
+						int content_id;
+						fread( &content_id, sizeof(int), 1, f);
 						fread( &size, sizeof(int), 1, f);
 						while(size--)
 						{
-							int size;
-							int content_id;
-							fread( &content_id, sizeof(int), 1, f);
-							fread( &size, sizeof(int), 1, f);
-							while(size--)
-							{
-								time_t time1, time2;
-								__u16 event_id;
-								fread( &time1, sizeof(time_t), 1, f);
-								fread( &time2, sizeof(time_t), 1, f);
-								fread( &event_id, sizeof(__u16), 1, f);
-								content_time_tables[key][content_id][time1]=std::pair<time_t, __u16>(time2, event_id);
-								eventMap::iterator it =
-									evMap.find(event_id);
-								if (it != evMap.end())
-									it->second->type = PRIVATE;
-							}
+							time_t time1, time2;
+							__u16 event_id;
+							fread( &time1, sizeof(time_t), 1, f);
+							fread( &time2, sizeof(time_t), 1, f);
+							fread( &event_id, sizeof(__u16), 1, f);
+							content_time_tables[key][content_id][time1]=std::pair<time_t, __u16>(time2, event_id);
+							eventMap::iterator it =
+								evMap.find(event_id);
+							if (it != evMap.end())
+								it->second->type = PRIVATE;
 						}
 					}
 				}
+			}
 #endif // ENABLE_PRIVATE_EPG
-			}
-			else
-				eDebug("[EPGC] don't read old epg database");
-			posix_fadvise(fileno(f), 0, 0, POSIX_FADV_DONTNEED);
-			fclose(f);
-			// We got this far, so the EPG file is okay.
-			if (renameResult == 0)
-			{
-				renameResult = rename(EPGDATX, EPGDAT);
-				if (renameResult) eDebug("[EPGC] failed to rename epg.dat back");
-			}
+		}
+		else
+			eDebug("[EPGC] don't read old epg database");
+		posix_fadvise(fileno(f), 0, 0, POSIX_FADV_DONTNEED);
+		fclose(f);
+		// We got this far, so the EPG file is okay.
+		if (renameResult == 0)
+		{
+			renameResult = rename(EPGDATX, EPGDAT);
+			if (renameResult) eDebug("[EPGC] failed to rename epg.dat back");
 		}
 	}
 }
@@ -1309,11 +1336,14 @@ void eEPGCache::save()
 		return;
 
 	/* create empty file */
-	FILE *f = fopen(EPGDAT, "w");
+	FILE *f = fopen(EPGDAT, "wb");
 	if (!f)
 	{
-		eDebug("[EPGC] couldn't save epg data to '%s'(%m)", EPGDAT);
-		return;
+		eDebug("[EPGC] Failed to open '%s' (%m)", EPGDAT);
+		EPGDAT = EPGDAT_IN_FLASH;
+		f = fopen(EPGDAT, "wb");
+		if (!f)
+			return;
 	}
 
 	char* buf = realpath(EPGDAT, NULL);

@@ -205,7 +205,7 @@ class ChannelContextMenu(Screen):
 						append_when_current_valid(current, menu, (_("end alternatives edit"), self.bouquetMarkEnd), level = 0)
 						append_when_current_valid(current, menu, (_("abort alternatives edit"), self.bouquetMarkAbort), level = 0)
 
-		menu.append(ChoiceEntryComponent(text = (_("Configuration..."), boundFunction(self.openSetup, "channelselection"))))
+		menu.append(ChoiceEntryComponent(text = (_("Configuration..."), boundFunction(self.openSetup, "userinterface"))))
 		self["menu"] = ChoiceList(menu)
 
 	def playMain(self):
@@ -856,7 +856,7 @@ class ChannelSelectionBase(Screen):
 				"9": self.keyNumberGlobal,
 				"0": self.keyNumber0
 			})
-		self.maintitle = _("Channel Selection")
+		self.maintitle = _("Channel selection")
 		self.recallBouquetMode()
 
 	def getBouquetNumOffset(self, bouquet):
@@ -1102,7 +1102,7 @@ class ChannelSelectionBase(Screen):
 								cur_ref.getUnsignedData(3), # ONID
 								self.service_types[pos+1:])
 							ref = eServiceReference(refstr)
-							ref.setName(_("Current Transponder"))
+							ref.setName(_("Current transponder"))
 							self.servicelist.addService(ref)
 						self.servicelist.finishFill()
 						if prev is not None:
@@ -1487,6 +1487,7 @@ class ChannelSelection(ChannelSelectionBase, ChannelSelectionEdit, ChannelSelect
 				if self.dopipzap:
 					# This unfortunately won't work with subservices
 					self.setCurrentSelection(self.session.pip.getCurrentService())
+				self.revertMode = None
 
 	def newServicePlayed(self):
 		ret = self.new_service_played
@@ -1510,6 +1511,10 @@ class ChannelSelection(ChannelSelectionBase, ChannelSelectionEdit, ChannelSelect
 
 	def historyBack(self):
 		hlen = len(self.history)
+		currentPlayedRef = self.session.nav.getCurrentlyPlayingServiceReference()
+		if hlen > 0 and self.history[self.history_pos][-1] != currentPlayedRef:
+			self.addToHistory(currentPlayedRef)
+			hlen = len(self.history)
 		if hlen > 1 and self.history_pos > 0:
 			self.history_pos -= 1
 			self.setHistoryPath()
@@ -1597,6 +1602,10 @@ class ChannelSelection(ChannelSelectionBase, ChannelSelectionEdit, ChannelSelect
 
 	def recallPrevService(self):
 		hlen = len(self.history)
+		currentPlayedRef = self.session.nav.getCurrentlyPlayingServiceReference()
+		if hlen > 0 and self.history[self.history_pos][-1] != currentPlayedRef:
+			self.addToHistory(currentPlayedRef)
+			hlen = len(self.history)
 		if hlen > 1:
 			if self.history_pos == hlen-1:
 				tmp = self.history[self.history_pos]
@@ -1659,6 +1668,7 @@ class ChannelSelectionRadio(ChannelSelectionBase, ChannelSelectionEdit, ChannelS
 		ChannelSelectionEPG.__init__(self)
 		InfoBarBase.__init__(self)
 		self.infobar = infobar
+		self.startServiceRef = None
 		self.onLayoutFinish.append(self.onCreate)
 
 		self.info = session.instantiateDialog(RadioInfoBar) # our simple infobar
@@ -1788,6 +1798,9 @@ class ChannelSelectionRadio(ChannelSelectionBase, ChannelSelectionEdit, ChannelS
 					config.radio.lastservice.value = ref.toString()
 					config.radio.lastservice.save()
 				self.saveRoot()
+
+	def zapBack(self):
+		self.channelSelected()
 
 class SimpleChannelSelection(ChannelSelectionBase):
 	def __init__(self, session, title):

@@ -306,12 +306,23 @@ class NumberZap(Screen):
 		self.close(self.service, self.bouquet)
 
 	def handleServiceName(self):
-		if not self.searchNumber is None:
+		if self.searchNumber:
 			self.service, self.bouquet = self.searchNumber(int(self["number"].getText()))
+			self ["servicename"].text = ServiceReference(self.service).getServiceName()
+			if not self.startBouquet:
+				self.startBouquet = self.bouquet
+
+	def keyBlue(self):
+		self.Timer.start(3000, True)
+		if self.searchNumber:
+			if self.startBouquet == self.bouquet:
+				self.service, self.bouquet = self.searchNumber(int(self["number"].getText()), firstBouquetOnly = True)
+			else:
+				self.service, self.bouquet = self.searchNumber(int(self["number"].getText()))
 			self ["servicename"].text = ServiceReference(self.service).getServiceName()
 
 	def keyNumberGlobal(self, number):
-		self.Timer.start(3000, True)		#reset timer
+		self.Timer.start(1000, True)
 		self.field = self.field + str(number)
 		self["number"].setText(self.field)
 
@@ -324,6 +335,7 @@ class NumberZap(Screen):
 		Screen.__init__(self, session)
 		self.field = str(number)
 		self.searchNumber = searchNumberFunction
+		self.startBouquet = None
 
 		self["channel"] = Label(_("Channel:"))
 		self["number"] = Label(self.field)
@@ -331,10 +343,11 @@ class NumberZap(Screen):
 
 		self.handleServiceName()
 
-		self["actions"] = NumberActionMap( [ "SetupActions" ],
+		self["actions"] = NumberActionMap( [ "SetupActions", "ShortcutActions" ],
 			{
 				"cancel": self.quit,
 				"ok": self.keyOK,
+				"blue": self.keyBlue,
 				"1": self.keyNumberGlobal,
 				"2": self.keyNumberGlobal,
 				"3": self.keyNumberGlobal,
@@ -379,12 +392,12 @@ class InfoBarNumberZap:
 				self.session.openWithCallback(self.numberEntered, NumberZap, number, self.searchNumber)
 
 	def numberEntered(self, service = None, bouquet = None):
-		if not service is None:
-			self.zapToNumber(service, bouquet)
+		if service:
+			self.selectAndStartService(service, bouquet)
 
 	def searchNumberHelper(self, serviceHandler, num, bouquet):
 		servicelist = serviceHandler.list(bouquet)
-		if not servicelist is None:
+		if servicelist:
 			serviceIterator = servicelist.getNext()
 			while serviceIterator.valid():
 				if num == serviceIterator.getChannelNum():
@@ -392,33 +405,32 @@ class InfoBarNumberZap:
 				serviceIterator = servicelist.getNext()
 		return None
 
-	def searchNumber(self, number):
+	def searchNumber(self, number, firstBouquetOnly = False):
 		bouquet = self.servicelist.getRoot()
 		service = None
 		serviceHandler = eServiceCenter.getInstance()
-		service = self.searchNumberHelper(serviceHandler, number, bouquet)
-		if config.usage.multibouquet.value:
-			service = self.searchNumberHelper(serviceHandler, number, bouquet) #search the current bouqeut first
-			if service is None:
-				bouquet = self.servicelist.bouquet_root
-				bouquetlist = serviceHandler.list(bouquet)
-				if not bouquetlist is None:
+		if not firstBouquetOnly:
+			service = self.searchNumberHelper(serviceHandler, number, bouquet)
+		if config.usage.multibouquet.value and not service:
+			bouquet = self.servicelist.bouquet_root
+			bouquetlist = serviceHandler.list(bouquet)
+			if bouquetlist:
+				bouquet = bouquetlist.getNext()
+				while bouquet.valid():
+					if bouquet.flags & eServiceReference.isDirectory:
+						service = self.searchNumberHelper(serviceHandler, number, bouquet)
+						if service:
+							playable = not (service.flags & (eServiceReference.isMarker|eServiceReference.isDirectory)) or (service.flags & eServiceReference.isNumberedMarker)
+							if not playable:
+								service = None
+							break
+						if config.usage.alternative_number_mode.value or firstBouquetOnly:
+							break
 					bouquet = bouquetlist.getNext()
-					while bouquet.valid():
-						if bouquet.flags & eServiceReference.isDirectory:
-							service = self.searchNumberHelper(serviceHandler, number, bouquet)
-							if service is not None:
-								playable = not (service.flags & (eServiceReference.isMarker|eServiceReference.isDirectory)) or (service.flags & eServiceReference.isNumberedMarker)
-								if not playable:
-									service = None
-								break
-							if config.usage.alternative_number_mode.value:
-								break
-						bouquet = bouquetlist.getNext()
 		return service, bouquet
 
-	def zapToNumber(self, service, bouquet):
-		if not service is None:
+	def selectAndStartService(self, service, bouquet):
+		if service:
 			if self.servicelist.getRoot() != bouquet: #already in correct bouquet?
 				self.servicelist.clearPath()
 				if self.servicelist.bouquet_root != bouquet:
@@ -426,6 +438,10 @@ class InfoBarNumberZap:
 				self.servicelist.enterPath(bouquet)
 			self.servicelist.setCurrentSelection(service) #select the service in servicelist
 			self.servicelist.zap(enable_pipzap = True)
+
+	def zapToNumber(self, number):
+		service, bouquet = self.searchNumber(number)
+		self.selectAndStartService(service, bouquet)
 
 config.misc.initialchannelselection = ConfigBoolean(default = True)
 
@@ -441,13 +457,13 @@ class InfoBarChannelSelection:
 
 		self["ChannelSelectActions"] = HelpableActionMap(self, "InfobarChannelSelection",
 			{
-				"switchChannelUp": (self.switchChannelUp, _("open servicelist(up)")),
-				"switchChannelDown": (self.switchChannelDown, _("open servicelist(down)")),
-				"zapUp": (self.zapUp, _("previous channel")),
-				"zapDown": (self.zapDown, _("next channel")),
-				"historyBack": (self.historyBack, _("previous channel in history")),
-				"historyNext": (self.historyNext, _("next channel in history")),
-				"openServiceList": (self.openServiceList, _("open servicelist")),
+				"switchChannelUp": (self.switchChannelUp, _("Open service list and select previous channel")),
+				"switchChannelDown": (self.switchChannelDown, _("Open service list and select next channel")),
+				"zapUp": (self.zapUp, _("Switch to previous channel")),
+				"zapDown": (self.zapDown, _("Switch next channel")),
+				"historyBack": (self.historyBack, _("Switch to previous channel in history")),
+				"historyNext": (self.historyNext, _("Switch to next channel in history")),
+				"openServiceList": (self.openServiceList, _("Open service list")),
 				"showFavourites": (self.showFavourites, _("show favourites")),
 				"showSatellites": (self.showSatellites, _("show satellites")),
 			})
@@ -565,7 +581,7 @@ class InfoBarSimpleEventView:
 	def __init__(self):
 		self["EPGActions"] = HelpableActionMap(self, "InfobarEPGActions",
 			{
-				"showEventInfo": (self.openEventView, _("show event details")),
+				"showEventInfo": (self.openEventView, _("Show event details")),
 				"showInfobarOrEpgWhenInfobarAlreadyVisible": self.showEventInfoWhenNotVisible,
 			})
 
@@ -656,15 +672,15 @@ class InfoBarEPG:
 
 		self["EPGActions"] = HelpableActionMap(self, "InfobarEPGActions",
 			{
-				"showEventInfo": (self.showDefaultEPG, _("show EPG...")),
-				"showEventInfoPlugin": (self.showEventInfoPlugins, _("list of EPG views...")),
+				"showEventInfo": (self.showDefaultEPG, _("Show EPG...")),
+				"showEventInfoPlugin": (self.showEventInfoPlugins, _("List EPG functions...")),
 				"showInfobarOrEpgWhenInfobarAlreadyVisible": self.showEventInfoWhenNotVisible,
 			})
 
 	def getEPGPluginList(self):
 		pluginlist = [(p.name, boundFunction(self.runPlugin, p)) for p in plugins.getPlugins(where = PluginDescriptor.WHERE_EVENTINFO)]
 		if pluginlist:
-			pluginlist.append((_("show single service EPG..."), self.openSingleServiceEPG))
+			pluginlist.append((_("Show EPG for current channel..."), self.openSingleServiceEPG))
 			pluginlist.append((_("Multi EPG"), self.openMultiServiceEPG))
 			pluginlist.append((_("Current event EPG"), self.openEventView))
 		return pluginlist
@@ -981,13 +997,13 @@ class InfoBarSeek:
 		self["SeekActions"] = InfoBarSeekActionMap(self, actionmap,
 			{
 				"playpauseService": self.playpauseService,
-				"pauseService": (self.pauseService, _("pause")),
-				"unPauseService": (self.unPauseService, _("continue")),
+				"pauseService": (self.pauseService, _("Pause playback")),
+				"unPauseService": (self.unPauseService, _("Continue playback")),
 
-				"seekFwd": (self.seekFwd, _("skip forward")),
-				"seekFwdManual": (self.seekFwdManual, _("skip forward (enter time)")),
-				"seekBack": (self.seekBack, _("skip backward")),
-				"seekBackManual": (self.seekBackManual, _("skip backward (enter time)"))
+				"seekFwd": (self.seekFwd, _("Seek forward")),
+				"seekFwdManual": (self.seekFwdManual, _("Seek forward (enter time)")),
+				"seekBack": (self.seekBack, _("Seek backward")),
+				"seekBackManual": (self.seekBackManual, _("Seek backward (enter time)"))
 			}, prio=-1)
 			# give them a little more priority to win over color buttons
 
@@ -1354,9 +1370,9 @@ class InfoBarShowMovies:
 	def __init__(self):
 		self["MovieListActions"] = HelpableActionMap(self, "InfobarMovieListActions",
 			{
-				"movieList": (self.showMovies, _("movie list")),
-				"up": (self.up, _("movie list")),
-				"down": (self.down, _("movie list"))
+				"movieList": (self.showMovies, _("Open the movie list")),
+				"up": (self.up, _("Open the movie list")),
+				"down": (self.down, _("Open the movie list"))
 			})
 
 # InfoBarTimeshift requires InfoBarSeek, instantiated BEFORE!
@@ -1391,8 +1407,8 @@ class InfoBarTimeshift:
 	def __init__(self):
 		self["TimeshiftActions"] = HelpableActionMap(self, "InfobarTimeshiftActions",
 			{
-				"timeshiftStart": (self.startTimeshift, _("start timeshift")),  # the "yellow key"
-				"timeshiftStop": (self.stopTimeshift, _("stop timeshift"))      # currently undefined :), probably 'TV'
+				"timeshiftStart": (self.startTimeshift, _("Start timeshift")),  # the "yellow key"
+				"timeshiftStop": (self.stopTimeshift, _("Stop timeshift"))      # currently undefined :), probably 'TV'
 			}, prio=1)
 		self["TimeshiftActivateActions"] = ActionMap(["InfobarTimeshiftActivateActions"],
 			{
@@ -1449,7 +1465,7 @@ class InfoBarTimeshift:
 		ts = self.getTimeshift()
 		if ts is None:
 			return 0
-		self.session.openWithCallback(self.stopTimeshiftConfirmed, MessageBox, _("Stop Timeshift?"), MessageBox.TYPE_YESNO, simple = True)
+		self.session.openWithCallback(self.stopTimeshiftConfirmed, MessageBox, _("Stop timeshift?"), MessageBox.TYPE_YESNO, simple = True)
 
 	def stopTimeshiftConfirmed(self, confirmed):
 		if not confirmed:
@@ -1526,7 +1542,7 @@ class InfoBarExtensions:
 
 		self["InstantExtensionsActions"] = HelpableActionMap(self, "InfobarExtensions",
 			{
-				"extensions": (self.showExtensionSelection, _("view extensions...")),
+				"extensions": (self.showExtensionSelection, _("Show extensions...")),
 			}, 1) # lower priority
 
 	def addExtension(self, extension, key = None, type = EXTENSION_SINGLE):
@@ -1640,7 +1656,7 @@ class InfoBarPiP:
 		if SystemInfo.get("NumVideoDecoders", 1) > 1:
 			self["PiPActions"] = HelpableActionMap(self, "InfobarPiPActions",
 				{
-					"activatePiP": (self.showPiP, _("activate PiP")),
+					"activatePiP": (self.showPiP, _("Activate PiP")),
 				})
 			if (self.allowPiP):
 				self.addExtension((self.getShowHideName, self.showPiP, lambda: True), "blue")
@@ -1664,7 +1680,7 @@ class InfoBarPiP:
 			return _("Activate Picture in Picture")
 
 	def getSwapName(self):
-		return _("Swap Services")
+		return _("Swap services")
 
 	def getMoveName(self):
 		return _("Move Picture in Picture")
@@ -1736,7 +1752,7 @@ class InfoBarInstantRecord:
 	def __init__(self):
 		self["InstantRecordActions"] = HelpableActionMap(self, "InfobarInstantRecord",
 			{
-				"instantRecord": (self.instantRecord, _("Instant Record...")),
+				"instantRecord": (self.instantRecord, _("Instant recording...")),
 			})
 		self.recording = []
 
@@ -1803,9 +1819,9 @@ class InfoBarInstantRecord:
 					self.recording.append(recording)
 					self.session.open(MessageBox, _("Record time limited due to conflicting timer %s") % name_date, MessageBox.TYPE_INFO)
 				else:
-					self.session.open(MessageBox, _("Couldn't record due to conflicting timer %s") % name, MessageBox.TYPE_INFO)
+					self.session.open(MessageBox, _("Could not record due to conflicting timer %s") % name, MessageBox.TYPE_INFO)
 			else:
-				self.session.open(MessageBox, _("Couldn't record due to invalid service %s") % serviceref, MessageBox.TYPE_INFO)
+				self.session.open(MessageBox, _("Could not record due to invalid service %s") % serviceref, MessageBox.TYPE_INFO)
 			recording.autoincrease = False
 
 	def isInstantRecordRunning(self):
@@ -1888,25 +1904,20 @@ class InfoBarInstantRecord:
 						 "\n" + _("No HDD found or HDD not initialized!"), MessageBox.TYPE_ERROR)
 			return
 
+		common =((_("Add recording (stop after current event)"), "event"),
+		(_("Add recording (indefinitely)"), "indefinitely"),
+		(_("Add recording (enter recording duration)"), "manualduration"),
+		(_("Add recording (enter recording endtime)"), "manualendtime"),)
 		if self.isInstantRecordRunning():
-			self.session.openWithCallback(self.recordQuestionCallback, ChoiceBox, \
-				title=_("A recording is currently running.\nWhat do you want to do?"), \
-				list=((_("stop recording"), "stop"), \
-				(_("add recording (stop after current event)"), "event"), \
-				(_("add recording (indefinitely)"), "indefinitely"), \
-				(_("add recording (enter recording duration)"), "manualduration"), \
-				(_("add recording (enter recording endtime)"), "manualendtime"), \
-				(_("change recording (duration)"), "changeduration"), \
-				(_("change recording (endtime)"), "changeendtime"), \
-				(_("do nothing"), "no")))
+			title =_("A recording is currently running.\nWhat do you want to do?")
+			list = ((_("Stop recording"), "stop"),) + common + \
+			((_("Change recording (duration)"), "changeduration"),
+			(_("Change recording (endtime)"), "changeendtime"),
+			(_("Do nothing"), "no"),)
 		else:
-			self.session.openWithCallback(self.recordQuestionCallback, ChoiceBox, \
-				title=_("Start recording?"), \
-				list=((_("add recording (stop after current event)"), "event"), \
-				(_("add recording (indefinitely)"), "indefinitely"), \
-				(_("add recording (enter recording duration)"), "manualduration"), \
-				(_("add recording (enter recording endtime)"), "manualendtime"), \
-				(_("don't record"), "no")))
+			title=_("Start recording?")
+			list = common + ((_("Do not record"), "no"),)
+		self.session.openWithCallback(self.recordQuestionCallback, ChoiceBox,title=title,list=list)
 
 from Tools.ISO639 import LanguageCodes
 
@@ -1914,7 +1925,7 @@ class InfoBarAudioSelection:
 	def __init__(self):
 		self["AudioSelectionAction"] = HelpableActionMap(self, "InfobarAudioSelectionActions",
 			{
-				"audioSelection": (self.audioSelection, _("Audio Options...")),
+				"audioSelection": (self.audioSelection, _("Audio options...")),
 			})
 
 	def audioSelection(self):
@@ -1933,8 +1944,8 @@ class InfoBarSubserviceSelection:
 
 		self["SubserviceQuickzapAction"] = HelpableActionMap(self, "InfobarSubserviceQuickzapActions",
 			{
-				"nextSubservice": (self.nextSubservice, _("Switch to next subservice")),
-				"prevSubservice": (self.prevSubservice, _("Switch to previous subservice"))
+				"nextSubservice": (self.nextSubservice, _("Switch to next sub service")),
+				"prevSubservice": (self.prevSubservice, _("Switch to previous sub service"))
 			}, -1)
 		self["SubserviceQuickzapAction"].setEnabled(False)
 
@@ -2015,7 +2026,7 @@ class InfoBarSubserviceSelection:
 				keys = ["red", "yellow", "",  "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" ] + [""] * n
 				selection += 3
 
-			self.session.openWithCallback(self.subserviceSelected, ChoiceBox, title=_("Please select a subservice..."), list = tlist, selection = selection, keys = keys, skin_name = "SubserviceSelection")
+			self.session.openWithCallback(self.subserviceSelected, ChoiceBox, title=_("Please select a sub service..."), list = tlist, selection = selection, keys = keys, skin_name = "SubserviceSelection")
 
 	def subserviceSelected(self, service):
 		del self.bouquets
@@ -2148,9 +2159,9 @@ class InfoBarCueSheetSupport:
 	def __init__(self, actionmap = "InfobarCueSheetActions"):
 		self["CueSheetActions"] = HelpableActionMap(self, actionmap,
 			{
-				"jumpPreviousMark": (self.jumpPreviousMark, _("jump to previous marked position")),
-				"jumpNextMark": (self.jumpNextMark, _("jump to next marked position")),
-				"toggleMark": (self.toggleMark, _("toggle a cut mark at the current position"))
+				"jumpPreviousMark": (self.jumpPreviousMark, _("Jump to previous marked position")),
+				"jumpNextMark": (self.jumpNextMark, _("Jump to next marked position")),
+				"toggleMark": (self.toggleMark, _("Toggle a cut mark at the current position"))
 			}, prio=1)
 
 		self.cut_list = [ ]

@@ -253,6 +253,8 @@ public:
 	PSignal1<void,int> frontendUseMaskChanged;
 	SWIG_VOID(RESULT) allocateRawChannel(eUsePtr<iDVBChannel> &SWIG_OUTPUT, int slot_index);
 	PyObject *setFrontendSlotInformations(SWIG_PYOBJECT(ePyObject) list);
+	bool frontendIsCompatible(int index, const char *type);
+	void setFrontendType(int index, const char *type);
 };
 SWIG_TEMPLATE_TYPEDEF(ePtr<eDVBResourceManager>, eDVBResourceManager);
 SWIG_EXTEND(ePtr<eDVBResourceManager>,
@@ -296,10 +298,8 @@ public:
 
 		/* iDVBPVRChannel */
 	RESULT playFile(const char *file);
-	void stopFile();
-
 	RESULT playSource(ePtr<iTsSource>& source, const char *priv=NULL);
-	void stopSource();
+	void stop();
 
 	void setCueSheet(eCueSheet *cuesheet);
 	void setOfflineDecodeMode(int parityswitchdelay);

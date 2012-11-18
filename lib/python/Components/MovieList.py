@@ -7,7 +7,7 @@ import os
 import struct
 import random
 from Tools.LoadPixmap import LoadPixmap
-from Tools.Directories import SCOPE_HDD, SCOPE_SKIN_IMAGE, resolveFilename
+from Tools.Directories import SCOPE_SKIN_IMAGE, resolveFilename
 from Screens.LocationBox import defaultInhibitDirs
 import NavigationInstance
 import skin
@@ -290,7 +290,7 @@ class MovieList(GUIComponent):
 				if txt == ".Trash":
 					res.append(MultiContentEntryPixmapAlphaTest(pos=(0,1), size=(iconSize,24), png=self.iconTrash))
 					res.append(MultiContentEntryText(pos=(iconSize+2, 0), size=(width-166, self.itemHeight), font = 0, flags = RT_HALIGN_LEFT, text = _("Deleted items")))
-					res.append(MultiContentEntryText(pos=(width-145, 4), size=(145, self.itemHeight), font=1, flags=RT_HALIGN_RIGHT, text=_("Trashcan")))
+					res.append(MultiContentEntryText(pos=(width-145, 4), size=(145, self.itemHeight), font=1, flags=RT_HALIGN_RIGHT, text=_("Trash can")))
 					return res
 			res.append(MultiContentEntryPixmapAlphaTest(pos=(0,1), size=(iconSize,iconSize), png=self.iconFolder))
 			res.append(MultiContentEntryText(pos=(iconSize+2, 0), size=(width-166, self.itemHeight), font = 0, flags = RT_HALIGN_LEFT, text = txt))
@@ -616,20 +616,31 @@ class MovieList(GUIComponent):
 		self.tags = {}
 		for movies, tags in rtags.items():
 			movie = movies[0]
-			if (len(tags) > 1):
-				# format the tag lists so that they are in 'original' order
-				tags.sort(key = movie.find)
-				first = movie.find(tags[0])
-				last = movie.find(tags[-1])
-				match = movie[first:last]
-				# Check if the set has a complete sentence in common
-				for m in movies[1:]:
-					if m[first:last] != match:
+			# format the tag lists so that they are in 'original' order
+			tags.sort(key = movie.find)
+			first = movie.find(tags[0])
+			last = movie.find(tags[-1]) + len(tags[-1])
+			match = movie
+			start = 0
+			end = len(movie)
+			# Check if the set has a complete sentence in common, and how far
+			for m in movies[1:]:
+				if m[start:end] != match:
+					if not m.startswith(movie[:last]):
+						start = first
+					if not m.endswith(movie[first:]):
+						end = last
+					match = movie[start:end]
+					if m[start:end] != match:
+						match = ''
 						break
-				else:
-					self.tags[match + tags[-1]] = set(tags)
-					continue
-			self.tags[' '.join(tags)] = set(tags)
+			if match:
+				self.tags[match] = set(tags)
+				continue
+			else:
+				match = ' '.join(tags)
+				if len(match) > 2: #Omit small words
+					self.tags[match] = set(tags)
 
 	def buildAlphaNumericSortKey(self, x):
 		# x = ref,info,begin,...
