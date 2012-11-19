@@ -32,7 +32,6 @@ class AutoDiseqc(Screen, ConfigListScreen):
 		eDVBFrontendParametersSatellite.RollOff_auto, eDVBFrontendParametersSatellite.Pilot_Unknown, \
 		1079, 1, "Astra 1 19.2e"),
 
-		3224, 3, "Astra 3 23.5e"),
 		# hotbird 130 rai
 		( 10992, 27500, \
 		eDVBFrontendParametersSatellite.Polarisation_Vertical, eDVBFrontendParametersSatellite.FEC_2_3, \
