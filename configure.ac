@@ -36,6 +36,27 @@ AC_ARG_WITH(gstversion,
 PKG_CHECK_MODULES(BASE, [freetype2 fribidi gstreamer-$GST_MAJORMINOR gstreamer-pbutils-$GST_MAJORMINOR libdvbsi++ libpng libxml-2.0 sigc++-1.2 libssl libcrypto])
 PKG_CHECK_MODULES(LIBDDVD, libdreamdvd, HAVE_LIBDDVD="yes", HAVE_LIBDDVD="no")
 
+AC_ARG_ENABLE([spark],
+        [AS_HELP_STRING(--enable-spark,    enable spark stuff)],
+#	AC_MSG_ERROR([bad value I${enableval}I for --enable-spark]))
+        [case "${enableval}" in
+                yes) enable_spark=true ;;
+                no) enable_spark=false ;;
+                *) AC_MSG_ERROR([bad value ${enableval} for --enable-spark]) ;;
+        esac])
+AM_CONDITIONAL([ENABLE_SPARK], [test x$enable_spark = xtrue])
+
+AC_ARG_ENABLE([spark7162],
+        [AS_HELP_STRING(--enable-spark7162,    enable spark7162 stuff)],
+#	AC_MSG_ERROR([bad value I${enableval}I for --enable-spark7162]))
+        [case "${enableval}" in
+                yes) enable_spark7162=true ;;
+                no) enable_spark7162=false ;;
+                *) AC_MSG_ERROR([bad value ${enableval} for --enable-spark7162]) ;;
+        esac])
+AM_CONDITIONAL([ENABLE_SPARK7162], [test x$enable_spark = xtrue])
+
+
 AC_ARG_ENABLE(libeplayer3,
 	[  --enable-libeplayer3          enable TDT libeplayer3 as player engine supportt],
 	[AC_DEFINE(ENABLE_LIBEPLAYER3,1,[enable TDT libeplayer3 as player engine support])])
