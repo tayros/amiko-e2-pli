@@ -1635,7 +1635,7 @@ void eDVBFrontend::getFrontendData(ePyObject dest)
 		{
 			tmp = "DVB-C";
 		}
-		else if (supportsDeliverySystem(SYS_DVBT, true) || supportsDeliverySystem(SYS_DVBT2, true))
+		else if (supportsDeliverySystem(SYS_DVBT, true))
 		{
 			tmp = "DVB-T";
 		}
@@ -2355,12 +2355,14 @@ void eDVBFrontend::setFrontend(bool recvEvents)
 			cmdseq.num++;
 
 			p[cmdseq.num].cmd = DTV_BANDWIDTH_HZ, p[cmdseq.num].u.data = parm.bandwidth, cmdseq.num++;
+#if not defined(__sh__)
 			if (system == SYS_DVBT2)
 			{
 #ifdef DTV_DVBT2_PLP_ID
 				p[cmdseq.num].cmd = DTV_DVBT2_PLP_ID, p[cmdseq.num].u.data = parm.plpid, cmdseq.num++;
 #endif
 			}
+#endif
 		}
 		else if (type == iDVBFrontend::feATSC)
 		{
