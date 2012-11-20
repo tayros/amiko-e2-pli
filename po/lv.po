@@ -664,7 +664,6 @@ msgid "An error occurred while downloading the packetlist. Please try again."
 msgstr "Kļūda lejupielādējot pakotņu sarakstu. Lūdzu mēģiniet vēlreiz."
 
 msgid "An unknown error occurred!"
-msgid "An unknown error occurred!"
 msgstr "Nezināma kļūda!"
 
 msgid "Any activity"
@@ -4543,7 +4542,6 @@ msgid "Send DiSEqC only on satellite change"
 msgstr "Sūtīt DiSEqC tikai mainoties pavadonim"
 
 msgid "Separate titles with a main menu"
-msgid "Separate titles with a main menu"
 msgstr "Atdalīt nosaukumus ar galveno izvēlni"
 
 msgid "Sequence repeat"
@@ -6411,7 +6409,6 @@ msgstr "Bezvadu tīkls"
 msgid "Wireless network"
 msgstr "Bezvadu tīkls"
 
-msgid "Wireless network configuration..."
 msgid "Wireless network configuration..."
 msgstr "Tīkla konfigurācija..."
 
