@@ -47,7 +47,7 @@ class AutoDiseqc(Screen, ConfigListScreen):
 		eDVBFrontendParametersSatellite.System_DVB_S, eDVBFrontendParametersSatellite.Modulation_Auto, \
 		eDVBFrontendParametersSatellite.RollOff_auto, eDVBFrontendParametersSatellite.Pilot_Unknown, \
 		12, 85, \
-		"49", "Astra 4.9e"),
+		"49", "Astra 4A/SES 5 4.9e"),
 
 		# amos -40 otv
 		( 10806, 30000, \
