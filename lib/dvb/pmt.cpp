@@ -1097,7 +1097,7 @@ int eDVBServicePMTHandler::tuneExt(eServiceReferenceDVB &ref, int use_decode_dem
 			eDebug("force setServiceID(1)");
 			m_reference.setServiceID(1);
 		}
-		if (!ref.getServiceID().get() /* incorrect sid in meta file or recordings.epl*/ )
+		else if (!ref.getServiceID().get() /* incorrect sid in meta file or recordings.epl*/ )
 		{
 			eDVBTSTools tstools;
 			bool b = source || !tstools.openFile(ref.path.c_str(), 1);
