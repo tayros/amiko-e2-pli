@@ -118,6 +118,14 @@ msgstr " (Rádió)"
 msgid " (TV)"
 msgstr " (TV)"
 
+#, fuzzy
+msgid ""
+" Are you sure to save the current configuration?\n"
+"\n"
+msgstr ""
+"Biztos benne, hogy aktiválni kívánja ezt a hálózati konfigurációt?\n"
+"\n"
+
 msgid " extensions."
 msgstr " bővítmény."
 
@@ -129,6 +137,9 @@ msgstr " szoftvercsomag kiválasztva."
 
 msgid " updates available."
 msgstr " frissítés elérhető."
+
+msgid "#777"
+msgstr ""
 
 #. TRANSLATORS: short time representation hour:minute
 #, python-format
@@ -251,6 +262,19 @@ msgstr "(DVD audió menü megjelenítése, ha van)"
 msgid "* Only available if more than one interface is active."
 msgstr "* Csak akkor érvényes, ha egynél több interfész aktív."
 
+msgid "*99#"
+msgstr ""
+
+msgid "*99***1#"
+msgstr ""
+
+msgid "*99**1*1#"
+msgstr ""
+
+#, fuzzy
+msgid "..."
+msgstr "Súgó..."
+
 msgid "0"
 msgstr "0"
 
@@ -266,11 +290,41 @@ msgstr "1.1"
 msgid "1.2"
 msgstr "1.2"
 
+msgid "1000"
+msgstr ""
+
+msgid "1100"
+msgstr ""
+
+msgid "115200"
+msgstr ""
+
+msgid "1200"
+msgstr ""
+
 msgid "12V output"
 msgstr "12V kimenet"
 
 msgid "13 V"
 msgstr "13 V"
+
+msgid "1300"
+msgstr ""
+
+msgid "1400"
+msgstr ""
+
+msgid "1440"
+msgstr ""
+
+msgid "1460"
+msgstr ""
+
+msgid "1492"
+msgstr ""
+
+msgid "1500"
+msgstr ""
 
 msgid "16:10"
 msgstr "16:10"
@@ -296,14 +350,30 @@ msgstr "18 V"
 msgid "2"
 msgstr "2"
 
+msgid "230400"
+msgstr ""
+
 msgid "3"
 msgstr "3"
+
+#, fuzzy
+msgid "3D Mode"
+msgstr "Felbontás"
+
+msgid "3D Modus"
+msgstr ""
 
 msgid "3d mode"
 msgstr "3D mód"
 
 msgid "4"
 msgstr "4"
+
+msgid "422"
+msgstr ""
+
+msgid "460800"
+msgstr ""
 
 msgid "4:3"
 msgstr "4:3"
@@ -317,6 +387,9 @@ msgstr "4:3 PanScan"
 msgid "5"
 msgstr "5"
 
+msgid "57600"
+msgstr ""
+
 msgid "6"
 msgstr "6"
 
@@ -328,6 +401,9 @@ msgstr "8"
 
 msgid "9"
 msgstr "9"
+
+msgid "921600"
+msgstr ""
 
 msgid "<Current movielist location>"
 msgstr "<Filmlista aktuális tárhelye>"
@@ -474,6 +550,9 @@ msgstr "AC3 lekeverés"
 msgid "AC3/DTS downmix"
 msgstr "AC3/DTS lekeverés"
 
+msgid "APN"
+msgstr ""
+
 msgid "Abort"
 msgstr "Mégsem"
 
@@ -588,6 +667,10 @@ msgstr "Hozzáadás a kedvencekhez"
 #, fuzzy
 msgid "Add/remove timer for current event"
 msgstr "Aktuális esemény időzítésének kezelése"
+
+#, fuzzy
+msgid "Additional PPPD options"
+msgstr "Hang beállítások..."
 
 msgid "Adjust 3D settings"
 msgstr "3D beállítások"
@@ -747,6 +830,10 @@ msgid "Ask user"
 msgstr "Felhasználó kérdezése"
 
 #, fuzzy
+msgid "Aspect list..."
+msgstr "Alcsatorna lista..."
+
+#, fuzzy
 msgid "Aspect ratio"
 msgstr "Képarány"
 
@@ -771,6 +858,9 @@ msgstr "Hang"
 
 msgid "Audio PID"
 msgstr "Audió PID"
+
+msgid "Audio Source"
+msgstr ""
 
 msgid "Audio language selection 1"
 msgstr "Elsődleges előnyben részesített hangsáv"
@@ -823,6 +913,14 @@ msgstr "Automatikus nyelvválasztás"
 
 msgid "Auto scart switching"
 msgstr "Automatikus SCART átkapcsolás"
+
+#, fuzzy
+msgid "Auto start"
+msgstr "az indításról"
+
+#, fuzzy
+msgid "Auto(not available)"
+msgstr "nem elérhető"
 
 msgid "Automatic"
 msgstr "Automatikus"
@@ -1045,6 +1143,10 @@ msgid "Channel"
 msgstr "Csatorna"
 
 #, fuzzy
+msgid "Channel Selection"
+msgstr "Csatorna választás"
+
+#, fuzzy
 msgid "Channel list type"
 msgstr "Csatornalista menü"
 
@@ -1148,6 +1250,10 @@ msgid "Collection settings"
 msgstr "Gyűjtemény beállítások"
 
 #, fuzzy
+msgid "Color Format"
+msgstr "Színformátum"
+
+#, fuzzy
 msgid "Color format"
 msgstr "Színformátum"
 
@@ -1189,6 +1295,10 @@ msgstr "Konfigurációs mód: "
 
 #, fuzzy, python-format
 msgid "Configuration mode: %s"
+msgstr "Konfigurációs mód: "
+
+#, fuzzy
+msgid "Configuration saved!"
 msgstr "Konfigurációs mód: "
 
 #, fuzzy
@@ -1808,6 +1918,10 @@ msgstr "DiSEqC ismétlések"
 #, fuzzy
 msgid "DiSEqC-tester settings"
 msgstr "DiSEqC-Teszter beállításai"
+
+#, fuzzy
+msgid "Dial number"
+msgstr "Telefonszám"
 
 msgid "Dialing:"
 msgstr "Tárcsázás: "
@@ -3053,6 +3167,12 @@ msgstr "MMC kártya"
 msgid "MORE"
 msgstr "TOVÁBB"
 
+msgid "MRU"
+msgstr ""
+
+msgid "MTU"
+msgstr ""
+
 msgid "Main menu"
 msgstr "Főmenü"
 
@@ -3149,6 +3269,14 @@ msgstr "Felbontás"
 
 msgid "Model: "
 msgstr "Modell:"
+
+#, fuzzy
+msgid "Modem configuration"
+msgstr "Filmlista konfigurációja"
+
+#, fuzzy
+msgid "Modem type"
+msgstr "Szoftver"
 
 msgid "Modulation"
 msgstr "Moduláció"
@@ -3671,6 +3799,9 @@ msgstr "Konfigurációs fájlok felülírása?"
 msgid "PAL"
 msgstr "PAL"
 
+msgid "PCM"
+msgstr ""
+
 msgid "PCR PID"
 msgstr "PCR PID"
 
@@ -3900,6 +4031,10 @@ msgid "Please select a playlist..."
 msgstr "Válasszon egy lejátszási listát..."
 
 #, fuzzy
+msgid "Please select a resolution..."
+msgstr "Válasszon egy alcsatornát..."
+
+#, fuzzy
 msgid "Please select a sub service..."
 msgstr "Válasszon egy alcsatornát..."
 
@@ -3909,10 +4044,18 @@ msgstr "Válasszon egy alcsatornát a felvételhez..."
 msgid "Please select a subservice..."
 msgstr "Válasszon egy alcsatornát..."
 
+#, fuzzy
+msgid "Please select an 3D modus..."
+msgstr "Válasszon egy alcsatornát..."
+
 msgid "Please select an NFI file and press green key to flash!"
 msgstr ""
 "Kérem, válasszon egy NFI fájlt, majd nyomja meg a Zöld gombot a flash-"
 "eléshez!"
+
+#, fuzzy
+msgid "Please select an aspect ratio..."
+msgstr "Válasszon egy alcsatornát..."
 
 #, fuzzy
 msgid "Please select medium to be scanned"
@@ -4033,6 +4176,10 @@ msgstr "Polarizáció szerint"
 
 msgid "Polish"
 msgstr "Lengyel"
+
+#, fuzzy
+msgid "Port"
+msgstr "A Port"
 
 msgid "Port A"
 msgstr "A Port"
@@ -4206,7 +4353,7 @@ msgid "Quick"
 msgstr "Gyors"
 
 #, fuzzy
-msgid "Quick zap"
+msgid "Quickzap"
 msgstr "GyorsUGRÁS"
 
 msgid "RF output"
@@ -4531,6 +4678,9 @@ msgstr "SNR"
 msgid "SNR:"
 msgstr "SNR:"
 
+msgid "SPDIF"
+msgstr ""
+
 msgid "SSID:"
 msgstr "SSID:"
 
@@ -4631,6 +4781,10 @@ msgstr "Keresés..."
 msgid ""
 "Scans default lamedbs sorted by satellite with a connected dish positioner"
 msgstr "Műholdanként rendezett Lamedb keresése csatlakoztatott pozícionerhez"
+
+#, fuzzy
+msgid "Scroll long strings"
+msgstr "Gyűjtemény beállítások"
 
 msgid "Search east"
 msgstr "Léptetés kelet felé"
@@ -4873,11 +5027,19 @@ msgstr "Csatornák"
 msgid "Set end time"
 msgstr "Befejezési idő"
 
+#, fuzzy
+msgid "Set fan"
+msgstr "Beállítás fixre"
+
 msgid "Set fixed"
 msgstr "Beállítás fixre"
 
 msgid "Set interface as default Interface"
 msgstr "Jelölje meg mint alapértelmezett interfészt"
+
+#, fuzzy
+msgid "Set led"
+msgstr "Beállítás fixre"
 
 #, fuzzy
 msgid "Set limits"
@@ -4978,6 +5140,10 @@ msgstr ""
 msgid "Show channel numbers in channel selection"
 msgstr "Csatornaszámok megjelenítése a csatornalistában"
 
+#, fuzzy
+msgid "Show clock"
+msgstr "Pikonok megjelenítése"
+
 msgid "Show crypto info in infobar"
 msgstr "Kódolási információ megjelenítése az infosorban"
 
@@ -5027,6 +5193,9 @@ msgstr "Üzenet megjelenítése amikor a felévtel indul"
 msgid "Show movie lengths in movielist"
 msgstr "Állapot-jelző ikonok megjelenítése a felvétel-listában"
 
+msgid "Show on VFD Display"
+msgstr ""
+
 msgid "Show positioner movement"
 msgstr "A forgatómotor mozgásának megjelenítése"
 
@@ -5070,6 +5239,10 @@ msgstr "Kikapcsolás"
 
 msgid "Shutdown receiver after"
 msgstr "Készülék kikapcsolása majd"
+
+#, fuzzy
+msgid "Side by Side"
+msgstr "Kétoldalt"
 
 #, fuzzy
 msgid "Side by side"
@@ -5135,6 +5308,10 @@ msgstr "Üres csatornák átugrása"
 msgid ""
 "Skip internet connection check (disables automatic package installation)"
 msgstr ""
+
+#, fuzzy
+msgid "Sleep Timer"
+msgstr "Elalvás időzítő"
 
 #, fuzzy
 msgid "Sleep timer"
@@ -5254,6 +5431,9 @@ msgstr "Dél"
 
 msgid "Spanish"
 msgstr "Spanyol"
+
+msgid "Speed"
+msgstr ""
 
 msgid "Split preview mode"
 msgstr "Megosztott előnézeti mód"
@@ -5875,6 +6055,10 @@ msgid "Time"
 msgstr "Idő"
 
 #, fuzzy
+msgid "Time mode"
+msgstr "Tone"
+
+#, fuzzy
 msgid "Time scale"
 msgstr "Időskála"
 
@@ -5983,6 +6167,10 @@ msgstr "Toneburst"
 
 msgid "Toneburst A/B"
 msgstr "Toneburst A/B"
+
+#, fuzzy
+msgid "Top and Bottom"
+msgstr "Teteje és Alja"
 
 #, fuzzy
 msgid "Top and bottom"
@@ -6298,8 +6486,9 @@ msgid ""
 "be used."
 msgstr ""
 
-msgid "VCR scart"
-msgstr "VCR scart"
+#, fuzzy
+msgid "VFD display configuration"
+msgstr "Filmlista konfigurációja"
 
 msgid "VMGM (intro trailer)"
 msgstr "VMGM (Intro trailer)"
@@ -6818,6 +7007,9 @@ msgstr "Az írás sikertelen!"
 msgid "YPbPr"
 msgstr "YPbPr"
 
+msgid "YUV"
+msgstr ""
+
 msgid "Year"
 msgstr "Év"
 
@@ -7195,6 +7387,9 @@ msgstr "Fekete/Fehér"
 msgid "blacklist"
 msgstr "feketelista"
 
+msgid "blank"
+msgstr ""
+
 msgid "blue"
 msgstr "kék"
 
@@ -7208,8 +7403,19 @@ msgstr "rendezés dátum szerint"
 msgid "cartoon/puppets"
 msgstr "Rajzfilm/Báb"
 
+msgid "cdma"
+msgstr ""
+
 msgid "center"
 msgstr "középre"
+
+#, fuzzy
+msgid "channel"
+msgstr "Csatorna"
+
+#, fuzzy
+msgid "channel number"
+msgstr "Telefonszám"
 
 msgid "chapters"
 msgstr "jelenetek"
@@ -7222,6 +7428,10 @@ msgstr "forgó balos"
 
 msgid "circular right"
 msgstr "forgó jobbos"
+
+#, fuzzy
+msgid "clock"
+msgstr "zárolt"
 
 msgid "comedy"
 msgstr "vígjáték"
@@ -7442,6 +7652,9 @@ msgstr "lekapcsolás mély-készenléti módba"
 
 msgid "go to standby"
 msgstr "lekapcsolás készenléti módba"
+
+msgid "gprs"
+msgstr ""
 
 msgid "grab this frame as bitmap"
 msgstr "pillanatkép mentése"
@@ -7828,8 +8041,16 @@ msgstr "alternatívák megjelenítése"
 msgid "show event details"
 msgstr "részletes adatok megjelenítése"
 
+#, fuzzy
+msgid "show favourites"
+msgstr "Hozzáadás a kedvencekhez"
+
 msgid "show mediaplayer on mainmenu"
 msgstr "Médialejátszó megjelenítése a főmenüben"
+
+#, fuzzy
+msgid "show satellites"
+msgstr "Összes műhold"
 
 msgid "show softwaremanager in setup menu"
 msgstr "Szoftverkezelő megjelenítése a beállítások menüben"
@@ -7945,6 +8166,10 @@ msgstr "ez a felvétel"
 msgid "this service is protected by a parental control pin"
 msgstr "a csatorna gyermekzárral védve van"
 
+#, fuzzy
+msgid "toggels betwenn tv and radio..."
+msgstr "Rádiólista megnyitása..."
+
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "idő, chapter, hangsáv, feliratsáv választás"
 
@@ -7956,6 +8181,39 @@ msgstr "turizmus/utazás"
 
 msgid "true"
 msgstr "igaz"
+
+msgid "ttyACM0"
+msgstr ""
+
+msgid "ttyUSB0"
+msgstr ""
+
+msgid "ttyUSB1"
+msgstr ""
+
+msgid "ttyUSB2"
+msgstr ""
+
+msgid "ttyUSB3"
+msgstr ""
+
+msgid "ttyUSB4"
+msgstr ""
+
+msgid "ttyUSB5"
+msgstr ""
+
+msgid "ttyUSB6"
+msgstr ""
+
+msgid "ttyUSB7"
+msgstr ""
+
+msgid "ttyUSB8"
+msgstr ""
+
+msgid "ttyUSB9"
+msgstr ""
 
 msgid "tuner is not supported"
 msgstr "nem támogatott tuner"
@@ -8543,9 +8801,6 @@ msgstr "ugrott"
 #~ msgid "Set available internal memory threshold for the warning."
 #~ msgstr "A belső memória küszöb beállítása, figyelmeztetéshez."
 
-#~ msgid "Show Picons"
-#~ msgstr "Pikonok megjelenítése"
-
 #~ msgid "Show Service Names "
 #~ msgstr "Csatornanevek megjelenítése"
 
@@ -8678,6 +8933,9 @@ msgstr "ugrott"
 #~ "A bal/jobb nyílgombokkal változtathatja az opciót.\n"
 #~ "\n"
 #~ "Állítsa be az A tunert"
+
+#~ msgid "VCR scart"
+#~ msgstr "VCR scart"
 
 #~ msgid "Video Fine-Tuning Wizard"
 #~ msgstr "Kép finomhangolás Varázsló"

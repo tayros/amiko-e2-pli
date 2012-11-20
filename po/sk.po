@@ -116,6 +116,14 @@ msgstr ""
 msgid " (TV)"
 msgstr ""
 
+#, fuzzy
+msgid ""
+" Are you sure to save the current configuration?\n"
+"\n"
+msgstr ""
+"Naozaj chcete aktivovať túto konfiguráciu siete?\n"
+"\n"
+
 msgid " extensions."
 msgstr " rozšírenia."
 
@@ -127,6 +135,9 @@ msgstr " balíčkov zvolených."
 
 msgid " updates available."
 msgstr " aktualizácie k dispozícii."
+
+msgid "#777"
+msgstr ""
 
 #. TRANSLATORS: short time representation hour:minute
 #, python-format
@@ -253,6 +264,19 @@ msgstr "(zobraziť voliteľné menu zvuku DVD)"
 msgid "* Only available if more than one interface is active."
 msgstr "* Dostupné, len ak je aktívnych viac rozhraní než jedno."
 
+msgid "*99#"
+msgstr ""
+
+msgid "*99***1#"
+msgstr ""
+
+msgid "*99**1*1#"
+msgstr ""
+
+#, fuzzy
+msgid "..."
+msgstr "Pomoc..."
+
 msgid "0"
 msgstr "0"
 
@@ -268,11 +292,41 @@ msgstr "1,1"
 msgid "1.2"
 msgstr "1,2"
 
+msgid "1000"
+msgstr ""
+
+msgid "1100"
+msgstr ""
+
+msgid "115200"
+msgstr ""
+
+msgid "1200"
+msgstr ""
+
 msgid "12V output"
 msgstr "12 V výstup"
 
 msgid "13 V"
 msgstr "13 V"
+
+msgid "1300"
+msgstr ""
+
+msgid "1400"
+msgstr ""
+
+msgid "1440"
+msgstr ""
+
+msgid "1460"
+msgstr ""
+
+msgid "1492"
+msgstr ""
+
+msgid "1500"
+msgstr ""
 
 msgid "16:10"
 msgstr "16:10"
@@ -298,14 +352,30 @@ msgstr "18 V"
 msgid "2"
 msgstr "2"
 
+msgid "230400"
+msgstr ""
+
 msgid "3"
 msgstr "3"
+
+#, fuzzy
+msgid "3D Mode"
+msgstr "Režim"
+
+msgid "3D Modus"
+msgstr ""
 
 msgid "3d mode"
 msgstr ""
 
 msgid "4"
 msgstr "4"
+
+msgid "422"
+msgstr ""
+
+msgid "460800"
+msgstr ""
 
 msgid "4:3"
 msgstr "4:3"
@@ -319,6 +389,9 @@ msgstr "4:3 PanScan"
 msgid "5"
 msgstr "5"
 
+msgid "57600"
+msgstr ""
+
 msgid "6"
 msgstr "6"
 
@@ -330,6 +403,9 @@ msgstr "8"
 
 msgid "9"
 msgstr "9"
+
+msgid "921600"
+msgstr ""
 
 msgid "<Current movielist location>"
 msgstr "<Aktuálne umiestnenie zoznamu filmov>"
@@ -463,6 +539,9 @@ msgstr "AC3 downmix"
 msgid "AC3/DTS downmix"
 msgstr ""
 
+msgid "APN"
+msgstr ""
+
 msgid "Abort"
 msgstr "Zrušiť"
 
@@ -576,6 +655,10 @@ msgstr "Pridať do obľúbených"
 #, fuzzy
 msgid "Add/remove timer for current event"
 msgstr "pridať nahrávanie (zastaviť po aktuálnom programe)"
+
+#, fuzzy
+msgid "Additional PPPD options"
+msgstr "Voľby zvuku ..."
 
 msgid "Adjust 3D settings"
 msgstr ""
@@ -731,6 +814,10 @@ msgid "Ask user"
 msgstr "opýtať sa"
 
 #, fuzzy
+msgid "Aspect list..."
+msgstr "Zoznam podkanálov..."
+
+#, fuzzy
 msgid "Aspect ratio"
 msgstr "Pomer strán"
 
@@ -755,6 +842,9 @@ msgstr "Zvuk"
 
 msgid "Audio PID"
 msgstr "Zvukový PID"
+
+msgid "Audio Source"
+msgstr ""
 
 msgid "Audio language selection 1"
 msgstr ""
@@ -807,6 +897,14 @@ msgstr ""
 
 msgid "Auto scart switching"
 msgstr "Automatické prepnutie scartu"
+
+#, fuzzy
+msgid "Auto start"
+msgstr "hneď začne"
+
+#, fuzzy
+msgid "Auto(not available)"
+msgstr "nedostupné"
 
 msgid "Automatic"
 msgstr "Automaticky"
@@ -1028,6 +1126,10 @@ msgid "Channel"
 msgstr "Stanica"
 
 #, fuzzy
+msgid "Channel Selection"
+msgstr "Voľba stanice"
+
+#, fuzzy
 msgid "Channel list type"
 msgstr "Menu zoznamu staníc"
 
@@ -1131,6 +1233,10 @@ msgid "Collection settings"
 msgstr "Nastavenia zostavy"
 
 #, fuzzy
+msgid "Color Format"
+msgstr "Formát farby"
+
+#, fuzzy
 msgid "Color format"
 msgstr "Formát farby"
 
@@ -1172,6 +1278,10 @@ msgstr "Možnosti nastavenia"
 
 #, fuzzy, python-format
 msgid "Configuration mode: %s"
+msgstr "Možnosti nastavenia"
+
+#, fuzzy
+msgid "Configuration saved!"
 msgstr "Možnosti nastavenia"
 
 #, fuzzy
@@ -1784,6 +1894,10 @@ msgstr "Opakovania DiSEqC"
 #, fuzzy
 msgid "DiSEqC-tester settings"
 msgstr "Nastavenia testovača DiSEqC"
+
+#, fuzzy
+msgid "Dial number"
+msgstr "Telefónne číslo"
 
 msgid "Dialing:"
 msgstr "Vytáčam:"
@@ -3014,6 +3128,12 @@ msgstr "Karta MMC"
 msgid "MORE"
 msgstr "VIAC"
 
+msgid "MRU"
+msgstr ""
+
+msgid "MTU"
+msgstr ""
+
 msgid "Main menu"
 msgstr "Hlavné menu"
 
@@ -3110,6 +3230,14 @@ msgstr "Režim"
 
 msgid "Model: "
 msgstr "Model: "
+
+#, fuzzy
+msgid "Modem configuration"
+msgstr "Ručná konfigurácia"
+
+#, fuzzy
+msgid "Modem type"
+msgstr "Softvér"
 
 msgid "Modulation"
 msgstr "Modulácia"
@@ -3625,6 +3753,9 @@ msgstr "Prepísať konfiguračné súbory?"
 msgid "PAL"
 msgstr "PAL"
 
+msgid "PCM"
+msgstr ""
+
 msgid "PCR PID"
 msgstr ""
 
@@ -3849,6 +3980,10 @@ msgid "Please select a playlist..."
 msgstr "Zvoľte zoznam prehrávok..."
 
 #, fuzzy
+msgid "Please select a resolution..."
+msgstr "Zvoľte podkanál..."
+
+#, fuzzy
 msgid "Please select a sub service..."
 msgstr "Zvoľte podkanál..."
 
@@ -3858,8 +3993,16 @@ msgstr "Zvoľte podkanál pre nahrávanie..."
 msgid "Please select a subservice..."
 msgstr "Zvoľte podkanál..."
 
+#, fuzzy
+msgid "Please select an 3D modus..."
+msgstr "Zvoľte podkanál..."
+
 msgid "Please select an NFI file and press green key to flash!"
 msgstr "Zvoľte súbor NFI a stlačením zeleného tlačidla spusťte flash!"
+
+#, fuzzy
+msgid "Please select an aspect ratio..."
+msgstr "Zvoľte podkanál..."
 
 #, fuzzy
 msgid "Please select medium to be scanned"
@@ -3976,6 +4119,10 @@ msgstr "Polarizácia"
 
 msgid "Polish"
 msgstr "Poľština"
+
+#, fuzzy
+msgid "Port"
+msgstr "Port A"
 
 msgid "Port A"
 msgstr "Port A"
@@ -4141,7 +4288,7 @@ msgid "Quick"
 msgstr "Rýchlo"
 
 #, fuzzy
-msgid "Quick zap"
+msgid "Quickzap"
 msgstr "Rýchle prepínanie"
 
 msgid "RF output"
@@ -4460,6 +4607,9 @@ msgstr "SNR"
 msgid "SNR:"
 msgstr "SNR:"
 
+msgid "SPDIF"
+msgstr ""
+
 msgid "SSID:"
 msgstr "SSID:"
 
@@ -4561,6 +4711,10 @@ msgid ""
 "Scans default lamedbs sorted by satellite with a connected dish positioner"
 msgstr ""
 "Prehľadať predvolené lamedb zotriedené podľa satelitov a pripojeného motora"
+
+#, fuzzy
+msgid "Scroll long strings"
+msgstr "Nastavenia zostavy"
 
 msgid "Search east"
 msgstr "Hľadať východne"
@@ -4801,11 +4955,18 @@ msgstr "Stanice"
 msgid "Set end time"
 msgstr "Nastavte čas konca"
 
+msgid "Set fan"
+msgstr ""
+
 msgid "Set fixed"
 msgstr ""
 
 msgid "Set interface as default Interface"
 msgstr "Nastaviť rozhranie ako predvolené"
+
+#, fuzzy
+msgid "Set led"
+msgstr "Nastavte čas konca"
 
 msgid "Set limits"
 msgstr ""
@@ -4905,6 +5066,10 @@ msgstr ""
 msgid "Show channel numbers in channel selection"
 msgstr ""
 
+#, fuzzy
+msgid "Show clock"
+msgstr "Zobraziť informácie"
+
 msgid "Show crypto info in infobar"
 msgstr ""
 
@@ -4954,6 +5119,9 @@ msgstr "Zobraziť správu pri začatí nahrávania."
 msgid "Show movie lengths in movielist"
 msgstr "Prevziať dĺžku filmov do zoznamu filmov"
 
+msgid "Show on VFD Display"
+msgstr ""
+
 msgid "Show positioner movement"
 msgstr "Zobraziť otáčanie motora"
 
@@ -4994,6 +5162,9 @@ msgid "Shutdown"
 msgstr "Vypnúť"
 
 msgid "Shutdown receiver after"
+msgstr ""
+
+msgid "Side by Side"
 msgstr ""
 
 msgid "Side by side"
@@ -5059,6 +5230,10 @@ msgstr "Ochrániť stanice"
 msgid ""
 "Skip internet connection check (disables automatic package installation)"
 msgstr ""
+
+#, fuzzy
+msgid "Sleep Timer"
+msgstr "Časovač vypnutia"
 
 #, fuzzy
 msgid "Sleep timer"
@@ -5178,6 +5353,9 @@ msgstr "južne"
 
 msgid "Spanish"
 msgstr "Španielčina"
+
+msgid "Speed"
+msgstr ""
 
 msgid "Split preview mode"
 msgstr "Režim rozdelenia náhľadu"
@@ -5777,6 +5955,10 @@ msgid "Time"
 msgstr "Čas"
 
 #, fuzzy
+msgid "Time mode"
+msgstr "Tónový režim"
+
+#, fuzzy
 msgid "Time scale"
 msgstr "Voľba časovača"
 
@@ -5880,6 +6062,9 @@ msgstr "Tónový impulz"
 
 msgid "Toneburst A/B"
 msgstr "Tónový impulz A/B"
+
+msgid "Top and Bottom"
+msgstr ""
 
 msgid "Top and bottom"
 msgstr ""
@@ -6187,8 +6372,9 @@ msgid ""
 "be used."
 msgstr ""
 
-msgid "VCR scart"
-msgstr "Scart - videorekordér"
+#, fuzzy
+msgid "VFD display configuration"
+msgstr "Ručná konfigurácia"
 
 msgid "VMGM (intro trailer)"
 msgstr ""
@@ -6688,6 +6874,9 @@ msgstr "Zápis zlyhal!"
 msgid "YPbPr"
 msgstr "YPbPr"
 
+msgid "YUV"
+msgstr ""
+
 msgid "Year"
 msgstr "Rok"
 
@@ -7044,6 +7233,9 @@ msgstr ""
 msgid "blacklist"
 msgstr "čierna listina"
 
+msgid "blank"
+msgstr ""
+
 msgid "blue"
 msgstr "modrá"
 
@@ -7057,8 +7249,19 @@ msgstr "triediť podľa dátumu"
 msgid "cartoon/puppets"
 msgstr ""
 
+msgid "cdma"
+msgstr ""
+
 msgid "center"
 msgstr ""
+
+#, fuzzy
+msgid "channel"
+msgstr "Stanica"
+
+#, fuzzy
+msgid "channel number"
+msgstr "Telefónne číslo"
 
 msgid "chapters"
 msgstr "kapitoly"
@@ -7071,6 +7274,10 @@ msgstr "kruhová ľavá"
 
 msgid "circular right"
 msgstr "kruhová pravá"
+
+#, fuzzy
+msgid "clock"
+msgstr "zachytený"
 
 msgid "comedy"
 msgstr ""
@@ -7291,6 +7498,9 @@ msgstr "prejsť do vypnutia"
 
 msgid "go to standby"
 msgstr "prejsť do pohotovostného režimu"
+
+msgid "gprs"
+msgstr ""
 
 msgid "grab this frame as bitmap"
 msgstr "Zachytiť toto políčko ako bitmapu"
@@ -7677,8 +7887,16 @@ msgstr "zobraziť alternatívy"
 msgid "show event details"
 msgstr "zobraziť údaje o programe"
 
+#, fuzzy
+msgid "show favourites"
+msgstr "Pridať do obľúbených"
+
 msgid "show mediaplayer on mainmenu"
 msgstr ""
+
+#, fuzzy
+msgid "show satellites"
+msgstr "Všetky satelity"
 
 msgid "show softwaremanager in setup menu"
 msgstr ""
@@ -7794,6 +8012,10 @@ msgstr "táto nahrávka"
 msgid "this service is protected by a parental control pin"
 msgstr "táto stanica je chránená rodičovskou zámkou"
 
+#, fuzzy
+msgid "toggels betwenn tv and radio..."
+msgstr "Počúvať rádio..."
+
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "prepnúť informácie o čase, kapitole, zvuku a podtitulkoch"
 
@@ -7804,6 +8026,39 @@ msgid "tourism/travel"
 msgstr ""
 
 msgid "true"
+msgstr ""
+
+msgid "ttyACM0"
+msgstr ""
+
+msgid "ttyUSB0"
+msgstr ""
+
+msgid "ttyUSB1"
+msgstr ""
+
+msgid "ttyUSB2"
+msgstr ""
+
+msgid "ttyUSB3"
+msgstr ""
+
+msgid "ttyUSB4"
+msgstr ""
+
+msgid "ttyUSB5"
+msgstr ""
+
+msgid "ttyUSB6"
+msgstr ""
+
+msgid "ttyUSB7"
+msgstr ""
+
+msgid "ttyUSB8"
+msgstr ""
+
+msgid "ttyUSB9"
 msgstr ""
 
 msgid "tuner is not supported"
@@ -8346,6 +8601,9 @@ msgstr "prepnuté"
 #~ "Šípkou doľava a doprava zmeňte voľbu.\n"
 #~ "\n"
 #~ "Nastavte tuner A"
+
+#~ msgid "VCR scart"
+#~ msgstr "Scart - videorekordér"
 
 #~ msgid "Video Fine-Tuning Wizard"
 #~ msgstr "Sprievodca jemným nastavením obrazu"

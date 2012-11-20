@@ -115,6 +115,15 @@ msgid " (TV)"
 msgstr ""
 
 #
+#, fuzzy
+msgid ""
+" Are you sure to save the current configuration?\n"
+"\n"
+msgstr ""
+"Vai tiešām vēlaties aktivizēt šo tīkla konfigurāciju?\n"
+"\n"
+
+#
 msgid " extensions."
 msgstr ""
 
@@ -127,6 +136,9 @@ msgstr ""
 
 #
 msgid " updates available."
+msgstr ""
+
+msgid "#777"
 msgstr ""
 
 #. TRANSLATORS: short time representation hour:minute
@@ -262,6 +274,20 @@ msgstr "(rādīt papildu DVD skaņas izvēlni)"
 msgid "* Only available if more than one interface is active."
 msgstr "* Pieejams ja ir aktīvs vairāk nekā viens interfeiss."
 
+msgid "*99#"
+msgstr ""
+
+msgid "*99***1#"
+msgstr ""
+
+msgid "*99**1*1#"
+msgstr ""
+
+#
+#, fuzzy
+msgid "..."
+msgstr "palīdzība..."
+
 #
 msgid "0"
 msgstr "0"
@@ -282,6 +308,18 @@ msgstr "1.1"
 msgid "1.2"
 msgstr "1.2"
 
+msgid "1000"
+msgstr ""
+
+msgid "1100"
+msgstr ""
+
+msgid "115200"
+msgstr ""
+
+msgid "1200"
+msgstr ""
+
 #
 msgid "12V output"
 msgstr "12V izeja"
@@ -289,6 +327,24 @@ msgstr "12V izeja"
 #
 msgid "13 V"
 msgstr "13 V"
+
+msgid "1300"
+msgstr ""
+
+msgid "1400"
+msgstr ""
+
+msgid "1440"
+msgstr ""
+
+msgid "1460"
+msgstr ""
+
+msgid "1492"
+msgstr ""
+
+msgid "1500"
+msgstr ""
 
 #
 msgid "16:10"
@@ -322,9 +378,20 @@ msgstr "18 V"
 msgid "2"
 msgstr "2"
 
+msgid "230400"
+msgstr ""
+
 #
 msgid "3"
 msgstr "3"
+
+#
+#, fuzzy
+msgid "3D Mode"
+msgstr "Režīms"
+
+msgid "3D Modus"
+msgstr ""
 
 msgid "3d mode"
 msgstr ""
@@ -332,6 +399,12 @@ msgstr ""
 #
 msgid "4"
 msgstr "4"
+
+msgid "422"
+msgstr ""
+
+msgid "460800"
+msgstr ""
 
 #
 msgid "4:3"
@@ -349,6 +422,9 @@ msgstr "4:3 PanScan"
 msgid "5"
 msgstr "5"
 
+msgid "57600"
+msgstr ""
+
 #
 msgid "6"
 msgstr "6"
@@ -364,6 +440,9 @@ msgstr "8"
 #
 msgid "9"
 msgstr "9"
+
+msgid "921600"
+msgstr ""
 
 #
 msgid "<Current movielist location>"
@@ -524,6 +603,9 @@ msgstr "Pārveide AC3 -> stereo"
 msgid "AC3/DTS downmix"
 msgstr ""
 
+msgid "APN"
+msgstr ""
+
 #
 msgid "Abort"
 msgstr ""
@@ -670,6 +752,11 @@ msgstr "Pievienot favorītiem"
 #, fuzzy
 msgid "Add/remove timer for current event"
 msgstr "pievienot ierakstīšanu (apturēt pēc pašreizējā notikuma)"
+
+#
+#, fuzzy
+msgid "Additional PPPD options"
+msgstr "Skaņas opcijas..."
 
 msgid "Adjust 3D settings"
 msgstr ""
@@ -852,6 +939,11 @@ msgstr "Jautāt"
 
 #
 #, fuzzy
+msgid "Aspect list..."
+msgstr "Papildkanālu saraksts..."
+
+#
+#, fuzzy
 msgid "Aspect ratio"
 msgstr "Malu attiecība"
 
@@ -874,6 +966,9 @@ msgid "Audio"
 msgstr "Skaņa"
 
 msgid "Audio PID"
+msgstr ""
+
+msgid "Audio Source"
 msgstr ""
 
 msgid "Audio language selection 1"
@@ -936,6 +1031,15 @@ msgstr ""
 #
 msgid "Auto scart switching"
 msgstr "Automātiska SCART pārslēgšana"
+
+#
+# ???
+#, fuzzy
+msgid "Auto start"
+msgstr "gatavojas sākt"
+
+msgid "Auto(not available)"
+msgstr ""
 
 #
 msgid "Automatic"
@@ -1211,6 +1315,11 @@ msgstr "Kanāls"
 
 #
 #, fuzzy
+msgid "Channel Selection"
+msgstr "Kanālu izvēle"
+
+#
+#, fuzzy
 msgid "Channel list type"
 msgstr "Kanālu saraksta izvēlne"
 
@@ -1336,6 +1445,11 @@ msgstr "Kolekcijas iestatījumi"
 
 #
 #, fuzzy
+msgid "Color Format"
+msgstr "Krāsu formāts"
+
+#
+#, fuzzy
 msgid "Color format"
 msgstr "Krāsu formāts"
 
@@ -1389,6 +1503,11 @@ msgstr "Konfigurēšanas režīms"
 #
 #, fuzzy, python-format
 msgid "Configuration mode: %s"
+msgstr "Konfigurēšanas režīms"
+
+#
+#, fuzzy
+msgid "Configuration saved!"
 msgstr "Konfigurēšanas režīms"
 
 #
@@ -2078,6 +2197,9 @@ msgstr "DiSEqC atkārtojums"
 #, fuzzy
 msgid "DiSEqC-tester settings"
 msgstr "Pārbaudīt DiSEqC iestatījumus"
+
+msgid "Dial number"
+msgstr ""
 
 #
 msgid "Dialing:"
@@ -3549,6 +3671,12 @@ msgstr "MMC karte"
 msgid "MORE"
 msgstr "VAIRĀK"
 
+msgid "MRU"
+msgstr ""
+
+msgid "MTU"
+msgstr ""
+
 #
 msgid "Main menu"
 msgstr "Galvenā izvēlne"
@@ -3666,6 +3794,16 @@ msgstr "Režīms"
 #
 msgid "Model: "
 msgstr "Modelis:"
+
+#
+#, fuzzy
+msgid "Modem configuration"
+msgstr "Uztvērēja konfigurācija"
+
+#
+#, fuzzy
+msgid "Modem type"
+msgstr "Pārbaudes veids"
 
 #
 msgid "Modulation"
@@ -4269,6 +4407,9 @@ msgstr "Uztvērēja konfigurācija"
 msgid "PAL"
 msgstr "PAL"
 
+msgid "PCM"
+msgstr ""
+
 msgid "PCR PID"
 msgstr ""
 
@@ -4537,6 +4678,11 @@ msgstr "Lūdzu izvēlieties repertuāru..."
 
 #
 #, fuzzy
+msgid "Please select a resolution..."
+msgstr "Lūdzu izvēlieties papildkanālu..."
+
+#
+#, fuzzy
 msgid "Please select a sub service..."
 msgstr "Lūdzu izvēlieties papildkanālu..."
 
@@ -4548,8 +4694,18 @@ msgstr "Lūdzu izvēlieties papildkanālu ierakstam..."
 msgid "Please select a subservice..."
 msgstr "Lūdzu izvēlieties papildkanālu..."
 
+#
+#, fuzzy
+msgid "Please select an 3D modus..."
+msgstr "Lūdzu izvēlieties papildkanālu..."
+
 msgid "Please select an NFI file and press green key to flash!"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Please select an aspect ratio..."
+msgstr "Lūdzu izvēlieties papildkanālu..."
 
 #
 #, fuzzy
@@ -4691,6 +4847,11 @@ msgstr "Polarizācija"
 #
 msgid "Polish"
 msgstr "Poļu"
+
+#
+#, fuzzy
+msgid "Port"
+msgstr "Pieslēgvieta A"
 
 #
 msgid "Port A"
@@ -4890,7 +5051,7 @@ msgstr "Ātrais"
 
 #
 #, fuzzy
-msgid "Quick zap"
+msgid "Quickzap"
 msgstr "Ātrā pārslēgšana"
 
 #
@@ -5276,6 +5437,9 @@ msgstr "SNR"
 msgid "SNR:"
 msgstr "SNR:"
 
+msgid "SPDIF"
+msgstr ""
+
 #
 msgid "SSID:"
 msgstr ""
@@ -5398,6 +5562,11 @@ msgid ""
 msgstr ""
 "Meklē noklusētos lamedbs, sakārtotus pēc pavadoņiem ar pievienotu "
 "pozicioniera antenu"
+
+#
+#, fuzzy
+msgid "Scroll long strings"
+msgstr "Kolekcijas iestatījumi"
 
 #
 msgid "Search east"
@@ -5693,12 +5862,20 @@ msgstr "Kanāli"
 msgid "Set end time"
 msgstr "Beigu laiks"
 
+msgid "Set fan"
+msgstr ""
+
 msgid "Set fixed"
 msgstr ""
 
 #
 msgid "Set interface as default Interface"
 msgstr "Iestatīt interfeisu kā noklusēto"
+
+#
+#, fuzzy
+msgid "Set led"
+msgstr "Beigu laiks"
 
 msgid "Set limits"
 msgstr ""
@@ -5806,6 +5983,11 @@ msgstr ""
 msgid "Show channel numbers in channel selection"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Show clock"
+msgstr "Rādīt informāciju"
+
 msgid "Show crypto info in infobar"
 msgstr ""
 
@@ -5864,6 +6046,9 @@ msgstr ""
 msgid "Show movie lengths in movielist"
 msgstr "Ielādēt filmu sarakstā filmu garumus"
 
+msgid "Show on VFD Display"
+msgstr ""
+
 #
 msgid "Show positioner movement"
 msgstr "Rādīt pozicioniera kustību"
@@ -5913,6 +6098,9 @@ msgid "Shutdown"
 msgstr ""
 
 msgid "Shutdown receiver after"
+msgstr ""
+
+msgid "Side by Side"
 msgstr ""
 
 msgid "Side by side"
@@ -5993,6 +6181,11 @@ msgstr "Aizsargāt kanālus"
 msgid ""
 "Skip internet connection check (disables automatic package installation)"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Sleep Timer"
+msgstr "Miega taimeris"
 
 #
 #, fuzzy
@@ -6133,6 +6326,9 @@ msgstr "Dienvidi"
 #
 msgid "Spanish"
 msgstr "Spāņu"
+
+msgid "Speed"
+msgstr ""
 
 #
 msgid "Split preview mode"
@@ -6822,6 +7018,11 @@ msgstr "Laiks"
 
 #
 #, fuzzy
+msgid "Time mode"
+msgstr "Toņa režīms"
+
+#
+#, fuzzy
 msgid "Time scale"
 msgstr "Taimeru izvēle"
 
@@ -6950,6 +7151,9 @@ msgstr "Toņsignāls"
 #
 msgid "Toneburst A/B"
 msgstr "Toņsignāls A/B"
+
+msgid "Top and Bottom"
+msgstr ""
 
 msgid "Top and bottom"
 msgstr ""
@@ -7319,8 +7523,9 @@ msgid ""
 msgstr ""
 
 #
-msgid "VCR scart"
-msgstr "VCR scart savienojums"
+#, fuzzy
+msgid "VFD display configuration"
+msgstr "Uztvērēja konfigurācija"
 
 #
 msgid "VMGM (intro trailer)"
@@ -7874,6 +8079,9 @@ msgstr "Rakstīšana neizdevās!"
 msgid "YPbPr"
 msgstr "YPbPr"
 
+msgid "YUV"
+msgstr ""
+
 #
 msgid "Year"
 msgstr "Gads"
@@ -8277,6 +8485,9 @@ msgstr ""
 msgid "blacklist"
 msgstr "melnais saraksts"
 
+msgid "blank"
+msgstr ""
+
 #
 msgid "blue"
 msgstr "zils"
@@ -8292,8 +8503,21 @@ msgstr "kārtot pēc datuma"
 msgid "cartoon/puppets"
 msgstr ""
 
+msgid "cdma"
+msgstr ""
+
 msgid "center"
 msgstr ""
+
+#
+#, fuzzy
+msgid "channel"
+msgstr "Kanāls"
+
+#
+#, fuzzy
+msgid "channel number"
+msgstr "Kanālu saraksta izvēlne"
 
 #
 msgid "chapters"
@@ -8309,6 +8533,11 @@ msgstr "cirkulārā kreisā"
 #
 msgid "circular right"
 msgstr "cirkulārā labā"
+
+#
+#, fuzzy
+msgid "clock"
+msgstr "slēgts"
 
 msgid "comedy"
 msgstr ""
@@ -8568,6 +8797,9 @@ msgstr "iet uz dziļo gaidstāvi"
 #
 msgid "go to standby"
 msgstr "iet uz gaidstāvi"
+
+msgid "gprs"
+msgstr ""
 
 #
 msgid "grab this frame as bitmap"
@@ -9036,8 +9268,18 @@ msgstr "rādīt alternatīvas"
 msgid "show event details"
 msgstr "rādīt notikuma detaļas"
 
+#
+#, fuzzy
+msgid "show favourites"
+msgstr "Pievienot favorītiem"
+
 msgid "show mediaplayer on mainmenu"
 msgstr ""
+
+#
+#, fuzzy
+msgid "show satellites"
+msgstr "Visi pavadoņi"
 
 msgid "show softwaremanager in setup menu"
 msgstr ""
@@ -9174,6 +9416,11 @@ msgid "this service is protected by a parental control pin"
 msgstr "šis kanāls ir aizsargāts ar vecāku kontroles PIN kodu"
 
 #
+#, fuzzy
+msgid "toggels betwenn tv and radio..."
+msgstr "klausīties radio..."
+
+#
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "Ie-/iz-slēgt laiku, nodaļu, skaņu, subtitru informāciju"
 
@@ -9184,6 +9431,39 @@ msgid "tourism/travel"
 msgstr ""
 
 msgid "true"
+msgstr ""
+
+msgid "ttyACM0"
+msgstr ""
+
+msgid "ttyUSB0"
+msgstr ""
+
+msgid "ttyUSB1"
+msgstr ""
+
+msgid "ttyUSB2"
+msgstr ""
+
+msgid "ttyUSB3"
+msgstr ""
+
+msgid "ttyUSB4"
+msgstr ""
+
+msgid "ttyUSB5"
+msgstr ""
+
+msgid "ttyUSB6"
+msgstr ""
+
+msgid "ttyUSB7"
+msgstr ""
+
+msgid "ttyUSB8"
+msgstr ""
+
+msgid "ttyUSB9"
 msgstr ""
 
 msgid "tuner is not supported"
@@ -9673,6 +9953,10 @@ msgstr "pārslēgts"
 #~ "Lietojiet labo un kreiso izvēles taustiņu, lai mainītu izvēli.\n"
 #~ "\n"
 #~ "Lūdzu iestatiet uztvērēju A"
+
+#
+#~ msgid "VCR scart"
+#~ msgstr "VCR scart savienojums"
 
 #
 #~ msgid "Video Fine-Tuning Wizard"

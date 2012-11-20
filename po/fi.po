@@ -118,6 +118,15 @@ msgstr " (Radio)"
 msgid " (TV)"
 msgstr " (TV)"
 
+#
+#, fuzzy
+msgid ""
+" Are you sure to save the current configuration?\n"
+"\n"
+msgstr ""
+"Haluatko aktivoida nämä verkkoasetukset?\n"
+"\n"
+
 msgid " extensions."
 msgstr " lisäosaa."
 
@@ -129,6 +138,9 @@ msgstr " pakettia valittu."
 
 msgid " updates available."
 msgstr " päivitystä."
+
+msgid "#777"
+msgstr ""
 
 #. TRANSLATORS: short time representation hour:minute
 #, python-format
@@ -261,6 +273,20 @@ msgstr "(näytä  DVD-äänen lisävalikko)"
 msgid "* Only available if more than one interface is active."
 msgstr "* Käytettävissä vain kun useampi kuin yksi sovitin on aktiivinen."
 
+msgid "*99#"
+msgstr ""
+
+msgid "*99***1#"
+msgstr ""
+
+msgid "*99**1*1#"
+msgstr ""
+
+#
+#, fuzzy
+msgid "..."
+msgstr "apua..."
+
 msgid "0"
 msgstr "0"
 
@@ -279,6 +305,18 @@ msgstr "1.1"
 msgid "1.2"
 msgstr "1.2"
 
+msgid "1000"
+msgstr ""
+
+msgid "1100"
+msgstr ""
+
+msgid "115200"
+msgstr ""
+
+msgid "1200"
+msgstr ""
+
 #
 msgid "12V output"
 msgstr "12V ulostulo"
@@ -286,6 +324,24 @@ msgstr "12V ulostulo"
 #
 msgid "13 V"
 msgstr "13 V"
+
+msgid "1300"
+msgstr ""
+
+msgid "1400"
+msgstr ""
+
+msgid "1440"
+msgstr ""
+
+msgid "1460"
+msgstr ""
+
+msgid "1492"
+msgstr ""
+
+msgid "1500"
+msgstr ""
 
 msgid "16:10"
 msgstr "16:10"
@@ -317,14 +373,31 @@ msgstr "18 V"
 msgid "2"
 msgstr "2"
 
+msgid "230400"
+msgstr ""
+
 msgid "3"
 msgstr "3"
+
+#
+#, fuzzy
+msgid "3D Mode"
+msgstr "Tila"
+
+msgid "3D Modus"
+msgstr ""
 
 msgid "3d mode"
 msgstr "3D-tila"
 
 msgid "4"
 msgstr "4"
+
+msgid "422"
+msgstr ""
+
+msgid "460800"
+msgstr ""
 
 msgid "4:3"
 msgstr "4:3"
@@ -340,6 +413,9 @@ msgstr "4:3 Pan&Scan"
 msgid "5"
 msgstr "5"
 
+msgid "57600"
+msgstr ""
+
 msgid "6"
 msgstr "6"
 
@@ -351,6 +427,9 @@ msgstr "8"
 
 msgid "9"
 msgstr "9"
+
+msgid "921600"
+msgstr ""
 
 msgid "<Current movielist location>"
 msgstr "<Nykyinen tallennushakemisto>"
@@ -506,6 +585,9 @@ msgstr "AC3 muunnos stereoksi"
 msgid "AC3/DTS downmix"
 msgstr "AC3/DTS muunnos stereoksi"
 
+msgid "APN"
+msgstr ""
+
 #
 msgid "Abort"
 msgstr "Keskeytä"
@@ -649,6 +731,11 @@ msgstr "Lisää suosikkilistalle"
 #, fuzzy
 msgid "Add/remove timer for current event"
 msgstr "Lisää/poista ajastus nykyiselle ohjelmalle"
+
+#
+#, fuzzy
+msgid "Additional PPPD options"
+msgstr "Äänivalinnat"
 
 msgid "Adjust 3D settings"
 msgstr "Säädä 3D-asetuksia"
@@ -832,6 +919,11 @@ msgstr "Kysy käyttäjältä"
 
 #
 #, fuzzy
+msgid "Aspect list..."
+msgstr "Alipalvelulista..."
+
+#
+#, fuzzy
 msgid "Aspect ratio"
 msgstr "Kuvasuhde"
 
@@ -858,6 +950,9 @@ msgstr "Ääni"
 
 msgid "Audio PID"
 msgstr "Ääni-PID"
+
+msgid "Audio Source"
+msgstr ""
 
 msgid "Audio language selection 1"
 msgstr "Äänen kielivalinta 1"
@@ -919,6 +1014,16 @@ msgstr "Automaattinen kielivalinta"
 #
 msgid "Auto scart switching"
 msgstr "Autom. SCARTin kytkentä"
+
+#
+#, fuzzy
+msgid "Auto start"
+msgstr "alkaa juuri"
+
+#
+#, fuzzy
+msgid "Auto(not available)"
+msgstr "Ei saatavilla"
 
 #
 msgid "Automatic"
@@ -1187,6 +1292,11 @@ msgstr "Kanava"
 
 #
 #, fuzzy
+msgid "Channel Selection"
+msgstr "Kanavien valinta"
+
+#
+#, fuzzy
 msgid "Channel list type"
 msgstr "Kanavalistan muokkaus"
 
@@ -1315,6 +1425,11 @@ msgstr "Kokoelman asetukset"
 
 #
 #, fuzzy
+msgid "Color Format"
+msgstr "Videolähtö (TV-SCART)"
+
+#
+#, fuzzy
 msgid "Color format"
 msgstr "Videolähtö (TV-SCART)"
 
@@ -1364,6 +1479,10 @@ msgstr "Toimintatila: "
 
 #, fuzzy, python-format
 msgid "Configuration mode: %s"
+msgstr "Toimintatila: "
+
+#, fuzzy
+msgid "Configuration saved!"
 msgstr "Toimintatila: "
 
 #
@@ -2059,6 +2178,10 @@ msgstr "DiSEqC-toistoja"
 #, fuzzy
 msgid "DiSEqC-tester settings"
 msgstr "DiSEqC-testin asetukset"
+
+#, fuzzy
+msgid "Dial number"
+msgstr "Puhelinnumero"
 
 msgid "Dialing:"
 msgstr "Soitto:"
@@ -3515,6 +3638,12 @@ msgstr "MMC-kortti"
 msgid "MORE"
 msgstr "LISÄÄ"
 
+msgid "MRU"
+msgstr ""
+
+msgid "MTU"
+msgstr ""
+
 #
 msgid "Main menu"
 msgstr "Päävalikko"
@@ -3630,6 +3759,15 @@ msgstr "Tila"
 #
 msgid "Model: "
 msgstr "Malli: "
+
+#, fuzzy
+msgid "Modem configuration"
+msgstr "Tallenneluettelon asetukset"
+
+#
+#, fuzzy
+msgid "Modem type"
+msgstr "Ohjelmisto"
 
 #
 msgid "Modulation"
@@ -4245,6 +4383,9 @@ msgstr "Korvaa asetustiedostot?"
 msgid "PAL"
 msgstr "PAL"
 
+msgid "PCM"
+msgstr ""
+
 msgid "PCR PID"
 msgstr "PCR PID"
 
@@ -4511,6 +4652,11 @@ msgstr "Valitse soittolista..."
 
 #
 #, fuzzy
+msgid "Please select a resolution..."
+msgstr "Valitse alipalvelu..."
+
+#
+#, fuzzy
 msgid "Please select a sub service..."
 msgstr "Valitse alipalvelu..."
 
@@ -4522,8 +4668,18 @@ msgstr "Valitse tallennettava alipalvelu..."
 msgid "Please select a subservice..."
 msgstr "Valitse alipalvelu..."
 
+#
+#, fuzzy
+msgid "Please select an 3D modus..."
+msgstr "Valitse alipalvelu..."
+
 msgid "Please select an NFI file and press green key to flash!"
 msgstr "Valitse NFI-tiedosto ja aloita päivitys vihreällä näppäimellä."
+
+#
+#, fuzzy
+msgid "Please select an aspect ratio..."
+msgstr "Valitse alipalvelu..."
 
 #
 #, fuzzy
@@ -4670,6 +4826,11 @@ msgstr "Polarisaatio"
 #
 msgid "Polish"
 msgstr "Puola"
+
+#
+#, fuzzy
+msgid "Port"
+msgstr "Portti A"
 
 #
 msgid "Port A"
@@ -4875,7 +5036,7 @@ msgstr "Nopea"
 
 #
 #, fuzzy
-msgid "Quick zap"
+msgid "Quickzap"
 msgstr "Pikavaihto"
 
 #
@@ -5264,6 +5425,9 @@ msgstr "SNR"
 msgid "SNR:"
 msgstr "SNR:"
 
+msgid "SPDIF"
+msgstr ""
+
 msgid "SSID:"
 msgstr "SSID:"
 
@@ -5383,6 +5547,11 @@ msgid ""
 msgstr ""
 "Hakee oletuskanavalistan satelliittijärjestyksessä käyttäen kytkettyä "
 "antennimoottoria"
+
+#
+#, fuzzy
+msgid "Scroll long strings"
+msgstr "Kokoelman asetukset"
 
 #
 msgid "Search east"
@@ -5679,12 +5848,20 @@ msgstr "Kanavat"
 msgid "Set end time"
 msgstr "Aseta loppumisaika"
 
+#, fuzzy
+msgid "Set fan"
+msgstr "Aseta kiinteäksi"
+
 msgid "Set fixed"
 msgstr "Aseta kiinteäksi"
 
 #
 msgid "Set interface as default Interface"
 msgstr "Määritä sovitin oletussovittimeksi"
+
+#, fuzzy
+msgid "Set led"
+msgstr "Aseta kiinteäksi"
 
 #, fuzzy
 msgid "Set limits"
@@ -5792,6 +5969,11 @@ msgstr ""
 msgid "Show channel numbers in channel selection"
 msgstr "Näytä kanavanvalinnassa kanavanumerot"
 
+#
+#, fuzzy
+msgid "Show clock"
+msgstr "Näytä tiedot"
+
 msgid "Show crypto info in infobar"
 msgstr "Näytä salaustyyppi tietopalkissa"
 
@@ -5849,6 +6031,9 @@ msgstr "Näytä ilmoitus tallennuksen alkamisesta"
 msgid "Show movie lengths in movielist"
 msgstr "Näytä tilakuvakkeet tallenneluettelossa"
 
+msgid "Show on VFD Display"
+msgstr ""
+
 #
 msgid "Show positioner movement"
 msgstr "Näytä kuvake kääntömoottorin liikkuessa"
@@ -5901,6 +6086,10 @@ msgstr "Sammuta"
 
 msgid "Shutdown receiver after"
 msgstr ""
+
+#, fuzzy
+msgid "Side by Side"
+msgstr "Sivuttain"
 
 #, fuzzy
 msgid "Side by side"
@@ -5978,6 +6167,11 @@ msgstr "Ohita tyhjät kanavat"
 msgid ""
 "Skip internet connection check (disables automatic package installation)"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Sleep Timer"
+msgstr "Uniajastin"
 
 #
 #, fuzzy
@@ -6121,6 +6315,9 @@ msgstr "Etelä"
 #
 msgid "Spanish"
 msgstr "Espanja"
+
+msgid "Speed"
+msgstr ""
 
 #
 msgid "Split preview mode"
@@ -6820,6 +7017,11 @@ msgstr "Torstai"
 msgid "Time"
 msgstr "Aika"
 
+#
+#, fuzzy
+msgid "Time mode"
+msgstr "22KHz-ääni"
+
 #, fuzzy
 msgid "Time scale"
 msgstr "Aika-asteikko"
@@ -6948,6 +7150,10 @@ msgstr "Äänipurske"
 #
 msgid "Toneburst A/B"
 msgstr "Äänipurske A/B"
+
+#, fuzzy
+msgid "Top and Bottom"
+msgstr "Ylä ja ala"
 
 #, fuzzy
 msgid "Top and bottom"
@@ -7322,10 +7528,9 @@ msgid ""
 "be used."
 msgstr ""
 
-#
-#  Päävalikon VCR-SCART-toiminnon nimi
-msgid "VCR scart"
-msgstr "SCART-läpivienti"
+#, fuzzy
+msgid "VFD display configuration"
+msgstr "Tallenneluettelon asetukset"
 
 msgid "VMGM (intro trailer)"
 msgstr "VMGM (intro trailer)"
@@ -7878,6 +8083,9 @@ msgstr "Kirjoitus epäonnistui!"
 msgid "YPbPr"
 msgstr "Komponentti (YPbPr)"
 
+msgid "YUV"
+msgstr ""
+
 #
 msgid "Year"
 msgstr "Vuosi"
@@ -8297,6 +8505,9 @@ msgstr ""
 msgid "blacklist"
 msgstr "kielletyt"
 
+msgid "blank"
+msgstr ""
+
 #
 msgid "blue"
 msgstr "sininen"
@@ -8312,8 +8523,20 @@ msgstr "Aikajärjestys"
 msgid "cartoon/puppets"
 msgstr ""
 
+msgid "cdma"
+msgstr ""
+
 msgid "center"
 msgstr "keski"
+
+#
+#, fuzzy
+msgid "channel"
+msgstr "Kanava"
+
+#, fuzzy
+msgid "channel number"
+msgstr "Puhelinnumero"
 
 #
 msgid "chapters"
@@ -8329,6 +8552,11 @@ msgstr "Kiertopolarisaatio vasen"
 #
 msgid "circular right"
 msgstr "Kiertopolarisaatio oikea"
+
+#
+#, fuzzy
+msgid "clock"
+msgstr "lukittu"
 
 msgid "comedy"
 msgstr ""
@@ -8589,6 +8817,9 @@ msgstr "siirry virransäästötilaan"
 #
 msgid "go to standby"
 msgstr "siirry valmiustilaan"
+
+msgid "gprs"
+msgstr ""
 
 #
 msgid "grab this frame as bitmap"
@@ -9056,8 +9287,18 @@ msgstr "Näytä vaihtoehtoiset kanavat"
 msgid "show event details"
 msgstr "näytä ohjelman tarkemmat tiedot"
 
+#
+#, fuzzy
+msgid "show favourites"
+msgstr "Lisää suosikkilistalle"
+
 msgid "show mediaplayer on mainmenu"
 msgstr "näytä mediatoistin päävalikossa"
+
+#
+#, fuzzy
+msgid "show satellites"
+msgstr "Kaikki satelliitit"
 
 msgid "show softwaremanager in setup menu"
 msgstr ""
@@ -9194,6 +9435,11 @@ msgid "this service is protected by a parental control pin"
 msgstr "tämä kanava on suojattu lapsilukolla"
 
 #
+#, fuzzy
+msgid "toggels betwenn tv and radio..."
+msgstr "kuuntele radiota..."
+
+#
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "valitse aika, kappale, ääni, tekstitys"
 
@@ -9205,6 +9451,39 @@ msgstr ""
 
 msgid "true"
 msgstr "tosi"
+
+msgid "ttyACM0"
+msgstr ""
+
+msgid "ttyUSB0"
+msgstr ""
+
+msgid "ttyUSB1"
+msgstr ""
+
+msgid "ttyUSB2"
+msgstr ""
+
+msgid "ttyUSB3"
+msgstr ""
+
+msgid "ttyUSB4"
+msgstr ""
+
+msgid "ttyUSB5"
+msgstr ""
+
+msgid "ttyUSB6"
+msgstr ""
+
+msgid "ttyUSB7"
+msgstr ""
+
+msgid "ttyUSB8"
+msgstr ""
+
+msgid "ttyUSB9"
+msgstr ""
 
 msgid "tuner is not supported"
 msgstr "viritin ei ole tuettu"
@@ -9993,6 +10272,11 @@ msgstr "vaihdettu"
 #~ "selaukseen.\n"
 #~ "\n"
 #~ "Määritä virittimen 1 asetukset:"
+
+#
+#  Päävalikon VCR-SCART-toiminnon nimi
+#~ msgid "VCR scart"
+#~ msgstr "SCART-läpivienti"
 
 #
 #~ msgid "Video Fine-Tuning Wizard"

@@ -116,6 +116,15 @@ msgid " (TV)"
 msgstr ""
 
 #
+#, fuzzy
+msgid ""
+" Are you sure to save the current configuration?\n"
+"\n"
+msgstr ""
+"Ви дійсно бажаєте активувати цю конфігурацію мережі?\n"
+"\n"
+
+#
 msgid " extensions."
 msgstr " розширення."
 
@@ -129,6 +138,9 @@ msgstr " вибрано пакети."
 #
 msgid " updates available."
 msgstr " доступні оновлення."
+
+msgid "#777"
+msgstr ""
 
 #. TRANSLATORS: short time representation hour:minute
 #, python-format
@@ -263,6 +275,20 @@ msgstr "(показати додаткове DVD аудіо меню)"
 msgid "* Only available if more than one interface is active."
 msgstr "* Доступні тільки якщо більше ніж один інтерфейс активний."
 
+msgid "*99#"
+msgstr ""
+
+msgid "*99***1#"
+msgstr ""
+
+msgid "*99**1*1#"
+msgstr ""
+
+#
+#, fuzzy
+msgid "..."
+msgstr "допомога..."
+
 #
 msgid "0"
 msgstr ""
@@ -283,6 +309,18 @@ msgstr "1.1"
 msgid "1.2"
 msgstr "1.2"
 
+msgid "1000"
+msgstr ""
+
+msgid "1100"
+msgstr ""
+
+msgid "115200"
+msgstr ""
+
+msgid "1200"
+msgstr ""
+
 #
 msgid "12V output"
 msgstr "12V Вихід"
@@ -290,6 +328,24 @@ msgstr "12V Вихід"
 #
 msgid "13 V"
 msgstr "13 V"
+
+msgid "1300"
+msgstr ""
+
+msgid "1400"
+msgstr ""
+
+msgid "1440"
+msgstr ""
+
+msgid "1460"
+msgstr ""
+
+msgid "1492"
+msgstr ""
+
+msgid "1500"
+msgstr ""
 
 #
 msgid "16:10"
@@ -323,8 +379,19 @@ msgstr "18 V"
 msgid "2"
 msgstr ""
 
+msgid "230400"
+msgstr ""
+
 #
 msgid "3"
+msgstr ""
+
+#
+#, fuzzy
+msgid "3D Mode"
+msgstr "Режим"
+
+msgid "3D Modus"
 msgstr ""
 
 msgid "3d mode"
@@ -332,6 +399,12 @@ msgstr ""
 
 #
 msgid "4"
+msgstr ""
+
+msgid "422"
+msgstr ""
+
+msgid "460800"
 msgstr ""
 
 #
@@ -350,6 +423,9 @@ msgstr ""
 msgid "5"
 msgstr ""
 
+msgid "57600"
+msgstr ""
+
 #
 msgid "6"
 msgstr ""
@@ -364,6 +440,9 @@ msgstr ""
 
 #
 msgid "9"
+msgstr ""
+
+msgid "921600"
 msgstr ""
 
 #
@@ -517,6 +596,9 @@ msgstr ""
 msgid "AC3/DTS downmix"
 msgstr ""
 
+msgid "APN"
+msgstr ""
+
 #
 msgid "Abort"
 msgstr "Скасувати"
@@ -662,6 +744,11 @@ msgstr "Додати до фаворитів"
 #, fuzzy
 msgid "Add/remove timer for current event"
 msgstr "додати запис (зупинити після виконання)"
+
+#
+#, fuzzy
+msgid "Additional PPPD options"
+msgstr "вибір аудіо-доріжки..."
 
 msgid "Adjust 3D settings"
 msgstr ""
@@ -845,6 +932,11 @@ msgstr "запитувати користувача"
 
 #
 #, fuzzy
+msgid "Aspect list..."
+msgstr "список підсервісів..."
+
+#
+#, fuzzy
 msgid "Aspect ratio"
 msgstr "Співвідношення сторін:"
 
@@ -867,6 +959,9 @@ msgid "Audio"
 msgstr "Аудіо"
 
 msgid "Audio PID"
+msgstr ""
+
+msgid "Audio Source"
 msgstr ""
 
 msgid "Audio language selection 1"
@@ -929,6 +1024,16 @@ msgstr ""
 #
 msgid "Auto scart switching"
 msgstr "Авто переключення на скарт"
+
+#
+#, fuzzy
+msgid "Auto start"
+msgstr "Як почати"
+
+#
+#, fuzzy
+msgid "Auto(not available)"
+msgstr "доступно"
 
 #
 msgid "Automatic"
@@ -1200,6 +1305,11 @@ msgstr "Канал"
 
 #
 #, fuzzy
+msgid "Channel Selection"
+msgstr "Вибір каналу"
+
+#
+#, fuzzy
 msgid "Channel list type"
 msgstr "Меню списку каналів"
 
@@ -1325,6 +1435,11 @@ msgstr "Налаштування проекту"
 
 #
 #, fuzzy
+msgid "Color Format"
+msgstr "Формат кольору"
+
+#
+#, fuzzy
 msgid "Color format"
 msgstr "Формат кольору"
 
@@ -1377,6 +1492,11 @@ msgstr "Режим конфігурації"
 #
 #, fuzzy, python-format
 msgid "Configuration mode: %s"
+msgstr "Режим конфігурації"
+
+#
+#, fuzzy
+msgid "Configuration saved!"
 msgstr "Режим конфігурації"
 
 #
@@ -2066,6 +2186,11 @@ msgstr "DiSEqC повторювання"
 #, fuzzy
 msgid "DiSEqC-tester settings"
 msgstr "Тест налаштувань DiSEqC"
+
+#
+#, fuzzy
+msgid "Dial number"
+msgstr "Телефонний номер"
 
 #
 msgid "Dialing:"
@@ -3546,6 +3671,12 @@ msgstr "Карта ММС"
 msgid "MORE"
 msgstr "БІЛЬШЕ"
 
+msgid "MRU"
+msgstr ""
+
+msgid "MTU"
+msgstr ""
+
 #
 msgid "Main menu"
 msgstr "Головне Меню"
@@ -3663,6 +3794,16 @@ msgstr "Режим"
 #
 msgid "Model: "
 msgstr "Модель: "
+
+#
+#, fuzzy
+msgid "Modem configuration"
+msgstr "Конфігурація тюнера"
+
+#
+#, fuzzy
+msgid "Modem type"
+msgstr "Програмне забезпечення"
 
 #
 msgid "Modulation"
@@ -4270,6 +4411,9 @@ msgstr "Конфігурація тюнера"
 msgid "PAL"
 msgstr "PAL"
 
+msgid "PCM"
+msgstr ""
+
 msgid "PCR PID"
 msgstr ""
 
@@ -4535,6 +4679,11 @@ msgstr "Виберіть плейлист..."
 
 #
 #, fuzzy
+msgid "Please select a resolution..."
+msgstr "Виберіть підсервіс..."
+
+#
+#, fuzzy
 msgid "Please select a sub service..."
 msgstr "Виберіть підсервіс..."
 
@@ -4546,8 +4695,18 @@ msgstr "Виберіть підсервіс для запису..."
 msgid "Please select a subservice..."
 msgstr "Виберіть підсервіс..."
 
+#
+#, fuzzy
+msgid "Please select an 3D modus..."
+msgstr "Виберіть підсервіс..."
+
 msgid "Please select an NFI file and press green key to flash!"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Please select an aspect ratio..."
+msgstr "Виберіть підсервіс..."
 
 #
 #, fuzzy
@@ -4689,6 +4848,11 @@ msgstr "Поляризація"
 #
 msgid "Polish"
 msgstr "Польська"
+
+#
+#, fuzzy
+msgid "Port"
+msgstr "Порт A"
 
 #
 msgid "Port A"
@@ -4888,7 +5052,7 @@ msgstr "Швидко"
 
 #
 #, fuzzy
-msgid "Quick zap"
+msgid "Quickzap"
 msgstr "Швидке перемикання"
 
 #
@@ -5278,6 +5442,9 @@ msgstr ""
 msgid "SNR:"
 msgstr ""
 
+msgid "SPDIF"
+msgstr ""
+
 #
 msgid "SSID:"
 msgstr ""
@@ -5398,6 +5565,11 @@ msgstr ""
 msgid ""
 "Scans default lamedbs sorted by satellite with a connected dish positioner"
 msgstr "Просканувати снандартні супутники записані в позиціонері"
+
+#
+#, fuzzy
+msgid "Scroll long strings"
+msgstr "Налаштування проекту"
 
 #
 msgid "Search east"
@@ -5692,12 +5864,20 @@ msgstr "Канали"
 msgid "Set end time"
 msgstr "Час закінчення"
 
+msgid "Set fan"
+msgstr ""
+
 msgid "Set fixed"
 msgstr ""
 
 #
 msgid "Set interface as default Interface"
 msgstr "Встановити інтерфейс як Інтерфейс за замовчуванням"
+
+#
+#, fuzzy
+msgid "Set led"
+msgstr "Час закінчення"
 
 msgid "Set limits"
 msgstr ""
@@ -5805,6 +5985,11 @@ msgstr ""
 msgid "Show channel numbers in channel selection"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Show clock"
+msgstr "Показати інформацію"
+
 msgid "Show crypto info in infobar"
 msgstr ""
 
@@ -5865,6 +6050,9 @@ msgstr "Показати повідомлення, коли запис розп�
 msgid "Show movie lengths in movielist"
 msgstr "Показувати довжину відео в списку"
 
+msgid "Show on VFD Display"
+msgstr ""
+
 #
 msgid "Show positioner movement"
 msgstr "Показувати рух позиціонера"
@@ -5914,6 +6102,9 @@ msgid "Shutdown"
 msgstr ""
 
 msgid "Shutdown receiver after"
+msgstr ""
+
+msgid "Side by Side"
 msgstr ""
 
 msgid "Side by side"
@@ -5991,6 +6182,11 @@ msgstr "Захист каналів"
 msgid ""
 "Skip internet connection check (disables automatic package installation)"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Sleep Timer"
+msgstr "Таймер Вимкнення"
 
 #
 #, fuzzy
@@ -6135,6 +6331,9 @@ msgstr "Південь"
 #
 msgid "Spanish"
 msgstr "Іспанська"
+
+msgid "Speed"
+msgstr ""
 
 #
 msgid "Split preview mode"
@@ -6824,6 +7023,11 @@ msgstr "Час"
 
 #
 #, fuzzy
+msgid "Time mode"
+msgstr "Тоновий режим"
+
+#
+#, fuzzy
 msgid "Time scale"
 msgstr "Вибір таймера"
 
@@ -6952,6 +7156,9 @@ msgstr "Тоновий сигнал"
 #
 msgid "Toneburst A/B"
 msgstr "Тоновий сигнал A/B"
+
+msgid "Top and Bottom"
+msgstr ""
 
 msgid "Top and bottom"
 msgstr ""
@@ -7322,8 +7529,9 @@ msgid ""
 msgstr ""
 
 #
-msgid "VCR scart"
-msgstr "VCR скарт"
+#, fuzzy
+msgid "VFD display configuration"
+msgstr "Конфігурація тюнера"
 
 #
 msgid "VMGM (intro trailer)"
@@ -7880,6 +8088,9 @@ msgstr "Записати невдалось!"
 msgid "YPbPr"
 msgstr "YPbPr"
 
+msgid "YUV"
+msgstr ""
+
 #
 msgid "Year"
 msgstr "Рік"
@@ -8285,6 +8496,9 @@ msgstr ""
 msgid "blacklist"
 msgstr "чорний список"
 
+msgid "blank"
+msgstr ""
+
 #
 msgid "blue"
 msgstr "синій"
@@ -8300,8 +8514,21 @@ msgstr "сортувати по даті"
 msgid "cartoon/puppets"
 msgstr ""
 
+msgid "cdma"
+msgstr ""
+
 msgid "center"
 msgstr ""
+
+#
+#, fuzzy
+msgid "channel"
+msgstr "Канал"
+
+#
+#, fuzzy
+msgid "channel number"
+msgstr "Телефонний номер"
 
 #
 msgid "chapters"
@@ -8317,6 +8544,11 @@ msgstr "кругова ліва"
 #
 msgid "circular right"
 msgstr "кругова права"
+
+#
+#, fuzzy
+msgid "clock"
+msgstr "сигнал"
 
 msgid "comedy"
 msgstr ""
@@ -8576,6 +8808,9 @@ msgstr "вимкнути Dreambox"
 #
 msgid "go to standby"
 msgstr "перейти в режим очікування"
+
+msgid "gprs"
+msgstr ""
 
 #
 msgid "grab this frame as bitmap"
@@ -9043,8 +9278,18 @@ msgstr "показати вибрані канали"
 msgid "show event details"
 msgstr "показати деталі"
 
+#
+#, fuzzy
+msgid "show favourites"
+msgstr "Додати до фаворитів"
+
 msgid "show mediaplayer on mainmenu"
 msgstr ""
+
+#
+#, fuzzy
+msgid "show satellites"
+msgstr "Всі супутники"
 
 msgid "show softwaremanager in setup menu"
 msgstr ""
@@ -9181,6 +9426,11 @@ msgid "this service is protected by a parental control pin"
 msgstr "цей канал захищений PIN кодом"
 
 #
+#, fuzzy
+msgid "toggels betwenn tv and radio..."
+msgstr "слухати радіо..."
+
+#
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "основна інформація"
 
@@ -9191,6 +9441,39 @@ msgid "tourism/travel"
 msgstr ""
 
 msgid "true"
+msgstr ""
+
+msgid "ttyACM0"
+msgstr ""
+
+msgid "ttyUSB0"
+msgstr ""
+
+msgid "ttyUSB1"
+msgstr ""
+
+msgid "ttyUSB2"
+msgstr ""
+
+msgid "ttyUSB3"
+msgstr ""
+
+msgid "ttyUSB4"
+msgstr ""
+
+msgid "ttyUSB5"
+msgstr ""
+
+msgid "ttyUSB6"
+msgstr ""
+
+msgid "ttyUSB7"
+msgstr ""
+
+msgid "ttyUSB8"
+msgstr ""
+
+msgid "ttyUSB9"
 msgstr ""
 
 msgid "tuner is not supported"
@@ -9869,6 +10152,10 @@ msgstr "Переключений"
 #~ "Виберіть Тюнер A"
 
 #
+#~ msgid "VCR scart"
+#~ msgstr "VCR скарт"
+
+#
 #~ msgid "Video Fine-Tuning Wizard"
 #~ msgstr "Майстер налаштування зображення"
 
@@ -9935,10 +10222,6 @@ msgstr "Переключений"
 #~ msgstr ""
 #~ "Ви дійсно бажаєте відновити\n"
 #~ "наступну копію:\n"
-
-#
-#~ msgid "available"
-#~ msgstr "доступно"
 
 #
 #~ msgid "could not be removed"

@@ -1028,6 +1028,7 @@ msgstr "Bus: "
 msgid "By pressing the OK Button on your remote control, the info bar is being displayed."
 "By default, SNR will be shown in dB (when supported by the tuner). This "
 "setting forces SNR to be shown as a percentage instead."
+msgstr ""
 
 #
 msgid "C"
@@ -7614,14 +7615,6 @@ msgid ""
 msgstr ""
 
 msgid "You system does not support ext4"
-msgstr ""
-
-#
-msgid ""
-msgstr "El backup ha acabat. Ara continuarem explicant el procés d'actualització."
-
-#
-msgid "Your collection exceeds the size of a single layer medium, you will need a blank dual layer DVD!"
 msgstr ""
 
 #

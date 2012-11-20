@@ -11,7 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
 
 msgid ""
 "\n"
@@ -120,6 +121,15 @@ msgstr " (Radio)"
 msgid " (TV)"
 msgstr ""
 
+#
+#, fuzzy
+msgid ""
+" Are you sure to save the current configuration?\n"
+"\n"
+msgstr ""
+"Czy chcesz aktywować konfigurację sieci?\n"
+"\n"
+
 msgid " extensions."
 msgstr "Rozszerzenia"
 
@@ -133,6 +143,9 @@ msgstr " pakiety wybrane."
 #
 msgid " updates available."
 msgstr " aktualizacje dostępne."
+
+msgid "#777"
+msgstr ""
 
 #. TRANSLATORS: short time representation hour:minute
 #, python-format
@@ -275,6 +288,20 @@ msgstr "(pokaż opcjonalne menu audio DVD)"
 msgid "* Only available if more than one interface is active."
 msgstr "* Dostępne tylko gdy więcej niż jeden interfejs jest aktywny."
 
+msgid "*99#"
+msgstr ""
+
+msgid "*99***1#"
+msgstr ""
+
+msgid "*99**1*1#"
+msgstr ""
+
+#
+#, fuzzy
+msgid "..."
+msgstr "Pomoc..."
+
 #
 msgid "0"
 msgstr "0"
@@ -295,6 +322,18 @@ msgstr "1.1"
 msgid "1.2"
 msgstr "1.2"
 
+msgid "1000"
+msgstr ""
+
+msgid "1100"
+msgstr ""
+
+msgid "115200"
+msgstr ""
+
+msgid "1200"
+msgstr ""
+
 #
 msgid "12V output"
 msgstr "Wyjście 12V"
@@ -302,6 +341,24 @@ msgstr "Wyjście 12V"
 #
 msgid "13 V"
 msgstr "13 V"
+
+msgid "1300"
+msgstr ""
+
+msgid "1400"
+msgstr ""
+
+msgid "1440"
+msgstr ""
+
+msgid "1460"
+msgstr ""
+
+msgid "1492"
+msgstr ""
+
+msgid "1500"
+msgstr ""
 
 #
 msgid "16:10"
@@ -335,9 +392,20 @@ msgstr "18 V"
 msgid "2"
 msgstr "2"
 
+msgid "230400"
+msgstr ""
+
 #
 msgid "3"
 msgstr "3"
+
+#
+#, fuzzy
+msgid "3D Mode"
+msgstr "Tryb"
+
+msgid "3D Modus"
+msgstr ""
 
 msgid "3d mode"
 msgstr "tryb 3d"
@@ -345,6 +413,12 @@ msgstr "tryb 3d"
 #
 msgid "4"
 msgstr "4"
+
+msgid "422"
+msgstr ""
+
+msgid "460800"
+msgstr ""
 
 #
 msgid "4:3"
@@ -362,6 +436,9 @@ msgstr "4:3 PanScan"
 msgid "5"
 msgstr "5"
 
+msgid "57600"
+msgstr ""
+
 #
 msgid "6"
 msgstr "6"
@@ -377,6 +454,9 @@ msgstr "8"
 #
 msgid "9"
 msgstr "9"
+
+msgid "921600"
+msgstr ""
 
 #
 msgid "<Current movielist location>"
@@ -459,15 +539,25 @@ msgstr ""
 "Co chcesz zrobić?"
 
 #
-msgid "A recording is currently running. Please stop the recording before trying to configure the positioner."
-msgstr "Nagrywanie w toku. Zakończ nagrywanie przed rozpoczęciem ustawiania pozycjonera."
+msgid ""
+"A recording is currently running. Please stop the recording before trying to "
+"configure the positioner."
+msgstr ""
+"Nagrywanie w toku. Zakończ nagrywanie przed rozpoczęciem ustawiania "
+"pozycjonera."
 
-msgid "A recording is currently running. Please stop the recording before trying to scan."
+msgid ""
+"A recording is currently running. Please stop the recording before trying to "
+"scan."
 msgstr "Trwa nagrywanie. Zatrzymaj nagrywanie zanim rozpoczniesz skanowanie."
 
 #
-msgid "A recording is currently running. Please stop the recording before trying to start the satfinder."
-msgstr "Nagrywanie w toku . Zatrzymaj nagrywanie przed uruchomieniem miernika sygnału."
+msgid ""
+"A recording is currently running. Please stop the recording before trying to "
+"start the satfinder."
+msgstr ""
+"Nagrywanie w toku . Zatrzymaj nagrywanie przed uruchomieniem miernika "
+"sygnału."
 
 #
 #, python-format
@@ -531,6 +621,9 @@ msgid "AC3 downmix"
 msgstr "AC3 downmix"
 
 msgid "AC3/DTS downmix"
+msgstr ""
+
+msgid "APN"
 msgstr ""
 
 #
@@ -663,6 +756,11 @@ msgstr "Dodaj do ulubionych"
 msgid "Add/remove timer for current event"
 msgstr "Dodaj/usuń timer dla bieżącej audycji"
 
+#
+#, fuzzy
+msgid "Additional PPPD options"
+msgstr "Opcje dźwięku..."
+
 msgid "Adjust 3D settings"
 msgstr "Dostosuj ustawienia 3d"
 
@@ -671,8 +769,16 @@ msgid "Adjust HDMI CEC settings"
 msgstr "Dostosuj ustawienia HDMI-CEC"
 
 #
-msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
-msgstr "Dostosuj ustawienia koloru, tak aby wszystkie odcienie były rozróżnialne, ale jak najbardziej nasycone. Jeśli jesteś zadowolony z rezultatu wciśnij OK aby wyjść z tego menu lub użyj klawiszy numerycznych aby zobaczyć inne ekrany testowe."
+msgid ""
+"Adjust the color settings so that all the color shades are distinguishable, "
+"but appear as saturated as possible. If you are happy with the result, press "
+"OK to close the video fine-tuning, or use the number keys to select other "
+"test screens."
+msgstr ""
+"Dostosuj ustawienia koloru, tak aby wszystkie odcienie były rozróżnialne, "
+"ale jak najbardziej nasycone. Jeśli jesteś zadowolony z rezultatu wciśnij OK "
+"aby wyjść z tego menu lub użyj klawiszy numerycznych aby zobaczyć inne "
+"ekrany testowe."
 
 #
 msgid "Advanced options"
@@ -830,6 +936,11 @@ msgstr "Kultura/Sztuka"
 msgid "Ask user"
 msgstr "Zapytaj użytkownika"
 
+#
+#, fuzzy
+msgid "Aspect list..."
+msgstr "Lista subserwisów..."
+
 msgid "Aspect ratio"
 msgstr ""
 
@@ -854,6 +965,9 @@ msgid "Audio"
 msgstr "Dźwięk"
 
 msgid "Audio PID"
+msgstr ""
+
+msgid "Audio Source"
 msgstr ""
 
 #
@@ -920,6 +1034,15 @@ msgstr "Automatyczny wybór języka"
 #
 msgid "Auto scart switching"
 msgstr "Automatyczne przełączanie 'scart'"
+
+#
+#, fuzzy
+msgid "Auto start"
+msgstr "zaraz się rozpocznie"
+
+#, fuzzy
+msgid "Auto(not available)"
+msgstr "Niedostępny"
 
 #
 msgid "Automatic"
@@ -1073,8 +1196,12 @@ msgstr "Nagraj na DVD..."
 msgid "Bus: "
 msgstr "Bus:"
 
-msgid "By default, SNR will be shown in dB (when supported by the tuner). This setting forces SNR to be shown as a percentage instead."
-msgstr "Domyślnie SNR jest wyświetlana w dB (jeśli wspierane przez tuner). To ustawienie wymusza wyświetlanie SNR w procentach."
+msgid ""
+"By default, SNR will be shown in dB (when supported by the tuner). This "
+"setting forces SNR to be shown as a percentage instead."
+msgstr ""
+"Domyślnie SNR jest wyświetlana w dB (jeśli wspierane przez tuner). To "
+"ustawienie wymusza wyświetlanie SNR w procentach."
 
 #
 msgid "C"
@@ -1186,6 +1313,11 @@ msgstr ""
 #
 msgid "Channel"
 msgstr "Kanał"
+
+#
+#, fuzzy
+msgid "Channel Selection"
+msgstr "Wybór kanałów"
 
 #
 msgid "Channel list type"
@@ -1312,6 +1444,11 @@ msgid "Collection settings"
 msgstr "Ustawienia kolekcji"
 
 #
+#, fuzzy
+msgid "Color Format"
+msgstr "Format koloru"
+
+#
 msgid "Color format"
 msgstr "Format koloru"
 
@@ -1362,15 +1499,26 @@ msgstr "Tryb konfiguracji"
 msgid "Configuration mode: %s"
 msgstr "Tryb konfiguracji: %s"
 
+#, fuzzy
+msgid "Configuration saved!"
+msgstr "Tryb konfiguracji"
+
 #
 msgid "Configuration..."
 msgstr "Konfiguracja..."
 
-msgid "Configure for how long the infobar will remain visible after activation."
+msgid ""
+"Configure for how long the infobar will remain visible after activation."
 msgstr "Skonfiguruj czas wyświetlania paska info"
 
-msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
-msgstr "Skonfiguruj przez ile minut zakończone audycje pozostaną widoczne w EPG. Przydatne, gdy potrzebujesz informacji o programie, który właśnie się zakończył lub opóźnił się ."
+msgid ""
+"Configure for how many minutes finished events should remain visible in the "
+"EPG. Useful when you need information about an event which has just "
+"finished, or has been delayed."
+msgstr ""
+"Skonfiguruj przez ile minut zakończone audycje pozostaną widoczne w EPG. "
+"Przydatne, gdy potrzebujesz informacji o programie, który właśnie się "
+"zakończył lub opóźnił się ."
 
 msgid "Configure how recording filenames are constructed."
 msgstr "Skonfiguruj jak mają wyglądać nazwy plików nagrań."
@@ -1400,8 +1548,12 @@ msgstr "Ustaw adres IP"
 msgid "Configure the aspect ratio of the screen."
 msgstr "Skonfiguruj aspect ratio."
 
-msgid "Configure the behavior of the 'pause' key when movie playback is already paused."
-msgstr "skonfiguruj zachowanie klawisza 'pauza' gdy odtwarzanie filmu jest już wstrzymane."
+msgid ""
+"Configure the behavior of the 'pause' key when movie playback is already "
+"paused."
+msgstr ""
+"skonfiguruj zachowanie klawisza 'pauza' gdy odtwarzanie filmu jest już "
+"wstrzymane."
 
 #
 msgid "Configure the behavior when movie playback is manually stopped."
@@ -1411,13 +1563,20 @@ msgstr "Skonfiguruj zachowanie po zastopowaniu odtwarzania."
 msgid "Configure the behavior when movie playback is started."
 msgstr "Skonfiguruj zachowanie przy rozpoczęciu odtwarzania."
 
-msgid "Configure the behavior when reaching the end of a movie, during movie playback."
+msgid ""
+"Configure the behavior when reaching the end of a movie, during movie "
+"playback."
 msgstr "Skonfiguruj zachowanie gdy odtwarzanie filmu osiągnie koniec."
 
-msgid "Configure the border width of the subtitles. The dark border makes the subtitles easier to read on a light background."
-msgstr "Skonfiguruj szerokość obramowania napisów. Ciemne obramowanie sprawia, że napisy są bardziej czytelne na jasnym tle. "
+msgid ""
+"Configure the border width of the subtitles. The dark border makes the "
+"subtitles easier to read on a light background."
+msgstr ""
+"Skonfiguruj szerokość obramowania napisów. Ciemne obramowanie sprawia, że "
+"napisy są bardziej czytelne na jasnym tle. "
 
-msgid "Configure the brightness level of the front panel display during standby."
+msgid ""
+"Configure the brightness level of the front panel display during standby."
 msgstr "Skonfiguruj jasność wyświetlacza w trybie standby."
 
 msgid "Configure the brightness level of the front panel display."
@@ -1464,17 +1623,26 @@ msgstr "Skonfiguruj ogólne opóźnienie dla ścieżek audio Dolby Digital."
 msgid "Configure the general audio delay of stereo sound tracks."
 msgstr "Skonfiguruj ogólne opóźnienie dla ścieżek audio stereo."
 
-msgid "Configure the hard disk drive to go to standby after the specified idle time."
+msgid ""
+"Configure the hard disk drive to go to standby after the specified idle time."
 msgstr "Skonfiguruj czas po jakim dysk twardy ma przechodzić w tryb uśpienia."
 
 msgid "Configure the horizontal alignment of the subtitles."
 msgstr "Skonfiguruj poziome wyrównanie napisów."
 
-msgid "Configure the initial fast forward speed. When you press the fast forward button, winding will start at this speed."
-msgstr "Skonfiguruj początkową prędkość przewijania w przód. Gdy wciśniesz przycisk [>>] przewijanie rozpocznie się z tą prędkością."
+msgid ""
+"Configure the initial fast forward speed. When you press the fast forward "
+"button, winding will start at this speed."
+msgstr ""
+"Skonfiguruj początkową prędkość przewijania w przód. Gdy wciśniesz przycisk "
+"[>>] przewijanie rozpocznie się z tą prędkością."
 
-msgid "Configure the initial rewind speed. When you press the rewind button, winding will start at this speed."
-msgstr "Skonfiguruj początkową prędkość przewijania wstecz. Gdy wciśniesz przycisk [<<] przewijanie rozpocznie się z tą prędkością."
+msgid ""
+"Configure the initial rewind speed. When you press the rewind button, "
+"winding will start at this speed."
+msgstr ""
+"Skonfiguruj początkową prędkość przewijania wstecz. Gdy wciśniesz przycisk "
+"[<<] przewijanie rozpocznie się z tą prędkością."
 
 msgid "Configure the latitude of your location."
 msgstr "Skonfiguruj szerokość geograficzną dla swojej lokalizacji."
@@ -1482,8 +1650,13 @@ msgstr "Skonfiguruj szerokość geograficzną dla swojej lokalizacji."
 msgid "Configure the longitude of your location."
 msgstr "Skonfiguruj długość geograficzną swojej lokalizacji."
 
-msgid "Configure the minimum amount of disk space to be available for recordings. When the amount of space drops below this value, deleted items will be removed from the trash can."
-msgstr "Określ minimalną przestrzeń dyskowej zarezerwowaną dla nagrań. W przypadku  spadku poniżej tego progu, usunięte pliki zostaną wykasowane z kosza."
+msgid ""
+"Configure the minimum amount of disk space to be available for recordings. "
+"When the amount of space drops below this value, deleted items will be "
+"removed from the trash can."
+msgstr ""
+"Określ minimalną przestrzeń dyskowej zarezerwowaną dla nagrań. W przypadku  "
+"spadku poniżej tego progu, usunięte pliki zostaną wykasowane z kosza."
 
 #
 msgid "Configure the nameserver (DNS)."
@@ -1493,14 +1666,25 @@ msgstr "Skonfiguruj nameserver (DNS)."
 msgid "Configure the netmask."
 msgstr "Skonfiguruj maskę sieci."
 
-msgid "Configure the number of days after which items are automaticaly removed from the trash can."
-msgstr "Skonfiguruj ilość dni po których kosz zostaje automatycznie opróżniony."
+msgid ""
+"Configure the number of days after which items are automaticaly removed from "
+"the trash can."
+msgstr ""
+"Skonfiguruj ilość dni po których kosz zostaje automatycznie opróżniony."
 
-msgid "Configure the number of days old timers are kept before they are automatically removed from the timer list."
-msgstr "Skonfiguruj ilość dni przez jaką są trzymane wykonane timery, zanim zostaną automatycznie usunięte z listy."
+msgid ""
+"Configure the number of days old timers are kept before they are "
+"automatically removed from the timer list."
+msgstr ""
+"Skonfiguruj ilość dni przez jaką są trzymane wykonane timery, zanim zostaną "
+"automatycznie usunięte z listy."
 
-msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
-msgstr "Skonfiguruj opóźnienie dekodowania offline w milisekundach. Opóźnienie jest uwzględniane przy każdej zmianie CW."
+msgid ""
+"Configure the offline decoding delay in milliseconds. The configured delay "
+"is observed at each control word parity change."
+msgstr ""
+"Skonfiguruj opóźnienie dekodowania offline w milisekundach. Opóźnienie jest "
+"uwzględniane przy każdej zmianie CW."
 
 #
 msgid "Configure the possible fast forward speeds."
@@ -1544,8 +1728,12 @@ msgstr "Skonfiguruj czas przeskoku dla klawiszy '7'/'9'."
 msgid "Configure the slow motion speeds."
 msgstr "Prędkości odtwarzanie w zwolnionym tempie"
 
-msgid "Configure the speed of the background deletion process. Lower speed will consume less hard disk drive performance."
-msgstr "Skonfiguruj prędkość usuwania plików w tle. Niższa prędkość będzie w mniejszym stopniu ograniczać wydajność dysku."
+msgid ""
+"Configure the speed of the background deletion process. Lower speed will "
+"consume less hard disk drive performance."
+msgstr ""
+"Skonfiguruj prędkość usuwania plików w tle. Niższa prędkość będzie w "
+"mniejszym stopniu ograniczać wydajność dysku."
 
 msgid "Configure the subtitle delay when timing information is not available."
 msgstr "Skonfiguruj opóźnienie napisów, gdy brak informacje o timingu. "
@@ -1560,7 +1748,9 @@ msgstr "Skonfiguruj trzeci język napisów."
 msgid "Configure the transparency of the OSD."
 msgstr "Skonfiguruj przezroczystość OSD."
 
-msgid "Configure the transparency of the black background of graphical DVB subtitles."
+msgid ""
+"Configure the transparency of the black background of graphical DVB "
+"subtitles."
 msgstr "Skonfiguruj przezroczystość czarnego tła napisów DVB."
 
 msgid "Configure the tuner mode."
@@ -1569,7 +1759,9 @@ msgstr "Skonfiguruj tryb tunera."
 msgid "Configure the type of status indication icons shown in the movielist."
 msgstr "Skonfiguruj rodzaj ikon statusu wyświetlanych w liscie nagrań."
 
-msgid "Configure the vertical position of the subtitles, measured from the bottom of the screen."
+msgid ""
+"Configure the vertical position of the subtitles, measured from the bottom "
+"of the screen."
 msgstr "Skonfiguruj pionowe położenie napisów, mierzoną od dołu ekranu."
 
 msgid "Configure the video output mode (or resolution)."
@@ -1581,26 +1773,50 @@ msgstr "Skonfiguruj tryb zmiany kanałów."
 msgid "Configure where completed timers show up in the timer list."
 msgstr "Skonfiguruj gdzie wykonane timery mają być wyświetlane w liście."
 
-msgid "Configure whether (and for how long) a second infobar will be shown when OK is pressed twice. The second infobar contains additional information about the current channel."
-msgstr "Skonfiguruj czy (i jak długo) 'second infobar' będzie wyświetlany po dwukrotnym naciśnięciu OK. 'Second infobar' zawiera dodatkowe informacje o aktualnie oglądanym kanale."
+msgid ""
+"Configure whether (and for how long) a second infobar will be shown when OK "
+"is pressed twice. The second infobar contains additional information about "
+"the current channel."
+msgstr ""
+"Skonfiguruj czy (i jak długo) 'second infobar' będzie wyświetlany po "
+"dwukrotnym naciśnięciu OK. 'Second infobar' zawiera dodatkowe informacje o "
+"aktualnie oglądanym kanale."
 
-msgid "Configure whether multi channel sound tracks should be downmixed to stereo."
-msgstr "Skonfiguruj czy wielokanałowe ścieżki audio mają być downmix'owane do stereo."
+msgid ""
+"Configure whether multi channel sound tracks should be downmixed to stereo."
+msgstr ""
+"Skonfiguruj czy wielokanałowe ścieżki audio mają być downmix'owane do stereo."
 
-msgid "Configure whether or not an icon should be shown when your motorized dish is moving."
+msgid ""
+"Configure whether or not an icon should be shown when your motorized dish is "
+"moving."
 msgstr "Skonfiguruj czy  podczas ruchu obrotnicy, ma być wyświetlana  ikonka."
 
-msgid "Configure which access level to use for the configuration menu. Expert level gives access to all items."
-msgstr "Skonfiguruj poziom dostępu do menu konfiguracyjnego. Poziom 'Expert' daje dostęp do wszystkich opcji."
+msgid ""
+"Configure which access level to use for the configuration menu. Expert level "
+"gives access to all items."
+msgstr ""
+"Skonfiguruj poziom dostępu do menu konfiguracyjnego. Poziom 'Expert' daje "
+"dostęp do wszystkich opcji."
 
 msgid "Configure which color format should be used on the SCART output."
 msgstr "Skonfiguruj jaki format koloru ma być użyty na wyjściu SCART."
 
-msgid "Configure which tuner type will be preferred, when the same service is available on different types of tuners."
-msgstr "Skonfiguruj który tuner ma być preferowany, jeżeli kanał jest dostępny z różnych typów tunerów."
+msgid ""
+"Configure which tuner type will be preferred, when the same service is "
+"available on different types of tuners."
+msgstr ""
+"Skonfiguruj który tuner ma być preferowany, jeżeli kanał jest dostępny z "
+"różnych typów tunerów."
 
-msgid "Configure which tuner will be preferred, when more than one tuner is available. If set to 'auto' the system will give priority to the tuner having the lowest number of channels/satellites."
-msgstr "Skonfiguruj który tuner będzie preferowany gdy więcej niż jeden jest dostępny. Gdy ustawione na 'auto', priorytet będzie nadany tunerowi z najniższą ilością kanałów/satelit."
+msgid ""
+"Configure which tuner will be preferred, when more than one tuner is "
+"available. If set to 'auto' the system will give priority to the tuner "
+"having the lowest number of channels/satellites."
+msgstr ""
+"Skonfiguruj który tuner będzie preferowany gdy więcej niż jeden jest "
+"dostępny. Gdy ustawione na 'auto', priorytet będzie nadany tunerowi z "
+"najniższą ilością kanałów/satelit."
 
 #
 msgid "Configure your internal LAN"
@@ -1990,6 +2206,11 @@ msgid "DiSEqC-tester settings"
 msgstr "DiSEqC - ustawienia testera"
 
 #
+#, fuzzy
+msgid "Dial number"
+msgstr "Numer telefonu"
+
+#
 msgid "Dialing:"
 msgstr "Wybieranie:"
 
@@ -2209,7 +2430,9 @@ msgstr "Nie zatrzymuj aktualnego wydarzenia ale wyłącz przyszłe"
 #
 #, python-format
 msgid "Done - Installed, upgraded or removed %d packages with %d errors"
-msgstr "Zrobione - zainstalowano, zaktualizowano lub usunięto %d pakietów z %d błędami"
+msgstr ""
+"Zrobione - zainstalowano, zaktualizowano lub usunięto %d pakietów z %d "
+"błędami"
 
 #
 msgid "Download"
@@ -2961,14 +3184,23 @@ msgstr ""
 
 #
 msgid ""
-"If your TV has a brightness or contrast enhancement, disable it. If there is something called \"dynamic\", set it to standard. Adjust the backlight level to a value suiting your taste. Turn down contrast on your TV as much as possible.\n"
-"Then turn the brightness setting as low as possible, but make sure that the two lowermost shades of gray stay distinguishable.\n"
-"Do not care about the bright shades now. They will be set up in the next step.\n"
+"If your TV has a brightness or contrast enhancement, disable it. If there is "
+"something called \"dynamic\", set it to standard. Adjust the backlight level "
+"to a value suiting your taste. Turn down contrast on your TV as much as "
+"possible.\n"
+"Then turn the brightness setting as low as possible, but make sure that the "
+"two lowermost shades of gray stay distinguishable.\n"
+"Do not care about the bright shades now. They will be set up in the next "
+"step.\n"
 "If you are happy with the result, press OK."
 msgstr ""
-"Jeśli Twój TV posiada poprawę jasności i kontrastu, wyłącz je. Jeśli masz włączoną opcję \"Dynamiczne\", zmień ją na standardową. Dostosuj poziom jasności do własnych upodobań. Zmniejsz kontrast w TV jak tylko możliwe.\n"
-"Następnie ustaw jak najniżej poziom jasności, ale tak, aby dwa najniższe odcienie szarości były rozróżnialne.\n"
-"Na razie nie troszcz się o odcienie jasności. Zostaną ustawione w kolejnym kroku.\n"
+"Jeśli Twój TV posiada poprawę jasności i kontrastu, wyłącz je. Jeśli masz "
+"włączoną opcję \"Dynamiczne\", zmień ją na standardową. Dostosuj poziom "
+"jasności do własnych upodobań. Zmniejsz kontrast w TV jak tylko możliwe.\n"
+"Następnie ustaw jak najniżej poziom jasności, ale tak, aby dwa najniższe "
+"odcienie szarości były rozróżnialne.\n"
+"Na razie nie troszcz się o odcienie jasności. Zostaną ustawione w kolejnym "
+"kroku.\n"
 "Jeśli jesteś zadowolony z rezultatu wciśnij OK."
 
 msgid "Image: "
@@ -2979,7 +3211,8 @@ msgid "Immediate shutdown"
 msgstr "Natychmiastowe wyłączenie"
 
 #
-msgid "In order to record a timer, the TV was switched to the recording service!\n"
+msgid ""
+"In order to record a timer, the TV was switched to the recording service!\n"
 msgstr "Aby nagrywać z timera, TV został przełączony na nagrywany kanał!\n"
 
 #
@@ -3284,8 +3517,14 @@ msgstr "Limit znaków w nazwie nagrania"
 msgid "Limit east"
 msgstr "Limit wschodni"
 
-msgid "Limit the characters that can be used in recording filenames to (7 bit) ascii. This ensures compatibility with operating systems or file systems with limited character sets."
-msgstr "Ogranicz znaki które mogą być użyte w nazwach nagrań do (7bit) ascii. To zapewnia kompatybilność z systemami operacyjnymi lub systemami plików z ograniczonymi zestawami znaków."
+msgid ""
+"Limit the characters that can be used in recording filenames to (7 bit) "
+"ascii. This ensures compatibility with operating systems or file systems "
+"with limited character sets."
+msgstr ""
+"Ogranicz znaki które mogą być użyte w nazwach nagrań do (7bit) ascii. To "
+"zapewnia kompatybilność z systemami operacyjnymi lub systemami plików z "
+"ograniczonymi zestawami znaków."
 
 #
 msgid "Limit west"
@@ -3405,6 +3644,12 @@ msgstr "Karta MMC"
 msgid "MORE"
 msgstr "Więcej"
 
+msgid "MRU"
+msgstr ""
+
+msgid "MTU"
+msgstr ""
+
 #
 msgid "Main menu"
 msgstr "Menu główne"
@@ -3518,6 +3763,15 @@ msgstr "Tryb"
 #
 msgid "Model: "
 msgstr "Model: "
+
+#, fuzzy
+msgid "Modem configuration"
+msgstr "Konfiguracja listy kanałów"
+
+#
+#, fuzzy
+msgid "Modem type"
+msgstr "Typ softcamu"
 
 #
 msgid "Modulation"
@@ -3818,11 +4072,16 @@ msgstr "Brak plików do wyświetlenia na tym nośniku!"
 
 #
 msgid "No event info found, recording indefinitely."
-msgstr "Nie znaleziono informacji o wydarzeniu, nagrywanie na czas nieokreślony."
+msgstr ""
+"Nie znaleziono informacji o wydarzeniu, nagrywanie na czas nieokreślony."
 
 #
-msgid "No fast winding possible yet.. but you can use the number buttons to skip forward/backward!"
-msgstr "'Przewijanie' nie dostępne (jeszcze)... można użyć klawiszy numerycznych aby przeskoczyć w przód/tył!"
+msgid ""
+"No fast winding possible yet.. but you can use the number buttons to skip "
+"forward/backward!"
+msgstr ""
+"'Przewijanie' nie dostępne (jeszcze)... można użyć klawiszy numerycznych aby "
+"przeskoczyć w przód/tył!"
 
 msgid "No free index available"
 msgstr "Brak wolnego indeksu"
@@ -3920,26 +4179,32 @@ msgstr "Nie znaleziono sieci bezprzewodowych! Wyszukiwanie ..."
 #
 msgid ""
 "No working local network adapter found.\n"
-"Please verify that you have attached a network cable and your network is configured correctly."
+"Please verify that you have attached a network cable and your network is "
+"configured correctly."
 msgstr ""
 "Nie znaleziono działającego adaptera sieciowego.\n"
-"Sprawdź czy podłączyłeś kabel sieciowy i czy twoja sieć jest poprawnie skonfigurowana."
+"Sprawdź czy podłączyłeś kabel sieciowy i czy twoja sieć jest poprawnie "
+"skonfigurowana."
 
 #
 msgid ""
 "No working wireless network adapter found.\n"
-"Please verify that you have attached a compatible WLAN device and your network is configured correctly."
+"Please verify that you have attached a compatible WLAN device and your "
+"network is configured correctly."
 msgstr ""
 "Nie znaleziono działającego adaptera sieci bezprzewowej.\n"
-"Sprawdź czy podłączyłeś kompatybilne urządzenie WLAN i czy twoja sieć jest poprawnie skonfigurowana."
+"Sprawdź czy podłączyłeś kompatybilne urządzenie WLAN i czy twoja sieć jest "
+"poprawnie skonfigurowana."
 
 #
 msgid ""
 "No working wireless network interface found.\n"
-" Please verify that you have attached a compatible WLAN device or enable your local network interface."
+" Please verify that you have attached a compatible WLAN device or enable "
+"your local network interface."
 msgstr ""
 "Nie znaleziono działającego interfejsu sieci bezprzewodowej.\n"
-" Sprawdź czy podłączyłeś kompatybilne urządzenie WLAN lub czy włączyłeś twój lokalny interfejs sieciowy."
+" Sprawdź czy podłączyłeś kompatybilne urządzenie WLAN lub czy włączyłeś twój "
+"lokalny interfejs sieciowy."
 
 #
 msgid "No, but restart from begin"
@@ -3984,8 +4249,12 @@ msgstr "Nie powiązane"
 
 #
 #, python-format
-msgid "Not enough disk space. Please free up some disk space and try again. (%d MB required, %d MB available)"
-msgstr "Nie wystarczająca ilość przestrzeni dyskowej. Zwolnij miejsce na dysku i spróbuj ponownie. (%d MB wymagane, %d MB dostępne)"
+msgid ""
+"Not enough disk space. Please free up some disk space and try again. (%d MB "
+"required, %d MB available)"
+msgstr ""
+"Nie wystarczająca ilość przestrzeni dyskowej. Zwolnij miejsce na dysku i "
+"spróbuj ponownie. (%d MB wymagane, %d MB dostępne)"
 
 #
 msgid ""
@@ -4004,8 +4273,14 @@ msgid "Now playing"
 msgstr "Teraz odtwarzane"
 
 #
-msgid "Now, use the contrast setting to turn up the brightness of the background as much as possible, but make sure that you can still see the difference between the two brightest levels of shades.If you have done that, press OK."
-msgstr "Teraz użyj ustawień kontrastu aby ustawić jak nawiększą jasność tła, ale tak, żeby nadal widać było różnicę pomiędzy dwoma najjaśniejszymi odcieniami, Jeśli skończyłeś, wciśnij OK."
+msgid ""
+"Now, use the contrast setting to turn up the brightness of the background as "
+"much as possible, but make sure that you can still see the difference "
+"between the two brightest levels of shades.If you have done that, press OK."
+msgstr ""
+"Teraz użyj ustawień kontrastu aby ustawić jak nawiększą jasność tła, ale "
+"tak, żeby nadal widać było różnicę pomiędzy dwoma najjaśniejszymi "
+"odcieniami, Jeśli skończyłeś, wciśnij OK."
 
 #
 msgid "OK"
@@ -4096,6 +4371,9 @@ msgstr "Nadpisać pliki konfiguracyjne?"
 
 #
 msgid "PAL"
+msgstr ""
+
+msgid "PCM"
 msgstr ""
 
 msgid "PCR PID"
@@ -4279,7 +4557,8 @@ msgstr "Wybierz rozszerzenie..."
 
 #
 msgid ""
-"Please configure or verify your Nameservers by filling out the required values.\n"
+"Please configure or verify your Nameservers by filling out the required "
+"values.\n"
 "When you are ready press OK to continue."
 msgstr ""
 "Skonfiguruj lub sprawdź dane nameserver (DNS).\n"
@@ -4287,7 +4566,8 @@ msgstr ""
 
 #
 msgid ""
-"Please configure your internet connection by filling out the required values.\n"
+"Please configure your internet connection by filling out the required "
+"values.\n"
 "When you are ready press OK to continue."
 msgstr ""
 "Skonfiguruj połączenie z internetem.\n"
@@ -4333,7 +4613,9 @@ msgid "Please follow the instructions on the TV"
 msgstr "Podążaj za instrukcjami na TV"
 
 #
-msgid "Please note that the previously selected media could not be accessed and therefore the default directory is being used instead."
+msgid ""
+"Please note that the previously selected media could not be accessed and "
+"therefore the default directory is being used instead."
 msgstr "Brak dostępu do uprzednio wybranych plików. Użyto katalogu domyślnego."
 
 #
@@ -4352,6 +4634,11 @@ msgid "Please select a playlist..."
 msgstr "Wybierz playlistę..."
 
 #
+#, fuzzy
+msgid "Please select a resolution..."
+msgstr "Wybierz subserwis..."
+
+#
 msgid "Please select a sub service..."
 msgstr "Wybierz subserwis..."
 
@@ -4363,8 +4650,18 @@ msgstr "Wybierz subserwis do nagrania..."
 msgid "Please select a subservice..."
 msgstr "Wybierz subserwis..."
 
+#
+#, fuzzy
+msgid "Please select an 3D modus..."
+msgstr "Wybierz subserwis..."
+
 msgid "Please select an NFI file and press green key to flash!"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Please select an aspect ratio..."
+msgstr "Wybierz subserwis..."
 
 #
 msgid "Please select medium to be scanned"
@@ -4384,7 +4681,8 @@ msgstr "Wybierz ścieżkę do filmu..."
 
 #
 msgid ""
-"Please select the network interface that you want to use for your internet connection.\n"
+"Please select the network interface that you want to use for your internet "
+"connection.\n"
 "\n"
 "Please press OK to continue."
 msgstr ""
@@ -4428,8 +4726,12 @@ msgstr ""
 "Wciśnij OK aby wrócić do trybu TV lub EXIT aby przerwać przesuwanie."
 
 #
-msgid "Please use the UP and DOWN keys to select your language. Afterwards press the OK button."
-msgstr "W celu wyboru języka użyj klawiszy GÓRA i DÓŁ. Nastepnie nacisnij przycisk OK."
+msgid ""
+"Please use the UP and DOWN keys to select your language. Afterwards press "
+"the OK button."
+msgstr ""
+"W celu wyboru języka użyj klawiszy GÓRA i DÓŁ. Nastepnie nacisnij przycisk "
+"OK."
 
 #
 msgid "Please wait (downloading channel list)"
@@ -4500,6 +4802,11 @@ msgstr "Polaryzacja"
 #
 msgid "Polish"
 msgstr "Polski"
+
+#
+#, fuzzy
+msgid "Port"
+msgstr "Port A"
 
 #
 msgid "Port A"
@@ -4712,7 +5019,8 @@ msgid "Quick"
 msgstr "Szybko"
 
 #
-msgid "Quick zap"
+#, fuzzy
+msgid "Quickzap"
 msgstr "Szybkie przełączanie"
 
 #
@@ -5102,6 +5410,9 @@ msgstr ""
 msgid "SNR:"
 msgstr ""
 
+msgid "SPDIF"
+msgstr ""
+
 #
 msgid "SSID:"
 msgstr ""
@@ -5194,8 +5505,12 @@ msgid "Scan wireless networks"
 msgstr "Skanuj sieci bezprzewodowe"
 
 #
-msgid "Scan your network for wireless access points and connect to them using your selected wireless device.\n"
-msgstr "Skanuj sieć w poszukiwaniu punktów dostępu i połącz z nimi używając wybranego urządzenia.\n"
+msgid ""
+"Scan your network for wireless access points and connect to them using your "
+"selected wireless device.\n"
+msgstr ""
+"Skanuj sieć w poszukiwaniu punktów dostępu i połącz z nimi używając "
+"wybranego urządzenia.\n"
 
 #, python-format
 msgid "Scanning %s..."
@@ -5214,8 +5529,14 @@ msgid "Scanning..."
 msgstr "Skanowanie..."
 
 #
-msgid "Scans default lamedbs sorted by satellite with a connected dish positioner"
+msgid ""
+"Scans default lamedbs sorted by satellite with a connected dish positioner"
 msgstr "Domyślne skanuje lamedbs wg satelit z podłączonym pozycjonerem"
+
+#
+#, fuzzy
+msgid "Scroll long strings"
+msgstr "Ustawienia kolekcji"
 
 #
 msgid "Search east"
@@ -5237,7 +5558,8 @@ msgstr "Wyszukiwanie dostępnych aktualizacji. Proszę czekać..."
 
 #
 msgid "Searching for new installed or removed packages. Please wait..."
-msgstr "Wyszukiwanie nowo zainstalowanych lub usuniętych pakietów. Proszę czekać..."
+msgstr ""
+"Wyszukiwanie nowo zainstalowanych lub usuniętych pakietów. Proszę czekać..."
 
 msgid "Searching west ..."
 msgstr "Przeszukuje zachód (W)"
@@ -5492,6 +5814,10 @@ msgstr "Kanały"
 msgid "Set end time"
 msgstr "Ustaw czas zakończenia"
 
+#, fuzzy
+msgid "Set fan"
+msgstr "Ustaw stały"
+
 msgid "Set fixed"
 msgstr "Ustaw stały"
 
@@ -5499,11 +5825,16 @@ msgstr "Ustaw stały"
 msgid "Set interface as default Interface"
 msgstr "Ustaw interfejs jako domyślny"
 
+#, fuzzy
+msgid "Set led"
+msgstr "Ustaw stały"
+
 msgid "Set limits"
 msgstr "Ustaw limity"
 
 #
-msgid "Set the type of the progress indication in the channel selection screen."
+msgid ""
+"Set the type of the progress indication in the channel selection screen."
 msgstr "Ustaw typ paska postępu wydarzenia w liście wyboru kanałów."
 
 msgid "Set time window to 1 hour"
@@ -5548,8 +5879,12 @@ msgid "Setup your satellite equipment"
 msgstr "Ustawienia wyposażenie SAT"
 
 #, python-format
-msgid "Shall the USB stick wizard proceed and program the image file %s into flash memory?"
-msgstr "Czy kreator pamięci USB powinien rozpocząć proces instalacji image %s do pamięci flash?"
+msgid ""
+"Shall the USB stick wizard proceed and program the image file %s into flash "
+"memory?"
+msgstr ""
+"Czy kreator pamięci USB powinien rozpocząć proces instalacji image %s do "
+"pamięci flash?"
 
 #
 msgid "Sharpness"
@@ -5598,6 +5933,11 @@ msgstr "Pokazuj 'trybiki' gdy system jest zajęty."
 #
 msgid "Show channel numbers in channel selection"
 msgstr "Wyświetlaj numery kanałow w liście"
+
+#
+#, fuzzy
+msgid "Show clock"
+msgstr "Pokaż info"
 
 #
 msgid "Show crypto info in infobar"
@@ -5654,6 +5994,9 @@ msgstr "Pokaż info przy rozpoczęciu nagrywania"
 msgid "Show movie lengths in movielist"
 msgstr "Wyświetlaj długość filmów w liście"
 
+msgid "Show on VFD Display"
+msgstr ""
+
 #
 msgid "Show positioner movement"
 msgstr "Pokaż ruchy pozycjonera"
@@ -5704,6 +6047,9 @@ msgstr "Wyłącz"
 
 msgid "Shutdown receiver after"
 msgstr "Wyłącz odbiornik po"
+
+msgid "Side by Side"
+msgstr ""
 
 msgid "Side by side"
 msgstr ""
@@ -5775,8 +6121,16 @@ msgstr "Skiny"
 msgid "Skip empty services"
 msgstr "Pomijaj puste serwisy"
 
-msgid "Skip internet connection check (disables automatic package installation)"
-msgstr "Pomiń sprawdzenie połączenia internetowego (wyłącza automatyczną instalację pakietów)"
+msgid ""
+"Skip internet connection check (disables automatic package installation)"
+msgstr ""
+"Pomiń sprawdzenie połączenia internetowego (wyłącza automatyczną instalację "
+"pakietów)"
+
+#
+#, fuzzy
+msgid "Sleep Timer"
+msgstr "Wyłącznik czasowy"
 
 #
 msgid "Sleep timer"
@@ -5862,7 +6216,8 @@ msgstr "Niektóre pluginy są niedostępne:\n"
 msgid "Sorry, %s has not been installed!"
 msgstr "Niestety, %s nie został zainstalowany!"
 
-msgid "Sorry, deleting directories can (for now) only be done through the trash can."
+msgid ""
+"Sorry, deleting directories can (for now) only be done through the trash can."
 msgstr "Niestety usuwanie katalogów możliwe (na razie) tylko przez 'kosz'. "
 
 #
@@ -5914,6 +6269,9 @@ msgstr "Południe"
 #
 msgid "Spanish"
 msgstr "Hiszpański"
+
+msgid "Speed"
+msgstr ""
 
 #
 msgid "Split preview mode"
@@ -6285,8 +6643,14 @@ msgstr ""
 "Dziękuję za skorzystanie z wizarda. Odbiornik jest już gotowy do użycia.\n"
 "Wciśnij OK aby kontynuować."
 
-msgid "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to create a special format data DVD (which will not play in stand-alone DVD players) instead?"
-msgstr "Standard DVD nie wspiera strumienia video H.264 (HDTV). Czy zamiast tego nagrać dane w formacie data DVD? Dane nie będą czytane w stacjonarnych odtwarzaczach DVD."
+msgid ""
+"The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to "
+"create a special format data DVD (which will not play in stand-alone DVD "
+"players) instead?"
+msgstr ""
+"Standard DVD nie wspiera strumienia video H.264 (HDTV). Czy zamiast tego "
+"nagrać dane w formacie data DVD? Dane nie będą czytane w stacjonarnych "
+"odtwarzaczach DVD."
 
 #
 msgid "The PIN code has been changed successfully."
@@ -6303,7 +6667,8 @@ msgstr ""
 
 #
 msgid "The backup failed. Please choose a different backup location."
-msgstr "Tworzenie backupu nie powiodło się. Wybierz inna lokalizacje dla kopii."
+msgstr ""
+"Tworzenie backupu nie powiodło się. Wybierz inna lokalizacje dla kopii."
 
 #
 #, python-format
@@ -6380,8 +6745,12 @@ msgstr ""
 
 #
 #, python-format
-msgid "The status of the current beta image could not be checked because %s can not be reached."
-msgstr "Status aktualnego beta image nie może zostać zweryfikowany ze względu na brak dostępu do %s."
+msgid ""
+"The status of the current beta image could not be checked because %s can not "
+"be reached."
+msgstr ""
+"Status aktualnego beta image nie może zostać zweryfikowany ze względu na "
+"brak dostępu do %s."
 
 #
 msgid "The timer file (timers.xml) is corrupt and could not be loaded."
@@ -6414,12 +6783,18 @@ msgstr ""
 "Zainstaluj go."
 
 #
-msgid "The wizard can backup your current settings. Do you want to do a backup now?"
-msgstr "Kreator może utworzyć backup aktualnych ustawień. Chcesz zrobić kopię teraz?"
+msgid ""
+"The wizard can backup your current settings. Do you want to do a backup now?"
+msgstr ""
+"Kreator może utworzyć backup aktualnych ustawień. Chcesz zrobić kopię teraz?"
 
 #, python-format
-msgid "The wizard found a configuration backup. Do you want to restore your old settings from %s?"
-msgstr "Kreator znalazł backup plików konfiguracyjnych, Przywrócić stare ustawienia z %s?"
+msgid ""
+"The wizard found a configuration backup. Do you want to restore your old "
+"settings from %s?"
+msgstr ""
+"Kreator znalazł backup plików konfiguracyjnych, Przywrócić stare ustawienia "
+"z %s?"
 
 #
 msgid "The wizard is finished now."
@@ -6454,14 +6829,21 @@ msgstr ""
 "Czy kontynuować?"
 
 #
-msgid "This DVD RW medium is already formatted - reformatting will erase all content on the disc."
-msgstr "Nosnik DVD RW jest już sformatowany - jego  ponowny format spowoduje utratę wszystkich danych."
+msgid ""
+"This DVD RW medium is already formatted - reformatting will erase all "
+"content on the disc."
+msgstr ""
+"Nosnik DVD RW jest już sformatowany - jego  ponowny format spowoduje utratę "
+"wszystkich danych."
 
 msgid ""
-"This plugin creates a USB stick which can be used to update the firmware of your receiver without the need for a network or WLAN connection.\n"
+"This plugin creates a USB stick which can be used to update the firmware of "
+"your receiver without the need for a network or WLAN connection.\n"
 "First, a USB stick needs to be prepared so that it becomes bootable.\n"
-"In the next step, an NFI image file can be downloaded from the update server and saved on the USB stick.\n"
-"If you already have a prepared bootable USB stick, please insert it now. Otherwise plug in a USB stick with a minimum size of 64 MB!"
+"In the next step, an NFI image file can be downloaded from the update server "
+"and saved on the USB stick.\n"
+"If you already have a prepared bootable USB stick, please insert it now. "
+"Otherwise plug in a USB stick with a minimum size of 64 MB!"
 msgstr ""
 
 #
@@ -6489,12 +6871,14 @@ msgid ""
 "This test checks for configured nameservers.\n"
 "If you get a \"unconfirmed\" message:\n"
 "- please check your DHCP, cabling and adapter setup\n"
-"- if you configured your nameservers manually please verify your entries in the \"Nameserver\" configuration"
+"- if you configured your nameservers manually please verify your entries in "
+"the \"Nameserver\" configuration"
 msgstr ""
 "Ten test sprawdzi poprawność konfiguracji nameservera.\n"
 "Jeśli zobaczysz informację:\"niepotwierdzony\"\n"
 "- sprawdź ustawienia DHCP, przewody i ustawienia adaptera sieciowego\n"
-"- jeśli dokonałeś ręcznej konfiguracji serwera nazw sprawdź ponownie wpisy w konfiguracji \"Nameserver\""
+"- jeśli dokonałeś ręcznej konfiguracji serwera nazw sprawdź ponownie wpisy w "
+"konfiguracji \"Nameserver\""
 
 #
 msgid ""
@@ -6522,10 +6906,12 @@ msgstr ""
 
 #
 msgid ""
-"This test checks whether your LAN adapter is set up for automatic IP address configuration with DHCP.\n"
+"This test checks whether your LAN adapter is set up for automatic IP address "
+"configuration with DHCP.\n"
 "If you get a \"disabled\" message:\n"
 " - then your LAN adapter is configured for manual IP setup\n"
-"- verify thay you have entered correct IP informations in the adapter setup dialog.\n"
+"- verify thay you have entered correct IP informations in the adapter setup "
+"dialog.\n"
 "If you get an \"enabeld\" message:\n"
 "-verify that you have a configured and working DHCP server in your network."
 msgstr ""
@@ -6541,10 +6927,12 @@ msgid "This test detects your configured LAN adapter."
 msgstr "Test wykrywa skonfigurowany adapter sieci LAN."
 
 msgid ""
-"This will (re-)calculate all positions of your rotor and may remove previously memorised positions and fine-tuning!\n"
+"This will (re-)calculate all positions of your rotor and may remove "
+"previously memorised positions and fine-tuning!\n"
 "Are you sure?"
 msgstr ""
-"Wszystkie pozycje dla twojej obrotnicy zostaną przekalkulowane, to może usunąć wcześniej zapisane pozycje i dostrojenie!\n"
+"Wszystkie pozycje dla twojej obrotnicy zostaną przekalkulowane, to może "
+"usunąć wcześniej zapisane pozycje i dostrojenie!\n"
 "Chcesz kontynuować?"
 
 #
@@ -6570,6 +6958,11 @@ msgstr "Czwartek"
 #
 msgid "Time"
 msgstr "Czas"
+
+#
+#, fuzzy
+msgid "Time mode"
+msgstr "Tryb testowy"
 
 msgid "Time scale"
 msgstr "Przedział czasowy"
@@ -6663,8 +7056,10 @@ msgstr "Przejdź do wyboru napisów"
 
 msgid ""
 "To update your receiver firmware, please follow these steps:\n"
-"1) Turn off your box with the rear power switch and make sure the bootable USB stick is plugged in.\n"
-"2) Turn mains back on and hold the DOWN button on the front panel pressed for 10 seconds.\n"
+"1) Turn off your box with the rear power switch and make sure the bootable "
+"USB stick is plugged in.\n"
+"2) Turn mains back on and hold the DOWN button on the front panel pressed "
+"for 10 seconds.\n"
 "3) Wait for bootup and follow instructions of the wizard."
 msgstr ""
 
@@ -6690,6 +7085,9 @@ msgstr ""
 
 #
 msgid "Toneburst A/B"
+msgstr ""
+
+msgid "Top and Bottom"
 msgstr ""
 
 msgid "Top and bottom"
@@ -6728,7 +7126,8 @@ msgstr "Pozostało prób:"
 
 #
 msgid "Try to find used transponders in cable network.. please wait..."
-msgstr "Próbuje odnaleźć transpondery używane w sieci kablowej... Proszę czekać..."
+msgstr ""
+"Próbuje odnaleźć transpondery używane w sieci kablowej... Proszę czekać..."
 
 #
 msgid "Trying to download a new packetlist. Please wait..."
@@ -6898,8 +7297,10 @@ msgstr[2] "Aktualizacja zakończona, zainstalowano %d pakietów."
 msgid "Update completed. Do you want to reboot your receiver?"
 msgstr "Aktualizacja zakończona. Czy chcesz zrestartować odbiornik?"
 
-msgid "Update failed. Your receiver does not have a working internet connection."
-msgstr "Aktualizacja nie powiodła się. Brak działającego połączenia internetowego."
+msgid ""
+"Update failed. Your receiver does not have a working internet connection."
+msgstr ""
+"Aktualizacja nie powiodła się. Brak działającego połączenia internetowego."
 
 msgid "Update has completed."
 msgstr "Aktualizacja zakończona."
@@ -6986,7 +7387,9 @@ msgid "Use the network wizard to configure your network\n"
 msgstr "Użyj wizarda, aby skonfigurować sieć\n"
 
 #
-msgid "Use the up/down keys on your remote control to select an option. After that, press OK."
+msgid ""
+"Use the up/down keys on your remote control to select an option. After that, "
+"press OK."
 msgstr "Użyj przycisków góra/dół aby wybrać opcje. Następnie wciśnij OK."
 
 #
@@ -7042,12 +7445,17 @@ msgstr "Użyty stały adres"
 msgid "Using tuner %s"
 msgstr "Używany tuner %s"
 
-msgid "Usually when the subtitle language is the same as the audio language, the subtitles will not be used. Enable this option to allow these subtitles to be used."
-msgstr "Normalnie gdy język napisów jest taki sam jak ścieżka audio napisy nie są wyświetlane. Włączenie tej opcji pozwala wyświetlić napisy w takiej sytuacji."
-
-#
-msgid "VCR scart"
+msgid ""
+"Usually when the subtitle language is the same as the audio language, the "
+"subtitles will not be used. Enable this option to allow these subtitles to "
+"be used."
 msgstr ""
+"Normalnie gdy język napisów jest taki sam jak ścieżka audio napisy nie są "
+"wyświetlane. Włączenie tej opcji pozwala wyświetlić napisy w takiej sytuacji."
+
+#, fuzzy
+msgid "VFD display configuration"
+msgstr "Konfiguracja listy kanałów"
 
 msgid "VMGM (intro trailer)"
 msgstr ""
@@ -7082,13 +7490,15 @@ msgstr "Ustawienia obrazu"
 msgid ""
 "Video input selection\n"
 "\n"
-"Please press OK if you can see this page on your TV (or select a different input port).\n"
+"Please press OK if you can see this page on your TV (or select a different "
+"input port).\n"
 "\n"
 "The next input port will be automatically probed in 20 seconds."
 msgstr ""
 "Wybór wejścia video\n"
 "\n"
-"Wciśnij OK, jeśli widzisz tą stronę na ekranie TV (lub wybierz inne wejście).\n"
+"Wciśnij OK, jeśli widzisz tą stronę na ekranie TV (lub wybierz inne "
+"wejście).\n"
 "\n"
 "Kolejne wejście będzie wypróbowane za 20 sekund."
 
@@ -7284,29 +7694,40 @@ msgstr "Pozycja ważona"
 msgid ""
 "Welcome to the cutlist editor.\n"
 "\n"
-"Seek to the start of the stuff you want to cut away. Press OK, select 'start cut'.\n"
+"Seek to the start of the stuff you want to cut away. Press OK, select 'start "
+"cut'.\n"
 "\n"
 "Then seek to the end, press OK, select 'end cut'. That's it."
 msgstr ""
 "Witamy w edytorze cięcia filmu.\n"
 "\n"
-"Przejdź do miejsca, które ma być nowym początkiem pliku. Naciśnij OK, wybierz 'początek cięcia'.\n"
+"Przejdź do miejsca, które ma być nowym początkiem pliku. Naciśnij OK, "
+"wybierz 'początek cięcia'.\n"
 "\n"
-"Przejdź do miejsca, które ma być nowym końcem pliku. Naciśnij OK, wybierz 'koniec cięcia'. To wszystko."
+"Przejdź do miejsca, które ma być nowym końcem pliku. Naciśnij OK, wybierz "
+"'koniec cięcia'. To wszystko."
 
-msgid "Welcome to the image upgrade wizard. The wizard will assist you in upgrading the firmware of your receiver by providing a backup facility for your current settings and a short explanation of how to upgrade your firmware."
-msgstr "Witaj w wizardzie aktualizacji oprogramowania. Wizard będzie asystował przy aktualizacji oprogramowania odbiornika ułatwiając backup aktualnych ustawień i krótko wyjaśni jak zaktualizować oprogramowanie."
+msgid ""
+"Welcome to the image upgrade wizard. The wizard will assist you in upgrading "
+"the firmware of your receiver by providing a backup facility for your "
+"current settings and a short explanation of how to upgrade your firmware."
+msgstr ""
+"Witaj w wizardzie aktualizacji oprogramowania. Wizard będzie asystował przy "
+"aktualizacji oprogramowania odbiornika ułatwiając backup aktualnych ustawień "
+"i krótko wyjaśni jak zaktualizować oprogramowanie."
 
 msgid ""
 "Welcome.\n"
 "\n"
-"If you want to connect your receiver to the Internet, this wizard will guide you through the basic network setup of your receiver.\n"
+"If you want to connect your receiver to the Internet, this wizard will guide "
+"you through the basic network setup of your receiver.\n"
 "\n"
 "Press OK to start configuring your network"
 msgstr ""
 "Witam. \n"
 "\n"
-"Jeśli chcesz się połączyć z internetem, ten kreator przeprowdzi cię przez uproszczoną konfigurację odbiornika. \n"
+"Jeśli chcesz się połączyć z internetem, ten kreator przeprowdzi cię przez "
+"uproszczoną konfigurację odbiornika. \n"
 "Nacisnij OK aby rozpocząć konfigurację sieci."
 
 msgid ""
@@ -7335,71 +7756,145 @@ msgstr "Limit zachodni (W) ustawiony"
 msgid "What do you want to scan?"
 msgstr "Co chcesz skanować?"
 
-msgid "When enabled, AIT data will be included in http streams. This allows a client receiver to use HbbTV."
-msgstr "Gdy włączone, dane AIT będą zawarte w streamach http. To pozwala używać HbbTV na odbiorniku 'kliencie'."
+msgid ""
+"When enabled, AIT data will be included in http streams. This allows a "
+"client receiver to use HbbTV."
+msgstr ""
+"Gdy włączone, dane AIT będą zawarte w streamach http. To pozwala używać "
+"HbbTV na odbiorniku 'kliencie'."
 
-msgid "When enabled, ECM data will be included in http streams. This allows a client receiver to do the descrambling."
-msgstr "Gdy włączone, dane ECM będą zawarte w streamach http. To pozwala wykonać odkodowanie na odbiorniku 'kliencie'."
+msgid ""
+"When enabled, ECM data will be included in http streams. This allows a "
+"client receiver to do the descrambling."
+msgstr ""
+"Gdy włączone, dane ECM będą zawarte w streamach http. To pozwala wykonać "
+"odkodowanie na odbiorniku 'kliencie'."
 
-msgid "When enabled, EIT data will be included in http streams. This allows a client receiver to show EPG."
-msgstr "Gdy włączone, dane EIT będą zawarte w streamach http. To pozwala wyświetlić EPG na odbiorniku 'kliencie'."
+msgid ""
+"When enabled, EIT data will be included in http streams. This allows a "
+"client receiver to show EPG."
+msgstr ""
+"Gdy włączone, dane EIT będą zawarte w streamach http. To pozwala wyświetlić "
+"EPG na odbiorniku 'kliencie'."
 
-msgid "When enabled, a popup message will be shown when a movie has finished and the next one will start."
-msgstr "Gdy włączone, gdy film się zakończy i następny rozpocznie, na ekranie zostanie wyświetlona wiadomość."
+msgid ""
+"When enabled, a popup message will be shown when a movie has finished and "
+"the next one will start."
+msgstr ""
+"Gdy włączone, gdy film się zakończy i następny rozpocznie, na ekranie "
+"zostanie wyświetlona wiadomość."
 
 msgid "When enabled, a popup message will be shown when a recording starts."
-msgstr "Gdy włączone, gdy rozpocznie się nagrywanie, na ekranie zostanie wyświetlona wiadomość."
+msgstr ""
+"Gdy włączone, gdy rozpocznie się nagrywanie, na ekranie zostanie wyświetlona "
+"wiadomość."
 
-msgid "When enabled, a radio background image will be visible while listening to a radio channel."
+msgid ""
+"When enabled, a radio background image will be visible while listening to a "
+"radio channel."
 msgstr "Gdy włączone, radio logo będzie wyświtlane jako tło podczas słuchania."
 
-msgid "When enabled, a recording is allowed to interrupt live tv, when there are no free tuners."
-msgstr "Gdy włączone, nagrywanie może przerwać oglądanie 'na żywo', gdy brak wolnego tunera."
+msgid ""
+"When enabled, a recording is allowed to interrupt live tv, when there are no "
+"free tuners."
+msgstr ""
+"Gdy włączone, nagrywanie może przerwać oglądanie 'na żywo', gdy brak wolnego "
+"tunera."
 
 msgid "When enabled, channel numbering will start at '1' for each bouquet."
-msgstr "Gdy włączone, numerowanie kanałów będzie zaczynać się od '1' dla każdego bukietu."
+msgstr ""
+"Gdy włączone, numerowanie kanałów będzie zaczynać się od '1' dla każdego "
+"bukietu."
 
-msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
-msgstr "Gdy włączone, zawartość z aspect ratio 4:3 będzie rozciągana aby dopasować do ekranu."
+msgid ""
+"When enabled, content with an aspect ratio of 4:3 will be stretched to fit "
+"the screen."
+msgstr ""
+"Gdy włączone, zawartość z aspect ratio 4:3 będzie rozciągana aby dopasować "
+"do ekranu."
 
-msgid "When enabled, continue to the next bouquet when the last channel of the current bouquet is reached while changing channels."
-msgstr "Gdy włączone, po dojściu do ostatniego kanału w danym bukiecie podczas przełączania, automatycznie nastąpi przejście do kolejnego bukietu."
+msgid ""
+"When enabled, continue to the next bouquet when the last channel of the "
+"current bouquet is reached while changing channels."
+msgstr ""
+"Gdy włączone, po dojściu do ostatniego kanału w danym bukiecie podczas "
+"przełączania, automatycznie nastąpi przejście do kolejnego bukietu."
 
-msgid "When enabled, deleted recordings are moved to the trash can, instead of being deleted immediately."
-msgstr "Gdy włączone, usunięte nagrania zostaną przeniesione do 'kosza', zamiast natychmiastowego usunięcia."
+msgid ""
+"When enabled, deleted recordings are moved to the trash can, instead of "
+"being deleted immediately."
+msgstr ""
+"Gdy włączone, usunięte nagrania zostaną przeniesione do 'kosza', zamiast "
+"natychmiastowego usunięcia."
 
-msgid "When enabled, display the EIT now/next eventdata in infobar. When disabled, display now/next eventdata from the EPG cache instead."
-msgstr "Gdy włączone, w paski info są wyświetlane dane EIT teraz/następnie dla danej audycji. Gdy wyłączone, wyświetlane są dane z cache EPG."
+msgid ""
+"When enabled, display the EIT now/next eventdata in infobar. When disabled, "
+"display now/next eventdata from the EPG cache instead."
+msgstr ""
+"Gdy włączone, w paski info są wyświetlane dane EIT teraz/następnie dla danej "
+"audycji. Gdy wyłączone, wyświetlane są dane z cache EPG."
 
-msgid "When enabled, encryption info will be shown in the infobar (when supported by the skin)."
-msgstr "Gdy włączone, info o kodowaniu będzie wyświetlane w pasku info (jeśli wspierane przez skin)."
+msgid ""
+"When enabled, encryption info will be shown in the infobar (when supported "
+"by the skin)."
+msgstr ""
+"Gdy włączone, info o kodowaniu będzie wyświetlane w pasku info (jeśli "
+"wspierane przez skin)."
 
-msgid "When enabled, error messages related to the Common Interface module will not be shown."
-msgstr "Gdy włączone, komunikaty błędów związanych z modułem CI nie będą wyświetlane."
+msgid ""
+"When enabled, error messages related to the Common Interface module will not "
+"be shown."
+msgstr ""
+"Gdy włączone, komunikaty błędów związanych z modułem CI nie będą wyświetlane."
 
 msgid "When enabled, error messages related to zapping will not be shown."
-msgstr "Gdy włączone, komunikaty błędów związanych z przełączaniem kanałów nie będą wyświetlane."
+msgstr ""
+"Gdy włączone, komunikaty błędów związanych z przełączaniem kanałów nie będą "
+"wyświetlane."
 
-msgid "When enabled, external subtitles (in media files) will be displayed in yellow, instead of the original color."
-msgstr "Gdy włączone, zewnętrzne napisy (w plikach medialnych) będą wyświetlane na żółto zamiast oryginalnego koloru."
+msgid ""
+"When enabled, external subtitles (in media files) will be displayed in "
+"yellow, instead of the original color."
+msgstr ""
+"Gdy włączone, zewnętrzne napisy (w plikach medialnych) będą wyświetlane na "
+"żółto zamiast oryginalnego koloru."
 
-msgid "When enabled, graphical DVB subtitles are preferred over teletext subtitles, when both types are available."
-msgstr "Gdy włączone, graficzne napisy DVB będą preferowane przed napisami teletekst, gdy oba rodzaje są dostępne."
+msgid ""
+"When enabled, graphical DVB subtitles are preferred over teletext subtitles, "
+"when both types are available."
+msgstr ""
+"Gdy włączone, graficzne napisy DVB będą preferowane przed napisami "
+"teletekst, gdy oba rodzaje są dostępne."
 
 msgid "When enabled, graphical DVB subtitles will be centered horizontally."
 msgstr "Gdy włączone, graficzne napisy DVB będą wyśrodkowane poziomo."
 
-msgid "When enabled, graphical DVB subtitles will be displayed at their original position."
-msgstr "Gdy włączone, graficzne napisy DVB będą wyświetlane w oryginalnym położeniu."
+msgid ""
+"When enabled, graphical DVB subtitles will be displayed at their original "
+"position."
+msgstr ""
+"Gdy włączone, graficzne napisy DVB będą wyświetlane w oryginalnym położeniu."
 
-msgid "When enabled, graphical DVB subtitles will be displayed in yellow, instead of the original color."
-msgstr "Gdy włączone, graficzne napisy DVB będą wyświetlane na żółto zamiast oryginalnego koloru."
+msgid ""
+"When enabled, graphical DVB subtitles will be displayed in yellow, instead "
+"of the original color."
+msgstr ""
+"Gdy włączone, graficzne napisy DVB będą wyświetlane na żółto zamiast "
+"oryginalnego koloru."
 
-msgid "When enabled, http streams are descrambled on the server side. The (remote) client receiver does not have to do descrambling."
-msgstr "Gdy włączone, streamy http będą odkodowywane po stronie serwera. Zdalny odbiornik (klient) nie będzie musiał wykonywać odkodowywania."
+msgid ""
+"When enabled, http streams are descrambled on the server side. The (remote) "
+"client receiver does not have to do descrambling."
+msgstr ""
+"Gdy włączone, streamy http będą odkodowywane po stronie serwera. Zdalny "
+"odbiornik (klient) nie będzie musiał wykonywać odkodowywania."
 
-msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
-msgstr "Gdy włączone, pobierana moc będzie mierzona w celu wykrycia czy obrotnica zakończyła ruch (jeżeli wspierane przez tuner)."
+msgid ""
+"When enabled, measure power consumption to detect when the rotor stops "
+"turning (when supported by the tuner)."
+msgstr ""
+"Gdy włączone, pobierana moc będzie mierzona w celu wykrycia czy obrotnica "
+"zakończyła ruch (jeżeli wspierane przez tuner)."
 
 msgid "When enabled, services may be grouped in multiple bouquets."
 msgstr "Gdy włączone, kanały mogą być grupowane w wiele bukietów."
@@ -7411,17 +7906,29 @@ msgstr "Gdy włączone, wyświetla numery w liście wyboru kanałów"
 msgid "When enabled, subtitles for the hearing impaired can be used."
 msgstr "Gdy włączone, napisy dla niesłyszących mogą być wyświetlane."
 
-msgid "When enabled, subtitles for the hearing impaired will be preferred over normal subtitles, when both types are available."
-msgstr "Gdy włączone, napisy dla niesłyszących będą preferowane przed normalnymi napisami, jeżeli oba rodzaje są dostępne. "
+msgid ""
+"When enabled, subtitles for the hearing impaired will be preferred over "
+"normal subtitles, when both types are available."
+msgstr ""
+"Gdy włączone, napisy dla niesłyszących będą preferowane przed normalnymi "
+"napisami, jeżeli oba rodzaje są dostępne. "
 
 msgid "When enabled, teletext pages will be cached, allowing faster access."
-msgstr "Gdy włączone, strony teletextu będą cache'owane, co pozwoli na szybszy dostęp."
+msgstr ""
+"Gdy włączone, strony teletextu będą cache'owane, co pozwoli na szybszy "
+"dostęp."
 
-msgid "When enabled, teletext subtitles will be displayed at their original position."
-msgstr "Gdy włączone, napisy teletext będą wyświetlane w oryginalnym położeniu."
+msgid ""
+"When enabled, teletext subtitles will be displayed at their original "
+"position."
+msgstr ""
+"Gdy włączone, napisy teletext będą wyświetlane w oryginalnym położeniu."
 
-msgid "When enabled, the channel selection list will be hidden while listening to a radio channel"
-msgstr "Gdy włączone, lista wyboru kanałów będzie ukryta podczas słuchania radia."
+msgid ""
+"When enabled, the channel selection list will be hidden while listening to a "
+"radio channel"
+msgstr ""
+"Gdy włączone, lista wyboru kanałów będzie ukryta podczas słuchania radia."
 
 msgid "When enabled, the infobar will be displayed when a new event starts."
 msgstr "Gdy włączone, infobar będzie wyświetlany przy starcie nowej audycji."
@@ -7429,55 +7936,98 @@ msgstr "Gdy włączone, infobar będzie wyświetlany przy starcie nowej audycji.
 msgid "When enabled, the infobar will be displayed when changing channels."
 msgstr "Gdy włączone, infobar będzie wyświetlany przy zmianie kanałów."
 
-msgid "When enabled, the infobar will be displayed when skipping forwards/backwards during media playback."
-msgstr "Gdy włączone, infobar będzie wyświetlany przy przewijaniu w przód/tył podczas odtwarzania."
+msgid ""
+"When enabled, the infobar will be displayed when skipping forwards/backwards "
+"during media playback."
+msgstr ""
+"Gdy włączone, infobar będzie wyświetlany przy przewijaniu w przód/tył "
+"podczas odtwarzania."
 
-msgid "When enabled, the lenght of each recording will be shown in the movielist (this might cause some additional loading time)."
-msgstr "Gdy włączone, długość każdego nagrania będzie pokazywana w liście filmów (może to wydłużyć czas ładowania listy)."
+msgid ""
+"When enabled, the lenght of each recording will be shown in the movielist "
+"(this might cause some additional loading time)."
+msgstr ""
+"Gdy włączone, długość każdego nagrania będzie pokazywana w liście filmów "
+"(może to wydłużyć czas ładowania listy)."
 
-msgid "When enabled, the original line breaks will be removed from the teletext subtitles."
-msgstr "Gdy włączone, oryginalne podziały linii zostaną usunięte z napisów teletext."
+msgid ""
+"When enabled, the original line breaks will be removed from the teletext "
+"subtitles."
+msgstr ""
+"Gdy włączone, oryginalne podziały linii zostaną usunięte z napisów teletext."
 
-msgid "When enabled, the receiver will automatically use the audio track which you selected before."
-msgstr "Gdy włączone, automatycznie zostanie włączona ścieżka audio ostatnio wybrana na danym kanale."
+msgid ""
+"When enabled, the receiver will automatically use the audio track which you "
+"selected before."
+msgstr ""
+"Gdy włączone, automatycznie zostanie włączona ścieżka audio ostatnio wybrana "
+"na danym kanale."
 
-msgid "When enabled, the receiver will automatically use the subtitles which you selected before."
-msgstr "Gdy włączone, automatycznie zostaną włączone  napisy ostatnio wybrane na danym kanale."
+msgid ""
+"When enabled, the receiver will automatically use the subtitles which you "
+"selected before."
+msgstr ""
+"Gdy włączone, automatycznie zostaną włączone  napisy ostatnio wybrane na "
+"danym kanale."
 
-msgid "When enabled, the receiver will no longer monitor the tuned transponder for possible changes. Do not use this option unless you know what you are doing."
-msgstr "Gdy włączone, odbiornik nie będzie automatycznie przeszukiwał bieżącego transpondera w poszukiwaniu zmian. Użyj tej opcji TYLKO jeżeli wiesz co robisz ;-)..."
+msgid ""
+"When enabled, the receiver will no longer monitor the tuned transponder for "
+"possible changes. Do not use this option unless you know what you are doing."
+msgstr ""
+"Gdy włączone, odbiornik nie będzie automatycznie przeszukiwał bieżącego "
+"transpondera w poszukiwaniu zmian. Użyj tej opcji TYLKO jeżeli wiesz co "
+"robisz ;-)..."
 
 msgid "When enabled, the receiver will select an AC3 track (when available)."
-msgstr "Gdy włączone, automatycznie zostanie wybrana ścieżka audio AC3 (gdy dostępna)."
+msgstr ""
+"Gdy włączone, automatycznie zostanie wybrana ścieżka audio AC3 (gdy "
+"dostępna)."
 
 #
 msgid "When enabled, use DHCP for the IP configuration."
 msgstr "Gdy włączone, używa DHCP do konfiguracji IP."
 
-msgid "When enabled, your TV will automatically select the SCART input when you switch on your receiver."
-msgstr "Gdy włączone, TV automatycznie wybierze wejście SCART gdy włączysz odbiornik."
+msgid ""
+"When enabled, your TV will automatically select the SCART input when you "
+"switch on your receiver."
+msgstr ""
+"Gdy włączone, TV automatycznie wybierze wejście SCART gdy włączysz odbiornik."
 
-msgid "When nonzero, a recording will start earlier than the starting time indicated by the EPG."
-msgstr "Gdy różne od 0, nagranie wystartuje wcześniej niż czas rozpoczęcia określony w EPG."
+msgid ""
+"When nonzero, a recording will start earlier than the starting time "
+"indicated by the EPG."
+msgstr ""
+"Gdy różne od 0, nagranie wystartuje wcześniej niż czas rozpoczęcia określony "
+"w EPG."
 
-msgid "When nonzero, a recording will stop later than the ending time indicated by the EPG."
-msgstr "Gdy różne od 0, nagranie zatrzyma się później niż czas zakończenia określony w EPG."
+msgid ""
+"When nonzero, a recording will stop later than the ending time indicated by "
+"the EPG."
+msgstr ""
+"Gdy różne od 0, nagranie zatrzyma się później niż czas zakończenia określony "
+"w EPG."
 
-msgid "When the content has an aspect ratio of 16:9, choose whether to scale/stretch the picture."
+msgid ""
+"When the content has an aspect ratio of 16:9, choose whether to scale/"
+"stretch the picture."
 msgstr "Wybierz czy skalować/rozciągać zawartość z aspect ratio 16:9."
 
-msgid "When the content has an aspect ratio of 4:3, choose whether to scale/stretch the picture."
+msgid ""
+"When the content has an aspect ratio of 4:3, choose whether to scale/stretch "
+"the picture."
 msgstr "Wybierz czy skalować/rozciągać zawartość z aspect ratio 4:3."
 
 #
 msgid ""
 "When you do a factory reset, you will lose ALL your configuration data\n"
 "(including bouquets, services, satellite data ...)\n"
-"After completion of factory reset, your receiver will restart automatically!\n"
+"After completion of factory reset, your receiver will restart "
+"automatically!\n"
 "\n"
 "Really do a factory reset?"
 msgstr ""
-"Gdy wybierzesz powrót do ustawień fabrycznych, utracisz wszystkie dane  konfiguracyjne\n"
+"Gdy wybierzesz powrót do ustawień fabrycznych, utracisz wszystkie dane  "
+"konfiguracyjne\n"
 "(w tym bukiety, kanały, satelity...)\n"
 "Po przywróceniu ustawień fabrycznych twój tuner zrestartuje się!\n"
 "\n"
@@ -7529,6 +8079,9 @@ msgstr "Błąd zapisu!"
 #
 msgid "YPbPr"
 msgstr "Component"
+
+msgid "YUV"
+msgstr ""
 
 #
 msgid "Year"
@@ -7629,15 +8182,23 @@ msgid "You didn't select a channel to record from."
 msgstr "Nie wybrałeś kanału z którego nagrywać"
 
 #
-msgid "You have chosen to backup your settings. Please press OK to start the backup now."
+msgid ""
+"You have chosen to backup your settings. Please press OK to start the backup "
+"now."
 msgstr "Wybrałeś utworzenie backupu swoich ustawień. Wciśnij OK aby rozpocząć."
 
-msgid "You have chosen to create a new .NFI flasher bootable USB stick. This will repartition the USB stick and therefore all data on it will be erased."
+msgid ""
+"You have chosen to create a new .NFI flasher bootable USB stick. This will "
+"repartition the USB stick and therefore all data on it will be erased."
 msgstr ""
 
 #
-msgid "You have chosen to restore your settings. Enigma2 will restart after restore. Please press OK to start the restore now."
-msgstr "Wybrałeś przywrócenie swoich ustawień. Enigma zostanie zrestartowana po przywróceniu. Wciśnij OK aby rozpocząć."
+msgid ""
+"You have chosen to restore your settings. Enigma2 will restart after "
+"restore. Please press OK to start the restore now."
+msgstr ""
+"Wybrałeś przywrócenie swoich ustawień. Enigma zostanie zrestartowana po "
+"przywróceniu. Wciśnij OK aby rozpocząć."
 
 #
 #, python-format
@@ -7645,22 +8206,35 @@ msgid "You have to wait %s!"
 msgstr "Musisz poczekać na %s!"
 
 msgid ""
-"You need a PC connected to your receiver. If you need further instructions, please visit the website http://www.dm7025.de.\n"
-"Your receiver will now be halted. After you have performed the update instructions from the website, your new firmware will ask you to restore your settings."
+"You need a PC connected to your receiver. If you need further instructions, "
+"please visit the website http://www.dm7025.de.\n"
+"Your receiver will now be halted. After you have performed the update "
+"instructions from the website, your new firmware will ask you to restore "
+"your settings."
 msgstr ""
-"Potrzebujesz PC połączonego z odbiornikiem. Więcej informacji na stronie http://www.dm7025.de.\n"
-"Teraz odbiornik zostanie wyłączony. Po wykonaniu  instrukcji aktualizacji ze strony, nowe oprogramowanie zapyta czy przywrócić ustawienia."
+"Potrzebujesz PC połączonego z odbiornikiem. Więcej informacji na stronie "
+"http://www.dm7025.de.\n"
+"Teraz odbiornik zostanie wyłączony. Po wykonaniu  instrukcji aktualizacji ze "
+"strony, nowe oprogramowanie zapyta czy przywrócić ustawienia."
 
 msgid "You system does not support ext4"
 msgstr "Twój system nie wspiera ext4"
 
 #
-msgid "Your backup succeeded. We will now continue to explain the further upgrade process."
-msgstr "Backup został utworzony. Będziemy kontynuować wyjaśnianie procesu aktualizacji."
+msgid ""
+"Your backup succeeded. We will now continue to explain the further upgrade "
+"process."
+msgstr ""
+"Backup został utworzony. Będziemy kontynuować wyjaśnianie procesu "
+"aktualizacji."
 
 #
-msgid "Your collection exceeds the size of a single layer medium, you will need a blank dual layer DVD!"
-msgstr "Twoja kolekcja przekracza rozmiar zwykłego nośnika DVD, będziesz potrzebował czystegodwuwarstwowego DVD!"
+msgid ""
+"Your collection exceeds the size of a single layer medium, you will need a "
+"blank dual layer DVD!"
+msgstr ""
+"Twoja kolekcja przekracza rozmiar zwykłego nośnika DVD, będziesz potrzebował "
+"czystegodwuwarstwowego DVD!"
 
 #
 msgid "Your current collection will get lost!"
@@ -7736,8 +8310,12 @@ msgstr "Trwa wyłączanie odbiornika"
 msgid "Your receiver is shutting down. Please stand by..."
 msgstr "Trwa wyłączanie odbiornika"
 
-msgid "Your receiver might be unusable now. Please consult the manual for further assistance before rebooting your receiver."
-msgstr "Odbiornik może być teraz niezdatny do użytku. Zajrzyj do instrukcji użytkownika przed ponownym uruchomieniem."
+msgid ""
+"Your receiver might be unusable now. Please consult the manual for further "
+"assistance before rebooting your receiver."
+msgstr ""
+"Odbiornik może być teraz niezdatny do użytku. Zajrzyj do instrukcji "
+"użytkownika przed ponownym uruchomieniem."
 
 msgid "Your receiver will restart after pressing OK on your remote control."
 msgstr "Odbiornik zostanie zrestartowany po wciśnięciu OK."
@@ -7787,8 +8365,12 @@ msgstr " "
 msgid "Zap to selected channel"
 msgstr "Przełącz na wybrany kanał"
 
-msgid "Zap to selected channel, or show detailed event info (depends on configuration)"
-msgstr "Przełącz na wybrany kanał lub pokaż info o audycji (w zależności od konfiguracji)"
+msgid ""
+"Zap to selected channel, or show detailed event info (depends on "
+"configuration)"
+msgstr ""
+"Przełącz na wybrany kanał lub pokaż info o audycji (w zależności od "
+"konfiguracji)"
 
 #
 msgid "[alternative edit]"
@@ -7933,6 +8515,9 @@ msgstr "Czrno-biały"
 msgid "blacklist"
 msgstr "Blacklist"
 
+msgid "blank"
+msgstr ""
+
 #
 msgid "blue"
 msgstr "Niebieski"
@@ -7947,9 +8532,22 @@ msgstr "Wg daty"
 msgid "cartoon/puppets"
 msgstr "Animowany"
 
+msgid "cdma"
+msgstr ""
+
 #
 msgid "center"
 msgstr "Środek"
+
+#
+#, fuzzy
+msgid "channel"
+msgstr "Kanał"
+
+#
+#, fuzzy
+msgid "channel number"
+msgstr "Numer telefonu"
 
 #
 msgid "chapters"
@@ -7965,6 +8563,11 @@ msgstr "Kołowa lewa"
 #
 msgid "circular right"
 msgstr "Kołowa prawa"
+
+#
+#, fuzzy
+msgid "clock"
+msgstr "Zablokowany"
 
 msgid "comedy"
 msgstr "Komedia"
@@ -8223,6 +8826,9 @@ msgstr "Przejdź do głębokiego czuwania"
 #
 msgid "go to standby"
 msgstr "Przejdź do stanu czuwania"
+
+msgid "gprs"
+msgstr ""
 
 #
 msgid "grab this frame as bitmap"
@@ -8698,8 +9304,18 @@ msgstr "Pokaż alternatywne kanały"
 msgid "show event details"
 msgstr "Pokaż szczegóły wydarzenia"
 
+#
+#, fuzzy
+msgid "show favourites"
+msgstr "Dodaj do ulubionych"
+
 msgid "show mediaplayer on mainmenu"
 msgstr "Pokaż Mediaplayer w menu głównym"
+
+#
+#, fuzzy
+msgid "show satellites"
+msgstr "Wszystkie satelity"
 
 msgid "show softwaremanager in setup menu"
 msgstr "Software Manager w menu/ustawienia"
@@ -8836,6 +9452,11 @@ msgid "this service is protected by a parental control pin"
 msgstr "Ten serwis jest chroniony kodem PIN"
 
 #
+#, fuzzy
+msgid "toggels betwenn tv and radio..."
+msgstr "Słuchaj radia..."
+
+#
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "Czas odtwarzania, rozdział, audio, informacja o napisach"
 
@@ -8849,6 +9470,39 @@ msgstr "Podróże/Turystyka"
 #
 msgid "true"
 msgstr "tak"
+
+msgid "ttyACM0"
+msgstr ""
+
+msgid "ttyUSB0"
+msgstr ""
+
+msgid "ttyUSB1"
+msgstr ""
+
+msgid "ttyUSB2"
+msgstr ""
+
+msgid "ttyUSB3"
+msgstr ""
+
+msgid "ttyUSB4"
+msgstr ""
+
+msgid "ttyUSB5"
+msgstr ""
+
+msgid "ttyUSB6"
+msgstr ""
+
+msgid "ttyUSB7"
+msgstr ""
+
+msgid "ttyUSB8"
+msgstr ""
+
+msgid "ttyUSB9"
+msgstr ""
 
 msgid "tuner is not supported"
 msgstr "Tuner nieobsługiwany"
@@ -8953,4 +9607,3 @@ msgstr "Przełącz"
 #
 msgid "zapped"
 msgstr "Przełączony"
-

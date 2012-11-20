@@ -114,6 +114,15 @@ msgstr "(رادیو)"
 msgid " (TV)"
 msgstr "(تلوزیون)"
 
+#
+#, fuzzy
+msgid ""
+" Are you sure to save the current configuration?\n"
+"\n"
+msgstr ""
+"آیا مطمئن هستید که میخواهید این پیکربندی شبکه را فعال کنید ؟\n"
+"\n"
+
 msgid " extensions."
 msgstr "بسته ها"
 
@@ -126,6 +135,9 @@ msgstr "بسته های انتخاب شده"
 #
 msgid " updates available."
 msgstr "به روز رسانی های در دسترس"
+
+msgid "#777"
+msgstr ""
 
 #. TRANSLATORS: short time representation hour:minute
 #, python-format
@@ -245,6 +257,18 @@ msgstr "(نمایش منوی اختیای صدای DVD)"
 msgid "* Only available if more than one interface is active."
 msgstr "فقط زمانی در دسترس است که بیش از یک رابط فعال باشد"
 
+msgid "*99#"
+msgstr ""
+
+msgid "*99***1#"
+msgstr ""
+
+msgid "*99**1*1#"
+msgstr ""
+
+msgid "..."
+msgstr ""
+
 msgid "0"
 msgstr "0"
 
@@ -260,11 +284,41 @@ msgstr "1.1"
 msgid "1.2"
 msgstr "1.2"
 
+msgid "1000"
+msgstr ""
+
+msgid "1100"
+msgstr ""
+
+msgid "115200"
+msgstr ""
+
+msgid "1200"
+msgstr ""
+
 msgid "12V output"
 msgstr "خروجی 12 ولت"
 
 msgid "13 V"
 msgstr "13 ولت"
+
+msgid "1300"
+msgstr ""
+
+msgid "1400"
+msgstr ""
+
+msgid "1440"
+msgstr ""
+
+msgid "1460"
+msgstr ""
+
+msgid "1492"
+msgstr ""
+
+msgid "1500"
+msgstr ""
 
 msgid "16:10"
 msgstr "16:10"
@@ -290,14 +344,30 @@ msgstr "18 ولت"
 msgid "2"
 msgstr "2"
 
+msgid "230400"
+msgstr ""
+
 msgid "3"
 msgstr "3"
+
+#, fuzzy
+msgid "3D Mode"
+msgstr "حالت"
+
+msgid "3D Modus"
+msgstr ""
 
 msgid "3d mode"
 msgstr "حالت 3 بعدی"
 
 msgid "4"
 msgstr "4"
+
+msgid "422"
+msgstr ""
+
+msgid "460800"
+msgstr ""
 
 msgid "4:3"
 msgstr "4:3"
@@ -311,6 +381,9 @@ msgstr "4:3 PanScan"
 msgid "5"
 msgstr "5"
 
+msgid "57600"
+msgstr ""
+
 msgid "6"
 msgstr "6"
 
@@ -322,6 +395,9 @@ msgstr "8"
 
 msgid "9"
 msgstr "9"
+
+msgid "921600"
+msgstr ""
 
 msgid "<Current movielist location>"
 msgstr "<محل فعلی لیست فیلم>"
@@ -459,6 +535,9 @@ msgstr "تبدیل صدای AC3 به صدای استریو"
 msgid "AC3/DTS downmix"
 msgstr "AC3/DTS downmix"
 
+msgid "APN"
+msgstr ""
+
 msgid "Abort"
 msgstr "لغو"
 
@@ -571,6 +650,10 @@ msgstr "اضافه کردن به مورد علاقه"
 #, fuzzy
 msgid "Add/remove timer for current event"
 msgstr "اضافه/حذف زمان از رخداد فعلی"
+
+#, fuzzy
+msgid "Additional PPPD options"
+msgstr "تنظیمات صدا"
 
 msgid "Adjust 3D settings"
 msgstr "تنظیمات 3 بعدی"
@@ -729,6 +812,10 @@ msgid "Ask user"
 msgstr "پرسش از کاربر"
 
 #, fuzzy
+msgid "Aspect list..."
+msgstr "لیست کانال های فرعی"
+
+#, fuzzy
 msgid "Aspect ratio"
 msgstr "نسبت تصویر"
 
@@ -750,6 +837,9 @@ msgstr "صدا"
 
 msgid "Audio PID"
 msgstr "PID صدا"
+
+msgid "Audio Source"
+msgstr ""
 
 msgid "Audio language selection 1"
 msgstr "انتخاب زبان صدا 1"
@@ -803,6 +893,15 @@ msgstr "انتخاب زبان خودکار"
 
 msgid "Auto scart switching"
 msgstr "جایگزینی خودکار scart"
+
+#, fuzzy
+msgid "Auto start"
+msgstr "خودکار"
+
+#
+#, fuzzy
+msgid "Auto(not available)"
+msgstr "به روز رسانی های در دسترس"
 
 msgid "Automatic"
 msgstr "خودکار"
@@ -1029,6 +1128,10 @@ msgid "Channel"
 msgstr "کانال"
 
 #, fuzzy
+msgid "Channel Selection"
+msgstr "انتخاب کانال"
+
+#, fuzzy
 msgid "Channel list type"
 msgstr "منوی لیست کانال"
 
@@ -1132,6 +1235,10 @@ msgid "Collection settings"
 msgstr "تنظیمات مجموعه"
 
 #, fuzzy
+msgid "Color Format"
+msgstr "فرمت رنگ"
+
+#, fuzzy
 msgid "Color format"
 msgstr "فرمت رنگ"
 
@@ -1173,6 +1280,10 @@ msgstr "حالت پیکربندی: "
 
 #, fuzzy, python-format
 msgid "Configuration mode: %s"
+msgstr "حالت پیکربندی: "
+
+#, fuzzy
+msgid "Configuration saved!"
 msgstr "حالت پیکربندی: "
 
 #, fuzzy
@@ -1791,6 +1902,11 @@ msgstr "DiSEqC تکرار"
 #, fuzzy
 msgid "DiSEqC-tester settings"
 msgstr "تنظیمات تستر DiSEqC"
+
+#
+#, fuzzy
+msgid "Dial number"
+msgstr "شماره تلفن"
 
 #
 msgid "Dialing:"
@@ -3034,6 +3150,12 @@ msgstr "کارت MMC"
 msgid "MORE"
 msgstr "بیشتر"
 
+msgid "MRU"
+msgstr ""
+
+msgid "MTU"
+msgstr ""
+
 msgid "Main menu"
 msgstr "منوی اصلی"
 
@@ -3131,6 +3253,14 @@ msgstr "حالت"
 
 msgid "Model: "
 msgstr "مدل:"
+
+#, fuzzy
+msgid "Modem configuration"
+msgstr "پیکربندی لیست فیلم"
+
+#, fuzzy
+msgid "Modem type"
+msgstr "نرم افزار"
 
 msgid "Modulation"
 msgstr "زیر و بم"
@@ -3635,6 +3765,9 @@ msgstr "بازنویسی فایل های پیکربندی ؟"
 msgid "PAL"
 msgstr "PAL"
 
+msgid "PCM"
+msgstr ""
+
 msgid "PCR PID"
 msgstr "PCR PID"
 
@@ -3854,6 +3987,10 @@ msgid "Please select a playlist..."
 msgstr "لطفا یک لیست پخش انتخاب کنید"
 
 #, fuzzy
+msgid "Please select a resolution..."
+msgstr "لطفا یک کانال فرعی انتخاب کنید"
+
+#, fuzzy
 msgid "Please select a sub service..."
 msgstr "لطفا یک کانال فرعی انتخاب کنید"
 
@@ -3863,8 +4000,16 @@ msgstr "لطفا یک کانال فرعی را برای ضبط انتخاب کن
 msgid "Please select a subservice..."
 msgstr "لطفا یک کانال فرعی انتخاب کنید"
 
+#, fuzzy
+msgid "Please select an 3D modus..."
+msgstr "لطفا یک کانال فرعی انتخاب کنید"
+
 msgid "Please select an NFI file and press green key to flash!"
 msgstr ""
+
+#, fuzzy
+msgid "Please select an aspect ratio..."
+msgstr "لطفا یک کانال فرعی انتخاب کنید"
 
 #, fuzzy
 msgid "Please select medium to be scanned"
@@ -3980,6 +4125,10 @@ msgstr "قطبش"
 
 msgid "Polish"
 msgstr "لهستانی"
+
+#, fuzzy
+msgid "Port"
+msgstr "پورت A"
 
 msgid "Port A"
 msgstr "پورت A"
@@ -4153,7 +4302,7 @@ msgid "Quick"
 msgstr "سریع"
 
 #, fuzzy
-msgid "Quick zap"
+msgid "Quickzap"
 msgstr "جابجایی سریع"
 
 msgid "RF output"
@@ -4483,6 +4632,9 @@ msgstr "کیفیت سیگنال"
 msgid "SNR:"
 msgstr "کیفیت سیگنال:"
 
+msgid "SPDIF"
+msgstr ""
+
 #
 msgid "SSID:"
 msgstr "SSID:"
@@ -4585,6 +4737,10 @@ msgstr "در حال اسکن"
 msgid ""
 "Scans default lamedbs sorted by satellite with a connected dish positioner"
 msgstr ""
+
+#, fuzzy
+msgid "Scroll long strings"
+msgstr "تنظیمات مجموعه"
 
 msgid "Search east"
 msgstr "جستجوی شرق"
@@ -4823,12 +4979,20 @@ msgstr "کانال ها"
 msgid "Set end time"
 msgstr "تنظیم زمان پایان"
 
+#, fuzzy
+msgid "Set fan"
+msgstr "تنظیم ثابت"
+
 msgid "Set fixed"
 msgstr "تنظیم ثابت"
 
 #
 msgid "Set interface as default Interface"
 msgstr "تنظیم رابط به عنوان رابط پیش فرض"
+
+#, fuzzy
+msgid "Set led"
+msgstr "تنظیم ثابت"
 
 #, fuzzy
 msgid "Set limits"
@@ -4930,6 +5094,10 @@ msgstr ""
 msgid "Show channel numbers in channel selection"
 msgstr "نمایش شماره کانال ها در انتخاب کانال"
 
+#, fuzzy
+msgid "Show clock"
+msgstr "نمایش اطلاعات"
+
 msgid "Show crypto info in infobar"
 msgstr "نمایش اطلاعات کد گذاری در نوار اطلاعات"
 
@@ -4979,6 +5147,9 @@ msgstr "نمایش پیام هنگامی که ضبط کردن شروع میشو�
 msgid "Show movie lengths in movielist"
 msgstr "آماده سازی طول فیلم ها در لیست فیلم"
 
+msgid "Show on VFD Display"
+msgstr ""
+
 msgid "Show positioner movement"
 msgstr "نمایش گردش مکان یاب"
 
@@ -5020,6 +5191,10 @@ msgstr "خاموش کردن"
 
 msgid "Shutdown receiver after"
 msgstr ""
+
+#, fuzzy
+msgid "Side by Side"
+msgstr "پهلو به پهلو"
 
 #, fuzzy
 msgid "Side by side"
@@ -5088,6 +5263,10 @@ msgstr "نادیده گرفتن کانال های خالی"
 msgid ""
 "Skip internet connection check (disables automatic package installation)"
 msgstr ""
+
+#, fuzzy
+msgid "Sleep Timer"
+msgstr "زمان خواب"
 
 #, fuzzy
 msgid "Sleep timer"
@@ -5211,6 +5390,9 @@ msgstr "جنوب"
 
 msgid "Spanish"
 msgstr "اسپانیایی"
+
+msgid "Speed"
+msgstr ""
 
 msgid "Split preview mode"
 msgstr "حالت پیش نمایش جدا"
@@ -5773,6 +5955,10 @@ msgstr ""
 msgid "Time"
 msgstr ""
 
+#, fuzzy
+msgid "Time mode"
+msgstr "حالت تست"
+
 msgid "Time scale"
 msgstr ""
 
@@ -5870,6 +6056,9 @@ msgid "Toneburst"
 msgstr ""
 
 msgid "Toneburst A/B"
+msgstr ""
+
+msgid "Top and Bottom"
 msgstr ""
 
 msgid "Top and bottom"
@@ -6167,8 +6356,9 @@ msgid ""
 "be used."
 msgstr ""
 
-msgid "VCR scart"
-msgstr ""
+#, fuzzy
+msgid "VFD display configuration"
+msgstr "پیکربندی لیست فیلم"
 
 msgid "VMGM (intro trailer)"
 msgstr ""
@@ -6644,6 +6834,9 @@ msgstr ""
 msgid "YPbPr"
 msgstr ""
 
+msgid "YUV"
+msgstr ""
+
 msgid "Year"
 msgstr ""
 
@@ -6976,6 +7169,9 @@ msgstr ""
 msgid "blacklist"
 msgstr ""
 
+msgid "blank"
+msgstr ""
+
 msgid "blue"
 msgstr ""
 
@@ -6988,8 +7184,20 @@ msgstr ""
 msgid "cartoon/puppets"
 msgstr ""
 
+msgid "cdma"
+msgstr ""
+
 msgid "center"
 msgstr ""
+
+#, fuzzy
+msgid "channel"
+msgstr "کانال"
+
+#
+#, fuzzy
+msgid "channel number"
+msgstr "شماره تلفن"
 
 msgid "chapters"
 msgstr ""
@@ -7001,6 +7209,9 @@ msgid "circular left"
 msgstr ""
 
 msgid "circular right"
+msgstr ""
+
+msgid "clock"
 msgstr ""
 
 msgid "comedy"
@@ -7219,6 +7430,9 @@ msgid "go to deep standby"
 msgstr ""
 
 msgid "go to standby"
+msgstr ""
+
+msgid "gprs"
 msgstr ""
 
 msgid "grab this frame as bitmap"
@@ -7606,8 +7820,16 @@ msgstr ""
 msgid "show event details"
 msgstr ""
 
+#, fuzzy
+msgid "show favourites"
+msgstr "اضافه کردن به مورد علاقه"
+
 msgid "show mediaplayer on mainmenu"
 msgstr ""
+
+#, fuzzy
+msgid "show satellites"
+msgstr "همه ماهواره ها"
 
 msgid "show softwaremanager in setup menu"
 msgstr ""
@@ -7723,6 +7945,10 @@ msgstr ""
 msgid "this service is protected by a parental control pin"
 msgstr ""
 
+#, fuzzy
+msgid "toggels betwenn tv and radio..."
+msgstr "نمایش پخش کننده رادیو"
+
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr ""
 
@@ -7733,6 +7959,39 @@ msgid "tourism/travel"
 msgstr ""
 
 msgid "true"
+msgstr ""
+
+msgid "ttyACM0"
+msgstr ""
+
+msgid "ttyUSB0"
+msgstr ""
+
+msgid "ttyUSB1"
+msgstr ""
+
+msgid "ttyUSB2"
+msgstr ""
+
+msgid "ttyUSB3"
+msgstr ""
+
+msgid "ttyUSB4"
+msgstr ""
+
+msgid "ttyUSB5"
+msgstr ""
+
+msgid "ttyUSB6"
+msgstr ""
+
+msgid "ttyUSB7"
+msgstr ""
+
+msgid "ttyUSB8"
+msgstr ""
+
+msgid "ttyUSB9"
 msgstr ""
 
 msgid "tuner is not supported"

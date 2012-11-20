@@ -117,6 +117,14 @@ msgstr ""
 msgid " (TV)"
 msgstr ""
 
+#, fuzzy
+msgid ""
+" Are you sure to save the current configuration?\n"
+"\n"
+msgstr ""
+"? האם אתה מעוניין להפעיל את הגדרות הרשת האלו\n"
+"\n"
+
 #
 msgid " extensions."
 msgstr "תוספות"
@@ -130,6 +138,9 @@ msgstr "חבילות נבחרו"
 #
 msgid " updates available."
 msgstr "עדכונים זמינים"
+
+msgid "#777"
+msgstr ""
 
 #. TRANSLATORS: short time representation hour:minute
 #, python-format
@@ -257,6 +268,19 @@ msgstr "(הצג תפריטי קול אפשריים לדי וי די)"
 msgid "* Only available if more than one interface is active."
 msgstr "אפשרי רק מעל לממשק אחד פעיל *"
 
+msgid "*99#"
+msgstr ""
+
+msgid "*99***1#"
+msgstr ""
+
+msgid "*99**1*1#"
+msgstr ""
+
+#, fuzzy
+msgid "..."
+msgstr "...עזרה"
+
 msgid "0"
 msgstr "0"
 
@@ -272,6 +296,18 @@ msgstr "1.1"
 msgid "1.2"
 msgstr "1.2"
 
+msgid "1000"
+msgstr ""
+
+msgid "1100"
+msgstr ""
+
+msgid "115200"
+msgstr ""
+
+msgid "1200"
+msgstr ""
+
 #
 msgid "12V output"
 msgstr "12V output"
@@ -279,6 +315,24 @@ msgstr "12V output"
 #
 msgid "13 V"
 msgstr "13 V"
+
+msgid "1300"
+msgstr ""
+
+msgid "1400"
+msgstr ""
+
+msgid "1440"
+msgstr ""
+
+msgid "1460"
+msgstr ""
+
+msgid "1492"
+msgstr ""
+
+msgid "1500"
+msgstr ""
 
 msgid "16:10"
 msgstr "16:10"
@@ -308,14 +362,31 @@ msgstr "18 V"
 msgid "2"
 msgstr "2"
 
+msgid "230400"
+msgstr ""
+
 msgid "3"
 msgstr "3"
+
+#
+#, fuzzy
+msgid "3D Mode"
+msgstr "מוד"
+
+msgid "3D Modus"
+msgstr ""
 
 msgid "3d mode"
 msgstr ""
 
 msgid "4"
 msgstr "4"
+
+msgid "422"
+msgstr ""
+
+msgid "460800"
+msgstr ""
 
 msgid "4:3"
 msgstr "4:3"
@@ -331,6 +402,9 @@ msgstr "4:3 PanScan"
 msgid "5"
 msgstr "5"
 
+msgid "57600"
+msgstr ""
+
 msgid "6"
 msgstr "6"
 
@@ -342,6 +416,9 @@ msgstr "8"
 
 msgid "9"
 msgstr "9"
+
+msgid "921600"
+msgstr ""
 
 #
 msgid "<Current movielist location>"
@@ -485,6 +562,9 @@ msgstr ""
 msgid "AC3/DTS downmix"
 msgstr ""
 
+msgid "APN"
+msgstr ""
+
 #
 msgid "Abort"
 msgstr "חדל"
@@ -616,6 +696,10 @@ msgstr "הוסף למועדפים"
 #, fuzzy
 msgid "Add/remove timer for current event"
 msgstr "הקלט - עצור אחרי סיום התוכנית הנוכחית"
+
+#, fuzzy
+msgid "Additional PPPD options"
+msgstr "...אפשרויות קול"
 
 msgid "Adjust 3D settings"
 msgstr ""
@@ -783,6 +867,11 @@ msgstr ""
 msgid "Ask user"
 msgstr "שאל משתמש"
 
+#
+#, fuzzy
+msgid "Aspect list..."
+msgstr "Subservice list..."
+
 #, fuzzy
 msgid "Aspect ratio"
 msgstr "Aspect Ratio"
@@ -806,6 +895,9 @@ msgid "Audio"
 msgstr "קול"
 
 msgid "Audio PID"
+msgstr ""
+
+msgid "Audio Source"
 msgstr ""
 
 msgid "Audio language selection 1"
@@ -864,6 +956,14 @@ msgstr ""
 
 msgid "Auto scart switching"
 msgstr "Auto scart switching"
+
+#, fuzzy
+msgid "Auto start"
+msgstr "about to start"
+
+#, fuzzy
+msgid "Auto(not available)"
+msgstr "זמין"
 
 msgid "Automatic"
 msgstr "אוטומטי"
@@ -1110,6 +1210,11 @@ msgstr ""
 msgid "Channel"
 msgstr "ערוץ"
 
+#
+#, fuzzy
+msgid "Channel Selection"
+msgstr "בחירת ערוץ"
+
 #, fuzzy
 msgid "Channel list type"
 msgstr "תפריט רשימת הערוצים"
@@ -1218,6 +1323,10 @@ msgid "Collection settings"
 msgstr "הגדרות האוסף"
 
 #, fuzzy
+msgid "Color Format"
+msgstr "תבנית צבע"
+
+#, fuzzy
 msgid "Color format"
 msgstr "תבנית צבע"
 
@@ -1261,6 +1370,10 @@ msgstr "תצורת הגדרה"
 
 #, fuzzy, python-format
 msgid "Configuration mode: %s"
+msgstr "תצורת הגדרה"
+
+#, fuzzy
+msgid "Configuration saved!"
 msgstr "תצורת הגדרה"
 
 #, fuzzy
@@ -1886,6 +1999,11 @@ msgstr "DiSEqC repeats"
 #, fuzzy
 msgid "DiSEqC-tester settings"
 msgstr "Test DiSEqC settings"
+
+#
+#, fuzzy
+msgid "Dial number"
+msgstr "מספר טלפון"
 
 msgid "Dialing:"
 msgstr ":מחייג"
@@ -3212,6 +3330,12 @@ msgstr ""
 msgid "MORE"
 msgstr "עוד"
 
+msgid "MRU"
+msgstr ""
+
+msgid "MTU"
+msgstr ""
+
 #
 msgid "Main menu"
 msgstr "תפריט ראשי"
@@ -3323,6 +3447,14 @@ msgstr "מוד"
 #
 msgid "Model: "
 msgstr ":דגם"
+
+#, fuzzy
+msgid "Modem configuration"
+msgstr "Tuner הגדרת"
+
+#, fuzzy
+msgid "Modem type"
+msgstr "תוכנה"
 
 #
 msgid "Modulation"
@@ -3875,6 +4007,9 @@ msgstr "Tuner הגדרת"
 msgid "PAL"
 msgstr "PAL"
 
+msgid "PCM"
+msgstr ""
+
 msgid "PCR PID"
 msgstr ""
 
@@ -4116,6 +4251,11 @@ msgstr "...אנא בחר רשימת שמע "
 
 #
 #, fuzzy
+msgid "Please select a resolution..."
+msgstr "Please select a subservice..."
+
+#
+#, fuzzy
 msgid "Please select a sub service..."
 msgstr "Please select a subservice..."
 
@@ -4126,8 +4266,18 @@ msgstr "Please select a subservice to record..."
 msgid "Please select a subservice..."
 msgstr "Please select a subservice..."
 
+#
+#, fuzzy
+msgid "Please select an 3D modus..."
+msgstr "Please select a subservice..."
+
 msgid "Please select an NFI file and press green key to flash!"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Please select an aspect ratio..."
+msgstr "Please select a subservice..."
 
 #, fuzzy
 msgid "Please select medium to be scanned"
@@ -4251,6 +4401,11 @@ msgstr "Polarization"
 #
 msgid "Polish"
 msgstr "פולנית"
+
+#
+#, fuzzy
+msgid "Port"
+msgstr "Port A"
 
 #
 msgid "Port A"
@@ -4430,7 +4585,7 @@ msgid "Quick"
 msgstr "מהיר"
 
 #, fuzzy
-msgid "Quick zap"
+msgid "Quickzap"
 msgstr "זיפזופ מהיר"
 
 msgid "RF output"
@@ -4770,6 +4925,9 @@ msgstr "SNR"
 msgid "SNR:"
 msgstr "SNR:"
 
+msgid "SPDIF"
+msgstr ""
+
 #
 msgid "SSID:"
 msgstr "SSID:"
@@ -4882,6 +5040,10 @@ msgstr ""
 msgid ""
 "Scans default lamedbs sorted by satellite with a connected dish positioner"
 msgstr ""
+
+#, fuzzy
+msgid "Scroll long strings"
+msgstr "הגדרות האוסף"
 
 msgid "Search east"
 msgstr "Search east"
@@ -5138,12 +5300,20 @@ msgstr "שירותים"
 msgid "Set end time"
 msgstr "כוון זמן סיום"
 
+msgid "Set fan"
+msgstr ""
+
 msgid "Set fixed"
 msgstr ""
 
 #
 msgid "Set interface as default Interface"
 msgstr "Set interface as default Interface"
+
+#
+#, fuzzy
+msgid "Set led"
+msgstr "כוון זמן סיום"
 
 msgid "Set limits"
 msgstr ""
@@ -5245,6 +5415,11 @@ msgstr ""
 msgid "Show channel numbers in channel selection"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Show clock"
+msgstr "הצג מידע"
+
 msgid "Show crypto info in infobar"
 msgstr ""
 
@@ -5298,6 +5473,9 @@ msgstr "הצג הודעה כאשר הקלטה מתחילה"
 msgid "Show movie lengths in movielist"
 msgstr "טען אורך הסרט ברשימת הסרטים"
 
+msgid "Show on VFD Display"
+msgstr ""
+
 msgid "Show positioner movement"
 msgstr "Show positioner movement"
 
@@ -5344,6 +5522,9 @@ msgid "Shutdown"
 msgstr "כיבוי"
 
 msgid "Shutdown receiver after"
+msgstr ""
+
+msgid "Side by Side"
 msgstr ""
 
 msgid "Side by side"
@@ -5420,6 +5601,11 @@ msgstr "Protect services"
 msgid ""
 "Skip internet connection check (disables automatic package installation)"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Sleep Timer"
+msgstr "טיימר שינה"
 
 #
 #, fuzzy
@@ -5549,6 +5735,9 @@ msgstr "South"
 #
 msgid "Spanish"
 msgstr "ספרדית"
+
+msgid "Speed"
+msgstr ""
 
 #
 msgid "Split preview mode"
@@ -6187,6 +6376,11 @@ msgstr "זמן"
 
 #
 #, fuzzy
+msgid "Time mode"
+msgstr "Tone mode"
+
+#
+#, fuzzy
 msgid "Time scale"
 msgstr "בחירת טיימר"
 
@@ -6310,6 +6504,9 @@ msgstr "Toneburst"
 #
 msgid "Toneburst A/B"
 msgstr "Toneburst A/B"
+
+msgid "Top and Bottom"
+msgstr ""
 
 msgid "Top and bottom"
 msgstr ""
@@ -6646,9 +6843,9 @@ msgid ""
 "be used."
 msgstr ""
 
-#
-msgid "VCR scart"
-msgstr "VCR scart"
+#, fuzzy
+msgid "VFD display configuration"
+msgstr "Tuner הגדרת"
 
 #
 msgid "VMGM (intro trailer)"
@@ -7163,6 +7360,9 @@ msgstr "Write failed!"
 msgid "YPbPr"
 msgstr "YPbPr"
 
+msgid "YUV"
+msgstr ""
+
 msgid "Year"
 msgstr "שנה"
 
@@ -7530,6 +7730,9 @@ msgstr ""
 msgid "blacklist"
 msgstr "blacklist"
 
+msgid "blank"
+msgstr ""
+
 msgid "blue"
 msgstr "blue"
 
@@ -7543,8 +7746,21 @@ msgstr "מיין לפי תאריך"
 msgid "cartoon/puppets"
 msgstr ""
 
+msgid "cdma"
+msgstr ""
+
 msgid "center"
 msgstr ""
+
+#
+#, fuzzy
+msgid "channel"
+msgstr "ערוץ"
+
+#
+#, fuzzy
+msgid "channel number"
+msgstr "מספר טלפון"
 
 #
 msgid "chapters"
@@ -7560,6 +7776,10 @@ msgstr "circular left"
 #
 msgid "circular right"
 msgstr "circular right"
+
+#, fuzzy
+msgid "clock"
+msgstr "locked"
 
 msgid "comedy"
 msgstr ""
@@ -7792,6 +8012,9 @@ msgstr "go to deep standby"
 
 msgid "go to standby"
 msgstr "go to standby"
+
+msgid "gprs"
+msgstr ""
 
 #
 msgid "grab this frame as bitmap"
@@ -8208,8 +8431,18 @@ msgstr "הראה אלטרנטיבות"
 msgid "show event details"
 msgstr "הצג מידע על האירוע"
 
+#
+#, fuzzy
+msgid "show favourites"
+msgstr "הוסף למועדפים"
+
 msgid "show mediaplayer on mainmenu"
 msgstr ""
+
+#
+#, fuzzy
+msgid "show satellites"
+msgstr "כל הלוויינים"
 
 msgid "show softwaremanager in setup menu"
 msgstr ""
@@ -8326,6 +8559,10 @@ msgstr "ההקלטה הזו"
 msgid "this service is protected by a parental control pin"
 msgstr "שירות זה מוגן על ידי בקרת הורים"
 
+#, fuzzy
+msgid "toggels betwenn tv and radio..."
+msgstr "hear radio..."
+
 #
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr ""
@@ -8337,6 +8574,39 @@ msgid "tourism/travel"
 msgstr ""
 
 msgid "true"
+msgstr ""
+
+msgid "ttyACM0"
+msgstr ""
+
+msgid "ttyUSB0"
+msgstr ""
+
+msgid "ttyUSB1"
+msgstr ""
+
+msgid "ttyUSB2"
+msgstr ""
+
+msgid "ttyUSB3"
+msgstr ""
+
+msgid "ttyUSB4"
+msgstr ""
+
+msgid "ttyUSB5"
+msgstr ""
+
+msgid "ttyUSB6"
+msgstr ""
+
+msgid "ttyUSB7"
+msgstr ""
+
+msgid "ttyUSB8"
+msgstr ""
+
+msgid "ttyUSB9"
 msgstr ""
 
 msgid "tuner is not supported"
@@ -8850,6 +9120,10 @@ msgstr "זופזפ"
 #~ "Please set up tuner A"
 
 #
+#~ msgid "VCR scart"
+#~ msgstr "VCR scart"
+
+#
 #~ msgid "Video Fine-Tuning Wizard"
 #~ msgstr "Video Fine-Tuning Wizard"
 
@@ -8903,9 +9177,6 @@ msgstr "זופזפ"
 
 #~ msgid "Your name (optional):"
 #~ msgstr "Your name (optional):"
-
-#~ msgid "available"
-#~ msgstr "זמין"
 
 #~ msgid "could not be removed"
 #~ msgstr "could not be removed"

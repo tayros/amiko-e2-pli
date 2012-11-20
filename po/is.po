@@ -114,6 +114,14 @@ msgstr ""
 msgid " (TV)"
 msgstr ""
 
+#, fuzzy
+msgid ""
+" Are you sure to save the current configuration?\n"
+"\n"
+msgstr ""
+"Ertu viss um að þú viljir virkja þessa net stillingu?\n"
+"\n"
+
 msgid " extensions."
 msgstr " viðbætur."
 
@@ -127,6 +135,9 @@ msgstr " pakkar valdir."
 #
 msgid " updates available."
 msgstr " uppfærslur tiltækar."
+
+msgid "#777"
+msgstr ""
 
 #. TRANSLATORS: short time representation hour:minute
 #, python-format
@@ -261,6 +272,20 @@ msgstr "(sýna viðbótar DVD hljóð valmynd)"
 msgid "* Only available if more than one interface is active."
 msgstr "* Bara virkt ef að fleira en eitt tæki er virkt."
 
+msgid "*99#"
+msgstr ""
+
+msgid "*99***1#"
+msgstr ""
+
+msgid "*99**1*1#"
+msgstr ""
+
+#
+#, fuzzy
+msgid "..."
+msgstr "hjálp..."
+
 #
 msgid "0"
 msgstr "0"
@@ -281,6 +306,18 @@ msgstr "1.1"
 msgid "1.2"
 msgstr "1.2"
 
+msgid "1000"
+msgstr ""
+
+msgid "1100"
+msgstr ""
+
+msgid "115200"
+msgstr ""
+
+msgid "1200"
+msgstr ""
+
 #
 msgid "12V output"
 msgstr "12V út"
@@ -288,6 +325,24 @@ msgstr "12V út"
 #
 msgid "13 V"
 msgstr "13 V"
+
+msgid "1300"
+msgstr ""
+
+msgid "1400"
+msgstr ""
+
+msgid "1440"
+msgstr ""
+
+msgid "1460"
+msgstr ""
+
+msgid "1492"
+msgstr ""
+
+msgid "1500"
+msgstr ""
 
 #
 msgid "16:10"
@@ -321,9 +376,20 @@ msgstr "18 V"
 msgid "2"
 msgstr "2"
 
+msgid "230400"
+msgstr ""
+
 #
 msgid "3"
 msgstr "3"
+
+#
+#, fuzzy
+msgid "3D Mode"
+msgstr "Hamur"
+
+msgid "3D Modus"
+msgstr ""
 
 msgid "3d mode"
 msgstr ""
@@ -331,6 +397,12 @@ msgstr ""
 #
 msgid "4"
 msgstr "4"
+
+msgid "422"
+msgstr ""
+
+msgid "460800"
+msgstr ""
 
 #
 msgid "4:3"
@@ -348,6 +420,9 @@ msgstr "4:3 PanScan"
 msgid "5"
 msgstr "5"
 
+msgid "57600"
+msgstr ""
+
 #
 msgid "6"
 msgstr "6"
@@ -363,6 +438,9 @@ msgstr "8"
 #
 msgid "9"
 msgstr "9"
+
+msgid "921600"
+msgstr ""
 
 msgid "<Current movielist location>"
 msgstr "<Núverandi staður bíómyndalista>"
@@ -513,6 +591,9 @@ msgstr "AC3 blandað"
 msgid "AC3/DTS downmix"
 msgstr ""
 
+msgid "APN"
+msgstr ""
+
 #
 msgid "Abort"
 msgstr "Hætta við"
@@ -651,6 +732,10 @@ msgstr "Bæta við eftirlætisrásir"
 #, fuzzy
 msgid "Add/remove timer for current event"
 msgstr "bæta við upptöku (stoppa eftir núverandi atriði)"
+
+#, fuzzy
+msgid "Additional PPPD options"
+msgstr "Hljóð stillingar..."
 
 msgid "Adjust 3D settings"
 msgstr ""
@@ -806,6 +891,11 @@ msgstr ""
 msgid "Ask user"
 msgstr "Spyrja notanda"
 
+#
+#, fuzzy
+msgid "Aspect list..."
+msgstr "Listi undirrása..."
+
 #, fuzzy
 msgid "Aspect ratio"
 msgstr "Stærðarhlutfall"
@@ -833,6 +923,9 @@ msgstr "Hljóð"
 
 msgid "Audio PID"
 msgstr "Hljóð PID"
+
+msgid "Audio Source"
+msgstr ""
 
 msgid "Audio language selection 1"
 msgstr ""
@@ -887,6 +980,16 @@ msgstr ""
 
 msgid "Auto scart switching"
 msgstr "Sjálfvirk skipting á scarti"
+
+#
+#, fuzzy
+msgid "Auto start"
+msgstr "er að byrja"
+
+#
+#, fuzzy
+msgid "Auto(not available)"
+msgstr "ekki tiltækt"
 
 msgid "Automatic"
 msgstr "Sjálfvirkt"
@@ -1112,6 +1215,10 @@ msgid "Channel"
 msgstr "Rás"
 
 #, fuzzy
+msgid "Channel Selection"
+msgstr "Rása val"
+
+#, fuzzy
 msgid "Channel list type"
 msgstr "Valmynd rásalista"
 
@@ -1216,6 +1323,10 @@ msgid "Collection settings"
 msgstr "Stillingar safns"
 
 #, fuzzy
+msgid "Color Format"
+msgstr "Lita kerfi"
+
+#, fuzzy
 msgid "Color format"
 msgstr "Lita kerfi"
 
@@ -1257,6 +1368,10 @@ msgstr "Stillinga hamur"
 
 #, fuzzy, python-format
 msgid "Configuration mode: %s"
+msgstr "Stillinga hamur"
+
+#, fuzzy
+msgid "Configuration saved!"
 msgstr "Stillinga hamur"
 
 #
@@ -1905,6 +2020,11 @@ msgstr "DiSEqC endurtekning"
 #, fuzzy
 msgid "DiSEqC-tester settings"
 msgstr "DiSEqC prufu stillingar"
+
+#
+#, fuzzy
+msgid "Dial number"
+msgstr "Síma númer"
 
 #
 msgid "Dialing:"
@@ -3335,6 +3455,12 @@ msgstr "MMC kort"
 msgid "MORE"
 msgstr "MEIRA"
 
+msgid "MRU"
+msgstr ""
+
+msgid "MTU"
+msgstr ""
+
 #
 msgid "Main menu"
 msgstr "Aðalvalmynd"
@@ -3452,6 +3578,15 @@ msgstr "Hamur"
 #
 msgid "Model: "
 msgstr "Gerð:"
+
+#, fuzzy
+msgid "Modem configuration"
+msgstr "Handvirk stilling"
+
+#
+#, fuzzy
+msgid "Modem type"
+msgstr "Hugbúnaður"
 
 #
 msgid "Modulation"
@@ -4051,6 +4186,9 @@ msgstr "Skrifa yfir stillinga skrár ?"
 msgid "PAL"
 msgstr "PAL"
 
+msgid "PCM"
+msgstr ""
+
 msgid "PCR PID"
 msgstr "PCR PID"
 
@@ -4315,6 +4453,11 @@ msgstr "Vinsamlega veldu spilunarlista..."
 
 #
 #, fuzzy
+msgid "Please select a resolution..."
+msgstr "Vinsamlega veldu undirrás..."
+
+#
+#, fuzzy
 msgid "Please select a sub service..."
 msgstr "Vinsamlega veldu undirrás..."
 
@@ -4326,9 +4469,19 @@ msgstr "Velja undirrás til að taka upp..."
 msgid "Please select a subservice..."
 msgstr "Vinsamlega veldu undirrás..."
 
+#
+#, fuzzy
+msgid "Please select an 3D modus..."
+msgstr "Vinsamlega veldu undirrás..."
+
 msgid "Please select an NFI file and press green key to flash!"
 msgstr ""
 "Vinsamlega veldu NFI stýrikerfi og ýttu á græna takkann til að setja inn!"
+
+#
+#, fuzzy
+msgid "Please select an aspect ratio..."
+msgstr "Vinsamlega veldu undirrás..."
 
 #, fuzzy
 msgid "Please select medium to be scanned"
@@ -4468,6 +4621,11 @@ msgstr "Pólun"
 #
 msgid "Polish"
 msgstr "Pólska"
+
+#
+#, fuzzy
+msgid "Port"
+msgstr "Tengi A"
 
 #
 msgid "Port A"
@@ -4667,7 +4825,7 @@ msgstr "Hratt"
 
 #
 #, fuzzy
-msgid "Quick zap"
+msgid "Quickzap"
 msgstr "Hraðstökk"
 
 #
@@ -5051,6 +5209,9 @@ msgstr "SNR"
 msgid "SNR:"
 msgstr "SNR:"
 
+msgid "SPDIF"
+msgstr ""
+
 #
 msgid "SSID:"
 msgstr "SSID:"
@@ -5169,6 +5330,10 @@ msgstr ""
 msgid ""
 "Scans default lamedbs sorted by satellite with a connected dish positioner"
 msgstr "Leita sjálfgefna gervihnetti, raðað eftir hnöttum með tengdum mótor"
+
+#, fuzzy
+msgid "Scroll long strings"
+msgstr "Stillingar safns"
 
 #
 msgid "Search east"
@@ -5456,12 +5621,19 @@ msgstr "Rásir"
 msgid "Set end time"
 msgstr "Stilla loka tíma"
 
+msgid "Set fan"
+msgstr ""
+
 msgid "Set fixed"
 msgstr ""
 
 #
 msgid "Set interface as default Interface"
 msgstr "Gera að sjálfgefnu korti"
+
+#, fuzzy
+msgid "Set led"
+msgstr "Stilla loka tíma"
 
 msgid "Set limits"
 msgstr ""
@@ -5570,6 +5742,11 @@ msgstr ""
 msgid "Show channel numbers in channel selection"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Show clock"
+msgstr "Sýna upplýsingar"
+
 msgid "Show crypto info in infobar"
 msgstr ""
 
@@ -5627,6 +5804,9 @@ msgstr "Sýna skilaboð við byrjun upptöku"
 msgid "Show movie lengths in movielist"
 msgstr "Hlaða inn lengd myndar í myndalista"
 
+msgid "Show on VFD Display"
+msgstr ""
+
 #
 msgid "Show positioner movement"
 msgstr "Sýna færslu mótors"
@@ -5674,6 +5854,9 @@ msgid "Shutdown"
 msgstr "Slökkva"
 
 msgid "Shutdown receiver after"
+msgstr ""
+
+msgid "Side by Side"
 msgstr ""
 
 msgid "Side by side"
@@ -5753,6 +5936,11 @@ msgstr "Læsa rásum"
 msgid ""
 "Skip internet connection check (disables automatic package installation)"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Sleep Timer"
+msgstr "Tímastilling"
 
 #
 #, fuzzy
@@ -5895,6 +6083,9 @@ msgstr "Suður"
 #
 msgid "Spanish"
 msgstr "Spænska"
+
+msgid "Speed"
+msgstr ""
 
 #
 msgid "Split preview mode"
@@ -6588,6 +6779,11 @@ msgstr "Tími"
 
 #
 #, fuzzy
+msgid "Time mode"
+msgstr "Tón stilling"
+
+#
+#, fuzzy
 msgid "Time scale"
 msgstr "Tímastillinga val"
 
@@ -6713,6 +6909,9 @@ msgstr "Tónstýring"
 #
 msgid "Toneburst A/B"
 msgstr "Tón stýring A/B"
+
+msgid "Top and Bottom"
+msgstr ""
 
 msgid "Top and bottom"
 msgstr ""
@@ -7067,9 +7266,9 @@ msgid ""
 "be used."
 msgstr ""
 
-#
-msgid "VCR scart"
-msgstr "Vídeó scart"
+#, fuzzy
+msgid "VFD display configuration"
+msgstr "Handvirk stilling"
 
 #
 msgid "VMGM (intro trailer)"
@@ -7621,6 +7820,9 @@ msgstr "Tókst ekki að skrifa!"
 msgid "YPbPr"
 msgstr "YPbPr"
 
+msgid "YUV"
+msgstr ""
+
 #
 msgid "Year"
 msgstr "Ár"
@@ -8026,6 +8228,9 @@ msgstr ""
 msgid "blacklist"
 msgstr "svarti listi"
 
+msgid "blank"
+msgstr ""
+
 #
 msgid "blue"
 msgstr "blár"
@@ -8041,8 +8246,20 @@ msgstr "raða eftir dagsetningu"
 msgid "cartoon/puppets"
 msgstr ""
 
+msgid "cdma"
+msgstr ""
+
 msgid "center"
 msgstr ""
+
+#, fuzzy
+msgid "channel"
+msgstr "Rás"
+
+#
+#, fuzzy
+msgid "channel number"
+msgstr "Síma númer"
 
 #
 msgid "chapters"
@@ -8058,6 +8275,11 @@ msgstr "hringpólun vinstri"
 #
 msgid "circular right"
 msgstr "hringpólun hægri"
+
+#
+#, fuzzy
+msgid "clock"
+msgstr "læst"
 
 msgid "comedy"
 msgstr ""
@@ -8317,6 +8539,9 @@ msgstr "fara í djúpsvefn"
 #
 msgid "go to standby"
 msgstr "fara í biðstöðu"
+
+msgid "gprs"
+msgstr ""
 
 #
 msgid "grab this frame as bitmap"
@@ -8783,8 +9008,16 @@ msgstr "súna valkosti"
 msgid "show event details"
 msgstr "sýna atriði nánar"
 
+#, fuzzy
+msgid "show favourites"
+msgstr "Bæta við eftirlætisrásir"
+
 msgid "show mediaplayer on mainmenu"
 msgstr ""
+
+#, fuzzy
+msgid "show satellites"
+msgstr "Allir gervihnettir"
 
 msgid "show softwaremanager in setup menu"
 msgstr ""
@@ -8918,6 +9151,11 @@ msgid "this service is protected by a parental control pin"
 msgstr "þessi rás er læst með kóða"
 
 #
+#, fuzzy
+msgid "toggels betwenn tv and radio..."
+msgstr "hlusta á útvarp...."
+
+#
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "skipta á milli tíma, kafla, undirtexta upplýsingar"
 
@@ -8928,6 +9166,39 @@ msgid "tourism/travel"
 msgstr ""
 
 msgid "true"
+msgstr ""
+
+msgid "ttyACM0"
+msgstr ""
+
+msgid "ttyUSB0"
+msgstr ""
+
+msgid "ttyUSB1"
+msgstr ""
+
+msgid "ttyUSB2"
+msgstr ""
+
+msgid "ttyUSB3"
+msgstr ""
+
+msgid "ttyUSB4"
+msgstr ""
+
+msgid "ttyUSB5"
+msgstr ""
+
+msgid "ttyUSB6"
+msgstr ""
+
+msgid "ttyUSB7"
+msgstr ""
+
+msgid "ttyUSB8"
+msgstr ""
+
+msgid "ttyUSB9"
 msgstr ""
 
 msgid "tuner is not supported"
@@ -9631,6 +9902,10 @@ msgstr "stokkið"
 #~ "Notaðu vinstri og hægri takka til að breyta.\n"
 #~ "\n"
 #~ "Vinsamlega settu upp móttakara A"
+
+#
+#~ msgid "VCR scart"
+#~ msgstr "Vídeó scart"
 
 #~ msgid "Video Fine-Tuning Wizard"
 #~ msgstr "Mynd fínstillinga ráðgjafi"
