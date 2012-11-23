@@ -108,14 +108,6 @@ msgstr " (Radio)"
 msgid " (TV)"
 msgstr " (TV)"
 
-#, fuzzy
-msgid ""
-" Are you sure to save the current configuration?\n"
-"\n"
-msgstr ""
-"Etes-vous sûr de vouloir activer cette configuration réseau?\n"
-"\n"
-
 msgid " extensions."
 msgstr " extensions."
 
@@ -127,9 +119,6 @@ msgstr " paquets sélectionnés."
 
 msgid " updates available."
 msgstr " MAJ disponibles."
-
-msgid "#777"
-msgstr ""
 
 #. TRANSLATORS: short time representation hour:minute
 #, python-format
@@ -251,19 +240,6 @@ msgstr "(afficher menu audio DVD optionnel)"
 msgid "* Only available if more than one interface is active."
 msgstr "* Seulement disponible si plus d'une interface est active."
 
-msgid "*99#"
-msgstr ""
-
-msgid "*99***1#"
-msgstr ""
-
-msgid "*99**1*1#"
-msgstr ""
-
-#, fuzzy
-msgid "..."
-msgstr "aide..."
-
 msgid "0"
 msgstr "0"
 
@@ -279,41 +255,11 @@ msgstr "1.1"
 msgid "1.2"
 msgstr "1.2"
 
-msgid "1000"
-msgstr ""
-
-msgid "1100"
-msgstr ""
-
-msgid "115200"
-msgstr ""
-
-msgid "1200"
-msgstr ""
-
 msgid "12V output"
 msgstr "Sortie 12V"
 
 msgid "13 V"
 msgstr "13 V"
-
-msgid "1300"
-msgstr ""
-
-msgid "1400"
-msgstr ""
-
-msgid "1440"
-msgstr ""
-
-msgid "1460"
-msgstr ""
-
-msgid "1492"
-msgstr ""
-
-msgid "1500"
-msgstr ""
 
 msgid "16:10"
 msgstr "16:10"
@@ -339,30 +285,14 @@ msgstr "18 V"
 msgid "2"
 msgstr "2"
 
-msgid "230400"
-msgstr ""
-
 msgid "3"
 msgstr "3"
-
-#, fuzzy
-msgid "3D Mode"
-msgstr "Mode"
-
-msgid "3D Modus"
-msgstr ""
 
 msgid "3d mode"
 msgstr "Mode 3D"
 
 msgid "4"
 msgstr "4"
-
-msgid "422"
-msgstr ""
-
-msgid "460800"
-msgstr ""
 
 msgid "4:3"
 msgstr "4:3"
@@ -376,9 +306,6 @@ msgstr "4:3 PanScan"
 msgid "5"
 msgstr "5"
 
-msgid "57600"
-msgstr ""
-
 msgid "6"
 msgstr "6"
 
@@ -390,9 +317,6 @@ msgstr "8"
 
 msgid "9"
 msgstr "9"
-
-msgid "921600"
-msgstr ""
 
 msgid "<Current movielist location>"
 msgstr "<Emplacement actuel liste film>"
@@ -533,9 +457,6 @@ msgstr "Downmix AC3"
 msgid "AC3/DTS downmix"
 msgstr "Downmix AC3/DTS"
 
-msgid "APN"
-msgstr ""
-
 msgid "Abort"
 msgstr "Abandon"
 
@@ -650,10 +571,6 @@ msgstr "Ajouter aux favoris"
 #, fuzzy
 msgid "Add/remove timer for current event"
 msgstr "Ajouter/Enlever la programmation pour l'évènement en cours"
-
-#, fuzzy
-msgid "Additional PPPD options"
-msgstr "Options Audio..."
 
 msgid "Adjust 3D settings"
 msgstr "Ajuster les paramètres 3D"
@@ -812,10 +729,6 @@ msgid "Ask user"
 msgstr "Demander à l'utilisateur"
 
 #, fuzzy
-msgid "Aspect list..."
-msgstr "Liste des sous-services..."
-
-#, fuzzy
 msgid "Aspect ratio"
 msgstr "Format d'image"
 
@@ -840,9 +753,6 @@ msgstr "Audio"
 
 msgid "Audio PID"
 msgstr "PID Audio"
-
-msgid "Audio Source"
-msgstr ""
 
 msgid "Audio language selection 1"
 msgstr "Sélection de la langue audio 1"
@@ -895,14 +805,6 @@ msgstr "Auto sélection de la langue"
 
 msgid "Auto scart switching"
 msgstr "Commutation auto péritel"
-
-#, fuzzy
-msgid "Auto start"
-msgstr "sur le point de commencer"
-
-#, fuzzy
-msgid "Auto(not available)"
-msgstr "disponible"
 
 msgid "Automatic"
 msgstr "Automatique"
@@ -1127,10 +1029,6 @@ msgid "Channel"
 msgstr "Canal"
 
 #, fuzzy
-msgid "Channel Selection"
-msgstr "Sélection de la chaîne"
-
-#, fuzzy
 msgid "Channel list type"
 msgstr "Liste des chaînes"
 
@@ -1234,10 +1132,6 @@ msgid "Collection settings"
 msgstr "Paramètres de la collection"
 
 #, fuzzy
-msgid "Color Format"
-msgstr "Format de Couleur"
-
-#, fuzzy
 msgid "Color format"
 msgstr "Format de Couleur"
 
@@ -1279,10 +1173,6 @@ msgstr "Mode de configuration"
 
 #, fuzzy, python-format
 msgid "Configuration mode: %s"
-msgstr "Mode de configuration"
-
-#, fuzzy
-msgid "Configuration saved!"
 msgstr "Mode de configuration"
 
 #, fuzzy
@@ -1899,10 +1789,6 @@ msgstr "DiSEqC-Répétitions"
 #, fuzzy
 msgid "DiSEqC-tester settings"
 msgstr "Paramètres Testeur-DiSEqC"
-
-#, fuzzy
-msgid "Dial number"
-msgstr "Numéro de téléphone"
 
 msgid "Dialing:"
 msgstr "Appel:"
@@ -3141,12 +3027,6 @@ msgstr "Carte MMC"
 msgid "MORE"
 msgstr "PLUS"
 
-msgid "MRU"
-msgstr ""
-
-msgid "MTU"
-msgstr ""
-
 msgid "Main menu"
 msgstr "Menu principal"
 
@@ -3243,14 +3123,6 @@ msgstr "Mode"
 
 msgid "Model: "
 msgstr "Modèle: "
-
-#, fuzzy
-msgid "Modem configuration"
-msgstr "Configuration de la Liste des Films"
-
-#, fuzzy
-msgid "Modem type"
-msgstr "Logiciel"
 
 msgid "Modulation"
 msgstr "Modulation"
@@ -3771,9 +3643,6 @@ msgstr "Ecraser fichiers configuration?"
 msgid "PAL"
 msgstr "PAL"
 
-msgid "PCM"
-msgstr ""
-
 msgid "PCR PID"
 msgstr "PID PCR"
 
@@ -4000,10 +3869,6 @@ msgid "Please select a playlist..."
 msgstr "Veuillez choisir une liste de lecture..."
 
 #, fuzzy
-msgid "Please select a resolution..."
-msgstr "Veuillez choisir un sous-service..."
-
-#, fuzzy
 msgid "Please select a sub service..."
 msgstr "Veuillez choisir un sous-service..."
 
@@ -4013,16 +3878,8 @@ msgstr "Veuillez choisir un sous-service à enregistrer..."
 msgid "Please select a subservice..."
 msgstr "Veuillez choisir un sous-service..."
 
-#, fuzzy
-msgid "Please select an 3D modus..."
-msgstr "Veuillez choisir un sous-service..."
-
 msgid "Please select an NFI file and press green key to flash!"
 msgstr "Veuillez choisir un fichier NFI et presser vert pour flasher!"
-
-#, fuzzy
-msgid "Please select an aspect ratio..."
-msgstr "Veuillez choisir un sous-service..."
 
 #, fuzzy
 msgid "Please select medium to be scanned"
@@ -4142,10 +3999,6 @@ msgstr "Polarisation"
 
 msgid "Polish"
 msgstr "Polonais"
-
-#, fuzzy
-msgid "Port"
-msgstr "Port A"
 
 msgid "Port A"
 msgstr "Port A"
@@ -4317,7 +4170,7 @@ msgid "Quick"
 msgstr "Rapide"
 
 #, fuzzy
-msgid "Quickzap"
+msgid "Quick zap"
 msgstr "Zap rapide"
 
 msgid "RF output"
@@ -4642,9 +4495,6 @@ msgstr "SNR"
 msgid "SNR:"
 msgstr "SNR:"
 
-msgid "SPDIF"
-msgstr ""
-
 msgid "SSID:"
 msgstr "SSID:"
 
@@ -4747,10 +4597,6 @@ msgid ""
 msgstr ""
 "Scanne lamedbs standards triés par satellite avec un positionneur parabole "
 "connecté"
-
-#, fuzzy
-msgid "Scroll long strings"
-msgstr "Paramètres de la collection"
 
 msgid "Search east"
 msgstr "Rechercher à l'est"
@@ -4991,19 +4837,11 @@ msgstr "Services"
 msgid "Set end time"
 msgstr "Régler l'heure de fin"
 
-#, fuzzy
-msgid "Set fan"
-msgstr "Réglage de l'adresse"
-
 msgid "Set fixed"
 msgstr "Réglage de l'adresse"
 
 msgid "Set interface as default Interface"
 msgstr "Utiliser l'interface comme interface par défaut"
-
-#, fuzzy
-msgid "Set led"
-msgstr "Réglage de l'adresse"
 
 #, fuzzy
 msgid "Set limits"
@@ -5104,10 +4942,6 @@ msgstr ""
 msgid "Show channel numbers in channel selection"
 msgstr "Afficher numéro des chaînes dans sélection de chaîne"
 
-#, fuzzy
-msgid "Show clock"
-msgstr "Afficher Infos"
-
 msgid "Show crypto info in infobar"
 msgstr "Afficher infos de cryptage dans barre d'infos"
 
@@ -5157,9 +4991,6 @@ msgstr "Afficher un message en démarrant l'enregistrement"
 msgid "Show movie lengths in movielist"
 msgstr "Afficher icônes d'état dans liste des films"
 
-msgid "Show on VFD Display"
-msgstr ""
-
 msgid "Show positioner movement"
 msgstr "Afficher le mouvement du positionneur"
 
@@ -5203,10 +5034,6 @@ msgstr "Eteindre"
 
 msgid "Shutdown receiver after"
 msgstr ""
-
-#, fuzzy
-msgid "Side by Side"
-msgstr "Côte à Côte"
 
 #, fuzzy
 msgid "Side by side"
@@ -5272,10 +5099,6 @@ msgstr "Services protégés"
 msgid ""
 "Skip internet connection check (disables automatic package installation)"
 msgstr ""
-
-#, fuzzy
-msgid "Sleep Timer"
-msgstr "Veille programmée"
 
 #, fuzzy
 msgid "Sleep timer"
@@ -5395,9 +5218,6 @@ msgstr "Sud"
 
 msgid "Spanish"
 msgstr "Espagnol"
-
-msgid "Speed"
-msgstr ""
 
 msgid "Split preview mode"
 msgstr "Mode prévue séparée"
@@ -6011,10 +5831,6 @@ msgid "Time"
 msgstr "Heure"
 
 #, fuzzy
-msgid "Time mode"
-msgstr "Mode tonalité"
-
-#, fuzzy
 msgid "Time scale"
 msgstr "Echelle de temps"
 
@@ -6118,10 +5934,6 @@ msgstr "Toneburst"
 
 msgid "Toneburst A/B"
 msgstr "Toneburst A/B"
-
-#, fuzzy
-msgid "Top and Bottom"
-msgstr "Haut et Bas"
 
 #, fuzzy
 msgid "Top and bottom"
@@ -6437,9 +6249,8 @@ msgid ""
 "be used."
 msgstr ""
 
-#, fuzzy
-msgid "VFD display configuration"
-msgstr "Configuration de la Liste des Films"
+msgid "VCR scart"
+msgstr "Péritel magnétoscope"
 
 msgid "VMGM (intro trailer)"
 msgstr "VMGM (intro bande-annonce)"
@@ -6942,9 +6753,6 @@ msgstr "Echec d'écriture!"
 msgid "YPbPr"
 msgstr "YPbPr"
 
-msgid "YUV"
-msgstr ""
-
 msgid "Year"
 msgstr "Année"
 
@@ -7306,9 +7114,6 @@ msgstr ""
 msgid "blacklist"
 msgstr "liste noire"
 
-msgid "blank"
-msgstr ""
-
 msgid "blue"
 msgstr "bleu"
 
@@ -7322,19 +7127,8 @@ msgstr "tri par date"
 msgid "cartoon/puppets"
 msgstr ""
 
-msgid "cdma"
-msgstr ""
-
 msgid "center"
 msgstr "centré"
-
-#, fuzzy
-msgid "channel"
-msgstr "Canal"
-
-#, fuzzy
-msgid "channel number"
-msgstr "Numéro de téléphone"
 
 msgid "chapters"
 msgstr "chapitres"
@@ -7347,10 +7141,6 @@ msgstr "circulaire à gauche"
 
 msgid "circular right"
 msgstr "circulaire à droite"
-
-#, fuzzy
-msgid "clock"
-msgstr "verrouillé"
 
 msgid "comedy"
 msgstr ""
@@ -7571,9 +7361,6 @@ msgstr "mettre en veille profonde"
 
 msgid "go to standby"
 msgstr "mettre en veille"
-
-msgid "gprs"
-msgstr ""
 
 msgid "grab this frame as bitmap"
 msgstr "saisir cette frame commme bitmap"
@@ -7960,16 +7747,8 @@ msgstr "afficher alternatifs"
 msgid "show event details"
 msgstr "afficher détails événement"
 
-#, fuzzy
-msgid "show favourites"
-msgstr "Ajouter aux favoris"
-
 msgid "show mediaplayer on mainmenu"
 msgstr ""
-
-#, fuzzy
-msgid "show satellites"
-msgstr "Tous satellites"
 
 msgid "show softwaremanager in setup menu"
 msgstr ""
@@ -8085,10 +7864,6 @@ msgstr "cet enregistrement"
 msgid "this service is protected by a parental control pin"
 msgstr "ce service est protégé par un pin contrôle parental"
 
-#, fuzzy
-msgid "toggels betwenn tv and radio..."
-msgstr "écouter radio..."
-
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "commuter temps, chapitre, audio, info sous-titres"
 
@@ -8099,39 +7874,6 @@ msgid "tourism/travel"
 msgstr ""
 
 msgid "true"
-msgstr ""
-
-msgid "ttyACM0"
-msgstr ""
-
-msgid "ttyUSB0"
-msgstr ""
-
-msgid "ttyUSB1"
-msgstr ""
-
-msgid "ttyUSB2"
-msgstr ""
-
-msgid "ttyUSB3"
-msgstr ""
-
-msgid "ttyUSB4"
-msgstr ""
-
-msgid "ttyUSB5"
-msgstr ""
-
-msgid "ttyUSB6"
-msgstr ""
-
-msgid "ttyUSB7"
-msgstr ""
-
-msgid "ttyUSB8"
-msgstr ""
-
-msgid "ttyUSB9"
 msgstr ""
 
 msgid "tuner is not supported"
@@ -8757,9 +8499,6 @@ msgstr "zappé"
 #~ "\n"
 #~ "Veuillez paramétrer le tuner A"
 
-#~ msgid "VCR scart"
-#~ msgstr "Péritel magnétoscope"
-
 #~ msgid "Video Fine-Tuning Wizard"
 #~ msgstr "Assistant de Réglage Vidéo avancé"
 
@@ -8829,6 +8568,9 @@ msgstr "zappé"
 #~ msgstr ""
 #~ "êtes-vous sûr de vouloir restaurer\n"
 #~ "la sauvegarde suivante :\n"
+
+#~ msgid "available"
+#~ msgstr "disponible"
 
 #~ msgid "could not be removed"
 #~ msgstr "ne peut-être retiré"

@@ -116,14 +116,6 @@ msgstr " (Radio)"
 msgid " (TV)"
 msgstr " (TV)"
 
-#, fuzzy
-msgid ""
-" Are you sure to save the current configuration?\n"
-"\n"
-msgstr ""
-"Sind Sie sicher, dass diese Netzwerk-Konfiguration aktiviert werden soll?\n"
-"\n"
-
 msgid " extensions."
 msgstr " Erweiterungen."
 
@@ -135,9 +127,6 @@ msgstr " Pakete ausgewählt."
 
 msgid " updates available."
 msgstr " Updates verfügbar. "
-
-msgid "#777"
-msgstr ""
 
 #. TRANSLATORS: short time representation hour:minute
 #, python-format
@@ -259,19 +248,6 @@ msgstr "(DVD-Tonmenü zeigen, falls vorh.)"
 msgid "* Only available if more than one interface is active."
 msgstr "* Nur verfügbar, wenn mehr als ein Netzwerkadapter aktiv ist."
 
-msgid "*99#"
-msgstr ""
-
-msgid "*99***1#"
-msgstr ""
-
-msgid "*99**1*1#"
-msgstr ""
-
-#, fuzzy
-msgid "..."
-msgstr "Hilfe..."
-
 msgid "0"
 msgstr "0"
 
@@ -287,41 +263,11 @@ msgstr "1.1"
 msgid "1.2"
 msgstr "1.2"
 
-msgid "1000"
-msgstr ""
-
-msgid "1100"
-msgstr ""
-
-msgid "115200"
-msgstr ""
-
-msgid "1200"
-msgstr ""
-
 msgid "12V output"
 msgstr "12V-Ausgang"
 
 msgid "13 V"
 msgstr "13 V"
-
-msgid "1300"
-msgstr ""
-
-msgid "1400"
-msgstr ""
-
-msgid "1440"
-msgstr ""
-
-msgid "1460"
-msgstr ""
-
-msgid "1492"
-msgstr ""
-
-msgid "1500"
-msgstr ""
 
 msgid "16:10"
 msgstr "16:10"
@@ -347,30 +293,14 @@ msgstr "18 V"
 msgid "2"
 msgstr "2"
 
-msgid "230400"
-msgstr ""
-
 msgid "3"
 msgstr "3"
-
-#, fuzzy
-msgid "3D Mode"
-msgstr "Modus"
-
-msgid "3D Modus"
-msgstr ""
 
 msgid "3d mode"
 msgstr "3D-Modus"
 
 msgid "4"
 msgstr "4"
-
-msgid "422"
-msgstr ""
-
-msgid "460800"
-msgstr ""
 
 msgid "4:3"
 msgstr "4:3"
@@ -384,9 +314,6 @@ msgstr "4:3 PanScan"
 msgid "5"
 msgstr "5"
 
-msgid "57600"
-msgstr ""
-
 msgid "6"
 msgstr "6"
 
@@ -398,9 +325,6 @@ msgstr "8"
 
 msgid "9"
 msgstr "9"
-
-msgid "921600"
-msgstr ""
 
 msgid "<Current movielist location>"
 msgstr "<Aktuelles Filmlisten-Verzeichnis>"
@@ -547,9 +471,6 @@ msgstr "AC3 Downmix"
 msgid "AC3/DTS downmix"
 msgstr "AC3/DTS Downmix"
 
-msgid "APN"
-msgstr ""
-
 msgid "Abort"
 msgstr "Abbrechen"
 
@@ -648,10 +569,6 @@ msgstr "Zu Favoriten hinzufügen"
 
 msgid "Add/remove timer for current event"
 msgstr "Setze/Entferne Timer für aktuelle Sendung"
-
-#, fuzzy
-msgid "Additional PPPD options"
-msgstr "Ton-Optionen..."
 
 msgid "Adjust 3D settings"
 msgstr "3D Einstellungen"
@@ -798,10 +715,6 @@ msgstr "Kunst/Kultur"
 msgid "Ask user"
 msgstr "Nutzer fragen"
 
-#, fuzzy
-msgid "Aspect list..."
-msgstr "Unterkanal-Liste..."
-
 msgid "Aspect ratio"
 msgstr "Seitenverhältnis"
 
@@ -822,9 +735,6 @@ msgstr "Ton"
 
 msgid "Audio PID"
 msgstr "Ton PID"
-
-msgid "Audio Source"
-msgstr ""
 
 msgid "Audio language selection 1"
 msgstr "Ton Sprachwahl 1"
@@ -876,14 +786,6 @@ msgstr "Automatische Sprachauswahl"
 
 msgid "Auto scart switching"
 msgstr "Automatische Scart-Umschaltung"
-
-#, fuzzy
-msgid "Auto start"
-msgstr "Startet gleich"
-
-#, fuzzy
-msgid "Auto(not available)"
-msgstr "Nicht verfügbar"
 
 msgid "Automatic"
 msgstr "Automatisch"
@@ -1007,8 +909,8 @@ msgid ""
 "By default, SNR will be shown in dB (when supported by the tuner). This "
 "setting forces SNR to be shown as a percentage instead."
 msgstr ""
-"Standardmässig wird SNR in Dezibel angezeigt (falls vom Tuner "
-"unterstütztDiese Einstellung erzwingt die Darstellung von SNR in Prozent."
+"Standardmässig wird SNR in Dezibel angezeigt (falls vom Tuner unterstützt"
+"Diese Einstellung erzwingt die Darstellung von SNR in Prozent."
 
 msgid "C"
 msgstr "C"
@@ -1102,10 +1004,6 @@ msgstr "Versionshistorie"
 msgid "Channel"
 msgstr "Kanal"
 
-#, fuzzy
-msgid "Channel Selection"
-msgstr "Kanalliste"
-
 msgid "Channel list type"
 msgstr "Kanallisten-Typ"
 
@@ -1149,8 +1047,7 @@ msgstr "Überprüfung der Internet-Verbindung"
 msgid ""
 "Checking tuner %d\n"
 "DiSEqC port %s for %s"
-msgstr ""
-"Überprüfe Tuner %d\n"
+msgstr "Überprüfe Tuner %d\n"
 "DiSEqC Port %s auf %s"
 
 msgid "Children/Youth"
@@ -1207,10 +1104,6 @@ msgstr "Zusammenstellungsname"
 msgid "Collection settings"
 msgstr "Zusammenstellungs-Einstellungen"
 
-#, fuzzy
-msgid "Color Format"
-msgstr "Farbformat"
-
 msgid "Color format"
 msgstr "Farbformat"
 
@@ -1251,10 +1144,6 @@ msgstr "Konfiguration"
 msgid "Configuration mode: %s"
 msgstr "Konfigurationsmodus: %s"
 
-#, fuzzy
-msgid "Configuration saved!"
-msgstr "Konfiguration"
-
 msgid "Configuration..."
 msgstr "Konfiguration..."
 
@@ -1283,8 +1172,7 @@ msgstr "DNS-Server konfigurieren"
 
 msgid "Configure on which devices the background delete option should be used."
 msgstr ""
-"Einstellung der Geräte bei denen die Hintergrund-Löschung aktiviert werden "
-"soll."
+"Einstellung der Geräte bei denen die Hintergrund-Löschung aktiviert werden soll."
 
 msgid "Configure remote control type"
 msgstr "Fernbedienungtyp einstellen"
@@ -1301,7 +1189,8 @@ msgstr "Bildformat des Bildschirms konfigurieren."
 msgid ""
 "Configure the behavior of the 'pause' key when movie playback is already "
 "paused."
-msgstr "Verhalten der Pause-Taste bei bereits aktivem Pause-Modus."
+msgstr ""
+"Verhalten der Pause-Taste bei bereits aktivem Pause-Modus."
 
 msgid "Configure the behavior when movie playback is manually stopped."
 msgstr "Verhalten beim Stoppen eines Films"
@@ -1312,7 +1201,8 @@ msgstr "Verhalten beim Start eines Films"
 msgid ""
 "Configure the behavior when reaching the end of a movie, during movie "
 "playback."
-msgstr "Verhalten beim Erreichen des Filmendes während der Film-Wiedergabe."
+msgstr ""
+"Verhalten beim Erreichen des Filmendes während der Film-Wiedergabe."
 
 msgid ""
 "Configure the border width of the subtitles. The dark border makes the "
@@ -1323,7 +1213,8 @@ msgstr ""
 
 msgid ""
 "Configure the brightness level of the front panel display during standby."
-msgstr "Anpassung der Helligkeit des Frontdisplays im Standby-Modus."
+msgstr ""
+"Anpassung der Helligkeit des Frontdisplays im Standby-Modus."
 
 msgid "Configure the brightness level of the front panel display."
 msgstr "Anpassung der Helligkeit des Frontdisplays."
@@ -1369,7 +1260,8 @@ msgstr "Generelle Audio-Verzögerund von Stereo Tonspuren."
 
 msgid ""
 "Configure the hard disk drive to go to standby after the specified idle time."
-msgstr "Standby der Festplatte nach einer gewissen Zeit."
+msgstr ""
+"Standby der Festplatte nach einer gewissen Zeit."
 
 msgid "Configure the horizontal alignment of the subtitles."
 msgstr "Horizontale Ausrichtung der Untertitel."
@@ -1420,8 +1312,8 @@ msgid ""
 "Configure the number of days old timers are kept before they are "
 "automatically removed from the timer list."
 msgstr ""
-"Anzahl von Tagen nach denen Timers von der Timer-Liste automatischgelöscht "
-"werden sollen."
+"Anzahl von Tagen nach denen Timers von der Timer-Liste automatisch"
+"gelöscht werden sollen."
 
 msgid ""
 "Configure the offline decoding delay in milliseconds. The configured delay "
@@ -1477,9 +1369,8 @@ msgstr ""
 "verbraucht weniger Festplatten Performanz."
 
 msgid "Configure the subtitle delay when timing information is not available."
-msgstr ""
-"Verzögerung des Untertitels wenn zeitliche Informationen nicht zur Verfügung "
-"stehen."
+msgstr "Verzögerung des Untertitels wenn zeitliche Informationen nicht zur "
+"Verfügung stehen."
 
 msgid "Configure the third audio language."
 msgstr "Wahl der dritten Audiospur-Sprache."
@@ -1493,7 +1384,8 @@ msgstr "Transparenz der Bildschirmanzeige (OSD)."
 msgid ""
 "Configure the transparency of the black background of graphical DVB "
 "subtitles."
-msgstr "Transparenz bei schwarzem Hintergrund der grafischen DVB Untertitel."
+msgstr ""
+"Transparenz bei schwarzem Hintergrund der grafischen DVB Untertitel."
 
 msgid "Configure the tuner mode."
 msgstr "Wahl des Tuner-Modus."
@@ -1522,13 +1414,14 @@ msgid ""
 "is pressed twice. The second infobar contains additional information about "
 "the current channel."
 msgstr ""
-"Anpassung ob (und wie lange) eine zweite Infoleiste bei erneuter Betätigung "
-"der OK Taste angezeigt werden soll. Diese zeigt zusätzliche Informationen "
-"über den Kanal an."
+"Anpassung ob (und wie lange) eine zweite Infoleiste bei erneuter Betätigung der "
+"OK Taste angezeigt werden soll. Diese zeigt zusätzliche Informationen über "
+"den Kanal an."
 
 msgid ""
 "Configure whether multi channel sound tracks should be downmixed to stereo."
-msgstr "Heruntermischen von Multi-Kanal-Sound in Stereo."
+msgstr ""
+"Heruntermischen von Multi-Kanal-Sound in Stereo."
 
 msgid ""
 "Configure whether or not an icon should be shown when your motorized dish is "
@@ -1872,10 +1765,6 @@ msgstr "DiSEqC-Wiederholungen"
 msgid "DiSEqC-tester settings"
 msgstr "DiSEqC-Tester Einstellungen"
 
-#, fuzzy
-msgid "Dial number"
-msgstr "Telefonnummer"
-
 msgid "Dialing:"
 msgstr "Wählen:"
 
@@ -2046,14 +1935,13 @@ msgid "Do you want to upgrade the package:\n"
 msgstr "Wollen Sie das Paket aktualisieren:\n"
 
 msgid "Don't stop current event but disable coming events"
-msgstr ""
-"Aktuelles Event nicht beenden, aber alle zukünftige Events deaktivieren"
+msgstr "Aktuelles Event nicht beenden, aber alle zukünftige Events "
+"deaktivieren"
 
 #, python-format
 msgid "Done - Installed, upgraded or removed %d packages with %d errors"
 msgstr ""
-"Abgeschlossen - %d Pakete mit %d Fehlern installiert, aktualisiert oder "
-"entfernt"
+"Abgeschlossen - %d Pakete mit %d Fehlern installiert, aktualisiert oder entfernt"
 
 msgid "Download"
 msgstr "Herunterladen"
@@ -2939,9 +2827,8 @@ msgid ""
 "ascii. This ensures compatibility with operating systems or file systems "
 "with limited character sets."
 msgstr ""
-"Reduziere Zeichensatz für Aufnahme-Dateinamen auf 7 bit ASCII. Dies "
-"garantiert die Kompatibilität mit Betriebs- und Dateisystemen mit "
-"reduzierten Zeichensatz."
+"Reduziere Zeichensatz für Aufnahme-Dateinamen auf 7 bit ASCII. Dies garantiert "
+"die Kompatibilität mit Betriebs- und Dateisystemen mit reduzierten Zeichensatz."
 
 msgid "Limit west"
 msgstr "West-Limit"
@@ -3037,12 +2924,6 @@ msgstr "MMC-Karte"
 msgid "MORE"
 msgstr "MEHR"
 
-msgid "MRU"
-msgstr ""
-
-msgid "MTU"
-msgstr ""
-
 msgid "Main menu"
 msgstr "Hauptmenü"
 
@@ -3132,14 +3013,6 @@ msgstr "Modus"
 
 msgid "Model: "
 msgstr "Modell:"
-
-#, fuzzy
-msgid "Modem configuration"
-msgstr "Filmlisten Einstellungen"
-
-#, fuzzy
-msgid "Modem type"
-msgstr "Softcam Typ"
 
 msgid "Modulation"
 msgstr "Modulation"
@@ -3641,9 +3514,6 @@ msgstr "Konfigurationsdateien überschreiben?"
 msgid "PAL"
 msgstr "PAL"
 
-msgid "PCM"
-msgstr ""
-
 msgid "PCR PID"
 msgstr "PCR PID"
 
@@ -3852,10 +3722,6 @@ msgstr "Bitte wählen Sie eine Wiedergabeliste zum Löschen..."
 msgid "Please select a playlist..."
 msgstr "Bitte wählen Sie eine Wiedergabeliste..."
 
-#, fuzzy
-msgid "Please select a resolution..."
-msgstr "Bitte einen Unterkanal auswählen..."
-
 msgid "Please select a sub service..."
 msgstr "Bitte einen Unterkanal auswählen..."
 
@@ -3865,18 +3731,9 @@ msgstr "Bitte einen Unterkanal zur Aufnahme auswählen..."
 msgid "Please select a subservice..."
 msgstr "Bitte einen Unterkanal auswählen..."
 
-#, fuzzy
-msgid "Please select an 3D modus..."
-msgstr "Bitte einen Unterkanal auswählen..."
-
 msgid "Please select an NFI file and press green key to flash!"
-msgstr ""
-"Bitte wählen Sie eine NFI-Datei aus und drücken Sie die grüne Taste zum "
-"Flashen!"
-
-#, fuzzy
-msgid "Please select an aspect ratio..."
-msgstr "Bitte einen Unterkanal auswählen..."
+msgstr "Bitte wählen Sie eine NFI-Datei aus und drücken Sie die grüne Taste "
+"zum Flashen!"
 
 msgid "Please select medium to be scanned"
 msgstr "Bitte Medium zum Scannen auswählen"
@@ -3992,10 +3849,6 @@ msgstr "Polarisation"
 msgid "Polish"
 msgstr "Polnisch"
 
-#, fuzzy
-msgid "Port"
-msgstr "Port A"
-
 msgid "Port A"
 msgstr "Port A"
 
@@ -4055,7 +3908,8 @@ msgstr "Vorbereitung läuft... Bitte warten"
 
 msgid "Press '0' to toggle internal/external PiP."
 msgstr ""
-"Drücke '0' um zwischen internen und externem Bild im Bild(PiP) zu wechseln."
+"Drücke '0' um zwischen internen und externem Bild im Bild"
+"(PiP) zu wechseln."
 
 msgid "Press INFO on your remote control for additional information."
 msgstr "INFO drücken für zusätzliche Informationen."
@@ -4158,8 +4012,7 @@ msgstr "Python frontend für /tmp/mmi.socket"
 msgid "Quick"
 msgstr "Schnell"
 
-#, fuzzy
-msgid "Quickzap"
+msgid "Quick zap"
 msgstr "Schnellumschalter"
 
 msgid "RF output"
@@ -4474,9 +4327,6 @@ msgstr "SNR"
 msgid "SNR:"
 msgstr "SNR:"
 
-msgid "SPDIF"
-msgstr ""
-
 msgid "SSID:"
 msgstr "SSID:"
 
@@ -4573,10 +4423,6 @@ msgid ""
 msgstr ""
 "Führt eine Sendersuche aller Satelliten durch, wenn Sie einen Rotor an Ihre "
 "Satellitenschüssel angeschlossen haben."
-
-#, fuzzy
-msgid "Scroll long strings"
-msgstr "Zusammenstellungs-Einstellungen"
 
 msgid "Search east"
 msgstr "Östlich suchen"
@@ -4798,19 +4644,11 @@ msgstr "Kanäle"
 msgid "Set end time"
 msgstr "End-Zeit eingeben"
 
-#, fuzzy
-msgid "Set fan"
-msgstr "Adresse fest einstellen"
-
 msgid "Set fixed"
 msgstr "Adresse fest einstellen"
 
 msgid "Set interface as default Interface"
 msgstr "Netzwerkadapter als Standard festlegen"
-
-#, fuzzy
-msgid "Set led"
-msgstr "Adresse fest einstellen"
 
 msgid "Set limits"
 msgstr "Limits setzen"
@@ -4902,10 +4740,6 @@ msgstr "Zeige Ladesymbol bei System-Beschäftigung."
 msgid "Show channel numbers in channel selection"
 msgstr "Zeige Kanalnummer in Kanalauswahl"
 
-#, fuzzy
-msgid "Show clock"
-msgstr "Zeige Infos"
-
 msgid "Show crypto info in infobar"
 msgstr "Verschlüsselung in Infoleiste anzeigen"
 
@@ -4948,9 +4782,6 @@ msgstr "Benachrichtigung anzeigen, wenn eine Aufnahme startet"
 msgid "Show movie lengths in movielist"
 msgstr "Zeige Filmlänge in der Filmliste"
 
-msgid "Show on VFD Display"
-msgstr ""
-
 msgid "Show positioner movement"
 msgstr "Rotorbewegung anzeigen"
 
@@ -4989,10 +4820,6 @@ msgstr "Ausschalten"
 
 msgid "Shutdown receiver after"
 msgstr "Receiver ausschalten nach"
-
-#, fuzzy
-msgid "Side by Side"
-msgstr "Side by Side"
 
 msgid "Side by side"
 msgstr "Side by Side"
@@ -5056,10 +4883,6 @@ msgid ""
 msgstr ""
 "Überspringe Internet-Verbindungstest (automatische Paketinstallation "
 "deaktivieren)"
-
-#, fuzzy
-msgid "Sleep Timer"
-msgstr "Ausschalt-Timer"
 
 msgid "Sleep timer"
 msgstr "Ausschalt-Timer"
@@ -5170,9 +4993,6 @@ msgstr "Süd"
 
 msgid "Spanish"
 msgstr "Spanisch"
-
-msgid "Speed"
-msgstr ""
 
 msgid "Split preview mode"
 msgstr "Splitscreen für Vorschau-Modus"
@@ -5499,8 +5319,7 @@ msgstr ""
 msgid ""
 "The current beta image might not be stable.\n"
 "For more information see %s."
-msgstr ""
-"Das aktuelle Image könnte fehlerhaft sein.\n"
+msgstr "Das aktuelle Image könnte fehlerhaft sein.\n"
 "Weitere Informationen finden Sie hier: %s."
 
 #, python-format
@@ -5567,9 +5386,8 @@ msgstr ""
 msgid ""
 "The status of the current beta image could not be checked because %s can not "
 "be reached."
-msgstr ""
-"Der Status des aktuellen Beta-Image konnte nicht ermittelt werden, da %s "
-"nicht erreichbar ist."
+msgstr "Der Status des aktuellen Beta-Image konnte nicht ermittelt werden, da "
+"%s nicht erreichbar ist."
 
 msgid "The timer file (timers.xml) is corrupt and could not be loaded."
 msgstr ""
@@ -5767,10 +5585,6 @@ msgstr "Donnerstag"
 msgid "Time"
 msgstr "Zeit"
 
-#, fuzzy
-msgid "Time mode"
-msgstr "Tone Modus"
-
 msgid "Time scale"
 msgstr "Zeitskala"
 
@@ -5874,10 +5688,6 @@ msgstr "Toneburst"
 
 msgid "Toneburst A/B"
 msgstr "Toneburst A/B"
-
-#, fuzzy
-msgid "Top and Bottom"
-msgstr "Oben und Unten"
 
 msgid "Top and bottom"
 msgstr "Oben und Unten"
@@ -6180,9 +5990,8 @@ msgstr ""
 "Untertitel standartmässig nicht eingeblendet. Bei Aktivierung dieser Option "
 "werden diese Untertitel trotzdem verwendet/angezeigt."
 
-#, fuzzy
-msgid "VFD display configuration"
-msgstr "Filmlisten Einstellungen"
+msgid "VCR scart"
+msgstr "Scart-Videorekorder"
 
 msgid "VMGM (intro trailer)"
 msgstr "VMGM (Intro-Trailer)"
@@ -6440,22 +6249,22 @@ msgid ""
 "When enabled, AIT data will be included in http streams. This allows a "
 "client receiver to use HbbTV."
 msgstr ""
-"Bei Aktivierung werden AIT Daten im HTTP Stream eingebaut. Dies erlaubt die "
-"Verwendung von HbbTV mit Ihrem Receiver."
+"Bei Aktivierung werden AIT Daten im HTTP Stream eingebaut. Dies erlaubt "
+"die Verwendung von HbbTV mit Ihrem Receiver."
 
 msgid ""
 "When enabled, ECM data will be included in http streams. This allows a "
 "client receiver to do the descrambling."
 msgstr ""
-"Bei Aktivierung werden ECM Daten im HTTP Stream eingebaut. Dies erlaubt das "
-"Entschlüsseln der empfangenen Daten."
+"Bei Aktivierung werden ECM Daten im HTTP Stream eingebaut. Dies erlaubt "
+"das Entschlüsseln der empfangenen Daten."
 
 msgid ""
 "When enabled, EIT data will be included in http streams. This allows a "
 "client receiver to show EPG."
 msgstr ""
-"Bei Aktivierung werden EIT Daten im HTTP Stream eingebaut. Dies erlaubt die "
-"Darstellung der EPG am Receiver."
+"Bei Aktivierung werden EIT Daten im HTTP Stream eingebaut. Dies erlaubt "
+"die Darstellung der EPG am Receiver."
 
 msgid ""
 "When enabled, a popup message will be shown when a movie has finished and "
@@ -6505,8 +6314,8 @@ msgid ""
 "When enabled, display the EIT now/next eventdata in infobar. When disabled, "
 "display now/next eventdata from the EPG cache instead."
 msgstr ""
-"EIT jetzt/danach Sendungsdaten in Infoleiste anzeigen. Bei Deaktivierung "
-"zeigt jetzt/danach Sendungsdaten des EPG Caches an."
+"EIT jetzt/danach Sendungsdaten in Infoleiste anzeigen. Bei Deaktivierung zeigt "
+"jetzt/danach Sendungsdaten des EPG Caches an."
 
 msgid ""
 "When enabled, encryption info will be shown in the infobar (when supported "
@@ -6529,8 +6338,8 @@ msgid ""
 "When enabled, external subtitles (in media files) will be displayed in "
 "yellow, instead of the original color."
 msgstr ""
-"Externe Untertitel (aus Mediendatei) werden immmer gelb angezeigt, anstattin "
-"ihrer ursprünglichen Farbe."
+"Externe Untertitel (aus Mediendatei) werden immmer gelb angezeigt, anstatt"
+"in ihrer ursprünglichen Farbe."
 
 msgid ""
 "When enabled, graphical DVB subtitles are preferred over teletext subtitles, "
@@ -6552,15 +6361,15 @@ msgid ""
 "When enabled, graphical DVB subtitles will be displayed in yellow, instead "
 "of the original color."
 msgstr ""
-"DVB grafische Untertitel immer gelb anzeigen, anstatt in ihrer "
-"ursprünglichen Farbe."
+"DVB grafische Untertitel immer gelb anzeigen, anstatt in ihrer ursprünglichen "
+"Farbe."
 
 msgid ""
 "When enabled, http streams are descrambled on the server side. The (remote) "
 "client receiver does not have to do descrambling."
 msgstr ""
-"HTTP Streams am Server entschlüsseln. Der empfangende Receiver muss keine "
-"Art von Entschlüsselung selbst vornehmen."
+"HTTP Streams am Server entschlüsseln. Der empfangende Receiver muss keine Art "
+"von Entschlüsselung selbst vornehmen."
 
 msgid ""
 "When enabled, measure power consumption to detect when the rotor stops "
@@ -6652,9 +6461,8 @@ msgstr "SCART Videoanschluss verwenden beim Einschalten des Receivers."
 msgid ""
 "When nonzero, a recording will start earlier than the starting time "
 "indicated by the EPG."
-msgstr ""
-"Aufnahme früher beginnen, als Startzeit die EPG zur Verfügung stellt (falls "
-"nicht 0)."
+msgstr "Aufnahme früher beginnen, als Startzeit die EPG zur Verfügung "
+"stellt (falls nicht 0)."
 
 msgid ""
 "When nonzero, a recording will stop later than the ending time indicated by "
@@ -6723,9 +6531,6 @@ msgstr "Schreiben fehlgeschlagen!"
 
 msgid "YPbPr"
 msgstr "YPbPr"
-
-msgid "YUV"
-msgstr ""
 
 msgid "Year"
 msgstr "Jahr"
@@ -7112,9 +6917,6 @@ msgstr "Schwarz & Weiß"
 msgid "blacklist"
 msgstr "Negativliste"
 
-msgid "blank"
-msgstr ""
-
 msgid "blue"
 msgstr "Blau"
 
@@ -7127,19 +6929,8 @@ msgstr "Aufnahmen nach Datum sortieren"
 msgid "cartoon/puppets"
 msgstr "Zeichentrickfilm/Marionetten"
 
-msgid "cdma"
-msgstr ""
-
 msgid "center"
 msgstr "Zentriert"
-
-#, fuzzy
-msgid "channel"
-msgstr "Kanal"
-
-#, fuzzy
-msgid "channel number"
-msgstr "Telefonnummer"
 
 msgid "chapters"
 msgstr "Kapitel"
@@ -7152,10 +6943,6 @@ msgstr "Links-zirkular"
 
 msgid "circular right"
 msgstr "Rechts-zirkular"
-
-#, fuzzy
-msgid "clock"
-msgstr "gesperrt"
 
 msgid "comedy"
 msgstr "Komödie"
@@ -7373,9 +7160,6 @@ msgstr "In Deep Standby gehen"
 
 msgid "go to standby"
 msgstr "In Standby gehen"
-
-msgid "gprs"
-msgstr ""
 
 msgid "grab this frame as bitmap"
 msgstr "Diesen Frame als Bitmap speichern"
@@ -7762,16 +7546,8 @@ msgstr "Zeige Alternativen"
 msgid "show event details"
 msgstr "Sendungs-Details anzeigen"
 
-#, fuzzy
-msgid "show favourites"
-msgstr "Zu Favoriten hinzufügen"
-
 msgid "show mediaplayer on mainmenu"
 msgstr "Zeige Mediaplayer im Hauptmenü"
-
-#, fuzzy
-msgid "show satellites"
-msgstr "Alle Satelliten"
 
 msgid "show softwaremanager in setup menu"
 msgstr "Zeige Softwaremanager unter Einstellungen"
@@ -7887,10 +7663,6 @@ msgstr "Diese Aufnahme"
 msgid "this service is protected by a parental control pin"
 msgstr "Dieser Kanal ist durch einen Jugendschutz-PIN-Code geschützt."
 
-#, fuzzy
-msgid "toggels betwenn tv and radio..."
-msgstr "Radio hören..."
-
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "Schalte zwischen Zeit-, Kapitel-, Ton- und Untertitel-Info um"
 
@@ -7902,39 +7674,6 @@ msgstr "Tourismus/Reisen"
 
 msgid "true"
 msgstr "Ja"
-
-msgid "ttyACM0"
-msgstr ""
-
-msgid "ttyUSB0"
-msgstr ""
-
-msgid "ttyUSB1"
-msgstr ""
-
-msgid "ttyUSB2"
-msgstr ""
-
-msgid "ttyUSB3"
-msgstr ""
-
-msgid "ttyUSB4"
-msgstr ""
-
-msgid "ttyUSB5"
-msgstr ""
-
-msgid "ttyUSB6"
-msgstr ""
-
-msgid "ttyUSB7"
-msgstr ""
-
-msgid "ttyUSB8"
-msgstr ""
-
-msgid "ttyUSB9"
-msgstr ""
 
 msgid "tuner is not supported"
 msgstr "Nicht unterstützter Tuner"
@@ -8019,6 +7758,3 @@ msgstr "Umschalten"
 
 msgid "zapped"
 msgstr "umgeschaltet"
-
-#~ msgid "VCR scart"
-#~ msgstr "Scart-Videorekorder"
