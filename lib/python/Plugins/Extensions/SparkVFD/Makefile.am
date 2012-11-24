@@ -1,4 +1,4 @@
-installdir = $(pkglibdir)/python/Plugins/Extensions/CuberevoVFD
+installdir = $(pkglibdir)/python/Plugins/Extensions/SparkVFD
 
 install_PYTHON = \
 	__init__.py \
