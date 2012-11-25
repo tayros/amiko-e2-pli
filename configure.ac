@@ -54,7 +54,7 @@ AC_ARG_ENABLE([spark7162],
                 no) enable_spark7162=false ;;
                 *) AC_MSG_ERROR([bad value ${enableval} for --enable-spark7162]) ;;
         esac])
-AM_CONDITIONAL([ENABLE_SPARK7162], [test x$enable_spark = xtrue])
+AM_CONDITIONAL([ENABLE_SPARK7162], [test x$enable_spark7162 = xtrue])
 
 
 AC_ARG_ENABLE(libeplayer3,
