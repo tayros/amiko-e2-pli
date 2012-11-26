@@ -1635,7 +1635,11 @@ void eDVBFrontend::getFrontendData(ePyObject dest)
 		{
 			tmp = "DVB-C";
 		}
+#if not defined(__sh__)
+		else if (supportsDeliverySystem(SYS_DVBT, true) || supportsDeliverySystem(SYS_DVBT2, true))
+#else
 		else if (supportsDeliverySystem(SYS_DVBT, true))
+#endif
 		{
 			tmp = "DVB-T";
 		}
@@ -2801,13 +2805,18 @@ int eDVBFrontend::isCompatibleWith(ePtr<iDVBFrontendParameters> &feparm)
 		}
 		score = 2;
 	}
-#if not defined(__sh__)
 	else if (type == eDVBFrontend::feTerrestrial)
 	{
 		eDVBFrontendParametersTerrestrial parm;
+#if not defined(__sh__)
 		bool can_handle_dvbt, can_handle_dvbt2;
+#else
+		bool can_handle_dvbt;
+#endif
 		can_handle_dvbt = supportsDeliverySystem(SYS_DVBT, true);
+#if not defined(__sh__)
 		can_handle_dvbt2 = supportsDeliverySystem(SYS_DVBT2, true);
+#endif
 		if (feparm->getDVBT(parm) < 0)
 		{
 			return 0;
@@ -2816,25 +2825,27 @@ int eDVBFrontend::isCompatibleWith(ePtr<iDVBFrontendParameters> &feparm)
 		{
 			return 0;
 		}
+#if not defined(__sh__)
 		if (parm.system == eDVBFrontendParametersTerrestrial::System_DVB_T2 && !can_handle_dvbt2)
 		{
 			return 0;
 		}
+#endif
 		score = 2;
+#if not defined(__sh__)
 		if (parm.system == eDVBFrontendParametersTerrestrial::System_DVB_T && can_handle_dvbt2)
 		{
 			/* prefer to use a T tuner, try to keep T2 free for T2 transponders */
 			score--;
 		}
+#endif
 	}
-#else
 	else if (type == eDVBFrontend::feATSC)
 	{
 		eDVBFrontendParametersATSC parm;
 		bool can_handle_atsc, can_handle_dvbc_annex_b;
 		can_handle_dvbc_annex_b = supportsDeliverySystem(SYS_DVBC_ANNEX_B, true);
 		can_handle_atsc = supportsDeliverySystem(SYS_ATSC, true);
-#endif
 		if (feparm->getATSC(parm) < 0)
 		{
 			return 0;
