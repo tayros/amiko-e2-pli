@@ -30,6 +30,24 @@ AM_CONDITIONAL(HAVE_FAKE_GIT_DIR, test -f "$srcdir/.git/last_commit_info")
 
 PKG_CHECK_MODULES(LIBDDVD, libdreamdvd, HAVE_LIBDDVD="yes", HAVE_LIBDDVD="no")
 
+AC_ARG_ENABLE(spark,
+	[  --enable-spark          enable spark stuff],
+	[AC_DEFINE(ENABLE_SPARK,1,[enable spark stuff])])
+
+AM_CONDITIONAL(ENABLE_SPARK,test "$enable_spark" = "yes")
+if test "$enable_spark" = "yes"; then
+	AC_DEFINE(ENABLE_SPARK,1,[enable spark stuff])
+fi
+
+AC_ARG_ENABLE(spark7162,
+	[  --enable-spark7162          enable spark7162 stuff],
+	[AC_DEFINE(ENABLE_SPARK7162,1,[enable spark7162 stuff])])
+
+AM_CONDITIONAL(ENABLE_SPARK7162,test "$enable_spark7162" = "yes")
+if test "$enable_spark7162" = "yes"; then
+	AC_DEFINE(ENABLE_SPARK7162,1,[enable spark7162 stuff])
+fi
+
 AC_ARG_ENABLE(libeplayer3,
 	[  --enable-libeplayer3          enable TDT libeplayer3 as player engine supportt],
 	[AC_DEFINE(ENABLE_LIBEPLAYER3,1,[enable TDT libeplayer3 as player engine support])])
@@ -51,24 +69,6 @@ PKG_CHECK_MODULES(BASE, [freetype2 fribidi libdvbsi++ libpng libxml-2.0 sigc++-1
 fi
 
 AM_CONDITIONAL(HAVE_LIBDDVD, test "$HAVE_LIBDDVD" = "yes")
-
-AC_ARG_ENABLE([tf7700],
-	[AS_HELP_STRING(--enable-tf7700,    enable topfield tf7700 stuff)],
-	[case "${enableval}" in
-		yes) enable_tf7700=true ;;
-		no) enable_tf7700=false ;;
-		*) AC_MSG_ERROR([bad value ${enableval} for --enable-tf7700]) ;;
-	esac])
-AM_CONDITIONAL([ENABLE_TF7700], [test x$enable_tf7700 = xtrue])
-
-AC_ARG_ENABLE([cuberevo],
-	[AS_HELP_STRING(--enable-cuberevo,    enable cuberevo stuff)],
-	[case "${enableval}" in
-		yes) enable_cuberevo=true ;;
-		no) enable_cuberevo=false ;;
-		*) AC_MSG_ERROR([bad value ${enableval} for --enable-cuberevo]) ;;
-	esac])
-AM_CONDITIONAL([ENABLE_CUBEREVO], [test x$enable_cuberevo = xtrue])
 
 AC_CHECK_LIB([dl], [dlopen], [LIBDL_LIBS="-ldl"], [AC_MSG_ERROR([Could not find libdl])])
 AC_SUBST(LIBDL_LIBS)
@@ -287,8 +287,6 @@ lib/python/Plugins/SystemPlugins/Videomode/Makefile
 lib/python/Plugins/SystemPlugins/Videomode/meta/Makefile
 lib/python/Plugins/SystemPlugins/WirelessLan/Makefile
 lib/python/Plugins/SystemPlugins/WirelessLan/meta/Makefile
-lib/python/Plugins/Extensions/TopfieldVFD/Makefile
-lib/python/Plugins/Extensions/CuberevoVFD/Makefile
 lib/python/Plugins/Extensions/ModemSettings/Makefile
 lib/python/Plugins/Extensions/ModemSettings/icons/Makefile
 lib/python/Plugins/SystemPlugins/VFD-Icons/Makefile

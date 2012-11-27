@@ -335,13 +335,14 @@ class ConditionTask(Task):
 
 # The jobmanager will execute multiple jobs, each after another.
 # later, it will also support suspending jobs (and continuing them after reboot etc)
-# It also supports a notification when some error occured, and possibly a retry.
+# It also supports a notification when some error occurred, and possibly a retry.
 class JobManager:
 	def __init__(self):
 		self.active_jobs = [ ]
 		self.failed_jobs = [ ]
 		self.job_classes = [ ]
 		self.in_background = False
+		self.visible = False
 		self.active_job = None
 
 	def AddJob(self, job):
@@ -357,9 +358,9 @@ class JobManager:
 	def jobDone(self, job, task, problems):
 		print "job", job, "completed with", problems, "in", task
 		from Tools import Notifications
-		if self.in_background:
+		if not self.visible:
 			from Screens.TaskView import JobView
-			self.in_background = False
+			self.visible = True
 			Notifications.AddNotification(JobView, self.active_job)
 		if problems:
 			from Screens.MessageBox import MessageBox
@@ -429,7 +430,7 @@ class Condition:
 	RECOVERABLE = False
 
 	def getErrorMessage(self, task):
-		return _("An unknown error occured!") + " (%s @ task %s)" % (self.__class__.__name__, task.__class__.__name__)
+		return _("An unknown error occurred!") + " (%s @ task %s)" % (self.__class__.__name__, task.__class__.__name__)
 
 class WorkspaceExistsPrecondition(Condition):
 	def check(self, task):

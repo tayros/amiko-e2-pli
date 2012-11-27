@@ -179,7 +179,7 @@ void eFilePushThread::thread()
 				/* in stream_mode, we are sending EOF events 
 				   over and over until somebody responds.
 				   
-				   in stream_mode, think of evtEOF as "buffer underrun occured". */
+				   in stream_mode, think of evtEOF as "buffer underrun occurred". */
 			sendEvent(evtEOF);
 
 			if (m_stop)
@@ -228,10 +228,12 @@ void eFilePushThread::thread()
 #if defined(__sh__) // Fix to ensure that event evtEOF is called at end of playbackl part 3/3
 			already_empty=false;
 #endif
+
 			if (m_sg)
 			{
 				current_span_remaining -= buf_end;
 				m_current_position+=buf_end;
+				bytes_read += buf_end;
 			}
 		}
 	}
