@@ -158,10 +158,10 @@ class VFDIcons:
 			info = service.info()
 			height = info.getInfo(iServiceInformation.sVideoHeight)
 			if height > 576: #set HD symbol
-				evfd.getInstance().vfd_set_icon(0x0E, 1)
+				evfd.getInstance().vfd_set_icon(14, True)
 				print "[VFD Display] Set HD icon"
 			else:
-				evfd.getInstance().vfd_set_icon(0x0E, 0)
+				evfd.getInstance().vfd_set_icon(14, False)
 				print "[VFD Display] Disable HD icon"
 
 	def __evSeekableStatusChanged(self):
@@ -169,25 +169,27 @@ class VFDIcons:
 		if service:
 			seek = service.seek()
 			if seek:
-				evfd.getInstance().vfd_set_icon(0x2B, 1)
+				evfd.getInstance().vfd_set_icon(43, True)
 				print "[VFD Display] Set Timeshift icon"
 			else:
-				evfd.getInstance().vfd_set_icon(0x2B, 0)
+				evfd.getInstance().vfd_set_icon(43, False)
 				print "[VFD Display] Disable Timeshift icon"
 
 	def __evTunedIn(self):
-		evfd.getInstance().vfd_set_icon(0x2C, 1)
 		print "[VFD Display] Set Tuned icon"
+		evfd.getInstance().vfd_set_icon(44, True)
 
 	def __evTuneFailed(self):
 		print "[VFD Display] Tune Failed disable icons"
-		evfd.getInstance().vfd_set_icon(0x2C, 0)
-		evfd.getInstance().vfd_set_icon(0x0E, 0)
-		evfd.getInstance().vfd_set_icon(0x2B, 0)
-		evfd.getInstance().vfd_set_icon(0x1D, 0)
-		evfd.getInstance().vfd_set_icon(0x19, 0)
-		evfd.getInstance().vfd_set_icon(0x1A, 0)
-		evfd.getInstance().vfd_set_icon(0x0A, 0)
+		evfd.getInstance().vfd_set_icon(44, False)
+		evfd.getInstance().vfd_set_icon(14, False)
+		evfd.getInstance().vfd_set_icon(43, False)
+		evfd.getInstance().vfd_set_icon(29, True)
+		evfd.getInstance().vfd_set_icon(25, False)
+		evfd.getInstance().vfd_set_icon(26, False)
+		evfd.getInstance().vfd_set_icon(42, False)
+		evfd.getInstance().vfd_set_icon(37, False)
+		evfd.getInstance().vfd_set_icon(45, False)
 
 	def showIcons(self):
 		service = self.session.nav.getCurrentService()
@@ -195,10 +197,10 @@ class VFDIcons:
 			info = service.info()
 			crypted = info.getInfo(iServiceInformation.sIsCrypted)
 			if crypted == 1:
-				evfd.getInstance().vfd_set_icon(0x1D, 1)
+				evfd.getInstance().vfd_set_icon(11, True)
 				print "[VFD Display] Set crypt icon"
 			else:
-				evfd.getInstance().vfd_set_icon(0x1D, 0)
+				evfd.getInstance().vfd_set_icon(11, False)
 				print "[VFD Display] Disable crypt icon"
 			audio = service.audioTracks()
 			if audio:
@@ -207,36 +209,36 @@ class VFDIcons:
 					i = audio.getTrackInfo(tracknr)
 					description = i.getDescription();
 					if "MP3" in description:
-						evfd.getInstance().vfd_set_icon(0x19, 1)
+						evfd.getInstance().vfd_set_icon(25, True)
 						print "[VFD Display] Set MP3 icon"
 					else:
-						evfd.getInstance().vfd_set_icon(0x19, 0)
+						evfd.getInstance().vfd_set_icon(25, False)
 						print "[VFD Display] Disable MP3 icon"
 					if "AC3" in description:
-						evfd.getInstance().vfd_set_icon(0x1A, 1)
+						evfd.getInstance().vfd_set_icon(26, True)
 						print "[VFD Display] Set AC3 icon"
 					else:
-						evfd.getInstance().vfd_set_icon(0x1A, 0)
+						evfd.getInstance().vfd_set_icon(26, False)
 						print "[VFD Display] Disable AC3 icon"
 					if "DTS" in description:
-						evfd.getInstance().vfd_set_icon(0x0A, 1)
+						evfd.getInstance().vfd_set_icon(10, True)
 						print "[VFD Display] Set DTS icon"
 					else:
-						evfd.getInstance().vfd_set_icon(0x0A, 0)
+						evfd.getInstance().vfd_set_icon(10, False)
 						print "[VFD Display] Disable DTS icon"
 				except:
-					evfd.getInstance().vfd_set_icon(0x1A, 0)
-					evfd.getInstance().vfd_set_icon(0x19, 0)
-					evfd.getInstance().vfd_set_icon(0x0A, 0)
+					evfd.getInstance().vfd_set_icon(26, False)
+					evfd.getInstance().vfd_set_icon(25, False)
+					evfd.getInstance().vfd_set_icon(10, False)
 					print "[VFD Display] Disable audio icons on error"
 
 	def onLeaveStandby(self):
 		evfd.getInstance().vfd_set_brightness(config.plugins.vfdicon.contrast.value)
 		print "[VFD Display] set brightness", config.plugins.vfdicon.contrast.value
 		self.displayHddUsed()
-		evfd.getInstance().vfd_set_icon(0x10, 0)
-		evfd.getInstance().vfd_set_icon(0x24, 0)
-		evfd.getInstance().vfd_set_icon(0x0D, self.usb)
+		evfd.getInstance().vfd_set_icon(16, False)
+		evfd.getInstance().vfd_set_icon(36, False)
+		evfd.getInstance().vfd_set_icon(13, self.usb)
 		print "[VFD Display] set icons on Leave Standby"
 
 	def onEnterStandby(self, configElement):
@@ -245,7 +247,7 @@ class VFDIcons:
 		evfd.getInstance().vfd_set_brightness(config.plugins.vfdicon.stbcontrast.value)
 		print "[VFD Display] set brightness", config.plugins.vfdicon.stbcontrast.value
 		evfd.getInstance().vfd_clear_icons()
-		evfd.getInstance().vfd_set_icon(0x24, 1)
+		evfd.getInstance().vfd_set_icon(36, True)
 		if config.plugins.vfdicon.stbdisplayshow.value == "blank":
 			evfd.getInstance().vfd_clear_string()
 		print "[VFD Display] set icons on Enter Standby"
@@ -255,10 +257,10 @@ class VFDIcons:
 			recs = len(self.session.nav.getRecordings())
 			if recs > 0:
 				self.record = True
-				evfd.getInstance().vfd_set_icon(0x07, 1)
+				evfd.getInstance().vfd_set_icon(7, True)
 				print "[VFD Display] Set Rec icon"
 			else:
-				evfd.getInstance().vfd_set_icon(0x07, 0)
+				evfd.getInstance().vfd_set_icon(7, False)
 				print "[VFD Display] Disable Rec icon"
 				self.RecordEnd()
 
@@ -270,11 +272,11 @@ class VFDIcons:
 	def hotplugCB(self, dev, media_state):
 		if dev.startswith('/dev/sd'):
 			if media_state == "1":
-				evfd.getInstance().vfd_set_icon(0x0D, 1)
+				evfd.getInstance().vfd_set_icon(13, True)
 				print "[VFD Display] Set hotplud icon"
 				self.usb = 1
 			else:
-				evfd.getInstance().vfd_set_icon(0x0D, 0)
+				evfd.getInstance().vfd_set_icon(13, False)
 				print "[VFD Display] Disable hotplud icon"
 				self.usb = 0
 			self.mount = None
@@ -304,7 +306,7 @@ class VFDIcons:
 		isMuted = eDVBVolumecontrol.getInstance().isMuted()
 		if self.isMuted != isMuted:
 			self.isMuted = isMuted
-			evfd.getInstance().vfd_set_icon(0x08, isMuted)
+			evfd.getInstance().vfd_set_icon(8, isMuted)
 			print "[VFD Display] Mute icon", isMuted
 		dir = config.usage.instantrec_path.value[:-1]
 		if dir == "<default":
@@ -318,41 +320,45 @@ class VFDIcons:
 				self.mount = self.FindMountDev('/media/')
 		if self.mount:
 			f = statvfs(self.mount)
-			used = (f.f_blocks - f.f_bavail)*8/f.f_blocks
+			used = (f.f_blocks - f.f_bavail)*9/f.f_blocks
 			print "[VFD Display] HDD used", self.mount, used
 			if self.hddUsed != used:
 				self.hddUsed = used
-				evfd.getInstance().vfd_set_icon(0x1E, 1)
+				evfd.getInstance().vfd_set_icon(30, True)
 				if used >= 1:
-					evfd.getInstance().vfd_set_icon(0x18, 1)
+					evfd.getInstance().vfd_set_icon(24,True)
 				else:
-					evfd.getInstance().vfd_set_icon(0x18, 0)
+					evfd.getInstance().vfd_set_icon(24,False)
 				if used >= 2:
-					evfd.getInstance().vfd_set_icon(0x17, 1)
+					evfd.getInstance().vfd_set_icon(23,True)
 				else:
-					evfd.getInstance().vfd_set_icon(0x17, 0)
+					evfd.getInstance().vfd_set_icon(23,False)
 				if used >= 3:
-					evfd.getInstance().vfd_set_icon(0x15, 1)
+					evfd.getInstance().vfd_set_icon(21,True)
 				else:
-					evfd.getInstance().vfd_set_icon(0x15, 0)
+					evfd.getInstance().vfd_set_icon(21,False)
 				if used >= 4:
-					evfd.getInstance().vfd_set_icon(0x14, 1)
+					evfd.getInstance().vfd_set_icon(20,True)
 				else:
-					evfd.getInstance().vfd_set_icon(0x14, 0)
+					evfd.getInstance().vfd_set_icon(20,False)
 				if used >= 5:
-					evfd.getInstance().vfd_set_icon(0x13, 1)
+					evfd.getInstance().vfd_set_icon(19,True)
 				else:
-					evfd.getInstance().vfd_set_icon(0x13, 0)
+					evfd.getInstance().vfd_set_icon(19,False)
 				if used >= 6:
-					evfd.getInstance().vfd_set_icon(0x12, 1)
+					evfd.getInstance().vfd_set_icon(18,True)
 				else:
-					evfd.getInstance().vfd_set_icon(0x12, 0)
+					evfd.getInstance().vfd_set_icon(18,False)
 				if used >= 7:
-					evfd.getInstance().vfd_set_icon(0x11, 1)
+					evfd.getInstance().vfd_set_icon(17,True)
 				else:
-					evfd.getInstance().vfd_set_icon(0x11, 0)
-				if used == 8:
-					evfd.getInstance().vfd_set_icon(0x16, 1)
+					evfd.getInstance().vfd_set_icon(17,False)
+				if used >= 8:
+					evfd.getInstance().vfd_set_icon(16,True)
+				else:
+					evfd.getInstance().vfd_set_icon(16,False)
+				if used == 9:
+					evfd.getInstance().vfd_set_icon(22, True)
 				print "[VFD Display] HDD used icon", used
 
 VFDIconsInstance = None
