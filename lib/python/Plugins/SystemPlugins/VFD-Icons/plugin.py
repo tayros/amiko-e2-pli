@@ -1,26 +1,44 @@
 # -*- coding: utf-8 -*-
-#
-# by Taapat <taapat@gmail.com> 25-08-2012
-# review by <alexeytech@gmail.com> aka technic
 
-from Plugins.Plugin import PluginDescriptor
-from enigma import iPlayableService, eTimer, iServiceInformation, evfd
-from time import localtime, strftime
 from Components.ActionMap import ActionMap
-from Components.ServiceEventTracker import ServiceEventTracker
-from Components.config import config, ConfigSubsection, getConfigListEntry, ConfigSelection
+from Components.config import config, ConfigSlider, ConfigSubsection, \
+	getConfigListEntry, ConfigSelection
 from Components.ConfigList import ConfigListScreen
+from Components.ServiceEventTracker import ServiceEventTracker
 from Components.Sources.StaticText import StaticText
+from Plugins.Plugin import PluginDescriptor
 from Screens.Screen import Screen
-from ServiceReference import ServiceReference
+from Tools.Directories import fileExists
 
-config.vfdicon = ConfigSubsection()
-config.vfdicon.displayshow = ConfigSelection(default = "channel", choices = [
-		("channel", _("channel")), ("channel number", _("channel number")), ("clock", _("clock")), ("blank", _("blank")) ])
-displayshow = config.vfdicon.displayshow
+from ServiceReference import ServiceReference
+from enigma import iPlayableService, iServiceInformation, iRecordableService, \
+	eDVBVolumecontrol, eTimer, evfd
+
+from os import statvfs
+from string import atoi
+from time import localtime, strftime, sleep
+
+DisplayType = None
+if fileExists("/proc/aotom/display_type"):
+	try:
+		display = open("/proc/aotom/display_type", "r").readline().strip()
+		if display == "8":
+			DisplayType = "8"
+		display.close()
+	except:
+		pass
+
+config.plugins.vfdicon = ConfigSubsection()
+config.plugins.vfdicon.displayshow = ConfigSelection(default = "channel",
+	choices = [("channel", _("channel")), ("channel number", 
+		_("channel number")), ("clock", _("clock")), ("blank", _("blank"))])
+config.plugins.vfdicon.stbdisplayshow = ConfigSelection(default = "clock",
+	choices = [("clock", _("clock")), ("blank", _("blank"))])
+if DisplayType:
+	config.plugins.vfdicon.contrast = ConfigSlider(default=6, limits=(0, 7))
+	config.plugins.vfdicon.stbcontrast = ConfigSlider(default=2, limits=(0, 7))
 
 class ConfigVFDDisplay(Screen, ConfigListScreen):
-
 	def __init__(self, session):
 		Screen.__init__(self, session)
 		self.skinName = ["Setup"]
@@ -34,22 +52,30 @@ class ConfigVFDDisplay(Screen, ConfigListScreen):
 				"green": self.keySave,
 				"red": self.cancel,
 			}, -2)
+		global DisplayType
 		cfglist = []
-		cfglist.append(getConfigListEntry(_("Show on VFD Display"), displayshow))
+		cfglist.append(getConfigListEntry(_("Show on VFD display"),
+			config.plugins.vfdicon.displayshow))
+		cfglist.append(getConfigListEntry(_("Show on VFD in standby"),
+			config.plugins.vfdicon.stbdisplayshow))
+		if DisplayType:
+			cfglist.append(getConfigListEntry(_("VFD brightness"),
+				config.plugins.vfdicon.contrast))
+			cfglist.append(getConfigListEntry(_("VFD in standby"),
+				config.plugins.vfdicon.stbcontrast))
 		ConfigListScreen.__init__(self, cfglist)
 
 	def cancel(self):
-		self.showVFD()
+		main(self)
 		ConfigListScreen.keyCancel(self)
 
 	def keySave(self):
-		self.showVFD()
-		ConfigListScreen.keySave(self)
-
-	def showVFD(self):
+		global DisplayType
+		if DisplayType:
+			evfd.getInstance().vfd_set_brightness(config.plugins.vfdicon.contrast.value)
+			print "[VFD Display] set brightness", config.plugins.vfdicon.contrast.value
 		main(self)
-		if config.vfdicon.displayshow.value != "clock":
-			VFDIconsInstance.WriteName()
+		ConfigListScreen.keySave(self)
 
 def opencfg(session, **kwargs):
 		session.open(ConfigVFDDisplay)
@@ -57,75 +83,300 @@ def opencfg(session, **kwargs):
 
 def VFDdisplay(menuid, **kwargs):
 	if menuid == "system":
-		return [("VFD Display", opencfg, "vfd_display", 44)]
+		return [(_("VFD Display"), opencfg, "vfd_display", 44)]
 	else:
 		return []
 
 class VFDIcons:
 	def __init__(self, session):
 		self.session = session
+		self.onClose = []
 		self.timer = eTimer()
 		self.timer.callback.append(self.timerEvent)
-		self.onClose = [ ]
-		self.__event_tracker = ServiceEventTracker(screen=self,eventmap=
-			{
-				iPlayableService.evUpdatedInfo: self.__evUpdatedInfo,
-			})
+		global DisplayType
+		if DisplayType:
+			self.record = False
+			self.dir = None
+			self.mount = None
+			self.usb = 0
+			self.hddUsed = 0
+			self.isMuted = 0
+			self.__event_tracker = ServiceEventTracker(screen = self,eventmap =
+				{
+					iPlayableService.evUpdatedInfo: self.UpdatedInfo,
+					iPlayableService.evVideoSizeChanged: self.__evVideoSizeChanged,
+					iPlayableService.evSeekableStatusChanged: self.__evSeekableStatusChanged,
+					iPlayableService.evTunedIn: self.__evTunedIn,
+					iPlayableService.evTuneFailed: self.__evTuneFailed,
+				})
+			config.misc.standbyCounter.addNotifier(self.onEnterStandby,
+				initial_call = False)
+			session.nav.record_event.append(self.gotRecordEvent)
+			try:
+				from Plugins.SystemPlugins.Hotplug.plugin import hotplugNotifier
+				hotplugNotifier.append(self.hotplugCB)
+			except:
+				pass
+		else:
+			self.__event_tracker = ServiceEventTracker(screen = self,eventmap =
+				{
+					iPlayableService.evUpdatedInfo: self.WriteName
+				})
 
-	def __evUpdatedInfo(self):
+	def UpdatedInfo(self):
 		self.WriteName()
+		self.showIcons()
 
 	def WriteName(self):
-		if config.vfdicon.displayshow.value == "clock":
-			return
-
-		service = self.session.nav.getCurrentService()
-		if service is not None:
-			print "[VFD Display] write name to VFD"
-			# show blank
-			servicename = "    "
-			audio = service.audioTracks()
-			if audio: # show the mp3 tag
-				n = audio.getNumberOfTracks()
-				for x in range(n):
-					i = audio.getTrackInfo(x)
-					description = i.getDescription();
-					if description.find("MP3") != -1:
-							servicename = service.info().getInfoString(iServiceInformation.sTagTitle)
-					elif config.vfdicon.displayshow.value == "channel number":
-						try: # show the service channel number
-							servicename = str(self.session.nav.getCurrentlyPlayingServiceReference(False).getChannelNum())
-						except:
-							servicename = "    "
-							print "[VFD Display] ERROR set channel number"
-					elif config.vfdicon.displayshow.value == "channel":
-						try: # show the service name
-							servicename = ServiceReference(self.session.nav.getCurrentlyPlayingServiceReference(False)).getServiceName()
-						except:
-							servicename = "    "
-							print "[VFD Display] ERROR set service name"
+		if config.plugins.vfdicon.displayshow.value != "clock":
+			servicename = "        "
+			if config.plugins.vfdicon.displayshow.value != "blank":
+				service = self.session.nav.getCurrentlyPlayingServiceReference(False)
+				if service:
+					if config.plugins.vfdicon.displayshow.value == "channel number":
+						servicename = str(service.getChannelNum())
+						if atoi(servicename) > 5470000:
+							servicename = "PLAY"
+					else:
+						servicename = ServiceReference(service).getServiceName()
 			print "[VFD Display] text ", servicename[0:20]
 			evfd.getInstance().vfd_write_string(servicename[0:20])
-			return 1
-
 
 	def timerEvent(self):
-		if config.vfdicon.displayshow.value == "clock":
-			tm=localtime()
-			servicename = strftime("%H%M",tm)
-			evfd.getInstance().vfd_write_string(servicename[0:17])
+		if config.plugins.vfdicon.displayshow.value == "clock" or DisplayType:
+			tm = localtime()
+			if DisplayType:
+				self.displayHddUsed()
+			if config.plugins.vfdicon.displayshow.value == "clock":
+				servicename = strftime("%H%M", tm)
+				evfd.getInstance().vfd_write_string(servicename[0:4])
 			self.timer.startLongTimer(60-tm.tm_sec)
+
+	def __evVideoSizeChanged(self):
+		service = self.session.nav.getCurrentService()
+		if service:
+			info = service.info()
+			height = info.getInfo(iServiceInformation.sVideoHeight)
+			if height > 576: #set HD symbol
+				evfd.getInstance().vfd_set_icon(0x0E, 1)
+				print "[VFD Display] Set HD icon"
+			else:
+				evfd.getInstance().vfd_set_icon(0x0E, 0)
+				print "[VFD Display] Disable HD icon"
+
+	def __evSeekableStatusChanged(self):
+		service = self.session.nav.getCurrentService()
+		if service:
+			seek = service.seek()
+			if seek:
+				evfd.getInstance().vfd_set_icon(0x2B, 1)
+				print "[VFD Display] Set Timeshift icon"
+			else:
+				evfd.getInstance().vfd_set_icon(0x2B, 0)
+				print "[VFD Display] Disable Timeshift icon"
+
+	def __evTunedIn(self):
+		evfd.getInstance().vfd_set_icon(0x2C, 1)
+		print "[VFD Display] Set Tuned icon"
+
+	def __evTuneFailed(self):
+		print "[VFD Display] Tune Failed disable icons"
+		evfd.getInstance().vfd_set_icon(0x2C, 0)
+		evfd.getInstance().vfd_set_icon(0x0E, 0)
+		evfd.getInstance().vfd_set_icon(0x2B, 0)
+		evfd.getInstance().vfd_set_icon(0x1D, 0)
+		evfd.getInstance().vfd_set_icon(0x19, 0)
+		evfd.getInstance().vfd_set_icon(0x1A, 0)
+		evfd.getInstance().vfd_set_icon(0x0A, 0)
+
+	def showIcons(self):
+		service = self.session.nav.getCurrentService()
+		if service:
+			info = service.info()
+			crypted = info.getInfo(iServiceInformation.sIsCrypted)
+			if crypted == 1:
+				evfd.getInstance().vfd_set_icon(0x1D, 1)
+				print "[VFD Display] Set crypt icon"
+			else:
+				evfd.getInstance().vfd_set_icon(0x1D, 0)
+				print "[VFD Display] Disable crypt icon"
+			audio = service.audioTracks()
+			if audio:
+				try:
+					tracknr = audio.getCurrentTrack()
+					i = audio.getTrackInfo(tracknr)
+					description = i.getDescription();
+					if "MP3" in description:
+						evfd.getInstance().vfd_set_icon(0x19, 1)
+						print "[VFD Display] Set MP3 icon"
+					else:
+						evfd.getInstance().vfd_set_icon(0x19, 0)
+						print "[VFD Display] Disable MP3 icon"
+					if "AC3" in description:
+						evfd.getInstance().vfd_set_icon(0x1A, 1)
+						print "[VFD Display] Set AC3 icon"
+					else:
+						evfd.getInstance().vfd_set_icon(0x1A, 0)
+						print "[VFD Display] Disable AC3 icon"
+					if "DTS" in description:
+						evfd.getInstance().vfd_set_icon(0x0A, 1)
+						print "[VFD Display] Set DTS icon"
+					else:
+						evfd.getInstance().vfd_set_icon(0x0A, 0)
+						print "[VFD Display] Disable DTS icon"
+				except:
+					evfd.getInstance().vfd_set_icon(0x1A, 0)
+					evfd.getInstance().vfd_set_icon(0x19, 0)
+					evfd.getInstance().vfd_set_icon(0x0A, 0)
+					print "[VFD Display] Disable audio icons on error"
+
+	def onLeaveStandby(self):
+		evfd.getInstance().vfd_set_brightness(config.plugins.vfdicon.contrast.value)
+		print "[VFD Display] set brightness", config.plugins.vfdicon.contrast.value
+		self.displayHddUsed()
+		evfd.getInstance().vfd_set_icon(0x10, 0)
+		evfd.getInstance().vfd_set_icon(0x24, 0)
+		evfd.getInstance().vfd_set_icon(0x0D, self.usb)
+		print "[VFD Display] set icons on Leave Standby"
+
+	def SetEnterStandby(self):
+		evfd.getInstance().vfd_set_brightness(config.plugins.vfdicon.stbcontrast.value)
+		print "[VFD Display] set brightness", config.plugins.vfdicon.stbcontrast.value
+		evfd.getInstance().vfd_clear_icons()
+		evfd.getInstance().vfd_set_icon(0x24, 1)
+		if config.plugins.vfdicon.stbdisplayshow.value == "blank":
+			evfd.getInstance().vfd_clear_string()
+		print "[VFD Display] set icons on Enter Standby"
+
+	def onEnterStandby(self, configElement):
+		from Screens.Standby import inStandby
+		inStandby.onClose.append(self.onLeaveStandby)
+		self.SetEnterStandby()
+
+	def gotRecordEvent(self, service, event):
+		if event in (iRecordableService.evEnd, iRecordableService.evStart, None):
+			recs = len(self.session.nav.getRecordings())
+			if recs > 0:
+				self.record = True
+				evfd.getInstance().vfd_set_icon(0x07, 1)
+				print "[VFD Display] Set Rec icon"
+			else:
+				evfd.getInstance().vfd_set_icon(0x07, 0)
+				print "[VFD Display] Disable Rec icon"
+				self.RecordEnd()
+
+	def RecordEnd(self):
+		if self.record:
+			self.record = False
+			self.session.nav.record_event.remove(self.gotRecordEvent)
+
+	def hotplugCB(self, dev, media_state):
+		if dev.startswith('/dev/sd'):
+			if media_state == "1":
+				evfd.getInstance().vfd_set_icon(0x0D, 1)
+				print "[VFD Display] Set hotplud icon"
+				self.usb = 1
+			else:
+				evfd.getInstance().vfd_set_icon(0x0D, 0)
+				print "[VFD Display] Disable hotplud icon"
+				self.usb = 0
+			self.mount = None
+			self.displayHddUsed()
+
+	def FindMountDir(self, dir):
+		mounts = open("/proc/mounts", 'r')
+		for line in mounts:
+			result = line.strip().split()
+			if result[1] == dir:
+				mounts.close()
+				return dir
+		mounts.close()
+		return None
+
+	def FindMountDev(self, dir):
+		mounts = open("/proc/mounts", 'r')
+		for line in mounts:
+			result = line.strip().split()
+			if result[1].startswith(dir):
+				mounts.close()
+				return result[1]
+		mounts.close()
+		return None
+
+	def displayHddUsed(self):
+		isMuted = eDVBVolumecontrol.getInstance().isMuted()
+		if self.isMuted != isMuted:
+			self.isMuted = isMuted
+			evfd.getInstance().vfd_set_icon(0x08, isMuted)
+			print "[VFD Display] Mute icon", isMuted
+		dir = config.usage.instantrec_path.value[:-1]
+		if dir == "<default":
+			dir = config.usage.default_path.value[:-1]
+		if not self.mount or self.dir != dir:
+			self.dir = dir
+			self.mount = self.FindMountDir(dir)
+			if not self.mount:
+				self.mount = self.FindMountDir('/media/hdd')
+			if not self.mount:
+				self.mount = self.FindMountDev('/media/')
+		if self.mount:
+			f = statvfs(self.mount)
+			used = (f.f_blocks - f.f_bavail)*8/f.f_blocks
+			print "[VFD Display] HDD used", self.mount, used
+			if self.hddUsed != used:
+				self.hddUsed = used
+				evfd.getInstance().vfd_set_icon(0x1E, 1)
+				if used >= 1:
+					evfd.getInstance().vfd_set_icon(0x18, 1)
+				else:
+					evfd.getInstance().vfd_set_icon(0x18, 0)
+				if used >= 2:
+					evfd.getInstance().vfd_set_icon(0x17, 1)
+				else:
+					evfd.getInstance().vfd_set_icon(0x17, 0)
+				if used >= 3:
+					evfd.getInstance().vfd_set_icon(0x15, 1)
+				else:
+					evfd.getInstance().vfd_set_icon(0x15, 0)
+				if used >= 4:
+					evfd.getInstance().vfd_set_icon(0x14, 1)
+				else:
+					evfd.getInstance().vfd_set_icon(0x14, 0)
+				if used >= 5:
+					evfd.getInstance().vfd_set_icon(0x13, 1)
+				else:
+					evfd.getInstance().vfd_set_icon(0x13, 0)
+				if used >= 6:
+					evfd.getInstance().vfd_set_icon(0x12, 1)
+				else:
+					evfd.getInstance().vfd_set_icon(0x12, 0)
+				if used >= 7:
+					evfd.getInstance().vfd_set_icon(0x11, 1)
+				else:
+					evfd.getInstance().vfd_set_icon(0x11, 0)
+				if used == 8:
+					evfd.getInstance().vfd_set_icon(0x16, 1)
+				print "[VFD Display] HDD used icon", used
 
 VFDIconsInstance = None
 
 def main(session, **kwargs):
-	# Create Instance if none present, show Dialog afterwards
 	global VFDIconsInstance
+	global DisplayType
 	if VFDIconsInstance is None:
 		VFDIconsInstance = VFDIcons(session)
-	VFDIconsInstance.timerEvent()
+	if config.plugins.vfdicon.displayshow.value == "clock" or DisplayType:
+		sleep(1)
+		VFDIconsInstance.timerEvent()
+	if config.plugins.vfdicon.displayshow.value != "clock":
+		if DisplayType:
+			VFDIconsInstance.UpdatedInfo()
+		else:
+			VFDIconsInstance.WriteName()
 
 def Plugins(**kwargs):
 	return [
-	PluginDescriptor(name="VFDdisplay", description="VFD Display config", where = PluginDescriptor.WHERE_MENU, fnc=VFDdisplay),
-	PluginDescriptor(where = PluginDescriptor.WHERE_SESSIONSTART, fnc=main ) ]
+	PluginDescriptor(name = _("VFD Display"),
+		description = _("VFD display config"), where = PluginDescriptor.WHERE_MENU,
+		fnc = VFDdisplay),
+	PluginDescriptor(where = PluginDescriptor.WHERE_SESSIONSTART, fnc = main )]
