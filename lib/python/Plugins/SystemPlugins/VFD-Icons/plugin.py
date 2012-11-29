@@ -244,6 +244,7 @@ class VFDIcons:
 		inStandby.onClose.append(self.onLeaveStandby)
 		evfd.getInstance().vfd_set_brightness(config.plugins.vfdicon.stbcontrast.value)
 		print "[VFD Display] set brightness", config.plugins.vfdicon.stbcontrast.value
+		self.mount = None
 		evfd.getInstance().vfd_clear_icons()
 		evfd.getInstance().vfd_set_icon(0x24, 1)
 		if config.plugins.vfdicon.stbdisplayshow.value == "blank":
