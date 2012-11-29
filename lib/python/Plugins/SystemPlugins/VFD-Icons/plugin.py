@@ -239,7 +239,9 @@ class VFDIcons:
 		evfd.getInstance().vfd_set_icon(0x0D, self.usb)
 		print "[VFD Display] set icons on Leave Standby"
 
-	def SetEnterStandby(self):
+	def onEnterStandby(self, configElement):
+		from Screens.Standby import inStandby
+		inStandby.onClose.append(self.onLeaveStandby)
 		evfd.getInstance().vfd_set_brightness(config.plugins.vfdicon.stbcontrast.value)
 		print "[VFD Display] set brightness", config.plugins.vfdicon.stbcontrast.value
 		evfd.getInstance().vfd_clear_icons()
@@ -247,11 +249,6 @@ class VFDIcons:
 		if config.plugins.vfdicon.stbdisplayshow.value == "blank":
 			evfd.getInstance().vfd_clear_string()
 		print "[VFD Display] set icons on Enter Standby"
-
-	def onEnterStandby(self, configElement):
-		from Screens.Standby import inStandby
-		inStandby.onClose.append(self.onLeaveStandby)
-		self.SetEnterStandby()
 
 	def gotRecordEvent(self, service, event):
 		if event in (iRecordableService.evEnd, iRecordableService.evStart, None):
