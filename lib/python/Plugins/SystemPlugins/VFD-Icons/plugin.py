@@ -235,7 +235,9 @@ class VFDIcons:
 	def onLeaveStandby(self):
 		evfd.getInstance().vfd_set_brightness(config.plugins.vfdicon.contrast.value)
 		print "[VFD Display] set brightness", config.plugins.vfdicon.contrast.value
-		self.displayHddUsed()
+		self.mount = None
+		self.hddUsed = 0
+		self.timerEvent()
 		evfd.getInstance().vfd_set_icon(16, False)
 		evfd.getInstance().vfd_set_icon(36, False)
 		evfd.getInstance().vfd_set_icon(13, self.usb)
@@ -244,9 +246,9 @@ class VFDIcons:
 	def onEnterStandby(self, configElement):
 		from Screens.Standby import inStandby
 		inStandby.onClose.append(self.onLeaveStandby)
+		self.timer.stop()
 		evfd.getInstance().vfd_set_brightness(config.plugins.vfdicon.stbcontrast.value)
 		print "[VFD Display] set brightness", config.plugins.vfdicon.stbcontrast.value
-		self.mount = None
 		evfd.getInstance().vfd_clear_icons()
 		evfd.getInstance().vfd_set_icon(36, True)
 		if config.plugins.vfdicon.stbdisplayshow.value == "blank":
