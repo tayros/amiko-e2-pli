@@ -176,6 +176,7 @@ class VFDIcons:
 	def __evTunedIn(self):
 		print "[VFD Display] Set Tuned icon"
 		evfd.getInstance().vfd_set_icon(44, True)
+		evfd.getInstance().vfd_set_icon(29, False)
 
 	def __evTuneFailed(self):
 		print "[VFD Display] Tune Failed disable icons"
