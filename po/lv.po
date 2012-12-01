@@ -1684,7 +1684,7 @@ msgstr "Mapju pārlūks"
 
 #, python-format
 msgid "Directory contains %s and %s."
-msgstr "Mape satur %d failus %d apakšmapes.\n"
+msgstr "Mape satur %s un %s."
 
 msgid "Disable"
 msgstr "Izslēgt"
