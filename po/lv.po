@@ -207,9 +207,9 @@ msgstr[2] "%d sekundes"
 #, python-format
 msgid "%d subdirectory"
 msgid_plural "%d subdirectories"
-msgstr[0] "Root mapes"
-msgstr[1] "Root mape"
-msgstr[2] "Root mape"
+msgstr[0] "%d apakšmapes"
+msgstr[1] "%d apakšmape"
+msgstr[2] "%d apakšmape"
 
 #, python-format
 msgid "%d wireless network found!"
@@ -1843,9 +1843,9 @@ msgstr "Neapturēt pašreizējo notikumu bet izslēgt nākamos notikumus"
 #, python-format
 msgid "Done - Installed, upgraded or removed %d package (%s)"
 msgid_plural "Done - Installed, upgraded or removed %d packages (%s)"
-msgstr[0] "Pabeigts - uzstādītas, atjauninātas vai dzēstas %d pakotnes ar %d kļūdām"
-msgstr[1] "Pabeigts - uzstādītas, atjauninātas vai dzēsta %d pakotne ar %d kļūdu"
-msgstr[2] "Pabeigts - uzstādītas, atjauninātas vai dzēstas %d pakotnes ar %d kļūdām"
+msgstr[0] "Pabeigts - uzstādītas, atjauninātas vai dzēstas %d pakotnes (%s)"
+msgstr[1] "Pabeigts - uzstādīta, atjaunināta vai dzēsta %d pakotne (%s)"
+msgstr[2] "Pabeigts - uzstādītas, atjauninātas vai dzēstas %d pakotnes (%s)"
 
 msgid "Download"
 msgstr "Lejuplādēt"
@@ -1855,7 +1855,7 @@ msgid "Download %s from server"
 msgstr "Lejuplādēt %s no servera"
 
 msgid "Download .NFI-files for USB-flasher"
-msgstr "Lejuplādēt .NFI-failus priekš USB-ielādes"
+msgstr "Lejuplādēt .NFI-failus USB ielādei"
 
 msgid "Download plugins"
 msgstr "Lejuplādēt spraudņus"
@@ -3979,7 +3979,7 @@ msgid "Remote control type"
 msgstr "Vecāku kontroles veids"
 
 msgid "Removal has completed."
-msgstr "Dzēšana pabaigta."
+msgstr "Dzēšana pabeigta."
 
 msgid "Remove"
 msgstr "Dzēst"
@@ -6101,7 +6101,7 @@ msgid "When enabled, use DHCP for the IP configuration."
 msgstr "Ja iespējots, lieto DHCP IP konfigurācijai"
 
 msgid "When enabled, your receiver will detect activity on the VCR SCART input."
-msgstr "Ja iespējots, jūsu uztvērējs noteiks pieslēgšanos VRC SCART ieejā."
+msgstr "Ja iespējots, jūsu uztvērējs noteiks aktivitāti VRC SCART ieejā."
 
 msgid "When nonzero, a recording will start earlier than the starting time indicated by the EPG."
 msgstr "Ja nav nulle, ieraksts sāksies ātrāk, nevis laikā kas parādīts EPG."
