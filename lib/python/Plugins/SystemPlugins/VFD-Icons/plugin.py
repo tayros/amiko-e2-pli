@@ -18,15 +18,13 @@ from os import statvfs
 from string import atoi
 from time import localtime, strftime, sleep
 
-DisplayType = None
-if fileExists("/proc/aotom/display_type"):
-	try:
-		display = open("/proc/aotom/display_type", "r").readline().strip()
-		if display == "8":
-			DisplayType = "8"
-		display.close()
-	except:
-		pass
+try:
+	DisplayType = evfd.getInstance().getVfdType()
+	print "[VFD Display] DisplayType", DisplayType
+	if DisplayType != 8:
+		DisplayType = None
+except:
+	DisplayType = None
 
 config.plugins.vfdicon = ConfigSubsection()
 config.plugins.vfdicon.displayshow = ConfigSelection(default = "channel",
@@ -205,27 +203,28 @@ class VFDIcons:
 			audio = service.audioTracks()
 			if audio:
 				try:
-					tracknr = audio.getCurrentTrack()
-					i = audio.getTrackInfo(tracknr)
-					description = i.getDescription();
-					if "MP3" in description:
-						evfd.getInstance().vfd_set_icon(25, True)
-						print "[VFD Display] Set MP3 icon"
-					else:
-						evfd.getInstance().vfd_set_icon(25, False)
-						print "[VFD Display] Disable MP3 icon"
-					if "AC3" in description:
-						evfd.getInstance().vfd_set_icon(26, True)
-						print "[VFD Display] Set AC3 icon"
-					else:
-						evfd.getInstance().vfd_set_icon(26, False)
-						print "[VFD Display] Disable AC3 icon"
-					if "DTS" in description:
-						evfd.getInstance().vfd_set_icon(10, True)
-						print "[VFD Display] Set DTS icon"
-					else:
-						evfd.getInstance().vfd_set_icon(10, False)
-						print "[VFD Display] Disable DTS icon"
+					n = audio.getNumberOfTracks()
+					for x in range(n):
+						i = audio.getTrackInfo(x)
+						description = i.getDescription();
+						if "MP3" in description:
+							evfd.getInstance().vfd_set_icon(25, True)
+							print "[VFD Display] Set MP3 icon"
+						else:
+							evfd.getInstance().vfd_set_icon(25, False)
+							print "[VFD Display] Disable MP3 icon"
+						if "AC3" in description:
+							evfd.getInstance().vfd_set_icon(26, True)
+							print "[VFD Display] Set AC3 icon"
+						else:
+							evfd.getInstance().vfd_set_icon(26, False)
+							print "[VFD Display] Disable AC3 icon"
+						if "DTS" in description:
+							evfd.getInstance().vfd_set_icon(10, True)
+							print "[VFD Display] Set DTS icon"
+						else:
+							evfd.getInstance().vfd_set_icon(10, False)
+							print "[VFD Display] Disable DTS icon"
 				except:
 					evfd.getInstance().vfd_set_icon(26, False)
 					evfd.getInstance().vfd_set_icon(25, False)
