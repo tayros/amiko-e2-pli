@@ -14,9 +14,7 @@ class Language:
 		self.langlist = []
 		# FIXME make list dynamically
 		# name, iso-639 language, iso-3166 country. Please don't mix language&country!
-		self.addLanguage("Arabic",      "ar", "AE")
 		self.addLanguage("Български",   "bg", "BG")
-		self.addLanguage("Català",      "ca", "AD")
 		self.addLanguage("Česky",       "cs", "CZ")
 		self.addLanguage("Dansk",       "da", "DK")
 		self.addLanguage("Deutsch",     "de", "DE")
@@ -24,11 +22,8 @@ class Language:
 		self.addLanguage("English",     "en", "EN")
 		self.addLanguage("Español",     "es", "ES")
 		self.addLanguage("Eesti",       "et", "EE")
-		self.addLanguage("Persian",     "fa", "IR")
 		self.addLanguage("Suomi",       "fi", "FI")
 		self.addLanguage("Français",    "fr", "FR")
-		self.addLanguage("Frysk",       "fy", "NL")
-		self.addLanguage("Hebrew",      "he", "IL")
 		self.addLanguage("Hrvatski",    "hr", "HR")
 		self.addLanguage("Magyar",      "hu", "HU")
 		self.addLanguage("Íslenska",    "is", "IS")
@@ -39,14 +34,12 @@ class Language:
 		self.addLanguage("Norsk",       "no", "NO")
 		self.addLanguage("Polski",      "pl", "PL")
 		self.addLanguage("Português",   "pt", "PT")
-		self.addLanguage("Português do Brasil",  "pt", "BR")
 		self.addLanguage("Romanian",    "ro", "RO")
 		self.addLanguage("Русский",     "ru", "RU")
 		self.addLanguage("Slovensky",   "sk", "SK")
 		self.addLanguage("Slovenščina", "sl", "SI")
 		self.addLanguage("Srpski",      "sr", "YU")
 		self.addLanguage("Svenska",     "sv", "SE")
-		self.addLanguage("ภาษาไทย",     "th", "TH")
 		self.addLanguage("Türkçe",      "tr", "TR")
 		self.addLanguage("Ukrainian",   "uk", "UA")
 
