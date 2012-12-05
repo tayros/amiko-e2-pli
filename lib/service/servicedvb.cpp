@@ -95,7 +95,7 @@ int eStaticServiceDVBInformation::isPlayable(const eServiceReference &ref, const
 		((const eServiceReferenceDVB&)ignore).getChannelID(chid_ignore);
 		return res_mgr->canAllocateChannel(chid, chid_ignore, system);
 	}
-	return false;
+	return 0;
 }
 
 PyObject *eStaticServiceDVBInformation::getInfoObject(const eServiceReference &r, int what)
