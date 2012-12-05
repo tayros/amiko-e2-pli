@@ -1013,12 +1013,12 @@ RESULT eServiceMP3::seekTo(pts_t to)
 		ret = seekToImpl(to);
 	}
 #else
-	float pos = to/90000.0;
+	float pos = (to/90000.0)-10;
 	if (player && player->playback)
 		player->playback->Command(player, PLAYBACK_SEEK, (void*)&pos);
-	ret=0;
-#endif
 
+	ret =0;
+#endif
 	return ret;
 }
 
@@ -1082,7 +1082,7 @@ RESULT eServiceMP3::seekRelative(int direction, pts_t to)
 #ifndef ENABLE_LIBEPLAYER3
 	return seekTo(ppos);
 #else
-	float pos = ppos/90000.0;
+	float pos = direction*(to/90000.0);
 	if (player && player->playback)
 		player->playback->Command(player, PLAYBACK_SEEK, (void*)&pos);
 
