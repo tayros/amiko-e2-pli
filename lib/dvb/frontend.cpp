@@ -2808,11 +2808,7 @@ int eDVBFrontend::isCompatibleWith(ePtr<iDVBFrontendParameters> &feparm)
 	else if (type == eDVBFrontend::feTerrestrial)
 	{
 		eDVBFrontendParametersTerrestrial parm;
-#if not defined(__sh__)
 		bool can_handle_dvbt, can_handle_dvbt2;
-#else
-		bool can_handle_dvbt;
-#endif
 		can_handle_dvbt = supportsDeliverySystem(SYS_DVBT, true);
 #if not defined(__sh__)
 		can_handle_dvbt2 = supportsDeliverySystem(SYS_DVBT2, true);
