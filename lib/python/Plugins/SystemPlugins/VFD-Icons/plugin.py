@@ -35,6 +35,8 @@ config.plugins.vfdicon.stbdisplayshow = ConfigSelection(default = "clock",
 if DisplayType:
 	config.plugins.vfdicon.contrast = ConfigSlider(default=6, limits=(0, 7))
 	config.plugins.vfdicon.stbcontrast = ConfigSlider(default=2, limits=(0, 7))
+	config.plugins.vfdicon.hddicons = ConfigSelection(default = "hdd",
+		choices = [("hdd", _("hdd")), ("all mounts", _("all mounts"))])
 
 class ConfigVFDDisplay(Screen, ConfigListScreen):
 	def __init__(self, session):
@@ -61,6 +63,8 @@ class ConfigVFDDisplay(Screen, ConfigListScreen):
 				config.plugins.vfdicon.contrast))
 			cfglist.append(getConfigListEntry(_("VFD in standby"),
 				config.plugins.vfdicon.stbcontrast))
+			cfglist.append(getConfigListEntry(_("Show on hdd icons"),
+				config.plugins.vfdicon.hddicons))
 		ConfigListScreen.__init__(self, cfglist)
 
 	def cancel(self):
@@ -129,7 +133,7 @@ class VFDIcons:
 		if config.plugins.vfdicon.displayshow.value != "clock":
 			servicename = "        "
 			if config.plugins.vfdicon.displayshow.value != "blank":
-				service = self.session.nav.getCurrentlyPlayingServiceReference(False)
+				service = self.session.nav.getCurrentlyPlayingServiceReference()
 				if service:
 					if config.plugins.vfdicon.displayshow.value == "channel number":
 						servicename = str(service.getChannelNum())
@@ -285,6 +289,21 @@ class VFDIcons:
 			self.mount = None
 			self.displayHddUsed()
 
+	def SetMount(self):
+		if config.plugins.vfdicon.hddicons.value == "all mounts":
+			dir = config.usage.instantrec_path.value[:-1]
+			if dir == "<default":
+				dir = config.usage.default_path.value[:-1]
+			if not self.mount or self.dir != dir:
+				self.dir = dir
+				self.mount = self.FindMountDir(dir)
+				if not self.mount:
+					self.mount = self.FindMountDir('/media/hdd')
+				if not self.mount:
+					self.mount = self.FindMountDev('/media/')
+		elif not self.mount:
+			self.mount = self.FindMountDir('/media/hdd')
+
 	def FindMountDir(self, dir):
 		mounts = open("/proc/mounts", 'r')
 		for line in mounts:
@@ -305,25 +324,32 @@ class VFDIcons:
 		mounts.close()
 		return None
 
+	def CheckSize(self):
+		if self.mount:
+			try:
+				f = statvfs(self.mount)
+			except:
+				self.mount = None
+				self.SetMount()
+				if self.mount:
+					try:
+						f = statvfs(self.mount)
+					except:
+						self.mount = None
+		if self.mount:
+			return (f.f_blocks - f.f_bavail)*9/f.f_blocks
+		else:
+			return 0
+
 	def displayHddUsed(self):
 		isMuted = eDVBVolumecontrol.getInstance().isMuted()
 		if self.isMuted != isMuted:
 			self.isMuted = isMuted
 			evfd.getInstance().vfd_set_icon(8, isMuted)
 			print "[VFD Display] Mute icon", isMuted
-		dir = config.usage.instantrec_path.value[:-1]
-		if dir == "<default":
-			dir = config.usage.default_path.value[:-1]
-		if not self.mount or self.dir != dir:
-			self.dir = dir
-			self.mount = self.FindMountDir(dir)
-			if not self.mount:
-				self.mount = self.FindMountDir('/media/hdd')
-			if not self.mount:
-				self.mount = self.FindMountDev('/media/')
+		self.SetMount()
 		if self.mount:
-			f = statvfs(self.mount)
-			used = (f.f_blocks - f.f_bavail)*9/f.f_blocks
+			used = self.CheckSize()
 			print "[VFD Display] HDD used", self.mount, used
 			if self.hddUsed != used:
 				self.hddUsed = used
