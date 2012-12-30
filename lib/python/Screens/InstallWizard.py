@@ -46,13 +46,13 @@ class InstallWizard(Screen, ConfigListScreen):
 				self.createMenu()
 		elif self.index == self.STATE_CHOISE_CHANNELLIST:
 			self.enabled = ConfigYesNo(default = True)
-			modes = {"19e": "Astra 1", "23e": "Astra 3", "19e-23e": "Astra 1 Astra 3", "19e-23e-28e": "Astra 1 Astra 2 Astra 3", "13e-19e-23e-28e": "Astra 1 Astra 2 Astra 3 Hotbird"}
+			modes = {"europa": "Europa 19e-13e-5e-4w", "russia-ukraine": "Russia 4w-to-90e", "19e-23e": "Astra 1 Astra 3", "19e-23e-28e": "Astra 1 Astra 2 Astra 3", "13e-19e-23e-28e": "Astra 1 Astra 2 Astra 3 Hotbird"}
 			self.channellist_type = ConfigSelection(choices = modes, default = "19e")
 			self.createMenu()
 		elif self.index == self.STATE_CHOISE_SOFTCAM:
 			self.enabled = ConfigYesNo(default = True)
-			modes = {"cccam": _("default") + " (CCcam)", "scam": "scam"}
-			self.softcam_type = ConfigSelection(choices = modes, default = "cccam")
+			modes = {"oscam": _("default") + " (Oscam)", "scam": "scam"}
+			self.softcam_type = ConfigSelection(choices = modes, default = "oscam")
 			self.createMenu()
 
 	def checkNetworkCB(self, data):
@@ -105,9 +105,9 @@ class InstallWizard(Screen, ConfigListScreen):
 			if config.misc.installwizard.hasnetwork.value:
 				self.session.open(InstallWizardIpkgUpdater, self.index, _('Please wait (updating packages)'), IpkgComponent.CMD_UPDATE)
 		elif self.index == self.STATE_CHOISE_CHANNELLIST and self.enabled.value:
-			self.session.open(InstallWizardIpkgUpdater, self.index, _('Please wait (downloading channel list)'), IpkgComponent.CMD_REMOVE, {'package': 'enigma2-plugin-settings-henksat-' + self.channellist_type.value})
+			self.session.open(InstallWizardIpkgUpdater, self.index, _('Please wait (downloading channel list)'), IpkgComponent.CMD_REMOVE, {'package': 'enigma2-plugin-settings-' + self.channellist_type.value})
 		elif self.index == self.STATE_CHOISE_SOFTCAM and self.enabled.value:
-			self.session.open(InstallWizardIpkgUpdater, self.index, _('Please wait (downloading softcam)'), IpkgComponent.CMD_INSTALL, {'package': 'enigma2-plugin-softcams-' + self.softcam_type.value})
+			self.session.open(InstallWizardIpkgUpdater, self.index, _('Please wait (downloading softcam)'), IpkgComponent.CMD_INSTALL, {'package': 'enigma2-plugin-cams-' + self.softcam_type.value})
 		return
 
 
