@@ -47,7 +47,7 @@ class InstallWizard(Screen, ConfigListScreen):
 		elif self.index == self.STATE_CHOISE_CHANNELLIST:
 			self.enabled = ConfigYesNo(default = True)
 			modes = {"europa": "Europa 19e-13e-5e-4w", "russia-ukraine": "Russia 4w-to-90e", "19e-23e": "Astra 1 Astra 3", "19e-23e-28e": "Astra 1 Astra 2 Astra 3", "13e-19e-23e-28e": "Astra 1 Astra 2 Astra 3 Hotbird"}
-			self.channellist_type = ConfigSelection(choices = modes, default = "19e")
+			self.channellist_type = ConfigSelection(choices = modes, default = "europa")
 			self.createMenu()
 		elif self.index == self.STATE_CHOISE_SOFTCAM:
 			self.enabled = ConfigYesNo(default = True)
