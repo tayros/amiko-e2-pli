@@ -1071,8 +1071,8 @@ RESULT eTSMPEGDecoder::showSinglePic(const char *filename)
 			{
 				bool seq_end_avail = false;
 				size_t pos=0;
-				unsigned char pes_header[] = { 0x00, 0x00, 0x01, 0xE0, 0x00, 0x00, 0x80, 0x00, 0x00 };
-				unsigned char seq_end[] = { 0x00, 0x00, 0x01, 0xB7 };
+				static const unsigned char pes_header[] = { 0x00, 0x00, 0x01, 0xE0, 0x00, 0x00, 0x80, 0x00, 0x00 };
+				static const unsigned char seq_end[] = { 0x00, 0x00, 0x01, 0xB7 };
 				unsigned char iframe[s.st_size];
 				unsigned char stuffing[8192];
 				int streamtype = VIDEO_STREAMTYPE_MPEG2;
