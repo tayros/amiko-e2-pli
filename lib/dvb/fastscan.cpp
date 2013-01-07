@@ -640,9 +640,8 @@ void eFastScan::parseResult()
 		}
 	}
 
-	bool multibouquet = false;
 	std::string value;
-	multibouquet = (ePythonConfigQuery::getConfigValue("config.usage.multibouquet", value) >= 0 && value == "True");
+	bool multibouquet = (ePythonConfigQuery::getConfigValue("config.usage.multibouquet", value) >= 0 && value == "True");
 
 	if (multibouquet)
 	{
@@ -685,7 +684,7 @@ void eFastScan::parseResult()
 		if (!db->getBouquet(rootref, bouquet) && bouquet)
 		{
 			/* now move the new fastscan bouquet to the front */
-			for (std::list<eServiceReference>::iterator it = bouquet->m_services.begin(); it != bouquet->m_services.end(); it++)
+			for (std::list<eServiceReference>::iterator it = bouquet->m_services.begin(); it != bouquet->m_services.end(); ++it)
 			{
 				if ((*it).getPath() == bouquetquery)
 				{
@@ -755,7 +754,7 @@ void eFastScan::parseResult()
 			if (!db->getBouquet(rootref, bouquet) && bouquet)
 			{
 				/* now move the new fastscan bouquet to the front */
-				for (std::list<eServiceReference>::iterator it = bouquet->m_services.begin(); it != bouquet->m_services.end(); it++)
+				for (std::list<eServiceReference>::iterator it = bouquet->m_services.begin(); it != bouquet->m_services.end(); ++it)
 				{
 					if ((*it).getPath() == bouquetquery)
 					{
