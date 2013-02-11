@@ -20,6 +20,12 @@ except:
 setupdom = xml.etree.cElementTree.parse(setupfile)
 setupfile.close()
 
+def getConfigMenuItem(configElement):
+	for item in setupdom.getroot().findall('./setup/item/.'):
+		if item.text == configElement:
+			return _(item.attrib["text"]), eval(configElement)
+	return "", None
+
 class SetupError(Exception):
     def __init__(self, message):
         self.msg = message
@@ -88,7 +94,7 @@ class Setup(ConfigListScreen, Screen):
 		#check for list.entries > 0 else self.close
 		self["key_red"] = StaticText(_("Cancel"))
 		self["key_green"] = StaticText(_("OK"))
-		self["description"] = Label(_(""))
+		self["description"] = Label("")
 
 		self["actions"] = NumberActionMap(["SetupActions", "MenuActions"], 
 			{
