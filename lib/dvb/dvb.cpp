@@ -163,7 +163,7 @@ eDVBResourceManager::eDVBResourceManager()
 		m_boxtype = WHITEBOX;
 	else if (!strncmp(tmp, "atevio7500\n", rd))
 		m_boxtype = ATEVIO7500;
-#endif
+#else
 	else {
 		eDebug("boxtype detection via /proc/stb/info not possible... use fallback via demux count!\n");
 		if (m_demux.size() == 3)
@@ -173,7 +173,7 @@ eDVBResourceManager::eDVBResourceManager()
 		else
 			m_boxtype = DM8000;
 	}
-
+#endif 
 	eDebug("found %zd adapter, %zd frontends(%zd sim) and %zd demux, boxtype %d",
 		m_adapter.size(), m_frontend.size(), m_simulate_frontend.size(), m_demux.size(), m_boxtype);
 
@@ -755,7 +755,6 @@ void eDVBResourceManager::addAdapter(iDVBAdapter *adapter, bool front)
 			frontend->setSEC(m_sec);
 			// we must link all dvb-t frontends ( for active antenna voltage )
 			if (frontend->supportsDeliverySystem(SYS_DVBT, false) || frontend->supportsDeliverySystem(SYS_DVBT2, false))
-
 			{
 				if (prev_dvbt_frontend)
 				{
