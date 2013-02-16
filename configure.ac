@@ -30,25 +30,26 @@ AM_CONDITIONAL(HAVE_FAKE_GIT_DIR, test -f "$srcdir/.git/last_commit_info")
 
 PKG_CHECK_MODULES(LIBDDVD, libdreamdvd, HAVE_LIBDDVD="yes", HAVE_LIBDDVD="no")
 
-AC_ARG_ENABLE([spark],
-        [AS_HELP_STRING(--enable-spark,    enable spark stuff)],
-#	AC_MSG_ERROR([bad value I${enableval}I for --enable-spark]))
-        [case "${enableval}" in
-                yes) enable_spark=true ;;
-                no) enable_spark=false ;;
-                *) AC_MSG_ERROR([bad value ${enableval} for --enable-spark]) ;;
-        esac])
-AM_CONDITIONAL([ENABLE_SPARK], [test x$enable_spark = xtrue])
+AM_CONDITIONAL(HAVE_LIBDDVD, test "$HAVE_LIBDDVD" = "yes")
 
-AC_ARG_ENABLE([spark7162],
-        [AS_HELP_STRING(--enable-spark7162,    enable spark7162 stuff)],
-#	AC_MSG_ERROR([bad value I${enableval}I for --enable-spark7162]))
-        [case "${enableval}" in
-                yes) enable_spark7162=true ;;
-                no) enable_spark7162=false ;;
-                *) AC_MSG_ERROR([bad value ${enableval} for --enable-spark7162]) ;;
-        esac])
-AM_CONDITIONAL([ENABLE_SPARK7162], [test x$enable_spark7162 = xtrue])
+AC_ARG_ENABLE(spark,
+	[  --enable-spark          enable spark stuff],
+	[AC_DEFINE(ENABLE_SPARK,1,[enable spark stuff])])
+
+AM_CONDITIONAL(ENABLE_SPARK,test "$enable_spark" = "yes")
+if test "$enable_spark" = "yes"; then
+	AC_DEFINE(ENABLE_SPARK,1,[enable spark stuff])
+fi
+
+AC_ARG_ENABLE(spark7162,
+	[  --enable-spark7162          enable spark7162 stuff],
+	[AC_DEFINE(ENABLE_SPARK7162,1,[enable spark7162 stuff])])
+
+AM_CONDITIONAL(ENABLE_SPARK7162,test "$enable_spark7162" = "yes")
+if test "$enable_spark7162" = "yes"; then
+	AC_DEFINE(ENABLE_SPARK7162,1,[enable spark7162 stuff])
+fi
+
 
 
 AC_ARG_ENABLE(libeplayer3,
@@ -70,8 +71,6 @@ PKG_CHECK_MODULES(BASE, [freetype2 fribidi gstreamer-$GST_MAJORMINOR gstreamer-p
 else
 PKG_CHECK_MODULES(BASE, [freetype2 fribidi libdvbsi++ libpng libxml-2.0 sigc++-1.2 libssl libcrypto])
 fi
-
-AM_CONDITIONAL(HAVE_LIBDDVD, test "$HAVE_LIBDDVD" = "yes")
 
 AC_CHECK_LIB([dl], [dlopen], [LIBDL_LIBS="-ldl"], [AC_MSG_ERROR([Could not find libdl])])
 AC_SUBST(LIBDL_LIBS)
@@ -137,7 +136,7 @@ if test x"$witholdpvr" != xno ; then
 fi
 AM_CONDITIONAL(HAVE_OLDPVR, test x"$witholdpvr" != xno)
 
-if test x"$BOXTYPE" == "xvuduo" -o x"$BOXTYPE" == "xvusolo" -o x"$BOXTYPE" == "xvuuno" -o x"$BOXTYPE" == "xvuultimo"; then
+if test `echo "$BOXTYPE" | cut -b 1-2` == "vu"; then
 	AC_DEFINE(FORCE_NO_BLENDING_ACCELERATION, 1,[define when the framebuffer acceleration does not have alphablending support, though the autodetection might indicate that it does])
 	AC_DEFINE(FORCE_NO_FILL_ACCELERATION, 1,[define when the framebuffer acceleration does not have fill support])
 	AC_DEFINE(FORCE_ADVANCED_REMOTE, 1,[define to fixup the input device identification when the remote control is actually an 'advanced' remote (with play/forward/rewind keys)])
@@ -256,8 +255,6 @@ lib/python/Plugins/Extensions/SocketMMI/Makefile
 lib/python/Plugins/Extensions/SocketMMI/meta/Makefile
 lib/python/Plugins/Extensions/SocketMMI/src/Makefile
 lib/python/Plugins/PLi/Makefile
-lib/python/Plugins/SystemPlugins/CommonInterfaceAssignment/Makefile
-lib/python/Plugins/SystemPlugins/CommonInterfaceAssignment/meta/Makefile
 lib/python/Plugins/SystemPlugins/DefaultServicesScanner/Makefile
 lib/python/Plugins/SystemPlugins/DefaultServicesScanner/meta/Makefile
 lib/python/Plugins/SystemPlugins/DiseqcTester/Makefile
